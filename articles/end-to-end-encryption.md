@@ -99,34 +99,3 @@ with end-to-end encryption, it can be simultaneously used for good and for bad.
 It really boils down to: should privacy be a fundamental human right, something
 that not even governments can take away from people?
 </p>
-
-<!-- $footnotes = [
-    <<<EOC
-    <a class = "fn-link"
-    href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/"></a>'
-    EOC,
-
-    <<<EOC
-    It seems to me that it should be possible to store your
-    encryption/decryption keys somewhere, such as a password manager, and manually
-    enter them without having your phone on hand, but as far as I’m aware there
-    aren’t any services that let you do this.'
-    EOC,
-
-    <<<EOC
-    <a class="fn-link"
-    href="https://signal.org/blog/how-to-build-encrypted-group-calls/"></a>'
-    EOC,
-
-    <<<EOC
-    RCS is a newer version of SMS that acts more like a modern messaging
-    platform. It’s only fully supported in the Google Messages app, and not in Apple
-    Messages at all.'
-    EOC,
-
-    <<<EOC
-    These 4 platforms exclusively use E2EE. Other platforms like
-    Telegram and Facebook Messenger allow you to create ‘secret chats’ using E2EE
-    but don’t use it by default.
-    EOC
-]; -->
