@@ -60,9 +60,9 @@ p {
 }
 
 a {
-    color: var(--text_color)
+    color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225))
 }
 
-a.fn-link::after {
-    content: attr(href);
+a:hover {
+    color: light-dark(black, white)
 }

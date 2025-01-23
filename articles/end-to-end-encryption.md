@@ -3,14 +3,10 @@ title: End-To-End Encryption
 date: 2022-03-15
 description: A broad overview of how End-To-End Encryption works, and its advantages and drawbacks.
 footnotes: [
-    '<a
-    href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/">https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/</a>',
     ' It seems to me that it should be possible to store your
     encryption/decryption keys somewhere, such as a password manager, and manually
     enter them without having your phone on hand, but as far as I’m aware there
     aren’t any services that let you do this.',
-    '<a class="fn-link"
-    href="https://signal.org/blog/how-to-build-encrypted-group-calls/"></a>',
     'RCS is a newer version of SMS that acts more like a modern messaging
     platform. It’s only fully supported in the Google Messages app, and not in Apple
     Messages at all.',
@@ -31,9 +27,10 @@ intercepts and reads the transmission is able to make sense of it. And with the
 number of possibilities that the standard 256 bit encryption entails, using
 brute force to unscramble the data (that is, to try out every combination of
 decryption keys to find the right one) using current computers would take
-~200000000000000000000000x as long as the universe has existed<sup><a href="#fn-1">[1]</a></sup>. As
-computers continue to become more powerful, and especially as quantum computing
-begins to really take off, perhaps our current encryption algorithms will become
+<a href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/">
+~200000000000000000000000x as long as the universe</a> has existed As computers
+continue to become more powerful, and especially as quantum computing begins
+to really take off, perhaps our current encryption algorithms will become
 breakable. But for the time being, encryption simply cannot be broken.
 </p>
 <p>
@@ -59,17 +56,18 @@ perspective, it’s harder to implement. Say I want to message you from my lapto
 instead of my phone, I can’t simply log into my messaging app and open up all my
 messages, because they’re encrypted and the messaging app doesn’t know the
 decryption key. I’d have to first link it to my phone by scanning a QR code or
-similar.<sup><a href="#fn-2">[2]</a></sup> After that, they’ll stay linked, but if my decryption key
+similar.<sup><a href="#fn-1">[1]</a></sup> After that, they’ll stay linked, but if my decryption key
 changes for whatever reason (e.g. I get a new phone), then I’ll have to redo the
 process. Another problem is if you lose or break your phone. If you’ve backed up
 your messages using E2EE, you won’t be able to view them on a new phone without
-having the old phone on hand to set it up. Additionally, calling is also more
-complicated - see <sup><a href="#fn-3">[3]</a></sup>.
+having the old phone on hand to set it up. Additionally, <a href="
+https://signal.org/blog/how-to-build-encrypted-group-calls/">calling is also more
+complicated</a>.
 </p>
 <p>
 Still, while more complicated, E2EE can be used in place of standard encryption,
-and already is in many products. WhatsApp, iMessage, RCS<sup><a href="#fn-4">[4]</a></sup>, and Signal
-are some of the most well known to use it<sup><a href="#fn-5">[5]</a></sup>. What I find to be the
+and already is in many products. WhatsApp, iMessage, RCS<sup><a href="#fn-2">[2]</a></sup>, and Signal
+are some of the most well known to use it<sup><a href="#fn-3">[3]</a></sup>. What I find to be the
 more interesting debate is the ethical one. As much as I prefer not to have all
 my messages stored on social media companies servers for them to do what they
 like with, sometimes, them being able to view your messages and calls can be a
