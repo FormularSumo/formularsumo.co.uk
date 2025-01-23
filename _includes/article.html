@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/stylesheets/article.css">
+        {% include "head.html" %}
+
+        <title>{{ title }} - FormularSumo</title>
+        <meta property="description" content="{{description}}">
+    </head>
+
+    <body>
+        {% include "navbar.html" %}
+        <main>
+            <article>
+                <header>
+                    <h1>{{ title }}</h1>
+                    <p class="date">{{first_published}}: {{ date | postDate }}</p>
+                </header>
+
+                {{content}}
+
+                {% if footnotes %}
+                    <section class="footnotes">
+                        <h2 class="footnotes">Footnotes</h2>
+    
+
+                        {% assign fn_num = 1 %}
+                        {% for footnote in footnotes %}
+                            <p id="fn-{{fn_num}}">
+                            {{fn_num}} {{footnote}}
+                            </p>
+                            {% assign fn_num = fn_num | plus: 1 %}
+                        {% endfor %}
+                  
+                    </section>
+                {% endif %}
+            </article>
+        </main>
+    </body>
+</html>
