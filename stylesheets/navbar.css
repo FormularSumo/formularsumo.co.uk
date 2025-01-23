@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    color-scheme: light dark;
+    --text_color: light-dark(black, white);
+}
+html {
+    scroll-behavior: smooth;
+    background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
+}
+@view-transition {
+    navigation: auto;
+}
+::view-transition-group(root) {
+    animation-duration: 0.3s;
+}
+
+.collapsible_menu {
+    background-color: #55a2ff;
+    padding: 0;
+    margin: 0;
+    
+}
+.collapsible_menu label {
+    display: none;
+    user-select: none; /*Prevent menu button text from being selected*/
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    font-size: 36px;
+    margin-inline: 8px;
+    margin-block: auto;
+    height: 50px;
+    line-height: 50px;
+}
+#collapsible_button {
+    display: none;
+}
+
+.top_nav {
+    list-style-type: none; /*remove bullet points*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Don't allow to spill outside box*/
+    max-height: 100%;
+    position: static;
+    z-index: 2;
+    transform-origin: top;
+    transition-duration: 0.25s; /*Animates over this period*/
+    font-size: 19px;
+    min-height: 50px; /*Min height because the height is larger when the list is vertical*/
+    line-height: 50px;
+    font-family: sans-serif;
+}
+.nav_element {
+    float: left;
+    border-right: 1px solid #ffffff
+    
+}
+.nav_element a {
+    display: block;
+    margin-inline: 8px;
+    text-decoration: none; /*remove link underline*/
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+    #collapsible_button:checked ~ .top_nav {
+        transform: scaleY(1)
+    }
+    .top_nav {
+        position: fixed;
+        transform: scaleY(0);
+        background-color: #55a2ff;
+        width: 100%;
+    }
+    .nav_element:first-child {
+        border-top: 1px solid #4f4f66;
+    }
+    .nav_element {
+        float: none;
+        width: 100%;
+        text-align: left;
+        padding-inline: 3px;
+        border-bottom: 1px solid #4f4f66;
+    }
+    .collapsible_menu label {
+        display: block;
+
+    }
+
+}
+
+.nav_element a:hover:not(.active) {
+    background-color: #55c9ff;
+}
+.active {
+    background-color: #1b82ff;
+}

@@ -1,0 +1,68 @@
+:root {
+    --heading_font: Georgia, serif;
+}
+
+main {
+    /*After ~800px display width, content will remain the same width and only margins will expand*/
+    margin-inline: max(6px + 3%, 50% - 375px);
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 17px;
+}
+
+/*Article title*/
+h1 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-family: var(--heading_font);
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+.date {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: var(--heading_font);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: unset;
+}
+
+/*Article  heading*/
+h2 {
+    margin-top: 22px;
+    margin-bottom: 8px;
+    font-family: var(--heading_font);
+    font-size: 28px;
+}
+
+/*Article  Sub-heading*/
+h3 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-family: var(--heading_font);
+    font-size: 21px;
+}
+
+section.footnotes {
+    font-size: 14px;
+}
+
+h2.footnotes {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: var(--heading_font);
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--text_color)
+}
+
+a.fn-link::after {
+    content: attr(href);
+}
