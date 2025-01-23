@@ -3,8 +3,8 @@ title: End-To-End Encryption
 date: 2022-03-15
 description: A broad overview of how End-To-End Encryption works, and its advantages and drawbacks.
 footnotes: [
-    '<a class = "fn-link"
-    href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/"></a>',
+    '<a
+    href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/">https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/</a>',
     ' It seems to me that it should be possible to store your
     encryption/decryption keys somewhere, such as a password manager, and manually
     enter them without having your phone on hand, but as far as I’m aware there
