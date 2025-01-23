@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
-        <link rel="stylesheet" href="/stylesheets/article.css">
         {% include "head.html" %}
+        <link rel="stylesheet" href="/stylesheets/blog.css">
 
         <title>{{ title }} - FormularSumo</title>
 
         <style>
-            a h1 {
+            a {
                 color: var(--text_color);
             }
 
@@ -58,5 +58,5 @@
         </main>
         
     </body>
-    <link rel="prefetch" href="stylesheets/article.css" as="style"> <!-- not needed if reusing -->
+    <link rel="prefetch" href="/stylesheets/article.css" as="style">
 </html>
