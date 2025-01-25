@@ -28,7 +28,7 @@ number of possibilities that the standard 256 bit encryption entails, using
 brute force to unscramble the data (that is, to try out every combination of
 decryption keys to find the right one) using current computers would take
 <a href="https://www.ubiqsecurity.com/128bit-or-256bit-encryption-which-to-use/">
-~200000000000000000000000x as long as the universe</a> has existed As computers
+~200000000000000000000000x as long as the universe</a> has existed. As computers
 continue to become more powerful, and especially as quantum computing begins
 to really take off, perhaps our current encryption algorithms will become
 breakable. But for the time being, encryption simply cannot be broken.
