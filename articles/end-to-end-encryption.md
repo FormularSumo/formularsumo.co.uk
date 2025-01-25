@@ -68,7 +68,7 @@ complicated</a>.
 <p>
 Still, while more complicated, E2EE can be used in place of standard encryption,
 and already is in many products. WhatsApp, Signal and iMessage are some of the
-most well known to use it<sup><a id="n-2" href="#fn-2">[3]</a></sup>. What I find
+most well known to use it<sup><a id="n-2" href="#fn-2">[2]</a></sup>. What I find
 to be the more interesting debate is the ethical one. As much as I prefer not to
 have all my messages stored on social media companies servers for them to do what
 they like with, sometimes, them being able to view your messages and calls can be
