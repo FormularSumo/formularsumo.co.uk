@@ -24,15 +24,13 @@
                     <section class="footnotes">
                         <h2 class="footnotes">Footnotes</h2>
     
-
                         {% assign fn_num = 1 %}
                         {% for footnote in footnotes %}
                             <p id="fn-{{fn_num}}">
-                            {{fn_num}} {{footnote}}
+                                <a href="#n-{{fn_num}}">{{fn_num}}</a> {{footnote}}
                             </p>
                             {% assign fn_num = fn_num | plus: 1 %}
                         {% endfor %}
-                  
                     </section>
                 {% endif %}
             </article>
