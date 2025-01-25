@@ -42,9 +42,9 @@ pronoun. Mainly because it’s also a plural pronoun, and because of that it can
 get pretty confusing to use. There’s also the more short-term problem that
 because it’s relatively uncommon, it can still sound sort of strange in
 conversation - and using it requires you to actively ask everyone else to use
-it. Unfortunately it’s so common for people to use the pronoun of their sex that
-it takes quite a lot of effort not to. So right now, there’s not really a
-“perfect” solution. Using they has its issues, as do gendered pronouns. I
+it. Unfortunately it’s so common for people to use the pronoun assumed of their
+sex that it takes quite a lot of effort not to. So right now, there’s not really
+a “perfect” solution. Using they has its issues, as do gendered pronouns. I
 realise that when most people refer to me as ‘he’ they’re probably not
 <em>intending</em> to treat me differently than if I were using another pronoun
 (even if - subconsciously - they may be). I know they’re just doing what
