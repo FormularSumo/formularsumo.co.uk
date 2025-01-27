@@ -10,14 +10,14 @@ h1 {
     font-size: 15px;
 }
 
-/*Article  heading*/
+/*Article heading*/
 h2 {
     margin-top: 22px;
     margin-bottom: 8px;
     font-size: 28px;
 }
 
-/*Article  Sub-heading*/
+/*Article Sub-heading*/
 h3 {
     margin-top: 12px;
     margin-bottom: 6px;
@@ -26,6 +26,8 @@ h3 {
 
 section.footnotes {
     font-size: 14px;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 350px;
 }
 
 h2.footnotes {
