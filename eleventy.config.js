@@ -10,7 +10,12 @@ export default function (eleventyConfig) {
 		defaultLanguage: "en",
 	});
 
-	eleventyConfig.addFilter("postDate", (dateObj) => {
-		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL);
+	eleventyConfig.addFilter("postDate", (dateObj, lang) => {
+		if (lang == "en") {
+			lang = "en-gb";
+		}
+		// let FormattedDate = DateTime.fromJSDate(dateObj, {locale: lang});
+		// return FormattedDate.toLocaleString(DateTime.DATE_FULL);
+		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL, {locale: lang});
 	})
 };
