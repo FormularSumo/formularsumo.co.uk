@@ -50,10 +50,12 @@
 
         <main>
         {% for post in collections.post reversed %}
-            <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
-                <p class="date">{{first_published}}: {{ post.date | postDate }}</p>
-                <p>{{post.data.description}}</p>
-            </a>
+            {% if post.data.tags contains page.lang %}
+                <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
+                    <p class="date">{{first_published}}: {{ post.date | postDate }}</p>
+                    <p>{{post.data.description}}</p>
+                </a>
+            {% endif %}
         {% endfor %}
         </main>
         

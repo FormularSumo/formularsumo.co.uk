@@ -1,17 +1,29 @@
+{% if page.lang == "en" %}
+    {% assign home = "Home" %}
+    {% assign blog = "Blog" %}
+    {% assign testPage = "Test" %}
+    {% assign alt = "logo" %}
+    {% assign URL_code = "" %}
+{% elsif page.lang == "es" %}
+    {% assign home = "Inicio" %}
+    {% assign blog = "Blog" %}
+    {% assign testPage = "Prueba" %}
+    {% assign alt = "logotipo" %}
+    {% assign URL_code = "es/" %}
+{% endif %}
 
 <div class="collapsible_menu">
     <picture>
         <source srcset="/assets/Logo.jxl" type="image/jxl">
-        <img src="/assets/Logo.webp" alt="Logo" style="height: 50px; display: flex; float: right">
+        <img src="/assets/Logo.webp" alt="FormularSumo {{alt}}" style="height: 50px; display: flex; float: right">
     </picture>
 
     <input type="checkbox" id="collapsible_button">
     <label for="collapsible_button">≡</label>
 
     <ul class="top_nav">
-        <li class="nav_element"><a href="/index">Home</a></li>
-        <li class="nav_element"><a href="/blog/">Blog</a></li>
-        <li class="nav_element"><a href="/testPage/">Test</a></li>
+        <li class="nav_element"><a href="/{{URL_code}}index/">{{home}}</a></li>
+        <li class="nav_element"><a href="/{{URL_code}}blog/">{{blog}}</a></li>
+        <li class="nav_element"><a href="/{{URL_code}}testPage/">{{testPage}}</a></li>
     </ul>
-    
 </div>
