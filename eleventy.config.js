@@ -14,8 +14,6 @@ export default function (eleventyConfig) {
 		if (lang == "en") {
 			lang = "en-gb";
 		}
-		// let FormattedDate = DateTime.fromJSDate(dateObj, {locale: lang});
-		// return FormattedDate.toLocaleString(DateTime.DATE_FULL);
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL, {locale: lang});
 	})
 };
