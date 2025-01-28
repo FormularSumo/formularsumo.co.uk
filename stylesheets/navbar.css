@@ -19,7 +19,6 @@ html {
     background-color: #3f95ff;
     padding: 0;
     margin: 0;
-    
 }
 .collapsible_menu label {
     display: none;
@@ -29,8 +28,8 @@ html {
     text-align: left;
     color: white;
     font-size: 36px;
-    margin-inline: 8px;
-    margin-block: auto;
+    padding-inline: 8px;
+    padding-block: auto;
     height: 50px;
     line-height: 50px;
 }
@@ -55,14 +54,13 @@ html {
 }
 .nav_element {
     float: left;
-    border-right: 1px solid #ffffff
-    
+    border-right: 1px solid #ffffff;
 }
 .nav_element a {
     display: block;
-    margin-inline: 8px;
     text-decoration: none; /*remove link underline*/
     color: rgb(255, 255, 255);
+    padding-inline: 8px;
 }
 
 @media screen and (max-width: 600px) {
@@ -72,7 +70,7 @@ html {
     .top_nav {
         position: fixed;
         transform: scaleY(0);
-        background-color: #55a2ff;
+        background-color: #3f95ff;
         width: 100%;
     }
     .nav_element:first-child {
@@ -82,19 +80,17 @@ html {
         float: none;
         width: 100%;
         text-align: left;
-        padding-inline: 3px;
+        border-right: 0px;
         border-bottom: 1px solid #4f4f66;
+    }
+    .nav_element a {
+        padding-inline: 11px;
     }
     .collapsible_menu label {
         display: block;
-
     }
-
 }
 
-.nav_element a:hover:not(.active) {
-    background-color: #55c9ff;
-}
-.active {
-    background-color: #1b82ff;
+.nav_element:hover {
+    background-color: #55b8ff;
 }
