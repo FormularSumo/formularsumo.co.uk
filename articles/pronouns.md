@@ -4,6 +4,13 @@ date: 2021-04-24
 ---
 
 <p>
+<em>This article was first published on the </em><a
+href="https://portsmouthpoint.blogspot.com/2021/04/pronouns.html">Portsmouth
+Point blog</a><em>, and has since been lightly edited before publishing here
+(25/1/2025).</em>
+</p>
+
+<p>
 Recently I changed my Instagram bio. I did something that’s becoming
 increasingly common: I added my pronouns. Shortly after though my (observant)
 friend asked me, “why did you put ‘he/they’, most people put their preferred one
