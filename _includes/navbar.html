@@ -1,7 +1,4 @@
-{% assign en_URL = "" %}
 {% assign en_alt_flag = "English langauge flag" %}
-
-{% assign es_URL = "es/" %}
 {% assign es_alt_flag = "Bandera del idioma español" %}
 
 {% if page.lang == "en" %}
@@ -11,17 +8,19 @@
     {% assign FS_alt = "logo" %}
 
     {% assign second_lang = "es" %}
-{% elsif page.lang == "es" %}
-    {% assign home = "Inicio" %}
-    {% assign blog = "Blog" %}
-    {% assign testPage = "Prueba" %}
-    {% assign FS_alt = "logotipo" %}
+    {% assign URL = "" %}
+{% else %}
+    {% if page.lang == "es" %}
+        {% assign home = "Inicio" %}
+        {% assign blog = "Blog" %}
+        {% assign testPage = "Prueba" %}
+        {% assign FS_alt = "logotipo" %}
 
-    {% assign second_lang = "en" %}
+        {% assign second_lang = "en" %}
+    {% endif %}
+
+    {% assign URL = page.lang %}
 {% endif %}
-
-{% assign current_lang_URL = page.lang | append: "_URL" %}
-{% assign second_lang_URL = second_lang | append: "_URL" %}
 
 {% assign current_lang_flag_alt = page.lang | append: "_alt_flag" %}
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
@@ -42,15 +41,15 @@
     <label for="language_switcher_checkbox" style="float: right; margin-right: 20px"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
 
     <ul class="menu language_switcher">
-        <li class="language"><a href="/{{[second_lang_URL]}}{{slug}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
+        <li class="language"><a href="{{page.url | localiseURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
     </ul>
 
     <input type="checkbox" id="navbar_checkbox">
     <label for="navbar_checkbox">≡</label>
 
     <ul class="menu top_nav">
-        <li class="nav_element"><a href="/{{[current_lang_URL]}}">{{home}}</a></li>
-        <li class="nav_element"><a href="/{{[current_lang_URL]}}blog/">{{blog}}</a></li>
-        <li class="nav_element"><a href="/{{[current_lang_URL]}}testPage/">{{testPage}}</a></li>
+        <li class="nav_element"><a href="{{'/' | localiseURL: URL}}">{{home}}</a></li>
+        <li class="nav_element"><a href="{{'/blog/' | localiseURL: URL}}">{{blog}}</a></li>
+        <!-- <li class="nav_element"><a href="{{'/testPage/' | localiseURL: URL}}">{{testPage}}</a></li> -->
     </ul>
 </div>
