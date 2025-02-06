@@ -21,13 +21,14 @@ export default function (eleventyConfig) {
 		let newURL = "";
 		if (lang == "es") {
 			if (URL.includes("articles")) {
+				let Year = URL.split('/').slice(-3,-2)
 				URL = URL.split('/').slice(-2,-1)
 				if (URL == "pronouns" ) {
 					newURL = "pronombres";
 				}
 
 				if (newURL != "") {
-					newURL = "/es/articulos/" + newURL;
+					newURL = "/es/articulos/" + Year + "/" + newURL;
 				} else {
 					newURL = "/es/blog/"; //If an article is not translated, redirect to blog page
 				}
@@ -36,13 +37,14 @@ export default function (eleventyConfig) {
 			}
 		} else if (lang == "en" ) {
 			if (URL.includes("articulos")) {
+				let Year = URL.split('/').slice(-3,-2)
 				URL = URL.split('/').slice(-2,-1)
 				if (URL == "pronombres" ) {
 					newURL = "pronouns";
 				}
 
 				if (newURL != "") {
-					newURL = "/articles/" + newURL;
+					newURL = "/articles/" + Year + "/" + newURL;
 				} else {
 					newURL = "/blog/";
 				}

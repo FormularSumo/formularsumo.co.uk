@@ -1,6 +1,6 @@
 ---
 title: Encryption
-date: 2022-03-15
+date: 2024-02-06
 description: A overview of the different types of encryption (server-side, client-side and end-to-end), and their use cases, advantages and drawbacks.
 footnotes: [
     'This refers to <a
