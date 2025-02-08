@@ -88,7 +88,7 @@ input {
         transform: scaleY(1)
     }
     .top_nav {
-        position: fixed;
+        position: absolute;
         transform: scaleY(0);
         width: 100%;
     }
