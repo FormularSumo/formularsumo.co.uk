@@ -19,6 +19,7 @@ html {
     background-color: #3f95ff;
     padding: 0;
     margin: 0;
+    /* max-height: 50px; /* needed for position static for navbar*/ 
 }
 label {
     user-select: none; /*Prevent menu button text from being selected*/
@@ -48,7 +49,6 @@ input {
     transform-origin: top;
     transition-duration: 0.25s; /*Animates over this period*/
     font-size: 19px;
-    min-height: 50px; /*Min height because the height is larger when the list is vertical*/
     line-height: 50px;
     font-family: sans-serif;
     background-color: #3f95ff;
@@ -74,6 +74,9 @@ input {
     left: 58px;
     top: 50px;
     transform: scaleY(0);
+    z-index: 3;
+    /* line-height: 0px; */
+    /* height: 0px; */
 }
 .language {
     border-top: 1px solid #4f4f66;
@@ -88,7 +91,7 @@ input {
         transform: scaleY(1)
     }
     .top_nav {
-        position: absolute;
+        position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
         transform: scaleY(0);
         width: 100%;
     }
