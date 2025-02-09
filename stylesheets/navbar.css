@@ -113,7 +113,7 @@ input {
     }
 }
 
-.nav_element:hover {
+.nav_element:hover, .nav_element:focus-within {
     background-color: #55b8ff;
 }
 .navbar img {

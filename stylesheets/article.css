@@ -46,6 +46,6 @@ a {
     color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225))
 }
 
-a:hover {
+a:hover, a:focus-within {
     color: light-dark(black, white)
 }
