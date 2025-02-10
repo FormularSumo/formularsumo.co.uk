@@ -14,6 +14,10 @@ html {
 ::view-transition-group(root) {
     animation-duration: 0.3s;
 }
+svg {
+    aspect-ratio: 1;
+    fill: currentColor /*inherited, eg from link or button colour*/
+}
 
 .navbar {
     background-color: #3f95ff;
