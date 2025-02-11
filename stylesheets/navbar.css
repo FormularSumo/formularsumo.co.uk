@@ -1,3 +1,4 @@
+/*SITE-WIDE STYLING*/
 * {
     margin: 0;
     padding: 0;
@@ -19,108 +20,106 @@ svg {
     fill: currentColor /*inherited, eg from link or button colour*/
 }
 
+/*NAVBAR STYLING*/
 .navbar {
     background-color: #3f95ff;
     padding: 0;
     margin: 0;
-    /* max-height: 50px; /* needed for position static for navbar*/ 
-}
-label {
-    user-select: none; /*Prevent menu button text from being selected*/
-    -webkit-user-select: none;
-    cursor: pointer;
-    text-align: left;
-    color: white;
-    font-size: 36px;
-    padding-inline: 8px;
-    padding-block: auto;
-    line-height: 50px;
-}
-#navbar_checkbox + label {
-    display: none;
-}
-input {
-    display: none;
-}
+    /* max-height: 50px; /* needed if using position:static*/
 
-.menu {
-    list-style-type: none; /*remove bullet points*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /*Don't allow to spill outside box*/
-    max-height: 100%;
-    z-index: 2;
-    transform-origin: top;
-    transition-duration: 0.25s; /*Animates over this period*/
-    font-size: 19px;
-    line-height: 50px;
-    font-family: sans-serif;
-    background-color: #3f95ff;
-}
-
-.top_nav {
-    position: static;
-}
-.nav_element {
-    float: left;
-    border-right: 1px solid #ffffff;
-}
-.nav_element a {
-    display: block;
-    text-decoration: none; /*remove link underline*/
-    color: rgb(255, 255, 255);
-    padding-inline: 8px;
-}
-
-.language_switcher {
-    position: relative;
-    float: right;
-    left: 58px;
-    top: 50px;
-    transform: scaleY(0);
-    z-index: 3;
-    /* line-height: 0px; */
-    /* height: 0px; */
-}
-.language {
-    border-top: 1px solid #4f4f66;
-    height: 50px;
-}
-#language_switcher_checkbox:checked ~ .language_switcher {
-    transform: scaleY(1)
-}
-
-
-@media screen and (max-width: 600px) {
-    #navbar_checkbox:checked ~ .top_nav {
-        transform: scaleY(1)
+    ul {
+        list-style-type: none; /*remove bullet points*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /*Don't allow to spill outside box*/
+        max-height: 100%;
+        transform-origin: top;
+        transition-duration: 0.25s;
+        font-size: 19px;
+        line-height: 50px;
+        font-family: sans-serif;
+        background-color: #3f95ff;
     }
-    .top_nav {
-        position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
-        transform: scaleY(0);
-        width: 100%;
+    li:hover, li:focus-within {
+        background-color: #55b8ff;
     }
-    .nav_element:first-child {
-        border-top: 1px solid #4f4f66;
-    }
-    .nav_element {
-        float: none;
-        width: 100%;
+    label {
+        user-select: none; /*Prevent menu button text from being selected*/
+        -webkit-user-select: none;
+        cursor: pointer;
         text-align: left;
-        border-right: 0px;
-        border-bottom: 1px solid #4f4f66;
-    }
-    .nav_element a {
-        padding-inline: 11px;
+        color: white;
+        font-size: 36px;
+        padding-inline: 8px;
+        padding-block: auto;
+        line-height: 50px;
     }
     #navbar_checkbox + label {
-        display: block;
+        display: none;
     }
-}
+    input {
+        display: none;
+    }
+    img {
+        height: 50px;
+    }
 
-.navbar li:hover, .navbar li:focus-within {
-    background-color: #55b8ff;
-}
-.navbar img {
-    height: 50px;
+    /*NAVIGATION MENU (PAGE LINKS) STYLING*/
+    .nav_menu {
+        position: static;
+    }
+    .nav_element {
+        float: left;
+        border-right: 1px solid #ffffff;
+    }
+    .nav_element a {
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding-inline: 8px;
+    }
+
+    @media screen and (max-width: 600px) {
+        #navbar_checkbox:checked ~ .nav_menu {
+            transform: scaleY(1)
+        }
+        .nav_menu {
+            position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
+            transform: scaleY(0);
+            width: 100%;
+        }
+        .nav_element:first-child {
+            border-top: 1px solid #4f4f66;
+        }
+        .nav_element {
+            float: none;
+            width: 100%;
+            text-align: left;
+            border-right: 0px;
+            border-bottom: 1px solid #4f4f66;
+        }
+        .nav_element a {
+            padding-inline: 11px;
+        }
+        #navbar_checkbox + label {
+            display: block;
+        }
+    }
+
+    /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
+    .language_switcher {
+        position: relative;
+        float: right;
+        left: 58px;
+        top: 50px;
+        transform: scaleY(0);
+        z-index: 2;
+    }
+    .language {
+        border-top: 1px solid #4f4f66;
+        height: 50px;
+    }
+    #language_switcher_checkbox:checked ~ .language_switcher {
+        transform: scaleY(1)
+    }
 }
