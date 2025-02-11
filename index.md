@@ -3,7 +3,7 @@ layout: index.html
 title: Home
 about_me: About me
 ---
-Hi, I'm James Heppell, a computer science student from the UK and current living in the Community of Madrid. I'm interested in a lot of areas of tech, both software and hardware, but especially in the intersection of our digital and physical lives. I'm a big fan of open ecosystems such as the Web, and help out with [Open Web Advocacy](https://open-web-advocacy.org).
+Hi, I'm James Heppell, a computer science student from the UK current living in the Community of Madrid. I'm interested in a lot of areas of tech, both software and hardware, but especially in the intersection of our digital and physical lives. I'm a big fan of open ecosystems such as the Web, and help out with [Open Web Advocacy](https://open-web-advocacy.org).
 
 I like playing music. Mainly sax (of which I like soprano the most), piano, and trombone, and I'll happily play in any setting from symphonic orquestras to big bands. I also have some experience conducting.
 
