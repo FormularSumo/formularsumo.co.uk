@@ -92,6 +92,9 @@ svg {
     }
 
     @media screen and (width <= 600px) {
+        #nav_menu_checkbox + label {
+            display: block;
+        }
         #nav_menu_checkbox:checked ~ .nav_menu {
             transform: scaleY(1)
         }
@@ -112,9 +115,6 @@ svg {
         }
         .nav_element a {
             padding-inline: 11px;
-        }
-        #nav_menu_checkbox + label {
-            display: block;
         }
     }
 
