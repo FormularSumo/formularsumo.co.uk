@@ -11,23 +11,17 @@ main {
         font-size: 15px;
     }
 
-    /*Article heading*/
+    /*Article headings*/
     h2 {
         margin-top: 22px;
         margin-bottom: 8px;
         font-size: 28px;
     }
 
-    /*Article Sub-heading*/
     h3 {
         margin-top: 12px;
         margin-bottom: 6px;
         font-size: 21px;
-    }
-
-    p {
-        margin-bottom: 1.5em;
-        font-size: 17px;
     }
 
     .footnotes {

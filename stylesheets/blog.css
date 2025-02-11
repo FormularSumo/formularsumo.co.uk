@@ -5,7 +5,6 @@ main {
     .date {
         margin-top: 0px;
         font-style: italic;
-        font-weight: unset;
         font-family: var(--heading_font);
     }
 
