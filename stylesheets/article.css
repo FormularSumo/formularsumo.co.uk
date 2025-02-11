@@ -25,20 +25,21 @@ main {
         font-size: 21px;
     }
 
-    section.footnotes {
-        font-size: 14px;
-        content-visibility: auto;
-        contain-intrinsic-size: auto 350px;
-    }
-
-    h2.footnotes {
-        padding-top: 10px;
-        margin-bottom: 10px;
-        font-size: 24px;
-    }
-
     p {
         margin-bottom: 1.5em;
         font-size: 17px;
+    }
+
+    .footnotes {
+        content-visibility: auto;
+        contain-intrinsic-size: auto 350px;
+        h2 {
+            padding-top: 10px;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
     }
 }
