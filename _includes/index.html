@@ -44,8 +44,11 @@
                 padding-left: 60px;
                 width: 50px;
             }
-            .link {
+            .link_a {
+                display:inline-block;
                 width: 50px;
+            }
+            .link {
                 padding-block: 7.5px;
             }
             @media screen and (max-width: 920px) {
@@ -57,10 +60,14 @@
                     width: auto;
                     padding: 0;
                 }
-                .link {
+                .link_a {
                     width: 60px;
                     margin-inline: 10px;
-                    margin-top: 5px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                .link {
+                    padding-block: 0px;
                 }
             }
         </style>
@@ -83,17 +90,17 @@
                 </div>
 
                 <div class="links" title="External Links">
-                    <a href="https://github.com/FormularSumo">
+                    <a class="link_a" href="https://github.com/FormularSumo">
                         <svg class="link">
                             <use xlink:href="/assets/github.svg#GitHub"></use>
                         </svg>
                     </a>
-                    <a href="https://social.vivaldi.net/@FormularSumo">
+                    <a class="link_a" href="https://social.vivaldi.net/@FormularSumo">
                         <svg class="link">
                             <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
                         </svg>
                     </a>
-                    <a href="https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R">
+                    <a class="link_a" href="https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R">
                         <svg class="link">
                             <use xlink:href="/assets/signal.svg#Signal"></use>
                         </svg>
