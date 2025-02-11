@@ -42,12 +42,4 @@ main {
         margin-bottom: 1.5em;
         font-size: 17px;
     }
-
-    a, button {
-        color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
-    }
-
-    a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
-        color: light-dark(black, white);
-    }
 }
