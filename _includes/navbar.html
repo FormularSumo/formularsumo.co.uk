@@ -34,14 +34,14 @@
 <div class="navbar" title="navbar">
     <picture>
         <source srcset="/assets/Logo.jxl" type="image/jxl">
-        <img src="/assets/Logo.webp" alt="FormularSumo {{FS_alt}}">
+        <img src="/assets/Logo.webp" alt="FormularSumo {{FS_alt}}" style="float: right">
     </picture>
 
     <input type="checkbox" id="language_switcher_checkbox">
     <label for="language_switcher_checkbox" style="float: right; margin-right: 20px"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
 
     <ul class="menu language_switcher">
-        <li class="language"><a href="{{page.url | localiseURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
+        <li class="language"><a href="{{page.url | localiseURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
     </ul>
 
     <input type="checkbox" id="navbar_checkbox">

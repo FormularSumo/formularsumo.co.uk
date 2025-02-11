@@ -84,6 +84,7 @@ input {
 }
 .language {
     border-top: 1px solid #4f4f66;
+    height: 50px;
 }
 #language_switcher_checkbox:checked ~ .language_switcher {
     transform: scaleY(1)
@@ -117,11 +118,9 @@ input {
     }
 }
 
-.nav_element:hover, .nav_element:focus-within {
+.navbar li:hover, .navbar li:focus-within {
     background-color: #55b8ff;
 }
 .navbar img {
     height: 50px;
-    display: flex;
-    float: right;
 }
