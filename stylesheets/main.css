@@ -66,9 +66,6 @@ svg {
         padding-block: auto;
         line-height: 50px;
     }
-    #navbar_checkbox + label {
-        display: none;
-    }
     input {
         display: none;
     }
@@ -77,6 +74,9 @@ svg {
     }
 
     /*NAVIGATION MENU (PAGE LINKS) STYLING*/
+    #nav_menu_checkbox + label {
+        display: none;
+    }
     .nav_menu {
         position: static;
     }
@@ -91,8 +91,8 @@ svg {
         padding-inline: 8px;
     }
 
-    @media screen and (max-width: 600px) {
-        #navbar_checkbox:checked ~ .nav_menu {
+    @media screen and (width <= 600px) {
+        #nav_menu_checkbox:checked ~ .nav_menu {
             transform: scaleY(1)
         }
         .nav_menu {
@@ -113,7 +113,7 @@ svg {
         .nav_element a {
             padding-inline: 11px;
         }
-        #navbar_checkbox + label {
+        #nav_menu_checkbox + label {
             display: block;
         }
     }
