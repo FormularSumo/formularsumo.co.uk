@@ -1,51 +1,53 @@
-/*Article title*/
-h1 {
-    margin-top: 32px;
-    margin-bottom: 8px;
-    font-size: 40px;
-}
+main {
+    /*Article title*/
+    h1 {
+        margin-top: 32px;
+        margin-bottom: 8px;
+        font-size: 40px;
+    }
 
-.date {
-    margin-bottom: 20px;
-    font-size: 15px;
-}
+    .date {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
 
-/*Article heading*/
-h2 {
-    margin-top: 22px;
-    margin-bottom: 8px;
-    font-size: 28px;
-}
+    /*Article heading*/
+    h2 {
+        margin-top: 22px;
+        margin-bottom: 8px;
+        font-size: 28px;
+    }
 
-/*Article Sub-heading*/
-h3 {
-    margin-top: 12px;
-    margin-bottom: 6px;
-    font-size: 21px;
-}
+    /*Article Sub-heading*/
+    h3 {
+        margin-top: 12px;
+        margin-bottom: 6px;
+        font-size: 21px;
+    }
 
-section.footnotes {
-    font-size: 14px;
-    content-visibility: auto;
-    contain-intrinsic-size: auto 350px;
-}
+    section.footnotes {
+        font-size: 14px;
+        content-visibility: auto;
+        contain-intrinsic-size: auto 350px;
+    }
 
-h2.footnotes {
-    padding-top: 10px;
-    margin-bottom: 10px;
-    font-family: var(--heading_font);
-    font-size: 24px;
-}
+    h2.footnotes {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-family: var(--heading_font);
+        font-size: 24px;
+    }
 
-p {
-    margin-bottom: 1.5em;
-    font-size: 17px;
-}
+    p {
+        margin-bottom: 1.5em;
+        font-size: 17px;
+    }
 
-a, button {
-    color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
-}
+    a, button {
+        color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
+    }
 
-a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
-    color: light-dark(black, white);
+    a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
+        color: light-dark(black, white);
+    }
 }

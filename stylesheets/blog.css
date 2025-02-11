@@ -1,21 +1,19 @@
-:root {
-    --heading_font: Georgia, serif;
-}
-
 main {
-    /*After ~800px display width, content will remain the same width and only margins will expand*/
     margin-inline: max(6px + 3%, 50% - 375px);
-    font-family: var(--heading_font);
-}
+    /*After ~800px display width, content will remain the same width and only margins will expand*/
 
-.date {
-    margin-top: 0px;
-    font-style: italic;
-    font-weight: unset;
     font-family: var(--heading_font);
-}
+    --heading_font: Georgia, serif;
 
-p {
-    line-height: 1.5;
-    font-family: "DejaVu Sans", sans-serif;
+    .date {
+        margin-top: 0px;
+        font-style: italic;
+        font-weight: unset;
+        font-family: var(--heading_font);
+    }
+
+    p {
+        line-height: 1.5;
+        font-family: "DejaVu Sans", sans-serif;
+    }
 }
