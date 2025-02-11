@@ -1,24 +1,36 @@
 /*SITE-WIDE STYLING*/
-* {
-    margin: 0;
-    padding: 0;
-}
 :root {
     color-scheme: light dark;
     --text_color: light-dark(black, white);
     --heading_font: Georgia, serif;
     --text_font: "DejaVu Sans", sans-serif;
 }
-html {
-    scroll-behavior: smooth;
-    background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
-    font-family: var(--text_font);
-}
 @view-transition {
     navigation: auto;
 }
 ::view-transition-group(root) {
     animation-duration: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
+    font-family: var(--text_font);
+}
+main {
+    :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
+        a, button {
+            color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
+        }
+
+        a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
+            color: light-dark(black, white);
+        }
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading_font);
@@ -30,7 +42,7 @@ p {
 }
 svg {
     aspect-ratio: 1;
-    fill: currentColor /*inherited, eg from link or button colour*/
+    fill: currentColor /*inherited, eg from <a> or <button>*/
 }
 
 /*NAVBAR STYLING*/
