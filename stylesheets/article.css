@@ -34,7 +34,6 @@ main {
     h2.footnotes {
         padding-top: 10px;
         margin-bottom: 10px;
-        font-family: var(--heading_font);
         font-size: 24px;
     }
 
