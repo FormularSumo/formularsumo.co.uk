@@ -15,18 +15,17 @@
                 font-size: 40px;
             }
             .content_image {
+                float: left;
                 max-width: 100%;
                 margin-right: 25px;
                 margin-top: 2.5px;
                 margin-left: 2.5px;
-                float: left;
                 outline: solid 2.5px;
-            }
-            @media screen and (max-width: 375px) { /*ideally it'd be good to directly get the imagen size in 11ty here instead of manually adding it */
-                .content_image {
-                    margin-inline: auto;
-                    float: none;
+
+                @media screen and (max-width: 375px) { /*ideally it'd be good to directly get the imagen size in 11ty here instead of manually adding it */
                     display: block;
+                    float: none;
+                    margin-inline: auto;
                     margin-bottom: 25px;
                 }
             }
