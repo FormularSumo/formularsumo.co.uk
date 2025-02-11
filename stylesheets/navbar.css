@@ -14,6 +14,10 @@ html {
 ::view-transition-group(root) {
     animation-duration: 0.3s;
 }
+svg {
+    aspect-ratio: 1;
+    fill: currentColor /*inherited, eg from link or button colour*/
+}
 
 .navbar {
     background-color: #3f95ff;
@@ -80,6 +84,7 @@ input {
 }
 .language {
     border-top: 1px solid #4f4f66;
+    height: 50px;
 }
 #language_switcher_checkbox:checked ~ .language_switcher {
     transform: scaleY(1)
@@ -113,11 +118,9 @@ input {
     }
 }
 
-.nav_element:hover {
+.navbar li:hover, .navbar li:focus-within {
     background-color: #55b8ff;
 }
 .navbar img {
     height: 50px;
-    display: flex;
-    float: right;
 }
