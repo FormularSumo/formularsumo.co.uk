@@ -2,18 +2,9 @@ main {
     margin-inline: max(6px + 3%, 50% - 375px);
     /*After ~800px display width, content will remain the same width and only margins will expand*/
 
-    font-family: var(--heading_font);
-    --heading_font: Georgia, serif;
-
     .date {
         margin-top: 0px;
         font-style: italic;
-        font-weight: unset;
         font-family: var(--heading_font);
-    }
-
-    p {
-        line-height: 1.5;
-        font-family: "DejaVu Sans", sans-serif;
     }
 }

@@ -1,0 +1,149 @@
+/*SITE-WIDE STYLING*/
+:root {
+    color-scheme: light dark;
+    --text_color: light-dark(black, white);
+    --heading_font: Georgia, serif;
+    --text_font: "DejaVu Sans", sans-serif;
+}
+@view-transition {
+    navigation: auto;
+}
+::view-transition-group(root) {
+    animation-duration: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
+    font-family: var(--text_font);
+}
+main {
+    :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
+        a, button {
+            color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
+        }
+
+        a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
+            color: light-dark(black, white);
+        }
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading_font);
+}
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+    font-size: 17px;
+}
+svg {
+    aspect-ratio: 1;
+    fill: currentColor /*inherited, eg from <a> or <button>*/
+}
+
+/*NAVBAR STYLING*/
+.navbar {
+    background-color: #3f95ff;
+    padding: 0;
+    margin: 0;
+    /* max-height: 50px; /* needed if using position:static*/
+
+    ul {
+        list-style-type: none; /*remove bullet points*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /*Don't allow to spill outside box*/
+        max-height: 100%;
+        transform-origin: top;
+        transition-duration: 0.25s;
+        font-size: 19px;
+        line-height: 50px;
+        background-color: #3f95ff;
+    }
+    li:hover, li:focus-within {
+        background-color: #55b8ff;
+    }
+    label {
+        user-select: none; /*Prevent menu button text from being selected*/
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-align: left;
+        color: white;
+        font-size: 36px;
+        padding-inline: 8px;
+        padding-block: auto;
+        line-height: 50px;
+    }
+    input {
+        display: none;
+    }
+    img {
+        height: 50px;
+    }
+
+    /*NAVIGATION MENU (PAGE LINKS) STYLING*/
+    #nav_menu_checkbox + label {
+        display: none;
+    }
+    .nav_menu {
+        position: static;
+    }
+    .nav_element {
+        float: left;
+        border-right: 1px solid #ffffff;
+    }
+    .nav_element a {
+        display: block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding-inline: 8px;
+    }
+
+    @media screen and (width <= 600px) {
+        #nav_menu_checkbox + label {
+            display: block;
+        }
+        #nav_menu_checkbox:checked ~ .nav_menu {
+            transform: scaleY(1)
+        }
+        .nav_menu {
+            position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
+            transform: scaleY(0);
+            width: 100%;
+        }
+        .nav_element:first-child {
+            border-top: 1px solid #4f4f66;
+        }
+        .nav_element {
+            float: none;
+            width: 100%;
+            text-align: left;
+            border-right: 0px;
+            border-bottom: 1px solid #4f4f66;
+        }
+        .nav_element a {
+            padding-inline: 11px;
+        }
+    }
+
+    /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
+    .language_switcher {
+        position: relative;
+        float: right;
+        left: 58px;
+        top: 50px;
+        transform: scaleY(0);
+        z-index: 2;
+    }
+    .language {
+        border-top: 1px solid #4f4f66;
+        height: 50px;
+    }
+    #language_switcher_checkbox:checked ~ .language_switcher {
+        transform: scaleY(1)
+    }
+}

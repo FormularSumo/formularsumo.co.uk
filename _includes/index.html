@@ -3,10 +3,102 @@
     <head>
         {% include "head.html" %}
         <title>{{title}}</title>
+
+        <style>
+            main {
+                margin-inline: max(6px + 3%, 50% - 430px);
+            }
+            h1 {
+                margin-top: 24px;
+                margin-bottom: 12px;
+                font-size: 40px;
+            }
+            .content_image {
+                float: left;
+                max-width: 100%;
+                margin-right: 25px;
+                margin-top: 2.5px;
+                margin-left: 2.5px;
+                outline: solid 2.5px;
+
+                @media screen and (width <= 375px) { /*ideally it'd be good to directly get the imagen size in 11ty here instead of manually adding it */
+                    display: block;
+                    float: none;
+                    margin-inline: auto;
+                    margin-bottom: 25px;
+                }
+            }
+            .flex_container {
+                display: flex;
+                width: 100%;
+            }
+            .links {
+                padding-top: 112.5px;
+                padding-left: 60px;
+                width: 50px;
+            }
+            .link_a {
+                display:inline-block;
+                width: 50px;
+            }
+            .link {
+                padding-block: 7.5px;
+            }
+            @media screen and (width <= 920px) {
+                .flex_container {
+                    flex-direction: column;
+                }
+                .links {
+                    text-align: center;
+                    width: auto;
+                    padding: 0;
+                }
+                .link_a {
+                    width: 60px;
+                    margin-inline: 10px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                .link {
+                    padding-block: 0px;
+                }
+            }
+        </style>
     </head>
 
     <body>
         {% include "navbar.html" %}
-        <p>{{content}}</p>
-    </body> 
+
+        <main>
+            <div class="flex_container">
+                <div style="flex: 1 1 100%; flex-basis: 100%;">
+                    <h1>{{about_me}}</h1>
+
+                    <img class="content_image" src="/assets/james.avif" alt="James" style="width: 184px; aspect-ratio: 3/4;">  <!--also manual width here-->
+
+                    {{content}}
+                </div>
+
+                <div class="links" title="External Links">
+                    <a class="link_a" href="https://github.com/FormularSumo">
+                        <svg class="link">
+                            <use xlink:href="/assets/github.svg#GitHub"></use>
+                        </svg>
+                    </a>
+                    <a class="link_a" href="https://social.vivaldi.net/@FormularSumo">
+                        <svg class="link">
+                            <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
+                        </svg>
+                    </a>
+                    <a class="link_a" href="https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R">
+                        <svg class="link">
+                            <use xlink:href="/assets/signal.svg#Signal"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- Onezoom?, Music? -->
+            </div>
+        </main>
+    </body>
+    <link rel="prefetch" href="/stylesheets/article.css" as="style">
 </html>
