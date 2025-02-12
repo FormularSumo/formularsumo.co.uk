@@ -1,7 +1,7 @@
 ---
 title: Pronombres
 date: 2021-04-24
-description: Pensamientos sobre los pronombres que usamos, y los efectos que tienen en nosotros.
+description: Reflexiones sobre los pronombres que usamos, y los efectos que tienen en nosotros.
 ---
 
 <p>
