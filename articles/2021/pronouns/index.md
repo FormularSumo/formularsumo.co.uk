@@ -1,6 +1,7 @@
 ---
 title: Pronouns
 date: 2021-04-24
+description: Thoughts on the pronouns we use, and the effects they have on us.
 ---
 
 <p>
