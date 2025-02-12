@@ -1,6 +1,7 @@
 ---
 title: Voting Systems
 date: 2020-09-30
+eleventyExcludeFromCollections: true
 ---
 
 <p>
