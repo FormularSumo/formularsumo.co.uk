@@ -7,6 +7,6 @@ Hola, soy James Heppell, estudiante de informática que vive actualmente en la C
 
 Me gusta tocar música. Principalmente el saxo (el que más me gusta es el soprano), el piano, y el trombón, y estoy contento de tocar en cualquier entorno desde orquestas sinfónicas hasta big bands. Tengo también cierta experiencia en dirección de orquesta.
 
-Disfruto viajando y aprendiendo sobre la gente. Los idiomas y las culturas, la historia, la geografía, y la ciencia sobre porque pensamos, nos comportamos y somos como somos; nuestro pasado evolutivo. Me gusta compartir y escribir sobre lo que aprendo con aquellos a los que interesa.
+Disfruto viajando y aprendiendo sobre la gente. Los idiomas y las culturas, la historia, la geografía, y la ciencia sobre porque pensamos, nos comportamos y somos como somos; nuestro [pasado evolutivo](https://www.onezoom.org/life/@_ozid=-60047?otthome=%40%3D871935#x713,y-22,w0.9374). Me gusta compartir y escribir sobre lo que aprendo con aquellos a los que interesa.
 
 Para rematar esta breve introducción, me encantan los deportes, más o menos todos los que he probado. Durante los últimos años la calistenia (también conocida como [entrenamiento callejero](https://es.wikipedia.org/wiki/Entrenamiento_callejero)) ha sido mi favorito, pero también destacan el ciclismo (mayormente de montaña), la natación, el jogging, y el tenis de mesa. Cabe mencionar también la zumba.
