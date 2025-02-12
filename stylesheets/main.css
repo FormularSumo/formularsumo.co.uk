@@ -83,6 +83,7 @@ svg {
     }
     img {
         height: 50px;
+        aspect-ratio: 1;
     }
 
     /*NAVIGATION MENU (PAGE LINKS) STYLING*/
