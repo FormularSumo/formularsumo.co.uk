@@ -3,7 +3,12 @@ import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("stylesheets/");
-	eleventyConfig.addPassthroughCopy("assets/");
+	eleventyConfig.addPassthroughCopy("**/*.svg");
+	eleventyConfig.addPassthroughCopy("**/*.webp");
+	eleventyConfig.addPassthroughCopy("**/*.jpeg-xl");
+	eleventyConfig.addPassthroughCopy("**/*.avif");
+	eleventyConfig.addPassthroughCopy("**/*.jpg");
+	// eleventyConfig.addPassthroughCopy("**/*.png"); //Currently unused
 	eleventyConfig.addPassthroughCopy("_redirects");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
