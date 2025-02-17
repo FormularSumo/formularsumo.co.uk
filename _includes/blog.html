@@ -1,4 +1,5 @@
 {% include "article_date_string.html" %}
+{% assign description = "James Heppell's blog and personal site" %}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -42,7 +43,9 @@
             }
         </style>
 
+        <meta name="description" content="{{description}}">
         <meta property="og:title" content="{{title}}">
+        <meta property="og:description" content="{{description}}">
         <link rel="me" href="https://social.vivaldi.net/@FormularSumo"></link>
     </head>
 

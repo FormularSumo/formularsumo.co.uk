@@ -1,3 +1,5 @@
+{% assign description = "James Heppell's personal site and blog" %}
+
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
@@ -64,7 +66,9 @@
                 }
             }
         </style>
+        <meta name="description" content="{{description}}">
         <meta property="og:title" content="{{title}}">
+        <meta property="og:description" content="{{description}}">
     </head>
 
     <body>
