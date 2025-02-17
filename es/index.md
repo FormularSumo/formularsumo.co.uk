@@ -2,6 +2,7 @@
 layout: index.html
 title: Inicio
 about_me: Sobre mí
+description: "La web personal y el blog de James Heppell"
 ---
 Hola, soy James Heppell, estudiante de informática que vive actualmente en la Comunidad de Madrid. Me interesan muchos campos de la tecnología, pero especialmente la intersección de nuestras vidas digitales y físicas. Soy un gran aficionado de los ecosistemas abiertos como la Web, y ayudo a [Open Web Advocacy](https://open-web-advocacy.org).
 
