@@ -2,8 +2,9 @@ import { EleventyI18nPlugin } from "@11ty/eleventy";
 import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("stylesheets/*");
+	eleventyConfig.addPassthroughCopy("stylesheets/");
 	eleventyConfig.addPassthroughCopy("assets/");
+	eleventyConfig.addPassthroughCopy("_redirects");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
 	eleventyConfig.addPlugin(EleventyI18nPlugin,{
