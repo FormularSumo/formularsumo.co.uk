@@ -3,14 +3,17 @@ import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("stylesheets/");
-	eleventyConfig.addPassthroughCopy("**/*.svg");
-	eleventyConfig.addPassthroughCopy("**/*.webp");
-	eleventyConfig.addPassthroughCopy("**/*.jpeg-xl");
-	eleventyConfig.addPassthroughCopy("**/*.avif");
-	eleventyConfig.addPassthroughCopy("**/*.jpg");
-	// eleventyConfig.addPassthroughCopy("**/*.png"); //Currently unused
 	eleventyConfig.addPassthroughCopy("_redirects");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
+
+	eleventyConfig.setTemplateFormats([ //Using glob passthroughs doesn't work. When building for the second time, it creates a _site folder under _site, which breaks file location references
+		"svg",
+		"webp",
+		"jpeg-xl",
+		"avif",
+		"jpg",
+		// "png"
+	]);
 
 	eleventyConfig.addPlugin(EleventyI18nPlugin,{
 		defaultLanguage: "en",
