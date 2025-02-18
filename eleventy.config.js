@@ -6,7 +6,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("_redirects");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
 
-	eleventyConfig.setTemplateFormats([ //Using glob passthroughs doesn't work. When building for the second time, it creates a _site folder under _site, which breaks file location references
+	eleventyConfig.addTemplateFormats([ //Using glob passthroughs doesn't work. When building for the second time, it creates a _site folder under _site, which breaks file location references
 		"svg",
 		"webp",
 		"jpeg-xl",
