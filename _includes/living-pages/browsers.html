@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    <head>
+        {% include "head.html" %}
+        <link rel="stylesheet" href="/stylesheets/blog.css">
+        <link rel="stylesheet" href="/stylesheets/article.css">
+
+        <style>
+            h1 {
+                font-size: 36px;
+                margin-bottom: 1px;
+                margin-top: 14px;
+            }
+    
+            .date {
+                margin-bottom: 5px;
+                font-size: 14px;
+            }
+    
+            p {
+                margin-bottom: 18px;
+            }
+        </style>
+
+        <meta name="description" content="{{description}}">
+        <meta property="og:title" content="{{title}}">
+        <meta property="og:description" content="{{description}}">
+    </head>
+    <body>
+        {% include "navbar.html" %}
+
+        <main>
+            <article>
+                <header>
+                    <h1>{{title}}
+                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")' style="border: none; background: none; cursor: pointer;">
+                            <svg style="height: 35px;">
+                                <title>"{{link_button_text}}"</title>
+                                <use xlink:href="/assets/link.svg#Link"></use>
+                            </svg>
+                        </button>
+                    </h1>
+                </header>
+                {% for browser in browsers %}
+                    <h2>{{browser[0]}}</h2>
+
+                    <p>Overall tier: {{browser[1].tier}}</p>
+                    <p>Current marketshare: {{browser[1].marketshare}}%</p>
+
+                    <h3>Pros</h3>
+                    {% for pro in browser[1].pros %}
+                    <ul>
+                        <li>{{pro}}</li>
+                    </ul>
+                    {% endfor %}
+
+                    <h3>Cons</h3>
+                    {% for con in browser[1].cons %}
+                    <ul>
+                        <li>{{con}}</li>
+                    </ul>
+                    {% endfor %}
+                {% endfor %}
+            </article>    
+        </main>
+    </body>
+</html>
