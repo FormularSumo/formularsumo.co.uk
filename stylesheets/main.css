@@ -62,7 +62,6 @@ svg {
         transition-duration: 0.25s;
         font-size: 19px;
         line-height: 50px;
-        background-color: #3f95ff;
     }
     li:hover, li:focus-within {
         background-color: #55b8ff;
@@ -115,6 +114,7 @@ svg {
             position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
             transform: scaleY(0);
             width: 100%;
+            background-color: #3f95ff;
         }
         .nav_element:first-child {
             border-top: 1px solid #4f4f66;
@@ -139,6 +139,7 @@ svg {
         top: 50px;
         transform: scaleY(0);
         z-index: 2;
+        background-color: #3f95ff;
     }
     .language {
         border-top: 1px solid #4f4f66;
