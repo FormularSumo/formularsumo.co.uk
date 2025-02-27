@@ -1,4 +1,9 @@
 <link rel="stylesheet" href="/stylesheets/main.css">
+{% if page.lang == "en" %}
+    <link rel="manifest" href="/manifest.json">
+{% else %}
+    <link rel="manifest" href="/es/manifest.json">
+{% endif %}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="James Heppell">
 <link rel="canonical" content="https://formularsumo.co.uk{{page.url}}">

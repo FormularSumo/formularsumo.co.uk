@@ -1,0 +1,16 @@
+{
+    "id": "/formularsumo.co.uk/",
+    "start_url": "/blog/",
+    "name": "FormularSumo",
+    "description":"James Heppell's personal site and blog",
+    "display": "minimal-ui",
+    "background_color" : "black",
+    "icons": [
+        {
+            "src": "/assets/Logo-embed.webp",
+            "type": "image/webp",
+            "purpose": "any maskable",
+            "sizes": "295x295"
+        }
+    ]
+}
