@@ -8,10 +8,16 @@
     "background_color" : "black",
     "icons": [
         {
-            "src": "/assets/Logo-embed.webp",
+            "src": "/assets/Logo-512.webp",
             "type": "image/webp",
             "purpose": "any maskable",
-            "sizes": "295x295"
+            "sizes": "512x512"
+        },
+        {
+            "src": "/assets/Logo-192.webp",
+            "type": "image/webp",
+            "purpose": "any maskable",
+            "sizes": "192x192"
         }
     ]
 }
