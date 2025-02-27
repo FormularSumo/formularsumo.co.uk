@@ -1,6 +1,7 @@
 {
     "id": "/formularsumo.co.uk/es/",
     "start_url": "/es/blog/",
+    "scope": "/",
     "name": "FormularSumo",
     "description": "La web personal y el blog de James Heppell",
     "display": "minimal-ui",
