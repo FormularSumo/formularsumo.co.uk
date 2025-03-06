@@ -18,10 +18,13 @@
 }
 html {
     scroll-behavior: smooth;
+    padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
     background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
     font-family: var(--text_font);
 }
 main {
+    padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
+    padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
         a, button {
             color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
