@@ -51,8 +51,8 @@ svg {
 /*NAVBAR STYLING*/
 .navbar {
     background-color: #3f95ff;
-    padding: 0;
-    margin: 0;
+    padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0));
+    padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     /* max-height: 50px; /* needed if using position:static*/
 
     ul {
