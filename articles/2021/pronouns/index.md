@@ -2,6 +2,11 @@
 title: Pronouns
 date: 2021-04-24
 description: Thoughts on the pronouns we use, and the effects they have on us.
+footnotes: [
+    "Biologists usually define sex as based on gamete (sex cell) size. The sex with the larger cell (egg/ovary) is female, the smaller (sperm) male. This is used instead of chromosomes or other methods because it's consistent across the entire animal and plant kingdom, and takes into account species which determine sex by other means (largest/most dominant member of a group, hormones, changes brought about by (potential) sexual partners, etc), or which are <a href='https://en.wikipedia.org/wiki/Hermaphrodite'>hermaphrodite</a>.</p>
+
+    <p>So going by this definition, sex is entierly binary in humans. However, intersex in practice can be different enough that I think it needs considering when thinking human sexes and especially about gender and pronouns."
+]
 ---
 
 <p>
@@ -29,8 +34,9 @@ gender-neutral pronoun for people of a known sex.
 <p>
 Here, I’m going to make the distinction between ‘sex ‘ and ‘gender’. When I
 think about this topic, I use sex to refer to your biological sex - your body -
-which can be male, female, or (very rarely) intersex, and gender to refer to how
-you think of yourself, and by extension what pronouns you use.
+which can be male, female, or (very rarely) intersex<sup><a id="n-1" href="#fn-1">1</a></sup>,
+and gender to refer to how you think of yourself, and by extension what pronouns
+you use.
 </p>
 <p>
 My belief is that how you think of yourself, how you act, who you speak to and
