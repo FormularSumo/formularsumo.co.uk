@@ -14,18 +14,18 @@
                 font-size: 40px;
             }
             .content_image {
-                float: left;
                 max-width: 100%;
-                margin-right: 25px;
-                margin-top: 2.5px;
-                margin-left: 2.5px;
                 outline: solid 2.5px;
-
-                @media screen and (width <= 375px) { /*ideally it'd be good to directly get the imagen size in 11ty here instead of manually adding it */
+                @media (width <= 375px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
                     display: block;
-                    float: none;
                     margin-inline: auto;
                     margin-bottom: 25px;
+                }
+                @media (width > 375px) {
+                    float: left;
+                    margin-right: 25px;
+                    margin-top: 2.5px;
+                    margin-left: 2.5px;
                 }
             }
             .flex_container {
