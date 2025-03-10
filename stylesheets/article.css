@@ -2,19 +2,19 @@ main {
     /*Article title*/
     h1 {
         margin-top: 32px;
-        margin-bottom: 8px;
+        margin-bottom: 2px;
         font-size: 40px;
     }
 
     .date {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
         font-size: 15px;
     }
 
     /*Article headings*/
     h2 {
-        margin-top: 22px;
-        margin-bottom: 8px;
+        margin-top: 20px;
+        margin-bottom: 12px;
         font-size: 28px;
     }
 
