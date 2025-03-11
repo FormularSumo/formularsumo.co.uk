@@ -75,7 +75,7 @@ I picked this up at Exeter's pride fair last year. I was wandering around the st
 
 ## Death Comes to Marlow (Marlow Murder Club 2 - Robert Thorogood)
 
-<img class="right" alt="Death Comes to Marlow book cover" src="death comes to marlow.avif" style="aspect-ratio: 500/750">
+<img class="right" alt="Death Comes to Marlow book cover" src="death comes to marlow.avif" style="aspect-ratio: 500/788">
 
 For those who don't know, Robert Thorogood is the creator of the BBC show *Death In Paradise*, undisputably my family's favourite program, we would ritually watch every Thursday night when it airs at 9pm. Although it's now moved to Fridays, which I'm sure is a good thing for the show but always feels slightly off. Although since departed (or at least not highly involved in) this show, Thorogood has kept up his murder-mystery craftsmanship. First with Death In Paradise books, and more recently with his Marlow Murder Club series.
 
