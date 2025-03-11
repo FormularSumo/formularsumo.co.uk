@@ -30,4 +30,16 @@ article {
             margin-block: 5px;
         }
     }
+    .highly_recommended {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        color: light-dark(rgb(43, 43, 43),rgb(234, 234, 234));
+        background-color: light-dark(rgb(211, 211, 211),rgb(75, 75, 75));
+        margin-inline: auto;
+        margin-bottom: 14px;
+    }
+    .highly_recommended::after {
+        content: "Highly Recommended";
+    }
 }
