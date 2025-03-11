@@ -6,6 +6,9 @@
         {% include "head.html" %}
         <link rel="stylesheet" href="/stylesheets/blog.css">
         <link rel="stylesheet" href="/stylesheets/article.css">
+        {% if style -%}
+            <link rel="stylesheet" href="/stylesheets/{{style}}.css">
+        {%- endif %}
 
         <title>{{title}} - FormularSumo</title>
         <meta name="description" content="{{description}}">

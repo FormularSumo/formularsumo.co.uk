@@ -1,0 +1,33 @@
+article {
+    section:not(:last-child) {
+        display: flow-root; /*Creates new block formatting afterwards, effectively make section at least as large as contained images with float set*/ 
+        p:last-child { /*Otherwise there's 2 margins between sections, one for p, one for h2*/
+            margin-bottom: 0px;
+        }
+    }
+    img {
+        max-height: 500px;
+        max-width: 100%;
+
+        @media (width <= 500px) {
+            display: block;
+            margin-inline: auto;
+            margin-bottom: 12px;
+        }
+    }
+    @media (width > 500px) {
+        .left {
+            float: left;
+            margin-left: 2px;
+            margin-right: 15px;
+        }
+        .right {
+            float: right;
+            margin-right: 2px;
+            margin-left: 15px;
+        }
+        img {
+            margin-block: 5px;
+        }
+    }
+}
