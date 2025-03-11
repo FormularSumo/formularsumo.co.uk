@@ -1,9 +1,9 @@
 ---
 title: Reading List 2024
 date: 2025-03-11
+description: Commentaries, backgrounds and recommendations on the books I read throughout 2024.
 tags: ["reading-list"]
 style: list
-eleventyExcludeFromCollections: true
 ---
 
 <section>
