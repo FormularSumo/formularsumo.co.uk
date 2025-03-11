@@ -55,14 +55,14 @@ svg {
     padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     /* max-height: 50px; /* needed if using position:static*/
 
-    ul {
-        list-style-type: none; /*remove bullet points*/
-        margin: 0;
-        padding: 0;
-        overflow: hidden; /*Don't allow to spill outside box*/
-        max-height: 100%;
+    nav {
         transform-origin: top;
         transition-duration: 0.25s;
+        overflow: hidden; /*Don't allow to spill outside box*/
+    }
+    ul {
+        list-style-type: none; /*remove bullet points*/
+        overflow: hidden;
         font-size: 19px;
         line-height: 50px;
     }
