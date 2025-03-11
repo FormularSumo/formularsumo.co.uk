@@ -1,9 +1,10 @@
-{% include "article_date_string.html" %}
+{% include "article_date_string.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
         {% include "head.html" %}
+
         <link rel="stylesheet" href="/stylesheets/blog.css">
         <link rel="stylesheet" href="/stylesheets/article.css">
         {% if style -%}
@@ -22,7 +23,8 @@
     </head>
 
     <body>
-        {% include "navbar.html" %}
+        {%- include "navbar.html" %}
+
         <main>
             <article>
                 <header>
@@ -37,7 +39,7 @@
                     <p class="date">{{first_published}}: {{ date | postDate: page.lang }}</p>
                 </header>
 
-                {{content}}
+                {{content-}}
 
                 {% if footnotes %}
                     <section class="footnotes">

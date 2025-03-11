@@ -1,4 +1,4 @@
-{% include "article_date_string.html" %}
+{% include "article_date_string.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -52,14 +52,14 @@
         {% include "navbar.html" %}
 
         <main>
-        {% for post in collections.post reversed %}
-            {% if post.data.tags contains page.lang %}
-                <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
-                    <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p>
-                    <p>{{post.data.description}}</p>
-                </a>
-            {% endif %}
-        {% endfor %}
+            {% for post in collections.post reversed -%}
+                {% if post.data.tags contains page.lang -%}
+                    <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
+                        <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p>
+                        <p>{{post.data.description}}</p>
+                    </a>
+                {% endif -%}
+            {% endfor -%}
         </main>
         
     </body>

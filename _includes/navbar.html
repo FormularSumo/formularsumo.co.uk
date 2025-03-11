@@ -1,28 +1,28 @@
-{% assign en_alt_flag = "English langauge flag" %}
-{% assign es_alt_flag = "Bandera del idioma español" %}
+{% assign en_alt_flag = "English langauge flag" -%}
+{% assign es_alt_flag = "Bandera del idioma español" -%}
 
-{% if page.lang == "en" %}
-    {% assign home = "Home" %}
-    {% assign blog = "Blog" %}
-    {% assign testPage = "Test" %}
-    {% assign FS_alt = "logo" %}
+{% if page.lang == "en" -%}
+    {% assign home = "Home" -%}
+    {% assign blog = "Blog" -%}
+    {% assign testPage = "Test" -%}
+    {% assign FS_alt = "logo" -%}
 
-    {% assign second_lang = "es" %}
-    {% assign URL = "" %}
-{% else %}
-    {% if page.lang == "es" %}
-        {% assign home = "Inicio" %}
-        {% assign blog = "Blog" %}
-        {% assign testPage = "Prueba" %}
-        {% assign FS_alt = "logotipo" %}
+    {% assign second_lang = "es" -%}
+    {% assign URL = "" -%}
+{% else -%}
+    {% if page.lang == "es" -%}
+        {% assign home = "Inicio" -%}
+        {% assign blog = "Blog" -%}
+        {% assign testPage = "Prueba" -%}
+        {% assign FS_alt = "logotipo" -%}
 
-        {% assign second_lang = "en" %}
-    {% endif %}
+        {% assign second_lang = "en" -%}
+    {% endif -%}
 
-    {% assign URL = page.lang %}
-{% endif %}
+    {% assign URL = page.lang -%}
+{% endif -%}
 
-{% assign current_lang_flag_alt = page.lang | append: "_alt_flag" %}
+{% assign current_lang_flag_alt = page.lang | append: "_alt_flag" -%}
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
 
 <div class="navbar" title="navbar">
