@@ -36,8 +36,8 @@ manera en la que pensamos de nosotros mismos, y por ello los pronombres que
 elegimos usar.
 </p>
 <p>
-Mi creencia es que el cómo piensas de ti mismo, cómo actúas, con quien hablas y
-lo que haces no deberían estar muy afectados por el sexo. Claro que hay algunas
+Creo que el cómo pienses de ti mismo, cómo actúes, con quien hables y
+lo que hagas no debería estar demasiado influenciado por el sexo. Claro que hay algunas
 diferencias físicas: los órganos sexuales, las hormonas, el tono de voz, la
 forma del cuerpo etc. Pero dejándolos de lado, no veo que el ser macho implique
 percibirte a ti mismo de una manera diferente de ser hembra. No creo en lo más
