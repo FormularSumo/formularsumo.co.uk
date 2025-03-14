@@ -5,7 +5,7 @@ description: Thoughts on the pronouns we use, and the effects they have on us.
 footnotes: [
     "Biologists usually define sex as based on gamete (sex cell) size. The sex with the larger cell (egg/ovary) is female, the smaller (sperm) male. This is used instead of chromosomes or other methods because it's consistent across the entire animal and plant kingdom, and takes into account species which determine sex by other means (largest/most dominant member of a group, hormones, changes brought about by (potential) sexual partners, etc), or which are <a href='https://en.wikipedia.org/wiki/Hermaphrodite'>hermaphrodite</a>.</p>
 
-    <p>So going by this definition, sex is entierly binary in humans. However, intersex in practice can be different enough that I think it needs considering when thinking human sexes and especially about gender and pronouns."
+    <p>So going by this definition, sex is entirely binary in humans. However, intersex in practice can be different enough that I think it needs considering when thinking about human sexes and especially about gender and pronouns."
 ]
 ---
 
