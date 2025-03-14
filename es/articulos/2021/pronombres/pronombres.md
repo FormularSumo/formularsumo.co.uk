@@ -2,6 +2,11 @@
 title: Pronombres
 date: 2021-04-24
 description: Reflexiones sobre los pronombres que usamos, y los efectos que tienen en nosotros.
+footnotes: [
+    "Los biólogos suelen definir el sexo por el tamaño del gameto (la célula del sexo). El sexo con la célula más grande (el óvulo) es femenino, el más pequeño (el espermatozoide) masculino. Se usa en vez de los cromosomas u otros métodos porque es consistente en todo el reino animal y vegetal, y tiene en cuenta las especies que determinan el sexo por otras maneras (el miembro más grande/dominante de un grupo, hormonas, cambios causados por (potenciales) parejas sexuales, etc), o que son <a href='https://es.wikipedia.org/wiki/Hermafrodita'>hermafroditas</a>.</p>
+
+    <p>Así que por esta definición, el sexo es completamente binario en los humanos. Sin embargo, creo que el ser intersexual puede ser lo suficientemente diferente que hace falta considerarlo en relación a los sexos humanos y especialmente al género y a los pronombres."
+]
 ---
 
 <p>
@@ -31,9 +36,9 @@ pronombre de género neutral para las personas de un sexo conocido.
 <p>
 Ahora, voy a hacer la distinción entre ‘sexo’ y ‘género’. Cuando pienso en este
 tema, utilizo sexo para referirme al sexo biológico - el cuerpo - que puede ser
-masculino, femenino, o (muy raramente) intersexual, y género para referirme a la
-manera en la que pensamos de nosotros mismos, y por ello los pronombres que
-elegimos usar.
+masculino, femenino, o (muy raramente) intersexual<sup><a id="n-1" href="#fn-1">1</a></sup>,
+y género para referirme a la manera en la que pensamos de nosotros mismos, y por
+ello los pronombres que elegimos usar.
 </p>
 <p>
 Creo que el cómo pienses de ti mismo, cómo actúes, con quien hables y
