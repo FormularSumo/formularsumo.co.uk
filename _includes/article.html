@@ -35,6 +35,12 @@
                                 <use xlink:href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
+                        <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})' style="border: none; background: none; cursor: pointer;">
+                            <svg style="height: 35px;">
+                                <title>{{link_button_text}}</title>
+                                <use xlink:href="/assets/share.svg#Share"></use>
+                            </svg>
+                        </button>
                     </h1>
                     <p class="date">{{first_published}}: {{ date | postDate: page.lang }}</p>
                 </header>
@@ -55,6 +61,12 @@
                     </section>
                 {% endif %}
             </article>
+
+            <script>
+                if (!navigator.share) {
+                    document.getElementById("share-button").remove();
+                }
+            </script>
         </main>
     </body>
 </html>
