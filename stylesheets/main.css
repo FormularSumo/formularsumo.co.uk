@@ -118,6 +118,7 @@ svg {
             transform: scaleY(0);
             width: 100%;
             background-color: #3f95ff;
+            z-index: 1;
         }
         .nav_element:first-child {
             border-top: 1px solid #4f4f66;
