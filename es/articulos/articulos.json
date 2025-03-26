@@ -1,5 +1,6 @@
 {
     "layout": "article.html",
     "tags": ["post", "es"],
-    "link_button_text": "Butón para copiar el enlace de la página actual"
+    "link_button_text": "Copiar el enlace de la página actual",
+    "share_button_text": "Compartir la página actual"
 }
