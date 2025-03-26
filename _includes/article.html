@@ -26,6 +26,10 @@
                 border: none;
                 background: none;
                 cursor: pointer;
+                height: 38px;
+                aspect-ratio: 1/1;
+                position: relative;
+                top: 4px;
             }
         </style>
     </head>
@@ -38,13 +42,13 @@
                 <header>
                     <h1>{{title}}
                         <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
-                            <svg style="height: 35px;">
+                            <svg>
                                 <title>{{link_button_text}}</title>
                                 <use xlink:href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
                         <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
-                            <svg style="height: 35px;">
+                            <svg>
                                 <title>{{share_button_text}}</title>
                                 <use xlink:href="/assets/share.svg#Share"></use>
                             </svg>
