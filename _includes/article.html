@@ -20,6 +20,14 @@
         <meta property="og:type" content="article">
         <meta property="article:author" content="James Heppell">
         <meta property="article:published_time" content="{{date}}">
+
+        <style>
+            button {
+                border: none;
+                background: none;
+                cursor: pointer;
+            }
+        </style>
     </head>
 
     <body>
@@ -29,13 +37,13 @@
             <article>
                 <header>
                     <h1>{{title}}
-                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")' style="border: none; background: none; cursor: pointer;">
+                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
                             <svg style="height: 35px;">
                                 <title>{{link_button_text}}</title>
                                 <use xlink:href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
-                        <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})' style="border: none; background: none; cursor: pointer;">
+                        <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
                             <svg style="height: 35px;">
                                 <title>{{share_button_text}}</title>
                                 <use xlink:href="/assets/share.svg#Share"></use>
