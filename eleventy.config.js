@@ -31,7 +31,8 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		let newURL = "";
 		if (lang == "es") {
-			if (URL.includes("articles")) {
+			if (URL.includes("blog/2")) {
+				console.log(URL)
 				let Year = URL.split('/').slice(-3,-2)
 				URL = URL.split('/').slice(-2,-1)
 				if (URL == "pronouns" ) {
@@ -39,7 +40,7 @@ export default function (eleventyConfig) {
 				}
 
 				if (newURL != "") {
-					newURL = "/es/articulos/" + Year + "/" + newURL;
+					newURL = "/es/blog/" + Year + "/" + newURL;
 				} else {
 					newURL = "/es/blog/"; //If an article is not translated, redirect to blog page
 				}
@@ -47,7 +48,7 @@ export default function (eleventyConfig) {
 				newURL = "/es" + URL
 			}
 		} else if (lang == "en" ) {
-			if (URL.includes("articulos")) {
+			if (URL.includes("es/blog/2")) {
 				let Year = URL.split('/').slice(-3,-2)
 				URL = URL.split('/').slice(-2,-1)
 				if (URL == "pronombres" ) {
@@ -55,7 +56,7 @@ export default function (eleventyConfig) {
 				}
 
 				if (newURL != "") {
-					newURL = "/articles/" + Year + "/" + newURL;
+					newURL = "/blog/" + Year + "/" + newURL;
 				} else {
 					newURL = "/blog/";
 				}
