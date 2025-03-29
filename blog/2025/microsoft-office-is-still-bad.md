@@ -3,7 +3,7 @@ title: Microsoft Office is Still Bad (For Collaboration)
 date: 2025-03-24
 description: My recent and past experience with office suites and collaboration.
 footnotes: [
-    'Recently Microsoft <a href="https://www.theverge.com/news/618278/microsoft-office-free-windows-apps-ad-supported-version">started trialing</a> an ad-supported free version of Office desktop in India. However, many features (including local file saving) are artificially disabled, so from what I can tell this seems to be the worst parts of Office desktop and Office web put together into a single product.'
+    'Recently Microsoft <a href="https://www.theverge.com/news/618278/microsoft-office-free-windows-apps-ad-supported-version">started trialing</a> an ad-supported free version of Office desktop in India. However, many features (such as directly working with local files instead of using OneDrive) are artificially disabled, so from what I can tell this seems to be the worst parts of Office desktop and Office web put together into a single product.'
 ]
 ---
 
