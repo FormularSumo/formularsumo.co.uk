@@ -21,6 +21,7 @@ permalink: /feed/feed.xml
             <link>{{post.url}}</link>
             <id>{{post.url}}</id>
             <description>{{post.data.description}}</description>
+            <content type="html">{{post.content}}</content>
         </item>
     {% endif -%}
 {% endfor -%}
