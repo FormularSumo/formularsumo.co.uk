@@ -14,8 +14,8 @@
     {% if post.data.tags contains page.lang -%}
     <entry>
         <title>{{post.data.title}}</title>
-        <link>{{post.url}}</link>
-        <id>{{post.url}}</id>
+        <link href="https://formularsumo.co.uk/{{post.url}}"></link>
+        <id>https://formularsumo.co.uk/{{post.url}}</id>
         <description>{{post.data.description}}</description>
         <updated>{{post.date}}</updated>
         <content type="html">{{post.content}}</content>
