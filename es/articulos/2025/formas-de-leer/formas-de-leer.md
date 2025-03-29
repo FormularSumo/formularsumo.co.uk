@@ -1,0 +1,59 @@
+---
+title: Las Distintas Formas de Leer
+date: 2025-04-29
+description: 
+---
+
+<!-- Física, digital, audio
+
+Fisical
+
+
+Digital
+    Accesibilidad - 
+        digital permite cambio el tamaño, font y color de texto
+        lectura de pantalla de cualquier texto - advances
+        máquina de braile
+        prácticamente gratis para crear copiar, disponible en todo el mundo para todos
+        fácil de guardar y transbordar
+        especialmente web, menos en sistemas cerrados. Problemas de control y fiabilidad de esos.
+        traducciones automáticas (no ideal, pero mucho que nada)
+
+    Buscar información - ctrl+f, y organizar información. Útil para estudiando algo de una manera profunda
+
+    Problemas con pantallas tradicionales (que emitan luz), eye strain (menos blinking), menos información entra, más difíil recordar donde está algo en el texto (especialmente con scroll, no hay los lugares fijos en las dos páginas (o columnas) para asociar, diseños de los libros etc). Encuentro lo mismo con música a veces. Pantallas de e-ink
+
+    Posibilidad de distracción en dispositivos utilizados para otras cosas (móviles, tabletas).
+
+    Útil para texto más actual - eg wikipedia, los otros enciclopedias no pueden competir, y también redes sociales, blogs, etc. Fácildad de todos de publicar, bueno (mayormente). Algorítimos y negatividad.
+
+
+Audio
+    Escuchar tiene una velocidad de 1/2-2/3 de leer
+
+    Se puede hacer más fácilmente mientras haciendo otras cosas, como caminando, viajando, cocinando o limpiando. De esta manera va a ser leyendo de una forma más ligera, más general, pero sirve para eso
+
+    En mi opinión mejor para historias, también podcasts.
+
+
+Un futuro en que todo el texto está disponible en la manera más accesible y flexible, en que e-inky está libre de control. Pero puede control el libro físico y el audiolibros para los que los quieren, ya que todos tienen sus ventajas. Elección sobre todo -->
+
+Se dice que no hay nada como un buen libro - un libro físico. Pero hoy día las formas de leer son muy variadas, y no sería lo correcto decir que la lectura en papel es simplemente lo mejor, ya que todas las formas tienen sus ventajas y desventajas. Vivimos actualmente en una verdadera revolución de la lectura, y quiero dar una vista equilibrada de la situación, y una visión para un futuro.
+
+Las 3 grandes categorías de leer serían las de la física, la digital, y la oral. Hay más variación dentro de estas; un libro electrónico frente a un blog, o un libro escolar a una novela bestseller, pero es la manera más sencilla de categorizarlo. Yo personalmente hago una mezcla de las tres, y opino que todas tienen su lugar, aunque es cierto que pueden ser más adecuadas en ciertas situaciones o para ciertas personas.
+
+Voy a empezar con la lectura en digital. Creo que esta es la categoría con menos prestigio, y entiendo mucho el porqué. Pero es muy importante también destacar el lado positivo, y separar las problemas de un nivel tecnológico de las que no son. Lo más importante de la lectura digital es que de todas las formas de leer, es en mi opinión la más accesible y flexible. Si piensas en cualquier libro físico, tiene una forma fija. O tal vez unas distintas versiones fijadas. Pero con un texto (o imagen) que está guardado en un formato digital, se puede hacer mucho. Es muy fácil por ejemplo cambiar el tamaño del texto, la fuente, y los colores. Para personas que tienen problemas de visión esto puede ser imprescindible para poder leer un texto. Y aún más, es (en principio) posible usar una lectura de voz con cualquier texto digital. No es lo ideal, incluso con los avances que se ha pasado no es lo mismo como una voz humana, pero es sin duda mejor que no tener la opción. Y no solo eso: el texto digital también puede ser usado con las máquinas de braille para los que no pueden ver ni escuchar, por supuesto puede ser traducido de una forma automática, y seguramente inventaremos aún más posibilidades de modificarlo en el futuro.
+
+En adición a la accesibilidad del nivel de leer, hay que hablar de la difusión del texto. Un texto digital se puede compartir casi sin coste y sin dificultad a todas las personas del mundo, inmediatamente. Yo por ejemplo tengo un blog que puedo compartir con todos sin pagar nada y sin fricción; pero sería órdenes de magnitud más difícil publicar lo que escribo de una forma física, y especialmente para compartirlo. Tiene mucha importancia también para los textos comunales como Wikipedia, Fandom y cualquier documentos compartidos; pueden existir digitalmente de una manera que simplemente no sería posible en la física. En adición, es muy fácil guardar el texto digital - tu móvil por ejemplo tiene más de 40 millones de líneas de código solo para el sistema operativo, así que su capacidad de guardar texto es prácticamente ilimitada. No hay que tener una entera biblioteca, simplemente una tarjeta de memoria (sea la tuya o la de un servidor). Y no podemos hablar de lo digital sin hablar de la alta habilidad de organización. A diferencia de la física, se puede buscar una palabra o frase, o saltar directamente a un capítulo, un título o una sección marcada, o copiar y usar automáticamente una cita. Estas habilidades hacen que el texto digital tenga algunos rasgos muy útiles para el estudio profundo de un texto, en particular con el fin de extraer y condensar la información y las ideas claves.
+
+Sin embargo, hay dos grandes problemas con la lectura digital. La primera viene directamente de la tecnología, y la segunda de como está creado y controlado, y para quién está pensado beneficiar. Creo que todos sabemos la tensión ocular que pueden causar las pantallas digitales. La razón principal de esto es que la gran mayoría de las pantallas funcionan por emitir luz, mientras que el papel solo refleja lo que hay en el ambiente. Cuando ves una pantalla digital estás literalmente mirando a millones de luces artificiales pequeñitas, y este causa que los ojos parpadeen alrededor de 40% menos de lo normal. Y lo que muestran los estudios es que cuando leemos en digital - en una pantalla que emite luz - recordamos menos que cuando leemos en papel. No nos entera tan bien, y en particular tenemos dificultad con encontrar donde en el texto es lo que hemos leído. Se cree que este también viene del diseño físico. Cuando lees un libro físico, tienes un diseño de portada, tamaño, texto, etc (más o menos) único, que tu mente puede atribuir con ese libro. Y ciertas ideas y frases están relacionadas con su lugar en el book, de la página  de la izquierda o derecha, columna si hay, más arriba o bajo. Cuando leemos digitalmente, a menudo usamos el modo scroll, que impide un poco la creación de estos enlaces.
+
+Una posible solución para el problema de la tensión ocular es el avance de la tecnología llamado e-ink. Las pantallas de e-ink funcionan mucho más como papel en que no emiten luz, solo reflejan. Se llama e-ink por la pinta física que se mueve bajo la pantalla en tiempo real para crear el texto. El problema que sale es que es bastante despacio de actualizar - si has visto un vídeo de una animación en una pantalla de e-ink puede aparecer como una explosión de fuegos artificiales. Sin embargo, la tecnología es cada vez mejor, y actualmente hay color, detalle suficiente, y una taza de actualizar bastante mejor que antes. Espero que en un futuro la tecnología mejore lo suficiente para que lo podamos usar en todas nuestros dispositivos como un modo de leer (en adición de la pantalla de emisión para otros usos). Pero por ahora, solo se encuentra en tabletas diseñadas para leer y hacer notas como los Kindle Paperwhites y tabletas de Remarkable.
+
+El asunto que no va a resolver la tecnología es el tema de control, y de las plataformas. ¿Qué quiero decir con esto? Bueno, cuando tenemos un texto físico, podemos usarlo como queremos. Prestarlo a alguien, guardarlo de la forma que queremos, leerlo y anotarlo de la manera que nos apetece. Y más bien, también cuando escribimos. Pero el mundo digital no siempre es así. Como ejemplo, si "compras" un libro de Kindle, solo puedes leerlo dentro de la aplicación de Kindle. No puedes guardarlo en otra forma y abrirlo con otra aplicación o herramienta. Aunque lo has comprado, no es tu libro. Así que si Kindle decide que no puedes cambiar algo como el diseño del texto o usar una lectura de pantalla o de braille, no puedes, y si Amazon decide editar o borrar el libro por control remoto, puede. Y si el servicio deja de existir algún día lo más probable es que tus libros se vayan a desaparecer. Yo soy sobre todo un informático, y no apoyo nada los sistemas cerrados y bajo el control de una sola compañía que pone sus intereses sobre los de los demás. No puedo aguantar que algo que tiene la capacidad de mejorar nuestras vidas sea usado para el contrario. Y yo sé que sí podemos usar la tecnología para bien, pero necesitamos luchar para que pase. Otro problema muy clave con lo digital son las plataformas de redes sociales. Aunque sin duda útiles y una revolución en nuestra capacidad de mantenernos en contacto y ponernos al día con las noticias, tienen un lado muy oscuro con la promoción de contenido de odio y negatividad. Este tipo de contenido suele obtener más interacción y reacción que el resto, y por ello la mayoría de las grandes redes sociales lo promueven más de lo normal, y más generalmente estos algoritmos muy escondidos controlan mucho de lo que es que leemos y difundimos.
+
+Me he pasado un poco. Este es un artículo sobre la lectura, y lo que quiero decir en resumen es que la lectura digital puede ser una herramienta liberadora para la gente, pero solo cuando usado con ese fin. Mi opinión es que las formas abiertas de publicar información, basadas en estándares y formatos universales son lo que deberíamos apoyar, y son los más parecidos a lo que tenemos en el papel. Sea páginas Web de HTML, sistemas sociales construidos sobre esta base como el [Fediverso](https://es.wikipedia.org/wiki/Fediverso) (y sin la promoción artificial de cierto contenido), o archivos sin [DRM](https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_derechos_digitales) que se puede usar de cualquiera forma. Quiero que esta revolución cree una utopía, no una distopía.
+
+No he hablado mucho sobre los audiolibros, pero también tienen un lugar importante. Como hemos aprendido en *La Historia de La Lectura*, la lectura tiene una muy larga tradición de oralidad, y veo que los audiolibros son una continuación de esto. La ventaja y desventaja clave de los textos de audio es su forma de ser. Por ser escuchado en vez de leído, se puede hacer de una forma más relajada, por ejemplo mientras caminando o viajando, o haciendo tareas repetitivas como limpiando. Encuentro que no es tan bueno para estudiar un tema en profundidad dado que es más difícil mudar entre secciones, releer y pausar para pensar sobre una idea, y también porque la velocidad es algo más despacio que la de leer texto, pero está muy bien para leer ampliamente sobre temas diferentes que nos interesa (lo mismo digo de podcasts) y especialmente para escuchar historias - hay algo distinto entre escuchar y leer.
+
+Empecé por decir que no hay nada como un buen libro. Y no hay, porque todos los modos de leer tienen sus rasgos únicos. Espero que con el avance de la tecnología y un cambio en como lo usamos, la lectura en digital pueda mejorar y facilitar la lectura, pero creo que el libro físico, y el audiolibro (leído por humanos) van a seguir durante mucho tiempo, y que lo mejor resultado es que tenemos todas estas opciones. Que cada uno pueda elegir la forma que le sirve mejor.
