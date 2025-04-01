@@ -29,6 +29,10 @@ export default function (eleventyConfig) {
 		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL, {locale: lang});
 	});
 
+	eleventyConfig.addFilter("feedTime", (dateObj) => {
+		return dateObj.toISOString();
+	});
+
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		let newURL = "";
 		if (lang == "es") {
