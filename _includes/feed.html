@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>FormularSumo - {{page.lang}}</title>
     <subtitle>{{subtitle}}</subtitle>
-    <link href="https://formularsumo.co.uk/feed/feed.xml" rel="self" type="application/rss+xml"/>
-    <link href="https://formularsumo.co.uk/blog/"/>
+    <link href="https://formularsumo.co.uk/{{lang}}feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <link href="https://formularsumo.co.uk/{{lang}}blog/"/>
     <id>https://formularsumo.co.uk/</id>
     <author>
         <name>James Heppell</name>
@@ -14,7 +14,7 @@
     {% if post.data.tags contains page.lang -%}
     <entry>
         <title>{{post.data.title}}</title>
-        <link href="https://formularsumo.co.uk/{{post.url}}"></link>
+        <link href="https://formularsumo.co.uk{{post.url}}"></link>
         <id>https://formularsumo.co.uk/{{post.url}}</id>
         <published>{{post.date | feedTime}}</published>
         <content type="html">{{post.content}}</content>
