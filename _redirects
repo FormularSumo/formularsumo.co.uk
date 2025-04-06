@@ -1,3 +1,5 @@
+*/feed/ :splat/feed/feed.xml
+
 /articles/* /blog/:splat
 /es/articulos/* /es/blog/:splat
 
