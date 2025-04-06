@@ -1,4 +1,4 @@
-*feed/ :splat/feed/feed.xml
+/*feed/ /:splatfeed/feed.xml
 
 /articles/* /blog/:splat
 /es/articulos/* /es/blog/:splat
