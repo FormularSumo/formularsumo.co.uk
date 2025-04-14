@@ -24,6 +24,12 @@ main {
         font-size: 21px;
     }
 
+    .caption {
+        /* margin-top: 0px; */
+        font-size: 14.5px;
+        font-style: italic;
+    }
+
     .footnotes {
         content-visibility: auto;
         contain-intrinsic-size: auto 350px;
