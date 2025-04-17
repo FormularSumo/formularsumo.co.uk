@@ -6,7 +6,8 @@ footnotes: [
     "<em>Transport services</em> includes car rental, which combined with operation and purchase add up to be more than food and non-alcoholic drink.",
     "Domestic means within a country, and some countries are a lot bigger or smaller than others. But in a country the size of the UK at least, it shouldn't be necessary to fly around.",
     "A <a href='https://en.wikipedia.org/wiki/New_Routemaster'>standard London double decker bus</a> has a capactiy of 80-87, while a <a href='https://en.wikipedia.org/wiki/Mercedes-Benz_Citaro'>typical single-decker bus</a> might have closer to 58.",
-    "The above (diesel) Mercades-Benz Citaro (2018) has a fuel efficiency of <a href='https://www.spritmonitor.de/en/detail/1035517.html?cdetail=1'>29.57 l/100km</a>, whereas the average UK diesel car is <a href='https://www.nimblefins.co.uk/cheap-car-insurance/average-mpg'>43 mpg</a>, or 6.6 l/100km, which is 4.5x better. Other estimates I've seen online put the figure at around 5-6x as well, so I think this is fairly typical, comparing the same times of energy (diesel/petrol/electricity)."
+    "The above (diesel) Mercades-Benz Citaro (2018) has a fuel efficiency of <a href='https://www.spritmonitor.de/en/detail/1035517.html?cdetail=1'>29.57 l/100km</a>, whereas the average UK diesel car is <a href='https://www.nimblefins.co.uk/cheap-car-insurance/average-mpg'>43 mpg</a>, or 6.6 l/100km, which is 4.5x better. Other estimates I've seen online put the figure at around 5-6x as well, so I think this is fairly typical, comparing the same times of energy (diesel/petrol/electricity).",
+    "I believe self-driving cars and robotaxis have the potential to be significantly better than human driven cars, but we're not there yet, and the limited ones we are starting to use are having their own issues with picking up local the driving behaviour, such as not stopping for pedestrians, and are generally harder to trust and understand without the obvious signs that the driver has seen and understood your intentions. I think they'll have their place, both with safety and with efficieny, but I don't think they're as good or as readily available a solution as proper, well-funded and planned out public transport systems, and leave a lot of other issues with cars still in place."
 ]
 ---
 
@@ -83,13 +84,24 @@ With so many people owning cars, driving them around and parking them everywhere
 
 ## Safety
 
-<img src="fatalities-distance.jpg">
+The final way in which cars can be considered unsustainable is in relation to safety. While we have let ourselves get acustomed to it, cars are dangerous. The US National Safety Council states that [1 in 7 preventable injury-related deaths comes from transport](https://injuryfacts.nsc.org/home-and-community/safety-topics/deaths-by-transportation-mode/), and the vast majority of these from car related incidents.
+
+<a href="https://turbli.com/blog/the-safest-transport-modes-ranked-by-statistics-from-10-years-of-data/"><img src="fatalities-distance.jpg"></a>
+
+Looking at data from the US Bureau of Transportation Statics we can see that motorcycles, trucks and cars have the highest rate of occupant fatalities (private jets notwithstanding). But the picture is actually a lot worse than it looks because a significant number of the fatalities caused by these vehicles are not the vehicle ocupants, but rather pedestrians and cyclists. In fact, walking and cycling are [statistically some of the least safe forms of transport](https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-road-user-risk-2022/reported-road-casualties-great-britain-road-user-risk-2022-data), despite causing next to zero fatalities themselves.
 
 <img src="fatalities-time.jpg">
 
+Averaging by time instead of distance presents a similar picture, with trains and planes a bit worse due to generally going longer distances in less time, while buses and ferries improve.
 
-safety, drivers (also, issues with self-driving)
-dependency and city design, noise and places
+It shouldn't really come as a surprise that private motor vehicles are so deadly given what they are. They're large, heavy chunks of metal going at high speeds in any direction that the drivers chooses to take them, often in spaces shared with or very close to pedestrians and cyclists. Unlike train or plane journeys, road vehicles don't follow fixed routes and schedules which avoid contact all other vehicles and people. Road vehicles are able to go anywhere, often weaving in any out of and overtaking each other, with drivers following new routes while doing their best to avoid all the other roads users and obstacles. On top of this, human drivers<sup><a id="n-5" href="#fn-5">5</a></sup> are generally bad drivers. They get tired, annoyed, drunk or sleep deprived (equally impairing), and sometimes even put some distorted perception of ego or pride/showing-off before the safety of others, not to mention speeding when they're late for something. Professional drivers, such as found in buses and trains, are at least being employed to follow the rules of the road and treat their passengers and others with respect and safety, and generally do this much better than private vehicles.
+
+While we do seem to have got used to it, we should expect better from our transport systems. It's hardly an uncommon sight to see a crashed car on the motorway or on smaller roads, and I personally have people in my family who've suffered debilitating injuries or even death from these accidents. If none of the previous arguments have resonated with you this should: the number of people we're killing and seriously injuring with our car centric lifestyles is unacceptable, and needs to be solved. A shift away from such high car usage - especially in our streets and other pedestrian-heavy areas, is a must in order to acheive this.
+
+
+
+
+
 price
 rentals in america?
 
