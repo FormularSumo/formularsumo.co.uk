@@ -94,9 +94,9 @@ Looking at data from the US Bureau of Transportation Statics we can see that mot
 
 Averaging by time instead of distance presents a similar picture, with trains and planes a bit worse due to generally going longer distances in less time, while buses and ferries improve.
 
-It shouldn't really come as a surprise that private motor vehicles are so deadly given what they are. They're large, heavy chunks of metal going at high speeds in any direction that the drivers chooses to take them, often in spaces shared with or very close to pedestrians and cyclists. Unlike train or plane journeys, road vehicles don't follow fixed routes and schedules which avoid contact all other vehicles and people. Road vehicles are able to go anywhere, often weaving in any out of and overtaking each other, with drivers following new routes while doing their best to avoid all the other roads users and obstacles. On top of this, human drivers<sup><a id="n-5" href="#fn-5">5</a></sup> are generally bad drivers. They get tired, annoyed, drunk or sleep deprived (equally impairing), and sometimes even put some distorted perception of ego or pride/showing-off before the safety of others, not to mention speeding when they're late for something. Professional drivers, such as found in buses and trains, are at least being employed to follow the rules of the road and treat their passengers and others with respect and safety, and generally do this much better than private vehicles.
+It shouldn't really come as a surprise that private motor vehicles are so deadly given what they are. They're large, heavy chunks of metal going at high speeds in any direction that the drivers chooses to take them, often in spaces shared with or very close to pedestrians and cyclists. Unlike train or plane journeys, road vehicles don't follow fixed routes and schedules which avoid contact all other vehicles and people. Road vehicles are able to go anywhere, often weaving in any out of and overtaking each other, with drivers following new routes while doing their best to avoid all the other roads users and obstacles. On top of this, human drivers<sup><a id="n-5" href="#fn-5">5</a></sup> are generally bad drivers. They get tired, annoyed, drunk or sleep deprived (equally impairing), and sometimes even put some distorted perception of ego or pride/showing-off before the safety of others, not to mention speeding when they're late for something. Professional drivers, such as those found in buses and trains, are at least being employed to follow the rules of the road and treat their passengers and others with respect and safety, and generally do this much better than private vehicles owners.
 
-While we do seem to have got used to it, we should expect better from our transport systems. It's hardly an uncommon sight to see a crashed car on the motorway or on smaller roads, and I personally have people in my family who've suffered debilitating injuries or even death from these accidents. If none of the previous arguments have resonated with you this should: the number of people we're killing and seriously injuring with our car centric lifestyles is unacceptable, and needs to be solved. A shift away from such high car usage - especially in our streets and other pedestrian-heavy areas, is a must in order to acheive this.
+While we do seem to have got used to it, we should expect better from our transport systems. It's hardly an uncommon sight to see a crashed car on the motorway or on smaller roads, and I personally have people in my family who've suffered debilitating injuries or even death from these accidents. If none of the previous arguments have resonated with you this should: the number of people we're killing and seriously injuring with our car-centric lifestyles is unacceptable, and needs to be solved. A shift away from such high car usage - especially in our streets and other pedestrian-heavy areas, is a must in order to acheive this.
 
 
 
@@ -105,15 +105,29 @@ While we do seem to have got used to it, we should expect better from our transp
 price
 rentals in america?
 
+## Methods and advantages of Public Transport
+
+Can do something else on the trip
+
+Builds some activeness into day
+
+Easy to take large groups of people/friends at a time (somewhat dependent on ticketting) vs trying to fit in a car
+
 
 ## Buses: stereotypes and reality
 
 Of all the methods of transport, buses have possibly the worst reputation. While there was once a time when everyone would get the bus, ridership and service has been falling and falling, and nowadays in the UK they're often seen as only for the young, old, and poor, and this largely matches my experience of taking them. Especially outside of major cities such as London, few people take buses and 
 
+Held back by car traffic (bus/taxi lanes)
+
 ## Rail: 
 
 Japan - orders or magnitude more train journeys, tickets for delays otherwise not a valid work/school excuse
 75% of distance travelled by train??
+
+Speed (in some places), with safety
+
+Example of Gatwick or London more people arriving by train, space used?
 
 
 ## Pricing: Why the correct price is free
@@ -132,9 +146,15 @@ Many disabilities and those with poor mobility (though often having to be driven
 Off-road and remote locations or times (especially taxis, eg middle of the night)
 Short-distance freight and deliveries
 Large item transport - instruments/theatre, moving homes
+Chartered coaches for specific trips (music)
+Sometimes families, if children or pets that don't like public places
 
 TLDR: useful, but they should not be the default option
 
 ## A word on planes
 
-Boarding and arrival time, rigidness of ticket and what you can take on board, normally located quite far outside of cities, generally only found near major cities
+Bad boarding and lots of separate waiting, long walk through shops and queue for water and walk/wait for baggage pickup, rigidness of ticket and what you can take on board (sometimes arbitary/luck), all the add-ons to make more money (even booking a seat or fast boarding..) and difficulty of booking vs public transport (especially if you want the best price), normally located quite far outside of cities, generally only found near major cities, no connection and no using large technology for part of the trip
+
+My experience France/Spain vs Edinburgh
+
+TLDR: good for mid-long distance (bigger than UK), generally shouldn't be used for short
