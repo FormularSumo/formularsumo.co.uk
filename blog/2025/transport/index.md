@@ -7,7 +7,8 @@ footnotes: [
     "Domestic means within a country, and some countries are a lot bigger or smaller than others. But in a country the size of the UK at least, it shouldn't be necessary to fly around.",
     "A <a href='https://en.wikipedia.org/wiki/New_Routemaster'>standard London double decker bus</a> has a capactiy of 80-87, while a <a href='https://en.wikipedia.org/wiki/Mercedes-Benz_Citaro'>typical single-decker bus</a> might have closer to 58.",
     "The above (diesel) Mercades-Benz Citaro (2018) has a fuel efficiency of <a href='https://www.spritmonitor.de/en/detail/1035517.html?cdetail=1'>29.57 l/100km</a>, whereas the average UK diesel car is <a href='https://www.nimblefins.co.uk/cheap-car-insurance/average-mpg'>43 mpg</a>, or 6.6 l/100km, which is 4.5x better. Other estimates I've seen online put the figure at around 5-6x as well, so I think this is fairly typical, comparing the same times of energy (diesel/petrol/electricity).",
-    "I believe self-driving cars and robotaxis have the potential to be significantly better than human driven cars, but we're not there yet, and the limited ones we are starting to use are having their own issues with picking up local the driving behaviour, such as not stopping for pedestrians, and are generally harder to trust and understand without the obvious signs that the driver has seen and understood your intentions. I think they'll have their place, both with safety and with efficieny, but I don't think they're as good or as readily available a solution as proper, well-funded and planned out public transport systems, and leave a lot of other issues with cars still in place."
+    "I believe self-driving cars and robotaxis have the potential to be significantly better than human driven cars, but we're not there yet, and the limited ones we are starting to use are having their own issues with picking up local the driving behaviour, such as not stopping for pedestrians, and are generally harder to trust and understand without the obvious signs that the driver has seen and understood your intentions. I think they'll have their place, both with safety and with efficieny, but I don't think they're as good or as readily available a solution as proper, well-funded and planned out public transport systems, and leave a lot of other issues with cars still in place.",
+    "Unfortunately not all buses, or trains, have low/level-boarding (although this is generally improving), but those that do (such as most London buses) are I'd argue easier to get on/into than a typical car."
 ]
 ---
 
@@ -115,19 +116,21 @@ I've just said that driving is not a very natural activity, but I think this can
 
 The final point I'd like to raise is that of going somewhere with other people. By car you might be able to go and pick everybody up, and then take them somewhere, and then drop them off again, but this is highly dependent on how far apart you live and how many people there are. While most cars will fit up to 4 or 5 people, more or less any other form of shared transport has a much larger capacity. This can make it a lot easier to meet up and go places, you simply get on at your nearest station or stop, and more often than not you can tell everyone to catch the same train or bus and then find each other on it. If someone's running late that's okay, they can get the next one and catch you up later, and the same is true if they want to leave earlier or later. It's more flexible for each individual person, and yet an easy option for larger groups. This works especially well if ticketing systems are easy to use, ideally being cheap and with unlimited travel like in the Community of Madrid, or entirely free like in Luxemburg. More on this in the pricing section of the article.
 
-## Buses: stereotypes and reality
+### Local transport
 
-Of all the methods of transport, buses have possibly the worst reputation. While there was once a time when everyone would get the bus, ridership and service has been falling and falling, and nowadays in the UK they're often seen as only for the young, old, and poor, and this largely matches my experience of taking them. Especially outside of major cities such as London, few people take buses and 
+Undoubtedly the most well known form of local transport is the bus. And buses do some have quite important features. Unlike many heavier forms of transport, they're very flexible and easy to run. To set-up up a bus route you just need to get a bus running, and place some bus stops (they can be as simple as a sign). This means they're able to go almost anywhere, and quickly accomodate new developments and destinations into their routes. Buses are also typically very easy to get on and off, at least with local ones, it's usually a simple as getting on<sup><a id="n-6" href="#fn-6">6</a></sup> , without any need to pass through a station and find a platform. This, alongisde the fact that they usually have a lot of fairly close stops, can make them well-suited to less mobile folk who aren't able to walk so far.
 
-Less rigid than train systems, can be more local, generally easier/quicker to get on and off. Much lower capacity and often less reliable (due to traffic)
+That being said, local buses also have some quite serious drawbacks which makes them not suitable for a lot of uses cases, and which probably goes part of the way to explaining their falling ridership over the past few decades.
+
+Less rigid than train systems. Much lower capacity and often less reliable (due to traffic)
 
 Held back by car traffic (bus/taxi lanes)
 
 Sometimes more comfortable than trains, sometimes less, depends on place
 
-## Rail: 
+## Long distance 
 
-Japan - orders or magnitude more train journeys, tickets for delays otherwise not a valid work/school excuse
+Japan - orders of magnitude more train journeys, tickets for delays otherwise not a valid work/school excuse
 75% of distance travelled by train??
 
 Speed (in some places), with safety
