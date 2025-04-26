@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "eleventy.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @11ty/eleventy --serve",
+    "clean": "rm -rf ./_site/*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FormularSumo/formularsumo.co.uk.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "James Heppell",
+  "license": "GNU Affero",
   "bugs": {
     "url": "https://github.com/FormularSumo/formularsumo.co.uk/issues"
   },

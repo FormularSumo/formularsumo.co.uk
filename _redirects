@@ -1,2 +1,8 @@
-/articles/2024/encryption/ /articles/2025/encryption/
-/articles/2025/reading-list/ /articles/2025/reading-list-2024/
+/feed/ /feed/feed.xml
+/es/feed/ /es/feed/feed.xml
+
+/articles/* /blog/:splat
+/es/articulos/* /es/blog/:splat
+
+/articles/2024/encryption/ /blog/2025/encryption/
+/articles/2025/reading-list/ /blog/2025/reading-list-2024/

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
-        {% include "head.html" %}
+        {% include "partials/head.html" %}
         <title>{{title}}</title>
 
         <style>
@@ -71,7 +71,7 @@
     </head>
 
     <body>
-        {%- include "navbar.html" %}
+        {%- include "partials/navbar.html" %}
 
         <main>
             <div class="flex_container">
@@ -106,6 +106,12 @@
                         <svg class="link">
                             <title>Wikipedia</title>
                             <use xlink:href="/assets/wikipedia.svg#Wikipedia"></use>
+                        </svg>
+                    </a>
+                    <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}">
+                        <svg class="link">
+                            <title>Feed</title>
+                            <use xlink:href="/assets/feed.svg#Feed"></use>
                         </svg>
                     </a>
                 </aside>

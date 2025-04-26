@@ -8,7 +8,6 @@
     {% assign FS_alt = "logo" -%}
 
     {% assign second_lang = "es" -%}
-    {% assign URL = "" -%}
 {% else -%}
     {% if page.lang == "es" -%}
         {% assign home = "Inicio" -%}
@@ -19,7 +18,6 @@
         {% assign second_lang = "en" -%}
     {% endif -%}
 
-    {% assign URL = page.lang -%}
 {% endif -%}
 
 {% assign current_lang_flag_alt = page.lang | append: "_alt_flag" -%}
@@ -35,7 +33,7 @@
     <label for="language_switcher_checkbox" style="height: 50px; float: right; margin-right: 20px"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
     <nav class="language_switcher">
         <ul>
-            <li class="language"><a href="{{page.url | localiseURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
+            <li class="language"><a href="{{page.url | translateURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
         </ul>
     </nav>
 
@@ -43,8 +41,8 @@
     <label for="nav_menu_checkbox">≡</label>
     <nav class="nav_menu">
         <ul>
-            <li class="nav_element"><a tabindex="1" href="{{'/' | localiseURL: URL}}">{{home}}</a></li>
-            <li class="nav_element"><a tabindex="1" href="{{'/blog/' | localiseURL: URL}}">{{blog}}</a></li>
+            <li class="nav_element"><a tabindex="1" href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
+            <li class="nav_element"><a tabindex="1" href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
             <!-- <li class="nav_element"><a tabindex="1" href="{{'/testPage/' | localiseURL: URL}}">{{testPage}}</a></li> -->
         </ul>
     </nav>
