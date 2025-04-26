@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "eleventy.config.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "clean": "rm -rf ./_site/*"
   },
   "repository": {
     "type": "git",
