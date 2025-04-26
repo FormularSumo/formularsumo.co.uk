@@ -1,9 +1,9 @@
-{% include "article_date_string.html" -%}
+{% include "partials/article_date_string.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
-        {% include "head.html" %}
+        {% include "partials/head.html" %}
         <link rel="stylesheet" href="/stylesheets/blog.css">
 
         <title>{{title}} - FormularSumo</title>
@@ -49,7 +49,7 @@
     </head>
 
     <body>
-        {% include "navbar.html" %}
+        {% include "partials/navbar.html" %}
 
         <main>
             {% for post in collections.post reversed -%}
