@@ -169,3 +169,7 @@ TLDR: good for mid-long distance (bigger than UK), generally shouldn't be used f
 
 
 Motorbikes?
+
+In theory better than cars, more efficient, take up less space and wear on the road as especially parking. Something akin to a bike or electric bike.
+
+In practise most riders (in my experience) are very obnoxious - incredibly noise, lots of fumes, overtaking/otherwise driving illegally, generally endangering and making a place worse to be in.
