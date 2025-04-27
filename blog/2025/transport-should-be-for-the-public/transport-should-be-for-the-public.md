@@ -43,7 +43,7 @@ It's common knowledge that combustion engine cars are one of the most polluting 
 
 It's true that hybrids and electric cars are a lot better, but they're still not great options. The vast vast majority of cars on the road have combustion-engines and will do for quite a long time. Even at the time of writing new EVs make up only [20% of new vehicle registrations, and 4% of cars on the road](https://www.zap-map.com/ev-stats/ev-market). But if you look closely at the chart you'll notice that electric cars are actually not all that sustainable. How can that be? In part because a lot of our electrcity production still comes from fossil fuels. But that's not the full picture, because options such as long-distance coaches which *do* mostly use fossil fuels are still less polluting, and local buses are significantly better than petrol/diesel cars. The reason for this is that cars typically use a lot, lot more energy per person. The average UK car trip has [1.6 people onboard](https://assets.publishing.service.gov.uk/media/66ce0f6f25c035a11941f655/nts0905.ods) and a  maximum of 5, but an average bus trip has [11.9](https://assets.publishing.service.gov.uk/media/6745b86683f3d6d843be96c9/bus03.ods) and a maximum of 60-100<sup><a id="n-3" href="#fn-3">3</a></sup>, while only using 4-6x as much power.<sup><a id="n-4" href="#fn-4">4</a></sup>. If you do the maths this means that an average bus carries around 7.5x as many people, while using roughly 5x as much energy - an improvement of 1.5x. But if you take a reasonably full bus, say 80% capacity (64) vs the same for a car (4), you get 16x as many people - an improvement of just over 3x. With a car, you have a lot of car body for very few people, whereas a bus has a much higher ratio of people to vehicle, and will also typical get far more use before having to be replaced.
 
-To really get the point across, national rail - which unlike long-distance coaches typically does stop and start a lot - still produces less emissions per km than EVs and the [majority of it](https://railmap.azurewebsites.net/Public/ElectrificationMap) is *not yet electrified*. The very high efficiency of train carriges (person to vehicle body ratio) combined with the low-friction of rail and with mostly smooth journeys (no sudden breaking and acceleration, traffic or idling) makes them unbelievably efficient in terms of energy usage. The Eurostar - a fully electrified and modern train line - produces an order of magnitude less emissions than electric cars.
+To really get the point across, national rail - which unlike long-distance coaches typically does have quite a lot of stops - still produces less emissions per km than EVs and the [majority of it](https://railmap.azurewebsites.net/Public/ElectrificationMap) is *not yet electrified*. The very high efficiency of train carriges (person to vehicle body ratio) combined with the low-friction of rail and with mostly smooth journeys (no sudden breaking and acceleration, traffic or idling) makes them unbelievably efficient in terms of energy usage. The Eurostar - a fully electrified and modern train line - produces an order of magnitude less emissions than electric cars.
 
 ### Carrying capacity & infrastructure
 
@@ -86,7 +86,7 @@ It doesn't really need stating, but shared forms of transport use far less parki
 
 With so many people owning cars, driving them around and parking them everywhere it becomes inevitable that many places end up being designed for cars and incorportating large car parks, large roads, and human-unfriendly designs.
 
-## Safety
+### Safety
 
 The final way in which cars can be considered unsustainable is in relation to safety. While we have let ourselves get acustomed to it, cars are dangerous. The US National Safety Council states that [1 in 7 preventable injury-related deaths comes from transport](https://injuryfacts.nsc.org/home-and-community/safety-topics/deaths-by-transportation-mode/), and the vast majority of these from car related incidents.
 
@@ -118,31 +118,54 @@ I've just said that driving is not a very natural activity, but I think this can
 
 The final point I'd like to raise is that of going somewhere with other people. By car you might be able to go and pick everybody up, and then take them somewhere, and then drop them off again, but this is highly dependent on how far apart you live and how many people there are. While most cars will fit up to 4 or 5 people, more or less any other form of shared transport has a much larger capacity. This can make it a lot easier to go places together, as you simply get on at your nearest station or stop, and more often than not you can arrange with everyone to catch the same train or bus and then meet each other on it. If someone's running late that's okay, they can get the next one and catch you up later, and the same is true if they want to leave earlier or later. It's more flexible for each individual person, and yet an easy option for larger groups. This works especially well if ticketing systems are easy to use, ideally being cheap and with unlimited travel like in the Community of Madrid, or entirely free like in Luxemburg. More on this in the pricing section of the article.
 
-### Local transport
+### Buses vs trains
 
-Undoubtedly the most well known form of local transport is the bus. And buses do some have quite important features. Unlike many heavier forms of transport, they're very flexible and easy to run. To set-up up a bus route you just need to get a bus running, and place some bus stops (they can be as simple as a sign). This means they're able to go almost anywhere, and to quickly accomodate new developments and destinations into their routes. Buses are also typically very easy to get on and off as, at least with local ones, it's usually as simple as getting on<sup><a id="n-6" href="#fn-6">6</a></sup> , without any need to pass through a station and find a platform. This, alongside the fact that they usually have a lot of fairly close-together stops, can make them well-suited to less mobile folk who aren't able to walk so far.
+Undoubtedly the most well known form of local transport is the bus. And buses do some have quite important features. Unlike many heavier forms of transport, they're very flexible and easy to run. To set-up up a bus route you just need to get a bus running, and place some bus stops (they can be as simple as a sign). This means they're able to go almost anywhere, and are able to quickly accomodate new developments and destinations into their routes. Buses are also typically very easy to get on and off as, at least with local ones, it's usually as simple as getting on<sup><a id="n-6" href="#fn-6">6</a></sup> , without any need to pass through a station and find a platform. This, alongside the fact that they usually have a lot of fairly close-together stops, can make them well-suited to less mobile folk who aren't able to walk so far.
 
-That being said, local buses also have some quite serious drawbacks which makes them not suitable for a lot of use cases, and which probably goes part of the way to explaining their falling ridership over the past few decades.
+That being said, local buses also have some quite serious drawbacks which makes them not suitable for some use cases, and which probably goes part of the way to explaining their falling ridership over the past few decades. Most buses go on regular roads with mixed traffic. As seen, this makes them very easy to run, but causes some significant issues. Using this system, buses have a much lower capacity, typically move people at a slower speed, and are often less reliable than other options - especially in comparison to rail. While we've said that most buses have a maximum capacity of 60-100, the average train carriage is closer to 200 (likewise including standing) - and a train typically comes with quite a lot carriages attached. Trains are also much more efficient at getting people on and off than most buses, as each carriage will usually have 2-3 different doors that all open at the same time onto a long platform, meaning hundreds of people can get on and off in the space of a few seconds. And while buses and coaches are usually limited to around 100 km/h (or 60 mph), or less, for reasons of safety (again, lots of large heavy chunks of metal going quickly and freely in any direction), typical UK train can reach up to 200 km/h, and in much of [the rest of Europe, Japan and China](https://en.wikipedia.org/wiki/High-speed_rail#Maximum_speed_in_service) this figure is more like 300-350, with the fastest commerical service in operation (Shanghai Maglev) reaching 431 - around half the cruising speed of a typical plane.
 
-Less rigid than train systems. Much lower capacity and often less reliable (due to traffic)
+<p class="caption"><a href="https://upload.wikimedia.org/wikipedia/commons/b/bf/High_Speed_Railroad_Map_of_Europe.svg"><img src="high-speed-rail-europe.svg" alt="Map of high speed rail networks constructued and under-construction in Europe, ranging from 200 to 320 km/h. Most of the current development is concentrated in the West part, with Spain, France and Germany have the 3 largest networks."></a>Map of high-speed rail in Europe</p>
 
-Held back by car traffic (bus/taxi lanes)
+As well as being inherently slower due to their size and their more frequent stopping, buses on regular roads are all too often held back by cars. It's a classic collective action problem: if everyone (or a significant number of people) were to take the bus, everyone would get to their destination faster, but if just one individual person decides to take a private vehicle, they're going to arrive faster. So more and more people do that, far more vehicles get on the road, and traffic slows everything down a lot. UK buses have quite a reputation for arriving late, or not at all, and traffic is more often than not the main reason why. As well as that, they're often (especially in less urban places) viewed as only for the young, old, and others who are unable to drive - or unable to afford to. As such we really need to design systems which encourage the use of public transport in order to benefit us all, which I'll touch more on later.
 
-Sometimes more comfortable than trains, sometimes less, depends on place
+#### Distances
 
-## Long distance 
+Having looked some of the usualy characteristics of buses and trains, we can begin to try and assign them to different use cases.
+
+##### Mid-to-long-distance
+
+I think it's pretty clear that trains are the best option for mid-to-long-distance travel (ie, up to a distance of perhaps 1000-2000 km - such as Amsterdam to Barcelona, or Bucharest to Athens). They're capable of reaching speeds unattainable by any other form of land-transport, whilst remaining very safe and very efficient. They also tend to more comfortable for travelling in than road vehicles, having more space (tables, lots of luggage storage), and smoother journeys (gradual speed changes, gentle turns and inclines, and good "roads"), although this can vary a bit depending on the place. Road vehicles are useful for filling in gaps in the system where trains don't go to, especially to more remote places, and for replacement services if there's works going on, but generally are less well suited to this category.
+
+##### Metropolitan areas
+
+Likewise, metropolitan areas are best served by rail systems. Due to the immense number of people moving around, it's pretty much a necessity to use one in order to avoid massive amounts of traffic. Good metro systems are mostly underground in large dense city centres to use up even less space, have good coverage of a city and its dependent suburbs, link up to other transport hubs (long-distance trains, airports, bus stations or bike rentals), and have regular, reliable service. It's also a good idea to have local buses as well, more focused on very short trips, as they can have more close-together stop and require less walking to access, and also because they're typically more accessible.
+
+##### Shorter-distance with lower-density
+
+This is the category where trains usually fare the worst. If there's not enough people and density, it can be hard to justify the costs of building out a (heavy/dedicated) rail network, beyond perhaps a single connecting station, and this is especially true if there is not currently anything in place. As we'll see, it's much easier and more effective to build places with transport in mind than to try and retrofit it later. That being said, there's still a lot of reasons to build out some form of transport in smaller places, and to start out with buses are probably the better option. Importantly though they should have both local stopping services and more direct longer-distance ones. Where I grew up the only bus services (there was no train) were ones which would stop *everywhere*, and so take at least three times as long a car journey would. If that's the only option, you're going to push everyone towards going everywhere by car. The more direct ones should connect up to larger places nearby with more build out networks so that people are able to effectively get around without a car. And both these services should also be regular and reliable, both for weekdays and weekends (believe it or not this often doesn't happen in the UK). Later on if the town grows, and especially if people are more accustomed to transport and if (when) there's traffic problems, it then makes more sense to build out more dedicated systems such as light rail (including trams) or significant amounts of dedicated bus lanes.
+
+### How to design transport-first
+
+Walkable...
+
+placing people and things near to transport
+
+bus lanes, congestion pricing
 
 Japan - orders of magnitude more train journeys, tickets for delays otherwise not a valid work/school excuse
 75% of distance travelled by train??
 
-Speed (in some places), with safety
-
 Example of Gatwick or London more people arriving by train, space used?
 
+accessibility
+
+pricing
 
 ## A note on accessibility and equality
 
 Scooters and wheelchairs (more freedom), level boarding, safety, different types
+
+Shared transport can take people directly to their destinations, even if that's city centres, whilst cars necessarily need to be parked further out. Need to build things around transport stations/lines (not like in the US). 
 
 
 ## Pricing: Why the correct price is free
@@ -153,6 +176,7 @@ Higher costs of auto-centric design patterns - lower financial productivty vs st
 
 We've already mentioned the spatial inefficiency of cars, but as well as taking up much more road space and increasing the distance between places they also wear away roads faster due to their increased weight and speed. [Analysis from Urban3](https://www.urbanthree.com/services/cost-of-service-analysis/) shows that these sorts of designs are by and large financially insolvent, especially in the long-term, and have to be heavily subsidised by the traditional - often run-down and poorly funded - urban centres and older parts of the town.
 
+Different forms need to have unified tickets and otherwise work in harmony.
 
 
 ## When private road vehicles do make sense
