@@ -8,6 +8,7 @@ article {
     img {
         max-height: 515px;
         max-width: 100%;
+        width: auto;
 
         @media (width <= 500px) {
             display: block;
