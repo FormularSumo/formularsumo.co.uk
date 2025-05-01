@@ -64,7 +64,7 @@ svg {
         list-style-type: none; /*remove bullet points*/
         overflow: hidden;
         font-size: 19px;
-        line-height: 50px;
+        line-height: 55px;
     }
     li:hover, li:focus-within {
         background-color: #55b8ff;
@@ -78,13 +78,13 @@ svg {
         font-size: 36px;
         padding-inline: 8px;
         padding-block: auto;
-        line-height: 50px;
+        line-height: 55px;
     }
     input {
         display: none;
     }
     img {
-        height: 50px;
+        height: 55px;
         aspect-ratio: 1;
     }
 
@@ -140,14 +140,14 @@ svg {
         position: relative;
         float: right;
         left: 58px;
-        top: 50px;
+        top: 55px;
         transform: scaleY(0);
         z-index: 2;
         background-color: #3f95ff;
     }
     .language {
         border-top: 1px solid #4f4f66;
-        height: 50px;
+        height: 55px;
     }
     #language_switcher_checkbox:checked ~ .language_switcher {
         transform: scaleY(1)
