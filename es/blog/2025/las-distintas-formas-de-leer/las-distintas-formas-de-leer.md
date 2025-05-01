@@ -1,6 +1,6 @@
 ---
 title: Las Distintas Formas de Leer
-date: 2025-04-29
+date: 2025-05-01
 description: Una comparación entre la lectura física, digital, y el audiolibro, y ideas para un futuro.
 ---
 
