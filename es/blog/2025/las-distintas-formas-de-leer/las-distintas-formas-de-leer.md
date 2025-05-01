@@ -3,11 +3,12 @@ title: Las Distintas Formas de Leer
 date: 2025-05-01
 description: Una comparación entre la lectura física, digital, y el audiolibro, y ideas para un futuro.
 embedImage: "/es/blog/2025/las-distintas-formas-de-leer/formas-de-leer.avif"
+embedAlt: "Una vista áerea de un libro, un portátil-tableta, y un móvil con auriculares sobre una mesa. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil."
 ---
 
 *Este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
 
-<img src="formas-de-leer.avif" style="width: 50%;  display: block; margin: auto; margin-bottom: 16px;" alt="Una vista áerea de un libro, un portátil-tableta, y un móvil con auriculares sobre una mesa. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil.">
+<img src="formas-de-leer.avif" style="width: 50%;  display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
 
 Se dice que no hay nada como un buen libro - un libro físico. Pero hoy día las formas de leer son muy variadas, y no sería correcto decir que la lectura en papel es simplemente mejor, ya que todas las formas tienen sus ventajas y desventajas. Actualmente vivimos en una verdadera revolución de la lectura, y quiero dar un punto de vista equilibrado de la situación, y una visión para un futuro.
 
