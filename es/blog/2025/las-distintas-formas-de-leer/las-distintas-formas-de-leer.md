@@ -8,7 +8,7 @@ embedAlt: "Una vista áerea de un libro, un portátil-tableta, y un móvil con a
 
 *Este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
 
-<img src="formas-de-leer.avif" style="width: 50%;  display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
+<img src="formas-de-leer.avif" style="width: 50%; aspect-ratio: 1200/1594; display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
 
 Se dice que no hay nada como un buen libro - un libro físico. Pero hoy día las formas de leer son muy variadas, y no sería correcto decir que la lectura en papel es simplemente mejor, ya que todas las formas tienen sus ventajas y desventajas. Actualmente vivimos en una verdadera revolución de la lectura, y quiero dar un punto de vista equilibrado de la situación, y una visión para un futuro.
 
