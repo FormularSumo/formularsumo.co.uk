@@ -2,6 +2,7 @@
 title: Las Distintas Formas de Leer
 date: 2025-05-01
 description: Una comparación entre la lectura física, digital, y el audiolibro, y ideas para un futuro.
+embedImage: "/es/blog/2025/las-distintas-formas-de-leer/formas-de-leer.avif"
 ---
 
 *Este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
