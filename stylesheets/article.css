@@ -19,9 +19,30 @@ main {
     }
 
     h3 {
-        margin-top: 12px;
-        margin-bottom: 6px;
-        font-size: 21px;
+        margin-top: 18px;
+        margin-bottom: 11px;
+        font-size: 22px;
+    }
+
+    h4 {
+        margin-top: 18px;
+        margin-bottom: 9px;
+        font-size: 20px;
+    }
+
+    h5 {
+        margin-top: 18px;
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .caption {
+        font-size: 14.5px;
+        font-style: italic;
+    }
+
+    img {
+        width: 100%;
     }
 
     .footnotes {
