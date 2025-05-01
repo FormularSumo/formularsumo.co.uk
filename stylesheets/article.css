@@ -45,6 +45,12 @@ main {
         width: 100%;
     }
 
+    .small {
+        @media screen and (width >= 600px) {
+          max-width: 50%
+        }
+      }
+
     .footnotes {
         content-visibility: auto;
         contain-intrinsic-size: auto 350px;
