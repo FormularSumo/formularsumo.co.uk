@@ -1,14 +1,8 @@
 ---
 title: Las Distintas Formas de Leer
 date: 2025-04-29
-description: 
+description: Una comparación entre la lectura física, digital, y el audiolibro, y ideas para un futuro.
 ---
-
-<!--
-
-Un futuro en que todo el texto está disponible en la manera más accesible y flexible, en que el leer en e-paper está libre de control. Pero puede quedar el libro físico y el audiolibros para los que los quieren, ya que todos tienen sus ventajas. Elección sobre todo
-
--->
 
 *Este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
 
