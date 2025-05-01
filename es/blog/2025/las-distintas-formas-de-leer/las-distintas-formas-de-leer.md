@@ -6,6 +6,8 @@ description: Una comparación entre la lectura física, digital, y el audiolibro
 
 *Este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
 
+<img src="formas-de-leer.avif" style="width: 50%;  display: block; margin: auto; margin-bottom: 16px;" alt="Un libro, un portátil-tableta, y un móvil con auriculares. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil.">
+
 Se dice que no hay nada como un buen libro - un libro físico. Pero hoy día las formas de leer son muy variadas, y no sería correcto decir que la lectura en papel es simplemente mejor, ya que todas las formas tienen sus ventajas y desventajas. Actualmente vivimos en una verdadera revolución de la lectura, y quiero dar un punto de vista equilibrado de la situación, y una visión para un futuro.
 
 Los 3 grandes modos de lectura serían la física, la digital, y la oral. Hay más diferencia dentro de estos; un libro electrónico frente a un blog, o un libro escolar a una novela bestseller, pero es la manera más sencilla de categorizarlo. Yo personalmente hago una mezcla de los tres, y opino que todos tienen su lugar, aunque es cierto que pueden ser más adecuados en ciertas situaciones o para ciertas personas.
