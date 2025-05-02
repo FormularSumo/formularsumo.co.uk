@@ -119,7 +119,7 @@ svg {
         .nav_menu {
             position: absolute;
             top: var(--navbar_height);
-            transform: scaleY(0.0001);
+            transform: scaleY(0.0001); /*Firefox bug with drawing behind other elements when scaling from 0*/
             width: 100%;
             background-color: var(--navbar_color);
             z-index: 1;
