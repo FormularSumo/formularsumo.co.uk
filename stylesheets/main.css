@@ -142,7 +142,7 @@ svg {
     .language_switcher {
         position: relative;
         float: right;
-        left: 58px;
+        left: 63px;
         top: var(--navbar_height);
         transform: scaleY(0);
         z-index: 2;
