@@ -57,6 +57,7 @@ svg {
     padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     height: var(--navbar_height);
     width: 100%;
+    display: flex;
 
     nav {
         transform-origin: top;
@@ -95,9 +96,7 @@ svg {
     #nav_menu_checkbox + label {
         display: none;
     }
-    .nav_menu {
-        position: static;
-    }
+
     .nav_element {
         float: left;
         border-right: 1px solid #ffffff;
@@ -111,13 +110,15 @@ svg {
 
     @media screen and (width <= 600px) {
         #nav_menu_checkbox + label {
-            display: block;
+            display: inline;
+            flex-basis: 100%;
         }
         #nav_menu_checkbox:checked ~ .nav_menu {
             transform: scaleY(1)
         }
         .nav_menu {
             position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
+            top: var(--navbar_height);
             transform: scaleY(0);
             width: 100%;
             background-color: var(--navbar_color);
@@ -128,7 +129,6 @@ svg {
         }
         .nav_element {
             float: none;
-            width: 100%;
             text-align: left;
             border-right: 0px;
             border-bottom: 1px solid #4f4f66;
@@ -140,10 +140,10 @@ svg {
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
     .language_switcher {
-        position: relative;
-        float: right;
-        left: 63px;
+        flex-basis: 0px;
+        position: absolute;
         top: var(--navbar_height);
+        right: 83px;
         transform: scaleY(0);
         z-index: 2;
         background-color: var(--navbar_color);
