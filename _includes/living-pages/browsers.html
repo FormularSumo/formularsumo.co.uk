@@ -6,19 +6,34 @@
         <link rel="stylesheet" href="/stylesheets/article.css">
 
         <style>
-            h1 {
-                font-size: 36px;
-                margin-bottom: 1px;
-                margin-top: 14px;
-            }
-    
-            .date {
-                margin-bottom: 5px;
-                font-size: 14px;
-            }
-    
-            p {
-                margin-bottom: 18px;
+            main {
+                h1 {
+                    font-size: 36px;
+                    margin-bottom: 12px;
+                    margin-top: 14px;
+                }
+                h2 {
+                    margin-top: 20px;
+                }
+                h3 {
+                    font-style: italic;
+                }
+                .list-heading {
+                    font-weight: bold;
+                    margin-top: 12px;
+                    margin-bottom: 2px;
+                }
+                .date {
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+                p {
+                    margin-bottom: 18px;
+                }
+                li {
+                    line-height: 1.5;
+                    margin-left: 15px;
+                }
             }
         </style>
 
@@ -41,24 +56,28 @@
                         </button>
                     </h1>
                 </header>
-                {% for browser in browsers %}
-                    <h2>{{browser[0]}}</h2>
+                <img src="/living-pages/browser-tier-list/browser-tier-list.webp" style="margin-bottom: 6px">
+                <a href="Marketshare statistics: https://radar.cloudflare.com/reports/browser-market-share-2025-q1#id-5-global-market-share">Markshare statistics</a>
+                {% for tier in browsers %}
+                    <h2>{{tier[0]}}-tier</h2>
+                    {% for browser in tier[1] %}
+                        <h3>{{browser[0]}}</h3>
 
-                    <p>Overall tier: {{browser[1].tier}}</p>
-                    <p>Current marketshare: {{browser[1].marketshare}}%</p>
+                        <p>Current marketshare: {{browser[1].marketshare}}%</p>
 
-                    <h3>Pros</h3>
-                    {% for pro in browser[1].pros %}
-                    <ul>
-                        <li>{{pro}}</li>
-                    </ul>
-                    {% endfor %}
+                        <p class="list-heading">Pros</p>
+                        {% for pro in browser[1].pros %}
+                        <ul>
+                            <li>{{pro}}</li>
+                        </ul>
+                        {% endfor %}
 
-                    <h3>Cons</h3>
-                    {% for con in browser[1].cons %}
-                    <ul>
-                        <li>{{con}}</li>
-                    </ul>
+                        <p class="list-heading">Cons</p>
+                        {% for con in browser[1].cons %}
+                        <ul>
+                            <li>{{con}}</li>
+                        </ul>
+                        {% endfor %}
                     {% endfor %}
                 {% endfor %}
             </article>    
