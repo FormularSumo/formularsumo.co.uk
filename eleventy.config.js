@@ -54,6 +54,7 @@ export default function (eleventyConfig) {
 		"jxl",
 		"avif",
 		"jpg",
+		"opus",
 		// "png"
 	]);
 
