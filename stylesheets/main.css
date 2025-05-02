@@ -117,9 +117,9 @@ svg {
             transform: scaleY(1)
         }
         .nav_menu {
-            position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
+            position: absolute;
             top: var(--navbar_height);
-            transform: scaleY(0);
+            transform: scaleY(0.0001);
             width: 100%;
             background-color: var(--navbar_color);
             z-index: 1;
