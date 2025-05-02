@@ -13,8 +13,27 @@
             }
         </style>
     </head>
-    <body onclick="document.getElementById('oh-dear-audio').play();" style="user-select: none;">
-        <audio id="oh-dear-audio" src="oh-dear.opus" type="audio/opus">
-        </audio>
+    <body onclick="playAudio()" style="user-select: none;">
+        <audio id="oh-dear-audio" src="oh-dear.opus" type="audio/opus"></audio>
+        <audio id="no-cheese-audio" src="no-cheese-gromit.opus" type="audio/opus"></audio>
+        <script>
+            let oh_dear = document.getElementById('oh-dear-audio')
+            let no_cheese = document.getElementById('no-cheese-audio')
+            function playAudio() {
+                if (oh_dear.paused && no_cheese.paused) {
+                    if (Math.floor(Math.random()*2) == 0) {
+                        oh_dear.play();
+                    } else {
+                        no_cheese.play();
+                    }
+                } else {
+                    if (oh_dear.paused) {
+                        oh_dear.play();
+                    } else if (no_cheese.paused) {
+                        no_cheese.play();
+                    }
+                }
+            }
+        </script>
     </body>
 </html>
