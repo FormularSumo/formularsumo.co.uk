@@ -9,8 +9,17 @@
 <link rel="canonical" content="https://formularsumo.co.uk{{page.url}}">
 <meta name="generator" content="{{eleventy.generator}}">
 <meta property="og:site_name" content="FormularSumo">
-<meta property="og:image" content="https://formularsumo.co.uk/assets/Logo-embed.webp">
-<meta property="og:image:alt" content="FormularSumo logo">
+{% if embedImage -%}
+    {% capture embedImage %}https://formularsumo.co.uk{{embedImage}}{% endcapture %}
+    {% assign embedAlt = embedAlt %}
+{% else %}
+    {% assign embedImage = "https://formularsumo.co.uk/assets/logo-embed.webp" %}
+    {% assign embedAlt = "FormularSumo logo" %}
+{% endif -%}
+<meta property="og:image" content="{{embedImage}}">
+<meta name="twitter:image" content="{{embedImage}}"/>
+<meta property="og:image:alt" content="{{embedAlt}}">
+<meta name="twitter:image:alt" content="{{embedAlt}}">
 <meta property="og:locale" content="{{page.lang}}">
 {% if page.lang == "en" -%}
     <meta property="og:locale:alternative" content="es">

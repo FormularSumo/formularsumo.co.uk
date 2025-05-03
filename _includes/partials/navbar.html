@@ -24,26 +24,26 @@
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
 
 <div class="navbar" title="navbar">
-    <picture>
-        <source srcset="/assets/Logo.jxl" type="image/jxl">
-        <img src="/assets/Logo.webp" alt="FormularSumo {{FS_alt}}" style="float: right">
-    </picture>
+    <input type="checkbox" id="nav_menu_checkbox">
+    <label for="nav_menu_checkbox">≡</label>
+    <nav class="nav_menu" style="flex-basis: 100%;">
+        <ul>
+            <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
+            <li class="nav_element"><a href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
+            <!-- <li class="nav_element"><a href="{{'/testPage/' | localiseURL: URL}}">{{testPage}}</a></li> -->
+        </ul>
+    </nav>
 
     <input type="checkbox" id="language_switcher_checkbox">
-    <label for="language_switcher_checkbox" style="height: 50px; float: right; margin-right: 20px"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
+    <label for="language_switcher_checkbox"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
     <nav class="language_switcher">
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}"></a></li>
         </ul>
     </nav>
 
-    <input type="checkbox" id="nav_menu_checkbox">
-    <label for="nav_menu_checkbox">≡</label>
-    <nav class="nav_menu">
-        <ul>
-            <li class="nav_element"><a tabindex="1" href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
-            <li class="nav_element"><a tabindex="1" href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
-            <!-- <li class="nav_element"><a tabindex="1" href="{{'/testPage/' | localiseURL: URL}}">{{testPage}}</a></li> -->
-        </ul>
-    </nav>
+    <picture>
+        <source srcset="/assets/logo-110.jxl" type="image/jxl">
+        <img src="/assets/logo-110.webp" alt="FormularSumo {{FS_alt}}" style="margin-left: 20px">
+    </picture>
 </div>

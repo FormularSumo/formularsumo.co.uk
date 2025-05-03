@@ -50,10 +50,14 @@ svg {
 
 /*NAVBAR STYLING*/
 .navbar {
-    background-color: #3f95ff;
+    --navbar_height: 55px;
+    --navbar_color: #3f95ff;
+    background-color: var(--navbar_color);
     padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0));
     padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
-    /* max-height: 50px; /* needed if using position:static*/
+    height: var(--navbar_height);
+    width: 100%;
+    display: flex;
 
     nav {
         transform-origin: top;
@@ -64,7 +68,7 @@ svg {
         list-style-type: none; /*remove bullet points*/
         overflow: hidden;
         font-size: 19px;
-        line-height: 50px;
+        line-height: var(--navbar_height);
     }
     li:hover, li:focus-within {
         background-color: #55b8ff;
@@ -78,13 +82,13 @@ svg {
         font-size: 36px;
         padding-inline: 8px;
         padding-block: auto;
-        line-height: 50px;
+        line-height: var(--navbar_height);
     }
     input {
         display: none;
     }
     img {
-        height: 50px;
+        height: var(--navbar_height);
         aspect-ratio: 1;
     }
 
@@ -92,9 +96,7 @@ svg {
     #nav_menu_checkbox + label {
         display: none;
     }
-    .nav_menu {
-        position: static;
-    }
+
     .nav_element {
         float: left;
         border-right: 1px solid #ffffff;
@@ -108,16 +110,18 @@ svg {
 
     @media screen and (width <= 600px) {
         #nav_menu_checkbox + label {
-            display: block;
+            display: inline;
+            flex-basis: 100%;
         }
         #nav_menu_checkbox:checked ~ .nav_menu {
             transform: scaleY(1)
         }
         .nav_menu {
-            position: absolute; /*static stops Firefox layers problem during transition, but introduces other issues*/
-            transform: scaleY(0);
+            position: absolute;
+            top: var(--navbar_height);
+            transform: scaleY(0.0001); /*Firefox bug with drawing behind other elements when scaling from 0*/
             width: 100%;
-            background-color: #3f95ff;
+            background-color: var(--navbar_color);
             z-index: 1;
         }
         .nav_element:first-child {
@@ -125,7 +129,6 @@ svg {
         }
         .nav_element {
             float: none;
-            width: 100%;
             text-align: left;
             border-right: 0px;
             border-bottom: 1px solid #4f4f66;
@@ -137,17 +140,17 @@ svg {
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
     .language_switcher {
-        position: relative;
-        float: right;
-        left: 58px;
-        top: 50px;
+        flex-basis: 0px;
+        position: absolute;
+        top: var(--navbar_height);
+        right: 83px;
         transform: scaleY(0);
         z-index: 2;
-        background-color: #3f95ff;
+        background-color: var(--navbar_color);
     }
     .language {
         border-top: 1px solid #4f4f66;
-        height: 50px;
+        height: var(--navbar_height);
     }
     #language_switcher_checkbox:checked ~ .language_switcher {
         transform: scaleY(1)
