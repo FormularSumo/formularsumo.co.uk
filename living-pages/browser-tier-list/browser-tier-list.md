@@ -27,7 +27,8 @@ browsers:
                 "<a href='https://vivaldi.com/en/company/'>Owned by its employees</a>, who are in my experience lovely people (all the way up to the CEO). It does not accept exernal funding, does not chase rapid growth, and of all the browsers in this list has the most transparents and sustainable business mode.",
                 "Known for its extremely customisable UI and powerful built-in tools, has inspired many other browsers in this regard",
                 "Does a lot of good regulatory work, and one of its core missions is to help promote a free and open web, free from the control of gatekeepers",
-                "Unlike many other browsers, takes quite a negative stance against gen AI, and does not try to force it into everything"
+                "Unlike many other browsers, takes quite a negative stance against gen AI, and does not try to force it into everything",
+                "The only browser on this list based in Europe"
             ]
             cons: [
                 "Does not have the engineering capacity or budget to <a href='https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02'>work much on its browser engine</a>",
@@ -131,4 +132,3 @@ browsers:
             thoughts: ""
 
 ---
-
