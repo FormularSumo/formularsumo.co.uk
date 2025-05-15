@@ -113,7 +113,7 @@ svg {
         position: absolute;
         top: var(--navbar_height);
         right: 83px;
-        transform: scaleY(0);
+        transform: scaleY(0.0001); /*Firefox bug with drawing behind other elements when scaling from 0*/
         z-index: 2;
         background-color: var(--navbar_color);
     }
