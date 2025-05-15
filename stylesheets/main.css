@@ -81,7 +81,6 @@ svg {
         color: white;
         font-size: 36px;
         padding-inline: 8px;
-        padding-block: auto;
         line-height: var(--navbar_height);
     }
     input {
@@ -108,7 +107,30 @@ svg {
         padding-inline: 8px;
     }
 
+    /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
+    .language_switcher {
+        flex-basis: 0px;
+        position: absolute;
+        top: var(--navbar_height);
+        right: 83px;
+        transform: scaleY(0.0001); /*Firefox bug with drawing behind other elements when scaling from 0*/
+        z-index: 2;
+        background-color: var(--navbar_color);
+    }
+    .language {
+        border-top: 1px solid #4f4f66;
+        height: var(--navbar_height);
+    }
+    #language_switcher_checkbox:checked ~ .language_switcher {
+        transform: scaleY(1)
+    }
+
     @media screen and (width <= 600px) {
+        --navbar_height: 60px;
+        --navmenu_height: 65px;
+        ul {
+            line-height: var(--navmenu_height);
+        }
         #nav_menu_checkbox + label {
             display: inline;
             flex-basis: 100%;
@@ -134,25 +156,10 @@ svg {
             border-bottom: 1px solid #4f4f66;
         }
         .nav_element a {
-            padding-inline: 11px;
+            padding-inline: 20px;
         }
-    }
-
-    /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
-    .language_switcher {
-        flex-basis: 0px;
-        position: absolute;
-        top: var(--navbar_height);
-        right: 83px;
-        transform: scaleY(0);
-        z-index: 2;
-        background-color: var(--navbar_color);
-    }
-    .language {
-        border-top: 1px solid #4f4f66;
-        height: var(--navbar_height);
-    }
-    #language_switcher_checkbox:checked ~ .language_switcher {
-        transform: scaleY(1)
+        .language_switcher {
+            right: 88px;
+        }
     }
 }
