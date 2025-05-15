@@ -81,7 +81,6 @@ svg {
         color: white;
         font-size: 36px;
         padding-inline: 8px;
-        padding-block: auto;
         line-height: var(--navbar_height);
     }
     input {
