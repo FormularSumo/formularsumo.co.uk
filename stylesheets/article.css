@@ -45,6 +45,12 @@ main {
         width: 100%;
     }
 
+    .img_flex {
+        display: flex;
+        margin-bottom: 6px;
+        align-items: center;
+    }
+
     .small {
         @media screen and (width >= 600px) {
           max-width: 50%
