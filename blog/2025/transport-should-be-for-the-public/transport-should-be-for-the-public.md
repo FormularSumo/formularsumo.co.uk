@@ -22,6 +22,22 @@ footnotes: [
 ]
 ---
 
+<style>
+    .household_expenditure {
+        height: 515px;
+        @media (width >= 700px) {
+            height: 850px;
+        }
+    }
+
+    .rail_financing {
+        height: 271px;
+        @media (width >= 500px) {
+            height: 482px;
+        }
+    }
+</style>
+
 ## The lay of the land
 
 According to the [latest government statics](https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=TSGB0101%20and%20TSGB0102.-,Of%20the,-799%20billion%20passenger), 90% of the distance travelled in Great Britain takes place by road: 85% by private vehicles, 4% by bus and coach, and 1% by motorbikes and pedal bikes, while the remaining tenth is made up by rail (9%) and air (1%). This is a marked change from just a century ago, and this rise in car-centric transport and lifestyle has drastically changed our movement patterns and, as I'm going to argue, has largely done so for the worse.
@@ -34,10 +50,10 @@ Passenger transport by car, vans and taxis compared to other modes, billion pass
 
 Driving and owning a motor vehicle is a big responsibility. Learning to drive is a time-consuming and expensive process, and something which is not an option for a lot of people. The young, the very old, the disabled, and many more are largely or not at all able to. Buying and maintaining a car is expensive: purchase, fuel, maintenance and MOTs, repairs, insurance, parking and road taxes nowadays combine to form British people's second largest expense after housing<sup><a id="n-1" href="#fn-1">1</a></sup>
 
-<!-- annoyingly the embed doesn't want to resize, so this is the largest I can make it without it having a lot of blank space on phone screen -->
+<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023">
 <p class="caption">
-<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023"><iframe height="515px" width="100%" style="border:none;" src="https://www.ons.gov.uk/visualisations/dvc3011/treemap/index.html"></iframe></a>
-Average weekly household expenditure in the UK, financial year ending (FYE) 2023, Office for National Statistics</p>
+<iframe class="household_expenditure" width="100%" style="border:none;" src="https://www.ons.gov.uk/visualisations/dvc3011/treemap/index.html"></iframe> <!--Custom class is used to be shorter on narrow screens, as otherwise there's a lot of blank space-->
+Average weekly household expenditure in the UK, financial year ending (FYE) 2023, Office for National Statistics</p></a>
 
 I've titled this article "transport should for the public" because I strongly believe that everyone has the right to get around and to where they need to, independently and without reliance on their ability and economic provisions to drive, or on a family member or friend to do so for them. I grew up in quite a car dependent place, and I was very reliant on my parents to take me around; if they weren't available or willing to, I often couldn't (easily, quickly or cheaply) get to where I wanted to.
 
@@ -213,9 +229,10 @@ Meanwhile investment in [walking, biking](https://www.ippr.org/articles/making-e
 
 On an individual level the average UK household currently spends [14% of its expenditure](https://assets.publishing.service.gov.uk/media/6762df9a4e2d5e9c0bde9b03/tsgb1306.ods) on transport, the vast majority of which is spent on cars. And the government spends substantial amounts of money on car infrastructure, due to the above reasons of car-first design, but also on simply building and repairing or replacing roads, bridges and tunnels, parking, dealing with collisions and accidents, subsidising [car purchases](https://www.theguardian.com/business/2020/oct/05/state-subsidies-for-company-cars-top-32bn-in-uk-and-eu),  [manufacturers](https://www.fleeteurope.com/en/financial-models/europe/article/uk-automotive-industry-receives-ps2bn-funding-government?t%5B0%5D=Electrification&t%5B1%5D=Mobility&curl=1), and [fuels](https://www.carbonbrief.org/analysis-fuel-duty-freezes-have-increased-uk-co2-emissions-by-up-to-7/), and much more. And as we've seen, the costs of car infrastructure grows exponentially the more of it you build, and pushes people away from other much more sustainable and financially-sound modes of transport. [17% of local roads are estimated to be in poor condition](https://commonslibrary.parliament.uk/research-briefings/cbp-9975/), and somewhere between [4 and 7% of main roads are in need of repair right now](https://www.gov.uk/government/statistics/road-conditions-in-england-to-march-2024). But most of these costs are fronted by the government and not paid for directly by road users, despite the fact that most are incurred by them. Why shouldn't it be the same for public transport?
 
+<a href="https://dataportal.orr.gov.uk/statistics/finance/rail-industry-finance/">
 <p class="caption">
-<a href="https://dataportal.orr.gov.uk/statistics/finance/rail-industry-finance/"><iframe height="482px" width="100%" style="border:none;" src="https://app.powerbi.com/view?r=eyJrIjoiMGY4M2Q4MGUtNWE5Mi00YTZjLWIyNGEtNTMzNmFkNTliMTNiIiwidCI6IjIzMjM3OTk2LTdmM2EtNDM5NC04MGY1LTQ2MGNiYzA3NjEzYiJ9"></iframe></a>
-Rail industry finance (UK), annual income and expenditure breakdown</p>
+<iframe class="rail_financing" width="100%" style="border:none;" src="https://app.powerbi.com/view?r=eyJrIjoiMGY4M2Q4MGUtNWE5Mi00YTZjLWIyNGEtNTMzNmFkNTliMTNiIiwidCI6IjIzMjM3OTk2LTdmM2EtNDM5NC04MGY1LTQ2MGNiYzA3NjEzYiJ9"></iframe>
+Rail industry finance (UK), annual income and expenditure breakdown</p></a>
 
 In a way, it already is. Public transport *is* subsidised by the government; they fund just under half of national rail costs, and a [similar proportion](https://commonslibrary.parliament.uk/research-briefings/cbp-9464/) of buses. But the amount which the government spends on all transport, including road construction and maintenance, is really quite small. It's currently at around [3.8% of the overall budget](https://ifs.org.uk/taxlab/taxlab-key-questions/what-does-government-spend-money), of which about [2.6% is spent on directly funding public transport](https://www.gov.uk/government/statistical-data-sets/transport-expenditure-tsgb13), or 1.3% after taking into account its current revenue. This is about as much as we spend on foreign aid, or 4x less than is spent on defense. Imagine how much better our transport could be if this figure was just a bit higher; even 4% or 5% (what do we spend on defense) would be enough to transform our transport, making it a viable, accessible, modern and reliable way of getting around - without the public directly having to pay anything. This would mean most households could give up car ownership entirely, or at least downsize in terms of vehicle count, size, and usage, massively decreasing that 14% spent on transport. And it would make our towns and cities so much more pleasant and nice to be in, and improve mobility for everyone, especially those who are currently losing out.
 
