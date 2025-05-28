@@ -1,6 +1,6 @@
 ---
 title: Afroasiático
-hablantes: 0.4 millones
+hablantes: 0,4 millones
 foto: maltés.webp
 foto-texto: "Ubicación: sur de Italia. Comina se situa entre las dos islas más grandes de Malta (derecha) y Gozo (izquierda), pero es demasiada pequeña para ver en este imagen"
 madre: lengua-de-europa

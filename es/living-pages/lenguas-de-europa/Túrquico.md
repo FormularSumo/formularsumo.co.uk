@@ -1,6 +1,6 @@
 ---
 title: Túrquico
-hablantes: 115.6 millones
+hablantes: 115,6 millones
 foto: túrquico.webp
 madre: lengua-de-europa
 ramas: [

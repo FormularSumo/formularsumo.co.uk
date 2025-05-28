@@ -1,6 +1,6 @@
 ---
 title: Vasco
-hablantes: 0.75 millones
+hablantes: 0,75 millones
 foto: vasco.webp
 foto-texto: "Ubicación: norte de España, sur de Francia. Azul-oscuro significa más de 50% de la población lo habla, azul-claro significa más de 20%"
 madre: lengua-de-europa

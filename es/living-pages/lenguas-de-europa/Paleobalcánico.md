@@ -1,7 +1,7 @@
 ---
 title: Paleobalcánico
 madre: Indoeuropeo
-hablantes: 24.2 millones
+hablantes: 24,2 millones
 foto:
 ramas: [
     "Griego",
