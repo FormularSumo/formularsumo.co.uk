@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    <head>
+        {% include "partials/head.html" %}
+        <link rel="stylesheet" href="/stylesheets/blog.css">
+        <link rel="stylesheet" href="/stylesheets/article.css">
+        <style>
+            .rama {
+                display: flex;
+                background-color: aquamarine;
+
+                a {
+                    font-size: 19px;
+                    line-height: 175px;
+                    flex-basis: 100%;
+                    text-decoration: none;
+                    color: initial;
+                    text-align: center;
+                    border-left: 1px solid black;
+                    border-top: 1px solid black;
+                    border-bottom: 1px solid black;
+                }
+                a:last-child {
+                    border-right: 1px solid black;
+                }
+                a:hover {
+                    background-color: rgb(127, 229, 255);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        {% include "partials/navbar.html" %}
+
+        <main>
+            <article>
+                <header>
+                    <h1>{{title}}</h1>
+                </header>
+
+                {% if madre %}
+                    <h2>Madre</h2>
+                    <nav class="rama">
+                        {% if madre == "lengua-de-europa" %}
+                            <a style="line-height: 120px;"href="/es/living-pages/lenguas-de-europa/">Inicio</a>
+                        {% else %}
+                            <a style="line-height: 120px;" href="/es/living-pages/lenguas-de-europa/{{madre}}/">{{madre}}</a>
+                        {% endif %}
+                    </nav>
+                {% endif %}
+
+                <h2>Ramas</h2>
+                <nav class="rama">
+                    <!-- <ul> -->
+                    {% for rama in ramas %}
+                        <a href="/es/living-pages/lenguas-de-europa/{{rama}}/">{{rama}}</a>
+                    {% endfor %}
+                    <!-- </ul> -->
+                </nav>
+
+
+                <h2>Descripción</h2>
+                {{content}}
+
+                <p>Número de hablantes nativas en Europa: <strong>{{hablantes}}</strong></p>
+
+                {% if foto %}
+                    <h2>Distribución Geográfica</h2>
+                    <img src=/es/living-pages/lenguas-de-europa/{{foto}}>
+                    {% if foto-texto %}
+                        <p>{{foto-texto}}</p>
+                    {% endif %}
+                {% endif %}
+
+                {% if title == "Árbol Familiar de las Lenguas de Europa" %}
+                    <h2>Alfabetos</h2>
+                    <img src=/es/living-pages/lenguas-de-europa/alfabetos.webp>
+                    <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, azul = armenio, verde = georgiano</p>
+                {% endif %}
+            </article>    
+        </main>
+    </body>
+</html>
