@@ -49,14 +49,14 @@
                     </nav>
                 {% endif %}
 
-                <h2>Ramas</h2>
-                <nav class="rama">
-                    <!-- <ul> -->
-                    {% for rama in ramas %}
-                        <a href="/es/living-pages/lenguas-de-europa/{{rama}}/">{{rama}}</a>
-                    {% endfor %}
-                    <!-- </ul> -->
-                </nav>
+                {% if ramas %}
+                    <h2>Ramas</h2>
+                    <nav class="rama">
+                        {% for rama in ramas %}
+                            <a href="/es/living-pages/lenguas-de-europa/{{rama}}/">{{rama}}</a>
+                        {% endfor %}
+                    </nav>
+                {% endif %}
 
 
                 <h2>Descripción</h2>
