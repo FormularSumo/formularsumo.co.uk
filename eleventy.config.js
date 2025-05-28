@@ -5,7 +5,6 @@ function translateURL(URL, lang) {
 	let newURL = "";
 	if (lang == "es") {
 		if (URL.includes("blog/2")) {
-			console.log(URL)
 			let Year = URL.split('/').slice(-3,-2)
 			URL = URL.split('/').slice(-2,-1)
 			if (URL == "pronouns" ) {
@@ -16,6 +15,14 @@ function translateURL(URL, lang) {
 				newURL = "/es/blog/" + Year + "/" + newURL;
 			} else {
 				newURL = "/es/blog/"; //If an article is not translated, redirect to blog page
+			}
+		} else if (URL.includes("living-pages/")) {
+			URL = URL.split('/').slice(-2,-1)
+
+			if (newURL != "") {
+				newURL = "/es/living-pages/" + "/" + newURL;
+			} else {
+				newURL = "/es/"; //If a living-page is not translated, redirect home. This will need chaning to redirect to living-pages when it is published
 			}
 		} else { //This currently works because all pages have the same name, will need updating when new pages are added
 			newURL = "/es" + URL
@@ -32,6 +39,14 @@ function translateURL(URL, lang) {
 				newURL = "/blog/" + Year + "/" + newURL;
 			} else {
 				newURL = "/blog/";
+			}
+		} else if (URL.includes("living-pages/")) {
+			URL = URL.split('/').slice(-2,-1)
+
+			if (newURL != "") {
+				newURL = "/living-pages/" + "/" + newURL;
+			} else {
+				newURL = "/";
 			}
 		} else {
 			newURL = "/" + URL.split('/').slice(2,-1)
