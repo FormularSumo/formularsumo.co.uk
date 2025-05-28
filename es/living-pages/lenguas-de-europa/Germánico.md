@@ -5,7 +5,7 @@ hablantes: 180 millones
 foto: germánico.jpg
 ramas: [
     "Germánico oriental",
-    "Germánico nóridco"
+    "Germánico nórdico"
 ]
 ---
 
