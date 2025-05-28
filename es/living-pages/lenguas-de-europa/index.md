@@ -5,7 +5,7 @@ foto: familias.webp
 foto-texto: Verde-claro = Indouropeo, verde-marrón = Túrquica, verde-oscuro = Ugrofinés, gris = Vasco, amarillo = Afroasiática
 ramas: [
     "Indoeuropeo",
-    "Túrquica",
+    "Túrquico",
     "Ugrofinés",
     "Vasco",
     "Afroasiático"
