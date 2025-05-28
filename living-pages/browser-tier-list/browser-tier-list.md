@@ -55,7 +55,7 @@ browsers:
                 "Feature leadership",
                 "One of the fastest and most secure browsers",
                 "Best website compatibility",
-                "Google the largest browser engineer team by quite a substantial margin, and does most of the work than goes into Chromium. As such they tend to have the fastest security and critial issue response teams"
+                "Google has the largest browser engineer team by quite a substantial margin, and does most of the work than goes into Chromium. As such they tend to have the fastest security and critial issue response teams"
             ]
             cons: [
                 "Used to push a lot of other Google properties",
@@ -99,7 +99,7 @@ browsers:
                 "<a href='https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html#browsers'>Poor security record</a> and practices",
                 "<a href='https://webventures.rejh.nl/blog/2024/history-of-safari-show-stoppers/'>Broken features and bugs</a>",
                 "<a href='https://infrequently.org/2021/04/progress-delayed/'>Very late</a> (<a href='2https://wpt.fyi/results/'>or yet to</a>) support many things",
-                "Apple platforms only - there’s an alright <a href='https://webkitgtk.org/'>community-maintained Linux port</a> but next to nothing for Windows and Android",
+                "Apple platforms only - there’s an alright <a href='https://webkitgtk.org/'>community-maintained Linux port</a> but effectively for Windows and Android",
                 "Tied to system updates, so if you don’t update your system or your device is no longer supported, Safari stops getting updated as well",
                 "Apple is probably the most anti-web company there is, doing everything they can to hold it back (eg supressing iOS PWAs, notifications) and force people into their walled garden. A total ban on all other browser engines on iOS and their repeated malicious compliance with laws and court rulings does little to help this image"
             ]
