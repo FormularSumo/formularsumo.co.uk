@@ -1,5 +1,5 @@
 ---
-title: Árbol Familiar de las Lenguas de Europa
+title: Árbol interactivo de las familias de lenguas habladas Europa
 hablantes: 742 millones (población de Europa)
 foto: familias.webp
 foto-texto: Verde-claro = Indouropeo, verde-marrón = Túrquica, verde-oscuro = Ugrofinés, gris = Vasco, amarillo = Afroasiática
