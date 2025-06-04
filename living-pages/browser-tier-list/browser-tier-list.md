@@ -32,6 +32,7 @@ browsers:
             ]
             cons: [
                 "Does not have the engineering capacity or budget to <a href='https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02'>work much on its browser engine</a>",
+                "The UI is quite different to and more complicated than most other browsers, and so can take some getting used to and may not be for everyone"
             ]
             thoughts: ""
 
