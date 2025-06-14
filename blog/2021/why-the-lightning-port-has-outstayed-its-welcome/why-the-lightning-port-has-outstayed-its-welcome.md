@@ -7,10 +7,14 @@ footnotes: [
 
     "This is an actual quote from the iPhone 6s launch event, which would have been the phone they switched to USB-C on had they done so at the same time as on MacBooks.",
 
-    "The other mainly uncontroversial parts of the proposal are:
-    All USB fast charging must support the default USB Power Delivery standard (while it's gotten better in recent years, believe it or not some fast charging-devices don't support PD, meaning they can usually only be fast charged with chargers made by the same company).
-    Devices need to be labelled with what charging speeds/standards they support so consumers can easily buy the right chargers for them.
-    And the other more controversial one is that device makers must provide an option to buy the device without an included charging brick. I personally see this as a good thing as well, as charging bricks (or wall adaptors) typically need updating/replacing much less often than devices or cables do, and I know we have far more than needed in my household.",
+    "The other mainly uncontroversial parts of the proposal are:</p>
+    
+    <ul>
+        <li>All USB fast charging must support the default USB Power Delivery standard (while it's gotten better in recent years, believe it or not some fast charging-devices don't support PD, meaning they can usually only be fast charged with chargers made by the same company).</li>
+        <li>Devices need to be labelled with what charging speeds/standards they support so consumers can easily buy the right chargers for them.</li>
+    </ul>
+    
+    <p>And the other more controversial one is that device makers must provide an option to buy the device without an included charging brick. I personally see this as a good thing as well, as charging bricks (or wall adaptors) typically need updating/replacing much less often than devices or cables do, and I know we have far more than needed in my household.",
 
     "This only applies if the device has a charging port, in which case it must have at least one that is USB-C. Devices makers can choose to include other additional charging ports, or to have none at all.",
 
