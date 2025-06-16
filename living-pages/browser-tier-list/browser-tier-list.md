@@ -85,7 +85,7 @@ browsers:
             pros: [
             ]
             cons: [
-                "Run by a Chinese billionaire and used as a vehicle for pushing their ad network, gaming business, news app, Fintech microlending etc",
+                "Run by a Chinese billionaire and used as a vehicle for pushing their ad network, gaming business, news app, until recently Fintech microlending etc. History ofaunching browsers in response to current trends, and sometimes abandoning them after.", 
 
             ]
             thoughts: ""
@@ -100,7 +100,7 @@ browsers:
                 "<a href='https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html#browsers'>Poor security record</a> and practices",
                 "<a href='https://webventures.rejh.nl/blog/2024/history-of-safari-show-stoppers/'>Broken features and bugs</a>",
                 "<a href='https://infrequently.org/2021/04/progress-delayed/'>Very late</a> (<a href='2https://wpt.fyi/results/'>or yet to</a>) support many things",
-                "Apple platforms only - there’s an alright <a href='https://webkitgtk.org/'>community-maintained Linux port</a> but effectively for Windows and Android",
+                "Apple platforms only - there’s an alright <a href='https://webkitgtk.org/'>community-maintained Linux port</a> but effectively nothing for Windows and Android",
                 "Tied to system updates, so if you don’t update your system or your device is no longer supported, Safari stops getting updated as well",
                 "Apple is probably the most anti-web company there is, doing everything they can to hold it back (eg supressing iOS PWAs, notifications) and force people into their walled garden. A total ban on all other browser engines on iOS and their repeated malicious compliance with laws and court rulings does little to help this image"
             ]
