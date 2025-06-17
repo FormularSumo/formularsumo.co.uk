@@ -64,7 +64,7 @@ browsers:
                 "Used to push a lot of other Google properties",
                 "Poor privacy record and practices - business model is collecting and selling user data. See backtracking on phasing out 3p cookies recently.",
                 "Moderate anti-competitive beheaviour, such as use self-preferencing from Google's websites (eg pre-installed Meet/Drive extensions), not providing WebAPKs for other Android browsers, forced/default-use in some Google native mobile apps",
-                "Unlike most other browsers, does not support extensions on Android (presumably due to ad-blockers)",
+                "Unlike most major browsers, does not support extensions on Android (presumably due to ad-blockers)",
                 "Effective monopoly on ChromeOS at the moment",
                 "UI is less customisable than most others"
             ]
