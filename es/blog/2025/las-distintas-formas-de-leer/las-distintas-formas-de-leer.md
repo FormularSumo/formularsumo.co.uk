@@ -6,7 +6,7 @@ embedImage: "/es/blog/2025/las-distintas-formas-de-leer/formas-de-leer.avif"
 embedAlt: "Una vista áerea de un libro, un portátil-tableta, y un móvil con auriculares sobre una mesa. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil."
 ---
 
-*Una versión reducida de este artículo también se va a publicar en el [blog AEDO](https://aedo.blogia.com/). Añadiré el enlace dentro de poco.*
+*Una versión reducida de este artículo se publicó también en el [blog AEDO](https://aedo.blogia.com/2025/062301-las-distintas-formas-de-leer.php).*
 
 <img class="small" src="formas-de-leer.avif" style="aspect-ratio: 1200/1594; display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
 
