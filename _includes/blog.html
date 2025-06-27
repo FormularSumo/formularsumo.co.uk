@@ -62,8 +62,13 @@
     <a href="/oh-dear/">
         <picture>
             <source scrset="/assets/gromit.jxl" type="image/jxl">
+            {% if page.lang == "en" -%}
             <img src="/assets/gromit.webp" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; float: right;">
+            {% else -%}
+            <img src="/assets/gromit.webp" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; position: fixed; right: 0px; bottom: 0px;">
+            {% endif -%}
         </picture>
     </a>
+
     <link rel="prefetch" href="/stylesheets/article.css" as="style">
 </html>
