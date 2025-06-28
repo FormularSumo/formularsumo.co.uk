@@ -34,15 +34,25 @@ main {
             color: light-dark(black, white);
         }
     }
+    a {
+        -webkit-tap-highlight-color: transparent;
+    }
+    p, li {
+        line-height: 1.5;
+        font-size: 17px;
+    }
+    p, ul, ol {
+        margin-bottom: 1.1em;
+    }
+    li {
+        margin-bottom: 0.3em;
+        margin-left: 15px;
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading_font);
 }
-p {
-    margin-bottom: 1.1em;
-    line-height: 1.5;
-    font-size: 17px;
-}
+
 svg {
     aspect-ratio: 1;
     fill: currentColor /*inherited, eg from <a> or <button>*/

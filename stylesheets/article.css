@@ -65,7 +65,7 @@ main {
             margin-bottom: 10px;
             font-size: 24px;
         }
-        p {
+        p, li {
             font-size: 14px;
         }
     }
