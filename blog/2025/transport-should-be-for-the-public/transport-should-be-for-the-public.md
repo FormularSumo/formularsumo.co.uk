@@ -286,7 +286,7 @@ I truly hope and believe that the UK can return to the forefront of public, and 
 
 ## Appendix: further resources
 
-If you'd like to find out more information about the issues and topics I've talked about here then I'd highly recommend Jeff Speck's book Walkable Cities, and [NotJustBikes](notjustbikes.com) Youtube channel and podcast. And if you'd like to get more directly involved, I'll point you in the direction of the [Campaign for Better Transport](https://bettertransport.org.uk/) UK charity, and the [Strong Towns](https://www.strongtowns.org/) US charity, both of which do great work to build more resilient, walkable and transport-friendly places.
+If you'd like to find out more information about the issues and topics I've talked about here then I'd highly recommend Jeff Speck's book [Walkable Cities](https://www.goodreads.com/book/show/13538794-walkable-city), and [NotJustBikes](notjustbikes.com) Youtube channel and podcast. And if you'd like to get more directly involved, I'll point you in the direction of the [Campaign for Better Transport](https://bettertransport.org.uk/) UK charity, and the [Strong Towns](https://www.strongtowns.org/) US charity, both of which do great work to build more resilient, walkable and transport-friendly places.
 
 # Planning
 
