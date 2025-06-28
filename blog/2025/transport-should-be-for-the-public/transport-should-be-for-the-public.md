@@ -284,6 +284,10 @@ There's well known quote by [Brian Howard](https://en.wikipedia.org/wiki/Brian_H
 
 I truly hope and believe that the UK can return to the forefront of public, and active, transport. It won't be easy to change generations-long habits and development patterns, but bit by bit I think it will be possible. And I hope that more people and especially politicians can come to the same understanding that I've reached; that I'm happy, healthier, and better-off economically and socially living car-free and above-all in walkable, cyclable and transport-friendly neighbourhoods, and plan to keep doing so for as long as I can.
 
+## Appendix: further resources
+
+If you'd like to find out more information about the issues and topics I've talked about here then I'd highly recommend Jeff Speck's book Walkable Cities, and [NotJustBikes](notjustbikes.com) Youtube channel and podcast. And if you'd like to get more directly involved, I'll point you in the direction of the [Campaign for Better Transport](https://bettertransport.org.uk/) UK charity, and the [Strong Towns](https://www.strongtowns.org/) US charity, both of which do great work to build more resilient, walkable and transport-friendly places.
+
 # Planning
 
 ## When private road vehicles do make sense
@@ -317,9 +321,3 @@ Batteries weigh too much. First commercial hydrogen-powered planes - small 10-20
 In theory better than cars, more efficient, take up less space and wear on the road and less especially parking. Something akin to a bike or electric bike.
 
 In practice most riders (in my experience) are very obnoxious - incredibly noisy, lots of fumes, overtaking/otherwise driving illegally, generally endangering and making a place worse to be in. Too fast vs bikes? And dangerous.
-
-## Resources
-
-Charities and movements: Strong Towns, Campaign for Better Transport
-
-Information: Walkable Cities, Not Just Bikes & podcasts
