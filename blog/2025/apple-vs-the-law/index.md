@@ -1,7 +1,7 @@
 ---
 title: Apple Vs The Law
 date: 2025-07-04
-description: My experience at the June 2025 Apple & Google DMA compliance workshop
+description: Apple & Google at the DMA compliance workshops, June 2025
 footnotes: [
     "They managed to convince the courts that iPadOS is a separate operating system to iOS (it's not), which delayed iPadOS being designated as a gatekeeper for almost a year. They are currently challenging all of the rest: the iOS, Safari, and App Store designations, and successfully managed to avoid iMessage being designated. They have taken the DMA law to court for an apparently ambiguous comma in article 5(4) - the payment one, and for somehow infringing on human rights law in article 6(7) - the interoperability one.",
     "Apple and Google (Alphabet) have a revenue of $391b and $350b respectively, and 164k and 185k employees. In comparison, the entire EU has a budget of only €170.6b, while the EC has a total of 32k employees, of which 40 are actively work on enforcing the DMA",
