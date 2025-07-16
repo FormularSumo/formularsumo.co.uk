@@ -2,7 +2,6 @@
 title: Transport should be for the public
 date: 2025-04-11
 description: 
-contents: "true"
 footnotes: [
     "<em>Transport services</em> includes car rental, which combined with operation and purchase add up to be more than food and non-alcoholic drink.",
     "Under around 60 km/h (40 mph), noise is mainly caused by engines, while above this it's mainly caused by tyre noise on the road. This means that lower speeds are still needed even with EVs to reduce noise pollution, and for this and many other reasons high-speed through traffic should not be placed next to or near to streets. Noise pollution is quite a serious problem as it causes stress and makes places significantly less inviting and pleasant to be in. And the main source of noise in most places are cars (and motorbikes), not people or buildings.",
@@ -21,10 +20,9 @@ footnotes: [
     "Public APIs can be used by mapping/navigation applications such as Google Maps or OpenStreetMaps, for example to show transport routes on the map, with live updates and as part of suggested navigation options. It can also provide updates on current service (repairs, strikes), busyness and free seats, and even show the location of vehicles in real time, which has been shown to <a href='https://www.bloomberg.com/news/articles/2012-03-06/do-real-time-updates-increase-transit-ridership'>increase ridership</a>. Of course most of this information can usually be found elsewhere, on the transport provider's site/app, printed on stations, etc, but it's often much easier for people to have it in one place, and to be able to do all this without having to switch to a new system (potentially for each different place they travel to). It's especially powerful when combined with walking and cycling navigation for multimodal trips.",
     "As mentioned in the accessibility section, it's still worth keep some staff around, but rather than focusing on getting passengers to pay, they can focus on helping them: providing assistance and information where needed, and keeping people safe, which is what's happened in Luxembourg since 2020. It's certainly a better use of time than telling people off who, at least in my experience, more often than not have missed their intended ticket timing for reasons out of their control (such as prior connections)",
     "Unless I've bought a season pass for a route, such as for getting to school or work, but that's a very small minority of cases"
-]
----
-
-<style>
+    ]
+style: "
+    <style>
     .household_expenditure {
         height: 515px;
         @media (width >= 700px) {
@@ -38,15 +36,17 @@ footnotes: [
             height: 482px;
         }
     }
-</style>
+    </style>
+    "
+---
 
-## The lay of the land
-
-According to the [latest government statics](https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=TSGB0101%20and%20TSGB0102.-,Of%20the,-799%20billion%20passenger), 90% of the distance travelled in Great Britain takes place by road: 85% by private vehicles, 4% by bus and coach, and 1% by motorbikes and pedal bikes, while the remaining tenth is made up by rail (9%) and air (1%). This is a marked change from just a century ago, and this rise in car-centric transport and lifestyle has drastically changed our movement patterns and, as I'm going to argue, has largely done so for the worse.
+According to the [latest government statistics](https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=TSGB0101%20and%20TSGB0102.-,Of%20the,-799%20billion%20passenger), 90% of the distance travelled in Great Britain takes place by road: 85% by private vehicles, 4% by bus and coach, and 1% by motorbikes and pedal bikes, while the remaining tenth is made up by rail (9%) and air (1%). This is a marked change from just a century ago, and this rise in car-centric transport and lifestyle has drastically changed our movement patterns and, as I'm going to argue, has largely done so for the worse.
 
 <p class="caption">
-<a href="https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=rail%20and%20air.-,Chart%202,-%3A%20Passenger%20transport%20by"><img src="transport-trend.svg" alt="Between 1952 and 1990, the category of distance travelled by cars, vans and taxis per year rises significantly while other declines. Afterwards, cars vans and taxis levels off while other starts to increase slowly."></a>
+<a href="https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=rail%20and%20air.-,Chart%202,-%3A%20Passenger%20transport%20by"><img src="transport-trend.svg" alt="Between 1952 and 1990, the category of distance travelled by cars, vans and taxis per year rises significantly while other declines. Afterwards, cars vans and taxis levels off while other starts to increase slowly." style="aspect-ratio: 750/376;"></a>
 Passenger transport by cars, vans and taxis compared to other modes, measured in billion passenger kilometres per year. Great Britain, 1952 to 2023</p>
+
+%contents%
 
 ## Accessibility: Transport for *everyone*
 
