@@ -4,8 +4,8 @@
     "scope": "/",
     "name": "FormularSumo",
     "description":"James Heppell's personal site and blog",
+    "display_override": ["minimal-ui"],
     "display": "standalone",
-    "display-override": "minimal-ui",
     "background_color" : "black",
     "icons": [
         {
