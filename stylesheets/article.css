@@ -49,6 +49,10 @@ main {
         display: flex;
         margin-bottom: 6px;
         align-items: center;
+        img {
+            min-width: 0; /* This is needed for Blink/WebKit, which will treat the the flexbox main-axis dimension (width or height) of an image as a minimum if not */
+            min-height: 0;
+        }
     }
 
     .small {
