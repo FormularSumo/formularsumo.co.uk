@@ -21,6 +21,7 @@ html {
     padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
     background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
     font-family: var(--text_font);
+    text-underline-offset: 10%;
 }
 main {
     padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
