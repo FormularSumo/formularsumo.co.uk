@@ -21,18 +21,24 @@ main {
     h3 {
         margin-top: 18px;
         margin-bottom: 11px;
-        font-size: 22px;
+        font-size: 23px;
     }
 
     h4 {
         margin-top: 18px;
         margin-bottom: 9px;
-        font-size: 20px;
+        font-size: 21px;
     }
 
     h5 {
         margin-top: 18px;
         margin-bottom: 8px;
+        font-size: 19px;
+    }
+
+    h6 {
+        margin-top: 18px;
+        margin-bottom: 7px;
         font-size: 18px;
     }
 
@@ -70,7 +76,7 @@ main {
 
     .contents {
         font-size: 1.23em;
-        text-underline-offset: 25%;
+        text-underline-offset: 27.5%;
         margin-bottom: 35px;
         li {
             margin-bottom: 1.5%;
