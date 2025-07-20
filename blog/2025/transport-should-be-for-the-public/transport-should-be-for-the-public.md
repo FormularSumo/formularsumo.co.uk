@@ -149,6 +149,20 @@ It shouldn't really come as a surprise that private motor vehicles are so deadly
 
 While we do seem to have got used to it, we should expect better from our transport systems. It's hardly an uncommon sight to see a crashed car on the motorway or on a smaller road, and I have people in my family who've suffered debilitating injuries or even death from these accidents. If none of the previous arguments have resonated with you this should: the number of people we're killing and seriously injuring with our car-centric lifestyles is unacceptable, and needs to be drastically reduced. A shift away from such high car usage - especially in our streets and other pedestrian-heavy areas, is a must in order to achieve this.
 
+## When private road vehicles do make sense
+
+Despite their many, many drawbacks, there are some use-cases where cars and especially larger private vehicles do make a lot of sense - we just shouldn't be using them where they don't.
+
+The first situation that comes to mind is moving lots of or quite unwieldy things over a short-ish distance. Trains and buses can work for this - I've seen people carry all sorts of things from tables to desktop computers on them, but sometimes it's more convenient to go door-to-door (even if only for a drop-off). Perhaps the most obvious example would be moving homes. When I move into my UK university in Exeter (around ~3 hours away by train or car), the easiest way to do it - to take all the things I want with me at once, is to fill up a car with it. Otherwise, I go by train when travelling there, but taking all of my things when moving would probably require 3-4 trips, even with help. When moving into a bigger home, a removal van/lorry is usually the easiest way of doing it, again to avoid lots of trips and excess carrying.
+
+Another example of moving things is instruments. When I play in music gigs most of the musicians make their own way to the venue, carrying their instruments and walking, cycling or taking transport. But certain larger pieces of equipment, including percussion, music stands, chairs, and large instruments like tubas or double basses are not very comfortable to take like this, especially if it's just a few people doing it. As with moving homes, the best way is often by car or by van, depending on how much there is. So we ask if anyone knows anyone with a car, or book out a taxi or van for the event if needed, which costs relatively little just for these events.
+
+The same is true when moving lots of people to the same place, such as a school trip. Public transport often works great for this, but if there's specific requirements such as an iternary and stops, unusual places, lots of baggage (maybe it's a music tour!), it can be easier to hire out a private coach to better fit around the plans. Finally, short-distance deliveries. Rail and sea are great for freight, but after getting to the nearest station/depot it's often necessary to deliver things directly to their destinations, such as for commercial/industrial buildings, or large item deliveries. Vans are good ways of doing this, and these deliveries (especially commerical) can normally be timed to be done in off-peak hours and so not to disturb people's movement patterns too much.
+
+As well as deliveries, private vehicles are also useful for unusual situations. By its nature, public transport is designed to cover routes and destinations where a substantial number of people live and/or want to go. Sometimes you do get stations and stops designed to go to less populated places - natural parks for example, or other coaches/vehicles serving these routes, but if you're going someone that's really off-the-radar, there may not be many options. So for off-road/remote locations, it can be quite helpful to use your own vehicle, which can just be can be hired or borrowed instead of owned. Taxis are of course another option for this, and they tend to be particularly useful for unusual times. There's been a few situations where I've had to travel when a public transport line is closed due to being too late or early, and if there aren't good alternatives, taxis are sometimes the best option.
+
+It's also worth coming back to disabilites and other mobility issues. As I'll explore more later, well-designed public transport is usually the best way to enable everybody to get around, but there's some situations in which going by car is easier. If there's someone with very poor mobilty for example, who's only able to walk a few minutes, and who can't always use a wheelchair or scooter for whatever reason, being able to be dropped off and picked up directly at their destinations can be easier. And if this is something that somebody does frequent, eg if they have a carer, it probably makes more sense to own a car than to rely on taxis/other people. This is one of the reasons why, even as we should be reducing overall parking, keeping disabled spots and drop-off places is important. When combined with human-scale design and less vehicles on the road, as well as accessible public transport, this makes places as easy as possible to get around. The final situation which I can think of is people who really don't feel comfortable spending time in public places. This could include some young children or pets, or those who have severe allergies or illnesses (eg weakened immune systems). I do understand that public transport is not *always* the best option for *everyone*, but, when well-done, it should be for the vast majority of journeys.
+
 ## Public transport: systems and advantages
 
 Before talking about the different ways of running public transport, I'd like to quickly take a look at some of the positives of travelling on it. So far I've been focused on the many drawbacks of car-first systems, but there's also a few ways aside from these in which shared transport can really shine.
@@ -304,20 +318,6 @@ I truly hope and believe that the UK can return to the forefront of public, and 
 If you'd like to find out more information about the issues and topics I've talked about here then I'd highly recommend Jeff Speck's book [Walkable Cities](https://www.goodreads.com/book/show/13538794-walkable-city), and [NotJustBikes](notjustbikes.com) Youtube channel and podcast. And if you'd like to get more directly involved, I'll point you in the direction of the [Campaign for Better Transport](https://bettertransport.org.uk/) UK charity, and the [Strong Towns](https://www.strongtowns.org/) US charity, both of which do great work to build more resilient, walkable and transport-friendly places.
 
 # Planning
-
-## When private road vehicles do make sense
-
-Moving lots of or large/heavy things over short distances; deliveries (shops), house moving, instruments/theatre
-
-Off-road and remote locations or times (especially taxis, e.g. middle of the night), extreme weather?
-
-Certain disabilities/mobility issues (though often having to be driven by others) - previous reference to scooters, taxis
-
-Chartered coaches for specific trips/itineraries (music)
-
-Sometimes families, with children or pets which really don't like public places
-
-TLDR: useful, but they should not be the default option
 
 ## Motorbikes?
 
