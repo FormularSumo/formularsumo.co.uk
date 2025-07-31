@@ -1,7 +1,7 @@
 ---
 layout: article.html
-title: Apps
-description: An attempt to collate all the apps I use for different purposes
+title: Software
+description: An attempt to collate all the software I use for different purposes
 ---
 
 # Maps
@@ -30,7 +30,7 @@ I use the OpenStreetMaps website sometimes for viewing maps, as CoMaps only show
 
 ## Cryptee
 
-For the past ~9 months, Cryptee has been my note taking app of choice. It's excellent, it's super well-made, very easy to use, extremely fast and lightweight, well-designed, feature-rich, and as secure and private as you can get. There's very little I can fault it for. Being a good web app, it works flawlessly on any device - even some e-readers, and any modern browser, and has a open-source, verifiable front-end. The people who make it are very receptive to feedback, and I can say they have taken on board everything I've suggested.
+For the past ~9 months, Cryptee has been my note taking app of choice. It's excellent, it's super well-made, very easy to use, extremely fast and lightweight, well-designed, feature-rich, and as secure and private as you can get. There's very little I can fault it for. Being a good web app, it works flawlessly on any device - even some e-readers, and any modern browser, and has an open-source, verifiable front-end. The people who make it are very receptive to feedback, and I can say they have taken on board everything I've suggested.
 
 For me, there's just two things stopping me from using this for everyting. Or maybe 3. The biggest annoyance is the lack of edit-locking/conflict-algo. What this means is that changes from one device do not sync to another until you reload the file, or sometimes the whole app. If you bear this in mind, it's not an issue, but if you're unaware, it can catch you out and possibly lead to data loss if you save over changes. The good news is that they're currently working on this, so hopefully in a year or two I'll be able to get rid of this. The main issue is that being full client-side encrypted, it's very hard to compare differences in files, but I'm sure they'll figure this out.
 
