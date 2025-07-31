@@ -31,3 +31,4 @@ Here's an incomplete list of websites I've used as inspiration, from the point o
 * [https://alistairshepherd.uk/writing/](https://alistairshepherd.uk/writing/)
 * [https://www.baldurbjarnason.com/](https://www.baldurbjarnason.com/)
 * [https://www.kryogenix.org/days/](https://www.kryogenix.org/days/)
+* [https://css-tricks.com/](https://css-tricks.com/)
