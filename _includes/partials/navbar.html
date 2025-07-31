@@ -4,6 +4,7 @@
 {% if page.lang == "en" -%}
     {% assign home = "Home" -%}
     {% assign blog = "Blog" -%}
+    {% assign aboutThisSite = "About" -%}
     {% assign testPage = "Test" -%}
     {% assign FS_alt = "logo" -%}
 
@@ -12,6 +13,7 @@
     {% if page.lang == "es" -%}
         {% assign home = "Inicio" -%}
         {% assign blog = "Blog" -%}
+        {% assign aboutThisSite = "Sobre" -%}
         {% assign testPage = "Prueba" -%}
         {% assign FS_alt = "logotipo" -%}
 
@@ -30,7 +32,10 @@
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
             <li class="nav_element"><a href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
-            <!-- <li class="nav_element"><a href="{{'/testPage/' | localiseURL: URL}}">{{testPage}}</a></li> -->
+            {% if page.lang == "en" -%}
+            <li class="nav_element"><a href="{{'/about-this-site/' | localiseURL: page.lang}}">{{aboutThisSite}}</a></li>
+            {% endif -%}
+            <!-- <li class="nav_element"><a href="{{'/testPage/' | localiseURL: page.lang}}">{{testPage}}</a></li> -->
         </ul>
     </nav>
 

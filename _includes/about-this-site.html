@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    <head>
+        {% include "partials/head.html" %}
+
+        <style>
+            main {
+                margin-inline: max(6px + 3%, 50% - 400px);
+            }
+            h1 {
+                margin-top: 24px;
+                margin-bottom: 12px;
+                font-size: 40px;
+            }
+        </style>
+    </head>
+
+    <body>
+        {%- include "partials/navbar.html" %}
+
+        <main>
+            {{content}}
+        </main>
+    </body>
+</html>

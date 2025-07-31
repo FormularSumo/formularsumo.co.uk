@@ -24,6 +24,8 @@ function translateURL(URL, lang) {
 			} else {
 				newURL = "/es/"; //If a living-page is not translated, redirect home. This will need chaning to redirect to living-pages when it is published
 			}
+		} else if (URL.includes("about-this-site/")) {
+			newURL = "/es/" //Temporary until translated
 		} else { //This currently works because all pages have the same name, will need updating when new pages are added
 			newURL = "/es" + URL
 		}
@@ -91,6 +93,7 @@ export default function (eleventyConfig) {
 	// Takes a default English language URL and converts it the specified language
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		if (lang == "en" ) {
+			console.log(URL)
 			return URL;
 		} else {
 			return translateURL(URL, lang);
