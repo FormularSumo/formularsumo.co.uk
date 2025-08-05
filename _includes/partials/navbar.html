@@ -30,9 +30,7 @@
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
             <li class="nav_element"><a href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
-            {% if page.lang == "en" -%}
             <li class="nav_element"><a href="{{'/about-this-site/' | localiseURL: page.lang}}">{{aboutThisSite}}</a></li>
-            {% endif -%}
         </ul>
     </nav>
 

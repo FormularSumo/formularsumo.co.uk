@@ -44,7 +44,7 @@ function translateURL(URL, lang) {
 			}
 
 		} else if (URL.includes("/about-this-site/")) {
-			newURL = "/es/"; //Temporary until translated
+			newURL += "sobre-esta-web/";
 
 		} else { //Assumes that other top-level pages have the same name (eg homepage)
 			newURL = "/es" + URL;
@@ -83,6 +83,8 @@ function translateURL(URL, lang) {
 					newURL += "living-pages/" + "/" + translatedPage;
 				}
 			}
+		} else if (URL.includes("/sobre-esta-web/")) {
+			newURL += "about-this-site/";
 
 		} else {
 			newURL += URL.split('/').slice(2,-1);

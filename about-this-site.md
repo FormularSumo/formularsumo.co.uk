@@ -21,18 +21,3 @@ All content on the website should be accessible in any modern browser, with or w
 # Inspirations
 
 Here's an incomplete list of websites I've used as inspiration, from the point of view of design, content, functionality or other ideas:
-
-* [https://infrequently.org/](https://infrequently.org/)
-* [https://vale.rocks/](https://vale.rocks/)
-* [https://adactio.com/](https://adactio.com/)
-* [https://brucelawson.co.uk/](https://brucelawson.co.uk/)
-* [https://briefs.video/](https://briefs.video/)
-* [https://maggieappleton.com/garden-history/](https://maggieappleton.com/garden-history/)
-* [https://open-web-advocacy.org/](https://open-web-advocacy.org/)
-* [https://webventures.rejh.nl/](https://webventures.rejh.nl/)
-* [https://alistairshepherd.uk/writing/](https://alistairshepherd.uk/writing/)
-* [https://www.baldurbjarnason.com/](https://www.baldurbjarnason.com/)
-* [https://pluralistic.net/](https://pluralistic.net/)
-* [https://www.kryogenix.org/days/](https://www.kryogenix.org/days/)
-* [https://css-tricks.com/](https://css-tricks.com/)
-* [https://firt.mobi/](https://firt.mobi/)
