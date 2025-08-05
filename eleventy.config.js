@@ -90,7 +90,7 @@ export default function (eleventyConfig) {
 		return dateObj.toISOString();
 	});
 
-	// Takes a default English language URL and converts it the specified language
+	// Takes a default English language URL and converts it to the specified language
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		if (lang == "en" ) {
 			return URL;
