@@ -93,7 +93,6 @@ export default function (eleventyConfig) {
 	// Takes a default English language URL and converts it the specified language
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		if (lang == "en" ) {
-			console.log(URL)
 			return URL;
 		} else {
 			return translateURL(URL, lang);
