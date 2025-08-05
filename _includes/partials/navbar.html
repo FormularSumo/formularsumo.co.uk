@@ -5,7 +5,6 @@
     {% assign home = "Home" -%}
     {% assign blog = "Blog" -%}
     {% assign aboutThisSite = "About" -%}
-    {% assign testPage = "Test" -%}
     {% assign FS_alt = "logo" -%}
 
     {% assign second_lang = "es" -%}
@@ -14,7 +13,6 @@
         {% assign home = "Inicio" -%}
         {% assign blog = "Blog" -%}
         {% assign aboutThisSite = "Sobre" -%}
-        {% assign testPage = "Prueba" -%}
         {% assign FS_alt = "logotipo" -%}
 
         {% assign second_lang = "en" -%}
@@ -35,7 +33,6 @@
             {% if page.lang == "en" -%}
             <li class="nav_element"><a href="{{'/about-this-site/' | localiseURL: page.lang}}">{{aboutThisSite}}</a></li>
             {% endif -%}
-            <!-- <li class="nav_element"><a href="{{'/testPage/' | localiseURL: page.lang}}">{{testPage}}</a></li> -->
         </ul>
     </nav>
 
