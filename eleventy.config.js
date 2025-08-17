@@ -17,56 +17,95 @@ const mdAnchorOpts = {
 }
 
 function translateURL(URL, lang) {
-	let newURL = "";
+	let newURL = "/";
+
 	if (lang == "es") {
-		if (URL.includes("blog/2")) {
-			let Year = URL.split('/').slice(-3,-2)
-			URL = URL.split('/').slice(-2,-1)
-			if (URL == "pronouns" ) {
-				newURL = "pronombres";
+		newURL += "es/";
+
+		if (URL.includes("/blog/")) {
+			newURL += "blog/";
+
+			if (URL.split('/').slice(-2,-1) != "blog") {
+
+				let year = URL.split('/').slice(-3,-2);
+				let post = URL.split('/').slice(-2,-1);
+
+				var translatedPost;
+				if (post == "pronouns" ) {
+					translatedPost = "pronombres";
+				}
+
+				if (translatedPost) {
+					newURL += year + "/" + translatedPost + "/";
+				}
+				//If an article is not translated, goes to blog page
 			}
 
-			if (newURL != "") {
-				newURL = "/es/blog/" + Year + "/" + newURL;
-			} else {
-				newURL = "/es/blog/"; //If an article is not translated, redirect to blog page
-			}
-		} else if (URL.includes("living-pages/")) {
-			URL = URL.split('/').slice(-2,-1)
+		} else if (URL.includes("/living-pages/")) {
+			//Disabled until published, probably wants translating
+			// newURL += "living-pages/";
 
-			if (newURL != "") {
-				newURL = "/es/living-pages/" + "/" + newURL;
-			} else {
-				newURL = "/es/"; //If a living-page is not translated, redirect home. This will need chaning to redirect to living-pages when it is published
+			if (URL.split('/').slice(-2,-1) != "living-pages") {
+
+				let page = URL.split('/').slice(-2,-1);
+
+				var translatedPage;
+				// Work out translated page names here
+
+				if (translatedPage) {
+					newURL += translatedPage;
+				}
+				//If a living-page is not translated, goes to homepage (change to living-pages when published).
 			}
-		} else { //This currently works because all pages have the same name, will need updating when new pages are added
-			newURL = "/es" + URL
+
+		} else if (URL.includes("/about-this-site/")) {
+			newURL += "sobre-esta-web/";
+
+		} else { //Assumes that other top-level pages have the same name (eg homepage)
+			newURL = "/es" + URL;
 		}
+
 	} else if (lang == "en" ) {
-		if (URL.includes("es/blog/2")) {
-			let Year = URL.split('/').slice(-3,-2)
-			URL = URL.split('/').slice(-2,-1)
-			if (URL == "pronombres" ) {
-				newURL = "pronouns";
+
+		if (URL.includes("/blog/")) {
+			newURL += "blog/";
+
+			if (URL.split('/').slice(-2,-1) != "blog") {
+
+				let year = URL.split('/').slice(-3,-2);
+				let post = URL.split('/').slice(-2,-1);
+
+				var translatedPost;
+				if (post == "pronombres" ) {
+					translatedPost = "pronouns";
+				}
+
+				if (translatedPost) {
+					newURL += year + "/" + translatedPost + "/";
+				}
 			}
 
-			if (newURL != "") {
-				newURL = "/blog/" + Year + "/" + newURL;
-			} else {
-				newURL = "/blog/";
-			}
-		} else if (URL.includes("living-pages/")) {
-			URL = URL.split('/').slice(-2,-1)
+		} else if (URL.includes("/living-pages/")) {
+			// newURL += "living-pages/";
 
-			if (newURL != "") {
-				newURL = "/living-pages/" + "/" + newURL;
-			} else {
-				newURL = "/";
+			if (URL.split('/').slice(-2,-1) != "living-pages") {
+
+				let page = URL.split('/').slice(-2,-1);
+
+				var translatedPage;
+
+				if (translatedPage) {
+					newURL += "living-pages/" + "/" + translatedPage;
+				}
 			}
+		} else if (URL.includes("/sobre-esta-web/")) {
+			newURL += "about-this-site/";
+
 		} else {
-			newURL = "/" + URL.split('/').slice(2,-1)
+			newURL += URL.split('/').slice(2,-1);
 		}
 	}
+
 	return newURL;
 };
 
@@ -113,7 +152,7 @@ export default function (eleventyConfig) {
 		return dateObj.toISOString();
 	});
 
-	// Takes a default English language URL and converts it the specified language
+	// Takes a default English language URL and converts it to the specified language
 	eleventyConfig.addFilter("localiseURL", (URL, lang) => {
 		if (lang == "en" ) {
 			return URL;

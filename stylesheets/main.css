@@ -91,7 +91,7 @@ svg {
         text-align: left;
         color: white;
         font-size: 36px;
-        padding-inline: 8px;
+        padding-inline: 10px;
         line-height: var(--navbar_height);
     }
     input {
@@ -115,7 +115,7 @@ svg {
         display: block;
         text-decoration: none;
         color: rgb(255, 255, 255);
-        padding-inline: 8px;
+        padding-inline: 10px;
     }
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
