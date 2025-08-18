@@ -1,6 +1,6 @@
 ---
 title: Transport should be for the public
-date: 2025-08-17
+date: 2025-08-18
 description: The UK, with few exception, is car dependent. Our public and active transport systems are severely underinvested in and underutilised, which has a wide-ranging knock-on effect on all our public spaces, services and designs. But there's hope for change - and a wealth of evidence to guide us to it.
 footnotes: [
     "<em>Transport services</em> includes car rental, which combined with operation and purchase add up to be more than food and non-alcoholic drink.",
