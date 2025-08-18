@@ -21,18 +21,24 @@ main {
     h3 {
         margin-top: 18px;
         margin-bottom: 11px;
-        font-size: 22px;
+        font-size: 23px;
     }
 
     h4 {
         margin-top: 18px;
         margin-bottom: 9px;
-        font-size: 20px;
+        font-size: 21px;
     }
 
     h5 {
         margin-top: 18px;
         margin-bottom: 8px;
+        font-size: 19px;
+    }
+
+    h6 {
+        margin-top: 18px;
+        margin-bottom: 7px;
         font-size: 18px;
     }
 
@@ -45,11 +51,43 @@ main {
         width: 100%;
     }
 
+    .img_flex {
+        display: flex;
+        margin-bottom: 6px;
+        align-items: center;
+        img {
+            min-width: 0; /* This is needed for Blink/WebKit, which will treat the the flexbox main-axis dimension (width or height) of an image as a minimum if not */
+            min-height: 0;
+        }
+    }
+
     .small {
         @media screen and (width >= 600px) {
           max-width: 50%
         }
-      }
+    }
+
+    .contents_title {
+        font-size: 22px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-style: italic;
+    }
+
+    .contents {
+        font-size: 1.23em;
+        text-underline-offset: 27.5%;
+        margin-bottom: 35px;
+        li {
+            margin-bottom: 1.5%;
+            font-size: 0.9em;
+            margin-left: 35px;
+        }
+        ul {
+            margin-top: 1.5%;
+            margin-bottom: 0px;
+        }
+    }
 
     .footnotes {
         content-visibility: auto;

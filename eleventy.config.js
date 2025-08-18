@@ -1,5 +1,20 @@
 import { EleventyI18nPlugin } from "@11ty/eleventy";
 import { DateTime } from "luxon";
+import tocPlugin from "eleventy-plugin-toc";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+
+const mdOptions = {
+	html: true,
+	breaks: true,
+  }
+const mdAnchorOpts = {
+	permalink: markdownItAnchor.permalink.linkInsideHeader({
+		symbol: '#',
+		class: 'anchor-link',
+	}),
+	level: [1, 2, 3, 4]
+}
 
 function translateURL(URL, lang) {
 	let newURL = "/";
@@ -112,8 +127,18 @@ export default function (eleventyConfig) {
 		// "png"
 	]);
 
+	eleventyConfig.setLibrary(
+		'md',
+		markdownIt(mdOptions).use(markdownItAnchor)
+	  )
+
 	eleventyConfig.addPlugin(EleventyI18nPlugin,{
 		defaultLanguage: "en",
+	});
+
+	eleventyConfig.addPlugin(tocPlugin, {
+		tags: ['h2', 'h3', 'h4'],
+		ul: true,
 	});
 
 	eleventyConfig.addFilter("postDate", (dateObj, lang) => {
@@ -139,5 +164,13 @@ export default function (eleventyConfig) {
 	//Converts the current URL to the specified language
 	eleventyConfig.addFilter("translateURL", (URL, lang) => {
 		return translateURL(URL, lang);
+	});
+
+	eleventyConfig.addFilter("get_introduction", (content) => {
+		return content.split('%contents%')[0]
+	});
+
+	eleventyConfig.addFilter("get_content", (content) => {
+		return content.split('%contents%')[1]
 	});
 };
