@@ -5,7 +5,7 @@
     <head>
         {% include "partials/head.html" %}
 
-=        <link rel="stylesheet" href="/stylesheets/article.css">
+        <link rel="stylesheet" href="/stylesheets/article.css">
         {% if stylesheet -%}
             <link rel="stylesheet" href="/stylesheets/{{stylesheet}}.css">
         {%- endif %}
@@ -31,10 +31,10 @@
         {% endif %}
     </head>
 
-    <body>
+    <body class="blog">
         {%- include "partials/navbar.html" %}
 
-        <main class="blog">
+        <main>
             <article>
                 <header>
                     <h1>{{title}}
