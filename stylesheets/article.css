@@ -58,6 +58,7 @@ main {
         img {
             min-width: 0; /* This is needed for Blink/WebKit, which will treat the the flexbox main-axis dimension (width or height) of an image as a minimum if not */
             min-height: 0;
+            vertical-align: bottom /* Needed to prevent double space when there are links around images */
         }
     }
 
