@@ -40,7 +40,7 @@ Driving and owning a motor vehicle is a big responsibility. Learning to drive is
 
 <p class="caption">
 <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023#:~:text=Average%20weekly%20household%20expenditure%20in%20the%20UK%2C%20financial%20year%20ending%20%28FYE%29%202023">
-<img src="household-expenditure.avif" alt="2023 Average UK household weekly expenditure broken down by categories. Total expenditure was £567.70 per week, and the biggest categories were Housing, fuel and power (£105.70), Transport (£79.20), and Food and non-alcoholic drinks (£63.50).">
+<img src="household-expenditure.avif" alt="2023 Average UK household weekly expenditure broken down by categories. Total expenditure was £567.70 per week, and the biggest categories were Housing, fuel and power (£105.70), Transport (£79.20), and Food and non-alcoholic drinks (£63.50)." loading="lazy">
 <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023">
 Average weekly household expenditure in the UK, financial year ending (FYE) 2023, Office for National Statistics</a></p>
 
@@ -58,7 +58,7 @@ It's common knowledge that combustion engine cars are one of the most polluting 
 
 <p class="caption">
 <a href="https://ourworldindata.org/travel-carbon-footprint">
-<img src="carbon-footprint.svg" alt="Flights (especially short-distance) and combustion-engine cars release the most emissions, followed by motorbikes and buses, then hybrid and electric cars, mixed UK overground and underground trains, coaches, ferries and the eurostar (electric trains)"></a>
+<img src="carbon-footprint.svg" alt="Flights (especially short-distance) and combustion-engine cars release the most emissions, followed by motorbikes and buses, then hybrid and electric cars, mixed UK overground and underground trains, coaches, ferries and the eurostar (electric trains)" loading="lazy"></a>
 Carbon equivalent per kilometre of different modes of transport</p>
 
 It's true that hybrids and electric cars are a lot better, but they're still not great options. The vast, vast majority of cars on the road have combustion-engines and will do for quite a long time. Even at the time of writing new EVs make up only [22% of new vehicle registrations, and 4.6% of cars on the road](https://www.zap-map.com/ev-stats/ev-market). But if you look closely at the chart you'll notice that electric cars are actually not all that sustainable. How can that be? In part because [some of our electricity production still comes from fossil fuels](https://en.wikipedia.org/wiki/Electricity_in_Great_Britain). But that's not the full picture, because options such as long-distance coaches which *do* mostly use fossil fuels are still less polluting, and local buses are significantly better than petrol/diesel cars. The reason for this is that cars typically use a lot, lot more energy per person. The average UK car trip has [1.6 people onboard](https://assets.publishing.service.gov.uk/media/66ce0f6f25c035a11941f655/nts0905.ods) and a  maximum of 5, but an average bus trip has [11.9](https://assets.publishing.service.gov.uk/media/6745b86683f3d6d843be96c9/bus03.ods) and a maximum of 60-100<sup><a id="n-4" href="#fn-4">4</a></sup>, while only using 4-6x as much power<sup><a id="n-5" href="#fn-5">5</a></sup>. If you do the maths this means that an average bus carries around 7.5x as many people, while using roughly 5x as much energy - an improvement of 1.5x. But if you take a reasonably full bus, say 80% capacity (64) vs the same for a car (4), you get 16x as many people - an improvement of just over 3x. With a car, you have a lot of car body for very few people, whereas a bus has a much higher ratio of people to vehicle, and will also typically get far more use before having to be replaced while producing less pollution overall from [tyre wear](https://www.theguardian.com/environment/2022/jun/03/car-tyres-produce-more-particle-pollution-than-exhausts-tests-show#:~:text=represent%20only%2011%25%20of%20the%20particles%20by%20weight%2E).
@@ -71,7 +71,7 @@ While most people are familiar with the high levels of pollution caused by cars,
 
 <p class="caption">
 <a href="https://en.wikipedia.org/wiki/Passengers_per_hour_per_direction#/media/File:Passenger_Capacity_of_different_Transport_Modes.png">
-<img src="passenger-capacity.webp" alt="Mixed traffic and especially cars have the worst carrying capacity. Cycling and walking are significantly better, as are bus lanes and light rail (trams), although heavy rail and suburban rail are the clear winners."></a>
+<img src="passenger-capacity.webp" alt="Mixed traffic and especially cars have the worst carrying capacity. Cycling and walking are significantly better, as are bus lanes and light rail (trams), although heavy rail and suburban rail are the clear winners." loading="lazy"></a>
 Passengers per hour on a 3.5 metre wide lane in the city for different modes of transport</p>
 
 Of all the common methods of transport, cars are the least efficient way of moving people around. Using the same amount of space they carry 6-7.5x less people than cycling or walking, and over 20x less than having dedicated bus lanes. Vs heavy rail and metros systems the comparison is even more stark with differences of 30-45x, notwithstanding that metros are often largely located underground anyway.
@@ -88,9 +88,9 @@ Historically when designing and building a place, there's always been a clear di
 
 <div class="img_flex">
     <a href="original-images/road.jpg">
-    <img src="road.avif" alt="An example of a road: a single lane motorway going through the countryside, located in the US, with no buildings in sight"></a>
+    <img src="road.avif" alt="An example of a road: a single lane motorway going through the countryside, located in the US, with no buildings in sight" loading="lazy"></a>
     <a href="original-images/street.jpg">
-    <img src="street.avif" alt="An example of a street: a roughly 8-12 metre-wide pedestrianised street, with tram lines going down the centre, a variety of covered shops located at street-level and residential homes above them rising to 4 stories in total, which is roughly the same height as the width of the street"></a>
+    <img src="street.avif" alt="An example of a street: a roughly 8-12 metre-wide pedestrianised street, with tram lines going down the centre, a variety of covered shops located at street-level and residential homes above them rising to 4 stories in total, which is roughly the same height as the width of the street" loading="lazy"></a>
 </div>
 <p class="caption">Left: a road in the US. Right: a street in Amsterdam</p>
 
@@ -99,7 +99,7 @@ The problem with car-first designs is that they blur these lines. They design st
 
 <p class="caption">
 <a href="original-images/stroad.jpg">
-<img src="stroad.avif" alt="An example of a stroad: 5-6 car lanes in each direction with many turnings and junctions leading to highly spaced apart buildings with large car parks"></a>
+<img src="stroad.avif" alt="An example of a stroad: 5-6 car lanes in each direction with many turnings and junctions leading to highly spaced apart buildings with large car parks" loading="lazy"></a>
 A stroad in the US</p>
 
 While it would theoretically be possible to walk to and around the above retail parks, they're clearly not designed for it. It would be incredibly dangerous to do so with the narrow or nonexistent pavements, placed near to and virtually without protection from the congested and chaotic lanes of traffic. Just imagine trying to cross them. To make a street an enjoyable place to be it both needs to be and feel safe, and to be inviting to its users by being visually interesting and varied in design. This place and most like it are entirely barren, save for a sparse few repeating trees. I have walked around many of these and it's awful. It feels like you're completely out of place and that at any moment a car might appear out of nowhere and hit you (especially when there simply aren't pavements connecting certain parts, and so you're forced to walk on the roads), not to mention the noise and fumes. But when somewhere is designed for and at the scale of cars this is the result; anybody who's not inside a car is an outsider and the vicious cycle of car-design and car-dependency continues. And children who grow up in places depending on parents to drive them everywhere will learn that driving is the only way to get anywhere there - and that they'll need to learn and buy a car to achieve any degree of independence and mobility.
@@ -112,14 +112,14 @@ It doesn't really need stating, but shared forms of transport use far less parki
 
 <p class="caption">
 <a href="original-images/gatwick car-train.webp">
-<img src="gatwick car-train.avif" alt="An arial view of London Gatwick Airport. The various car parks (short-stay, long-stay, holiiday parking) are circled in red, and the train line in blue. The train station is located next to the South terminal, whereas the car parks are located further out to the bottom-right and up in the top-left, and take up roughly 10-20x as much space."></a>
+<img src="gatwick car-train.avif" alt="An arial view of London Gatwick Airport. The various car parks (short-stay, long-stay, holiiday parking) are circled in red, and the train line in blue. The train station is located next to the South terminal, whereas the car parks are located further out to the bottom-right and up in the top-left, and take up roughly 10-20x as much space." loading="lazy"></a>
 London Gatwick Airport: red = airport parking, blue = airport train line. Note that there is an airport train service running between the two terminals</p>
 
 The above RAC foundation report states that there were over 27 million private cars in 2012, close to one for every other person, and the [Department for Transport estimates](https://www.gov.uk/government/statistics/national-travel-survey-2022/national-travel-survey-2022-household-car-availability-and-trends-in-car-trips) that 78% of households have at least one car, with 34% having two or more. With so many people owning cars, driving them around and parking them, it becomes inevitable that many places end up being designed for cars and incorporating large car parks, large stroads, and human-unfriendly designs.
 
 <p class="caption">
 <a href="https://www.gov.uk/government/statistics/national-travel-survey-2022/national-travel-survey-2022-household-car-availability-and-trends-in-car-trips">
-<img src="household-cars.avif" alt="Graph showing the average number of cars per household in the UK between 1971 and 2022, divided into 3 categories: No car or van, One car or van, and Two or more cars or vans. Over this time period 1 car/van has remained relatively stable, going for 44% to 45% with little variation. Two or more has rised from 8% to just over 30%, plateauing in the late 2000s, and no cars of vans has done the opposite, steadly declining from 48% to stablise at just over the 20% mark in the same time period"></a>
+<img src="household-cars.avif" alt="Graph showing the average number of cars per household in the UK between 1971 and 2022, divided into 3 categories: No car or van, One car or van, and Two or more cars or vans. Over this time period 1 car/van has remained relatively stable, going for 44% to 45% with little variation. Two or more has rised from 8% to just over 30%, plateauing in the late 2000s, and no cars of vans has done the opposite, steadly declining from 48% to stablise at just over the 20% mark in the same time period" loading="lazy"></a>
 Number of cars per household, UK, 1971-2022</p>
 
 ### Safety
@@ -128,14 +128,14 @@ The final way in which cars can be considered unsustainable is in relation to sa
 
 <p class="caption">
 <a href="https://turbli.com/blog/the-safest-transport-modes-ranked-by-statistics-from-10-years-of-data/#:~:text=Fatalities%20by%20passenger%20miles">
-<img src="fatalities-distance.jpg" alt="Bar graph of fatalities per billion passenger miles of various modes of transport in the US between 2010 and 2019. From high to low: Motorcycle (212), Private plane (34), Light truck (9.3), Car (3.5), Commuter plane (2.8), Heavy truck (2.6), Ferryboat (0.89), Train (0.31), Bus (0.14), Commercial plane (0.002)"></a>
+<img src="fatalities-distance.jpg" alt="Bar graph of fatalities per billion passenger miles of various modes of transport in the US between 2010 and 2019. From high to low: Motorcycle (212), Private plane (34), Light truck (9.3), Car (3.5), Commuter plane (2.8), Heavy truck (2.6), Ferryboat (0.89), Train (0.31), Bus (0.14), Commercial plane (0.002)" loading="lazy"></a>
 Fatality rates per distance travelled of different modes of transport, US, 2010-2019</p>
 
 Looking at data from the US Bureau of Transportation Statistics<sup><a id="n-7" href="#fn-7">7</a></sup> we can see that motorcycles, trucks and cars have the highest rate of occupant fatalities (private jets notwithstanding). But the true picture is worse than it looks because a significant number of the fatalities caused by these vehicles are not the vehicle occupants or even other vehicles, but rather pedestrians and cyclists. In fact, walking and cycling are [statistically some of the least safe forms of transport](https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-road-user-risk-2022/reported-road-casualties-great-britain-road-user-risk-2022-data), despite causing next to zero incidents themselves.
 
 <p class="caption">
 <a href='https://turbli.com/blog/the-safest-transport-modes-ranked-by-statistics-from-10-years-of-data/#:~:text=Fatalities%20by%20passenger%20hours'>
-<img src="fatalities-time.jpg" alt="Bar graph of fatalities per billion passenger hours of various modes of transport in the US between 2010 and 2019. From high to low: Motorcycle (8171), Private plane (4719), Commuter plane (445), Light truck (296), Car (120), Heavy truck (86), Train (19), Ferryboat (7.7), Bus (3.0), Commercial plane (0.88)"></a>
+<img src="fatalities-time.jpg" alt="Bar graph of fatalities per billion passenger hours of various modes of transport in the US between 2010 and 2019. From high to low: Motorcycle (8171), Private plane (4719), Commuter plane (445), Light truck (296), Car (120), Heavy truck (86), Train (19), Ferryboat (7.7), Bus (3.0), Commercial plane (0.88)" loading="lazy"></a>
 Fatality rates per time travelled of different modes of transport, US, 2010-2019</p>
 
 Averaging by time instead of distance presents a similar picture, with trains and planes doing a bit worse due to generally going longer distances in less time, while buses and ferries improve.
@@ -186,7 +186,7 @@ That being said, buses - especially local ones - also have some quite serious dr
 
 <p class="caption">
 <a href="https://upload.wikimedia.org/wikipedia/commons/b/bf/High_Speed_Railroad_Map_of_Europe.svg">
-<img src="high-speed-rail-europe.svg" alt="Map of high-speed rail networks constructued and under-construction in Europe, ranging from 200 to 320 km/h. Most of the current development is concentrated in the West part, with Spain, France and Germany have the 3 largest networks."></a>
+<img src="high-speed-rail-europe.svg" alt="Map of high-speed rail networks constructued and under-construction in Europe, ranging from 200 to 320 km/h. Most of the current development is concentrated in the West part, with Spain, France and Germany have the 3 largest networks." loading="lazy"></a>
 Map of high-speed rail in Europe</p>
 
 As well as being inherently slower due to their size and their more frequent stopping, buses on regular roads are all too often overrun by cars. It's a classic collective action problem: if everyone (or a significant number of people) were to take the bus, everyone would get to their destination faster, but if just one individual person decides to take a private vehicle, they're going to arrive faster. So more and more people do that, far more vehicles get on the road, and traffic slows everyone down a lot. UK buses have quite a reputation for arriving late, or not at all, and traffic and other vehicles are more often than not the reason why. As well as that, they're often (especially in more rural places) viewed as only for the young, old, and others who are unable to drive - or unable to afford to. As such it's crucial that we design systems which encourage the use of public transport in order to benefit us all, which I'll expand more on later.
@@ -205,7 +205,7 @@ When talking about long-distance travel, planes are the option that come to most
 
 <p class="caption">
 <a href='https://transportgeography.org/contents/applications/high-speed-rail-systems/breakeven-distances-rail-air-transport/'>
-<img src='plane-train-distance-time.webp' alt="Convential train is the fastest until 150 km, then high-speed train is the fastest up until 800 km. After that, plane is the fastest."></a>
+<img src='plane-train-distance-time.webp' alt="Convential train is the fastest until 150 km, then high-speed train is the fastest up until 800 km. After that, plane is the fastest." loading="lazy"></a>
 Total travel time vs distance going by conventional train, high-speed train, or plane.</p>
 
 The worst high-speed train systems only require you to arrive 0.5-1h before departure, while the sensible ones (e.g. France) suggest a minimum of 5-10 minutes before. A domestic flight will usually be 2h, and an international one 3h. After arrival you also have to spend a lot longer going through the airport, especially if you're waiting for baggage collection. And due to their size, land use and noise, (commercial) airports are only located on the outskirts of major cities - typically far from where people live, and where people want to go. Boarding and booking a train is usually a much less stressful experience too. There's far less to walk through and wait around for at the station, less security, shop-corridors, water queues and baggage restrictions (none of those often arbitrarily applied weight/size requirements). Nobody's going to ask you to pay for "priority" boarding or security, and often seat reservations/preferences are free as well. You also get the ability to have a good internet connection and use your devices the whole trip. And while not directly related to the transport itself, booking flights is painful. Booking a train takes about a minute using your preferred choice of app; booking a flight takes me at least half an hour to look through all the options, and fight my way through the booking pages (*no, I still don't want to buy insurance, however many times you swap around the buttons and hide them...*).
@@ -218,9 +218,9 @@ As with mid-to-long distance, metropolitan areas are best served by rail systems
 
 <div class="img_flex">
     <a href="original-images/trams-manchester.jpg">
-    <img src="trams-manchester.avif" alt="A single-lane tramway and station with a tram stopped at it in the centre of Manchester. The tramway is more or less part of the street, and there are people walking on and around it without difficulty, with shops lining the left-hand side of the street. The street is dominated by the people and pedestrian-space, with the tram fitting nicely into this. The station has level-boarding with almost no gap between it and the tram."></a>
+    <img src="trams-manchester.avif" alt="A single-lane tramway and station with a tram stopped at it in the centre of Manchester. The tramway is more or less part of the street, and there are people walking on and around it without difficulty, with shops lining the left-hand side of the street. The street is dominated by the people and pedestrian-space, with the tram fitting nicely into this. The station has level-boarding with almost no gap between it and the tram." loading="lazy"></a>
     <a href="original-images/cars-manhattan.webp">
-    <img src="cars-manhattan.avif" alt="A street with two lanes of mixed-traffic in either direction, and third bus/taxi lane. Pedestrians are squashed into the fairly narrow pavements on each side, with a few waiting to cross the backed-up lanes of traffic. The cars undoubtedly dominate this street, despite the many many shops, restaurants and attractions on it, and even a subway station on the left side."></a>
+    <img src="cars-manhattan.avif" alt="A street with two lanes of mixed-traffic in either direction, and third bus/taxi lane. Pedestrians are squashed into the fairly narrow pavements on each side, with a few waiting to cross the backed-up lanes of traffic. The cars undoubtedly dominate this street, despite the many many shops, restaurants and attractions on it, and even a subway station on the left side." loading="lazy"></a>
 </div>
 <p class="caption">
 Left: a tram integrating well into an urban environment (Manchester), right: car traffic not integrating well (Manhattan). Despite the car lanes occupying much more street space than the tram lane, and making this space entirely unusable by anyone else, they move less people, likely at lower speeds when considering traffic and signaling priority which is often given to trams. They're also far louder, more polluting, more dangerous, less accessible, and probably cost the city more.</p>
@@ -263,7 +263,7 @@ We've pretty thoroughly covered the individual inefficiencies of cars; their dis
 
 <p class="caption">
 <a href="https://www.urbanthree.com/case-study/lafayette-la/">
-<img src="urban3.avif" alt="Net costs per parcel of land in Lafayette Parish, Louisiana, US. In the traditional walkable developments in downtime and along the river, there's a net positive, whereas in most of the rest of the city there's a net negative "></a>
+<img src="urban3.avif" alt="Net costs per parcel of land in Lafayette Parish, Louisiana, US. In the traditional walkable developments in downtime and along the river, there's a net positive, whereas in most of the rest of the city there's a net negative." loading="lazy"></a>
 Lafayette Parish’s net cost model with net positive parcels in black, rising up, and net negative parcels in red, sinking down</p>
 
 Meanwhile, investment in [walking, biking](https://www.ippr.org/articles/making-every-pound-count) and [public transport](https://www.newstatesman.com/spotlight/healthcare/public-health/2024/02/active-travel-ippr-report-walking-cycling-cars-roads-pollution-prevention) infrastructure are some of the best investments an authority can make, having a return of at least 2x that of car infrastructure, while often being much cheaper and easy to build. And these RoI comparisons don't even take into consideration many of the other knock-on effects that we have covered in this article.
@@ -272,7 +272,7 @@ On an individual level, the average UK household currently spends [14% of its ex
 
 <p class="caption">
 <a href="https://app.powerbi.com/view?r=eyJrIjoiMGY4M2Q4MGUtNWE5Mi00YTZjLWIyNGEtNTMzNmFkNTliMTNiIiwidCI6IjIzMjM3OTk2LTdmM2EtNDM5NC04MGY1LTQ2MGNiYzA3NjEzYiJ9">
-<img src="rail-finance.avif" alt="The 2023-24 breakdown of the income and expenditure of the UK rail industry by categories. Income was 25.4bn, with government support (12.5) and passenger revenue (11) making up the bulk of it, while expenditure was 25.1bn, made up by franchised operators (12.5 - primarily staff and rolling stock) and network rail (11.1)."></a>
+<img src="rail-finance.avif" alt="The 2023-24 breakdown of the income and expenditure of the UK rail industry by categories. Income was 25.4bn, with government support (12.5) and passenger revenue (11) making up the bulk of it, while expenditure was 25.1bn, made up by franchised operators (12.5 - primarily staff and rolling stock) and network rail (11.1)." loading="lazy"></a>
 <a href="https://dataportal.orr.gov.uk/statistics/finance/rail-industry-finance/">
 Rail industry finance (UK), annual income and expenditure breakdown</a></p>
 
@@ -284,7 +284,7 @@ Is this a realistic, feasible option you might ask? We can look to some other co
 
 <p class="caption">
 <a href="original-images/luxembourg-main-street.jpg">
-<img src="luxembourg-main-street.jpg" alt="A photo I took standing in the middle of one of the main streets in Luxembourg. On either side are shops of about 4 floors, which are a maybe 2/5 the height of the width of the street. There are quite wide pavements, and on the left two trams lanes and a tram in shot, and more pavement and tramstops in the centre. To the right are two reasonably narrow road lanes and to its right a cycle path. The buildings and street (although not the road) are yellow-grey and well-kept, with trees, benches, and bins."> </a>
+<img src="luxembourg-main-street.jpg" alt="A photo I took standing in the middle of one of the main streets in Luxembourg. On either side are shops of about 4 floors, which are a maybe 2/5 the height of the width of the street. There are quite wide pavements, and on the left two trams lanes and a tram in shot, and more pavement and tramstops in the centre. To the right are two reasonably narrow road lanes and to its right a cycle path. The buildings and street (although not the road) are yellow-grey and well-kept, with trees, benches, and bins." loading="lazy"> </a>
 Avenue de la Liberté, Luxembourg</p>
 
 Luxembourg is a small country, with a population of just under three-quarters of a million, a population-density a tad lower than that of the UK, and a slightly higher level of urbanisation. All public transport has been free since 2020, [with plans to keep investing into and improving their network](https://www.globalrailwayreview.com/article/179222/lessons-learnt-from-luxembourgs-fare-free-transport-system/). But while Luxembourg is one of the richest countries in the world, the largest place with free transport is Belgrade, the capital of Serbia, which has a 2.5x lower GDP per-capita than the UK. Other examples include Tucson (Arizona, US), Tallinn (the capital of Estonia, residents only), Malta (residents only), and even the UK for some people. Buses here are free for over 60s (pension-age in England outside of Greater London), Scotland for residents under 22, and [various cities](https://www.route-one.net/features/free-bus-services-a-growing-trend-but-can-they-work/) with free bus routes.
@@ -301,14 +301,14 @@ I started out this article by showing the current breakdown in modes of transpor
 
 <p class="caption">
 <a href="https://vis.csh.ac.at/citiesmoving/#:~:text=Compare%20locations,-Compare%20locations">
-<img src="uk-modal-share.avif" alt="A triangle graph showing modal share of trips in large cities in the UK. The left side is a scale for public transport, the right side active transport, and the bottom cars. This means that moving more to the bottom-right corner means more cars, more to the bottom-left more public transport, and more to towards the top more active transport. Most of points are bunched the bottom right, with car usage going form 48% to 83%, public transport from 7% to 31%, and active transport from 2% to 35%. There's a few outliers located centralled, slightly to the bottom-left, which are London, Edinburgh, Newcastle and Leicester. Their public transport figures are between 35% and 45%, active 25% and 31%, and car 27% to 35%."></a>
+<img src="uk-modal-share.avif" alt="A triangle graph showing modal share of trips in large cities in the UK. The left side is a scale for public transport, the right side active transport, and the bottom cars. This means that moving more to the bottom-right corner means more cars, more to the bottom-left more public transport, and more to towards the top more active transport. Most of points are bunched the bottom right, with car usage going form 48% to 83%, public transport from 7% to 31%, and active transport from 2% to 35%. There's a few outliers located centralled, slightly to the bottom-left, which are London, Edinburgh, Newcastle and Leicester. Their public transport figures are between 35% and 45%, active 25% and 31%, and car 27% to 35%." loading="lazy"></a>
 Modal share of trips in some of the largest cities in the UK. "Bus" includes all public transport, active includes walking, cycling, wheeling, and skating, and car includes all private cars and taxis.</p>
 
 In our cities - the places where you'd expect the lowest share of car-usage - the UK typically has figures of just over 60% of trips by car, with the exception of a few outliers such as London or Edinburgh.
 
 <p class="caption">
 <a href="https://vis.csh.ac.at/citiesmoving/#:~:text=Compare%20groups,-Regions">
-<img src="high-income-modal-share.webp" alt="The same triangle graph as the previous image, but for cities in high-income countries. There's much more spread, with most European cities sitting centre-right, with high active transport and high car usage, while most Asian cities and a few from Europe sit on the centre/bottom-left, with high public transport and medium-high active transport. At the top are also mostly European cities, while the bottom-right is almost entirely made up of North America, Australia and New Zealand."></a>
+<img src="high-income-modal-share.webp" alt="The same triangle graph as the previous image, but for cities in high-income countries. There's much more spread, with most European cities sitting centre-right, with high active transport and high car usage, while most Asian cities and a few from Europe sit on the centre/bottom-left, with high public transport and medium-high active transport. At the top are also mostly European cities, while the bottom-right is almost entirely made up of North America, Australia and New Zealand." loading="lazy"></a>
 Modal share of trips in some of the largest cities in high-income countries. This includes much of Europe, North America, Japan, South Korea, Australasia, and Hong Kong.</p>
 </p>
 
@@ -320,7 +320,7 @@ As a final country-wide example, we can take a look at Japan. Japan has a slight
 
 <p class="caption">
 <a href="https://ourworldindata.org/data-insights/rail-travel-is-more-prevalent-in-japan-than-in-western-europe-and-much-more-than-in-the-united-states">
-<img src="rail-road-countries.avif" alt="Percentage of distance travelled on rail vs road. Japan tops the list at 28% to 72% respectively, followed by Switzerland (13%), France (10%) Germany (6.4%), the UK (5%), and the US (0.25%)."></a>
+<img src="rail-road-countries.avif" alt="Percentage of distance travelled on rail vs road. Japan tops the list at 28% to 72% respectively, followed by Switzerland (13%), France (10%) Germany (6.4%), the UK (5%), and the US (0.25%)." loading="lazy"></a>
 Distance travelled on rail vs road, Japan, Western Europe and the US, 2021</p>
 
 And it's not just Japan - almost all of our neighbours are outdoing us as well, with Switzerland (lower population density) and the Netherlands (higher) being two particularly good examples of places with good transport and good walkability in Western Europe.
