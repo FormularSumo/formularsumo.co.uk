@@ -18,8 +18,8 @@
         <link href="https://formularsumo.co.uk{{post.url}}"></link>
         <id>https://formularsumo.co.uk/{{post.url}}</id>
         <published>{{post.date | feedTime}}</published>
-        <summary>{{post.data.description}}</summary>
-        <content type="html">{{post.content}}</content>
+        <summary><![CDATA[{{post.data.description}}]]></summary>
+        <content type="html"><![CDATA[{{post.content}}]]></content>
     </entry>
     {% endif -%}
 {% endfor -%}
