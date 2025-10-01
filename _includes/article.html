@@ -5,10 +5,9 @@
     <head>
         {% include "partials/head.html" %}
 
-        <link rel="stylesheet" href="/stylesheets/blog.css">
         <link rel="stylesheet" href="/stylesheets/article.css">
-        {% if style -%}
-            <link rel="stylesheet" href="/stylesheets/{{style}}.css">
+        {% if stylesheet -%}
+            <link rel="stylesheet" href="/stylesheets/{{stylesheet}}.css">
         {%- endif %}
 
         <meta name="fediverse:creator" content="@FormularSumo@vivaldi.net">
@@ -27,9 +26,12 @@
                 top: 4px;
             }
         </style>
+        {% if style %}
+            {{style}}
+        {% endif %}
     </head>
 
-    <body>
+    <body class="blog">
         {%- include "partials/navbar.html" %}
 
         <main>
@@ -52,7 +54,23 @@
                     <p class="date">{{first_published}}: {{ date | postDate: page.lang }}</p>
                 </header>
 
-                {{content-}}
+
+                {% if content | get_content %}
+
+                {{content | get_introduction-}}
+
+                <p class="contents_title">Contents</p>
+
+                <div class="contents">
+                    {{content | get_content | toc-}}
+                </div>
+
+                {{content | get_content-}}
+
+                {% else %}
+                    {{content-}}
+                {% endif %}
+
 
                 {% if footnotes %}
                     <section class="footnotes">

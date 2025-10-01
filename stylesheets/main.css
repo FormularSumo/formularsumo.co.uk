@@ -49,6 +49,11 @@ main {
         margin-bottom: 0.3em;
         margin-left: 15px;
     }
+    .date {
+        margin-top: 0px;
+        font-style: italic;
+        font-family: var(--heading_font);
+    }
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading_font);
@@ -57,6 +62,14 @@ h1, h2, h3, h4, h5, h6 {
 svg {
     aspect-ratio: 1;
     fill: currentColor /*inherited, eg from <a> or <button>*/
+}
+
+/*BLOG-LIKE STYLING*/
+.blog {
+    main {
+        margin-inline: max(6px + 3%, 50% - 375px);
+        /*After ~800px display width, content will remain the same width and only margins will expand*/
+    }
 }
 
 /*NAVBAR STYLING*/

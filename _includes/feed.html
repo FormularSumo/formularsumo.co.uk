@@ -4,7 +4,7 @@
     <subtitle>{{subtitle}}</subtitle>
     <link href="https://formularsumo.co.uk/{{lang}}feed/feed.xml" rel="self" type="application/rss+xml"/>
     <link href="https://formularsumo.co.uk/{{lang}}blog/"/>
-    <updated>2025-04-06T00:00:00Z</updated>
+    <updated>2025-10-22T00:00:00Z</updated>
     <id>https://formularsumo.co.uk/</id>
     <author>
         <name>James Heppell</name>
@@ -18,8 +18,8 @@
         <link href="https://formularsumo.co.uk{{post.url}}"></link>
         <id>https://formularsumo.co.uk/{{post.url}}</id>
         <published>{{post.date | feedTime}}</published>
-        <summary>{{post.data.description}}</summary>
-        <content type="html">{{post.content}}</content>
+        <summary><![CDATA[{{post.data.description}}]]></summary>
+        <content type="html"><![CDATA[{{post.content}}]]></content>
     </entry>
     {% endif -%}
 {% endfor -%}
