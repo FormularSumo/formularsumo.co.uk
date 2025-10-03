@@ -4,7 +4,7 @@ date: 2025-03-24
 description: Mi experiencia reciente y pasada con paquetes de oficina.
 footnotes: [
     'Hace poco Microsoft <a href="https://www.theverge.com/news/618278/microsoft-office-free-windows-apps-ad-supported-version">lanzó la prueba</a> de una versión gratuita de Office de escritio con publicidad en la India. Sin embargo, muchas funciones (por. ej. la habilidad de usar archivos locales directamente en lugar de OneDrive) están desactivadas artificialmente, así que de lo puedo ver, parece ser una combinación de las partes peores de Office de escritorio y Office web en un solo producto.',
-    'Pasado meses (1/12/25), he experimentado este problema de nuevo. Esta mañana tuve un seminario en el que la profesora quería que la clase trabajara en un documento compartido, pero Microsoft Office de escritorio se negaba a actualizarse en el ordenador/la pizarra para mostrar los últimso cambios. Sugerí abrirlo en la aplicación web, lo cual funcionó sin problema.'
+    'Pasado meses (1/12/25), he experimentado este problema de nuevo. Esta mañana tuve un seminario en el que la profesora quería que la clase trabajara en un documento compartido, pero Microsoft Office de escritorio se negaba a actualizarse en el ordenador/la pizarra para mostrar los últimos cambios. Sugerí abrirlo en la aplicación web, lo cual funcionó sin problema.'
 ]
 ---
 
