@@ -31,8 +31,12 @@ function translateURL(URL, lang) {
 				let post = URL.split('/').slice(-2,-1);
 
 				var translatedPost;
+
 				if (post == "pronouns" ) {
 					translatedPost = "pronombres";
+				}
+				else if (post == "microsoft-office-is-still-bad" ) {
+					translatedPost = "microsoft-office-sigue-siendo-malo";
 				}
 
 				if (translatedPost) {
@@ -76,8 +80,12 @@ function translateURL(URL, lang) {
 				let post = URL.split('/').slice(-2,-1);
 
 				var translatedPost;
+
 				if (post == "pronombres" ) {
 					translatedPost = "pronouns";
+				}
+				else if (post == "microsoft-office-sigue-siendo-malo" ) {
+					translatedPost = "microsoft-office-is-still-bad";
 				}
 
 				if (translatedPost) {
