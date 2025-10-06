@@ -8,6 +8,8 @@ footnotes: [
 ]
 ---
 
+<em>Este artículo ha sido traducido del original publicado aquí en la versión inglesa de este blog (6/10/2025).</em>
+
 Esto va a estar un poco más improvisado de lo que suelo escribir aquí, son más bien mis pensamientos del momento. Las últimas semanas he hecho algunas exposiciones para mis clases en la universidad. Normalmente, tomaría la iniciativa de crear un proyecto de presentaciones de Google o de Canva para mi grupo, pero en la más reciente, dejé la tarea a mis compañeros, que optaron por crear una PowerPoint. Habían pasado unos cuantos años desde la última vez que usé Microsoft Office, así que pensé que sería interesante comprobar si había mejorado, y la respuesta corta es que *no mucho*.
 
 Para dar un poco de contexto, crecí usando casi exclusivamente Microsoft Office. No es que no fuera común; cuando tuve mis primeras clases en el colegio y empecé a usar software ofimático en casa, no había otras alternativas conocidas. Todo el mundo usaba Office, y nadie le daba muchas vueltas. Sin embargo, cerca del fin de mi educación secundaria, un nuevo profesor nos presentó Google Workspace. Al principio, estaba bastante escéptico. Tampoco sabía mucho del producto. Creo que ni siquiera me di cuenta de lo que era en realidad. Pero después de probarlo por unos meses, me convenció. No era perfecto, tenía sus problemas, pero las ventajas fueron suficientes para que a principios de 2021 lo transfiriera todo y cada vez menos usara Office y OneDrive.
