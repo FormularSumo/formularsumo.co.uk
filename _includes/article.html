@@ -1,9 +1,9 @@
 {% include "partials/article_date_string.html" -%}
 {% if page.lang == "en" -%}
-    {% assign footnotes = "Footnotes" -%}
+    {% assign footnotes_text = "Footnotes" -%}
 {% else -%}
-    {% assign footnotes = "Notas a pie" -%}
-{% end -%}
+    {% assign footnotes_text = "Notas a pie" -%}
+{% endif -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -79,7 +79,7 @@
 
                 {% if footnotes %}
                     <section class="footnotes">
-                        <h2>{{footnotes}}</h2>
+                        <h2>{{footnotes_text}}</h2>
     
                         {% assign fn_num = 1 %}
                         {% for footnote in footnotes %}
