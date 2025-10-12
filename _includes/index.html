@@ -1,3 +1,13 @@
+{% if page.lang == "en" -%}
+    {% assign Mastodon = "Mastodon/Fediverse" -%}
+    {% assign Email = "Email" -%}
+    {% assign Feed = "Web feed" -%}
+{% else -%}
+    {% assign Mastodon = "Mastodon/Fediverso" -%}
+    {% assign Email = "Correo electrónico" -%}
+    {% assign Feed = "Fuente web" -%}
+{% endif -%}
+
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
@@ -82,13 +92,13 @@
                 <aside class="links" title="{{external_links}}">
                     <a class="link_a" rel="me" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
                         <svg class="link">
-                            <title>Mastodon</title>
+                            <title>{{Mastodon}}</title>
                             <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="mailto:formularsumo@outlook.com">
                         <svg class="link">
-                            <title>Email</title>
+                            <title>{{Email}}</title>
                             <use xlink:href="/assets/email.svg#Email"></use>
                         </svg>
                     </a>
@@ -118,7 +128,7 @@
                     </a>
                     <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
                         <svg class="link">
-                            <title>Feed</title>
+                            <title>{{Feed}}</title>
                             <use xlink:href="/assets/feed.svg#Feed"></use>
                         </svg>
                     </a>
