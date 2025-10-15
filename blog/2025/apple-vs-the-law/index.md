@@ -1,7 +1,7 @@
 ---
 title: Apple Vs The Law
 date: 2025-07-07
-description: Apple & Google at the DMA compliance workshops, June 2025.
+description: Apple & Google at the EU DMA compliance workshops, June 2025.
 embedImage: /blog/2025/apple-vs-the-law/chauffeur-hepcat-piano-man.jpg
 footnotes: [
     "They managed to convince the courts that iPadOS is a separate operating system to iOS (it's not), which delayed iPadOS being designated as a gatekeeper for almost a year. They are currently challenging all of the rest: the iOS, Safari, and App Store designations, and successfully managed to avoid iMessage being designated at all. They have taken the DMA law to court for an apparently ambiguous comma in article 5(4) - the payment one, and for somehow infringing on human rights law in article 6(7) - the interoperability one.",
