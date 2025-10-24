@@ -8,7 +8,7 @@ embedAlt: "Una vista áerea de un libro, un portátil-tableta, y un móvil con a
 
 *Una versión reducida de este artículo se publicó también en el [blog AEDO](https://aedo.blogia.com/2025/062301-las-distintas-formas-de-leer.php).*
 
-<img class="small" src="formas-de-leer.avif" style="aspect-ratio: 1200/1594; display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
+<img class="small" src="formas-de-leer.avif" style="display: block; margin: auto; margin-bottom: 16px;" alt="{{embedAlt}}">
 
 Se dice que no hay nada como un buen libro - un libro analógico. Pero hoy día las formas de leer son muy variadas, y no sería correcto decir que la lectura en papel es simplemente mejor, ya que todas las formas tienen sus ventajas y desventajas. Actualmente vivimos en una verdadera revolución de la lectura, y quiero dar un punto de vista equilibrado de la situación, y una visión para un futuro.
 

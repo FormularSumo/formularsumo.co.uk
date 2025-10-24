@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading_font);
 }
 
+img { /* This is needed because each image has its width and height added as a HTML property to avoid layout shift, which means the default value is not auto. */
+    width: auto;
+    height: auto;
+}
 svg {
     aspect-ratio: 1;
     fill: currentColor /*inherited, eg from <a> or <button>*/

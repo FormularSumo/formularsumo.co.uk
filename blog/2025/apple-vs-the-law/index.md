@@ -14,7 +14,7 @@ footnotes: [
 
 A week ago today I had the pleasure of attending both the [Apple](https://webcast.ec.europa.eu/2nd-dma-enforcement-workshop-apple-update-on-first-year-of-dma-compliance-2025-06-30) and [Google](https://webcast.ec.europa.eu/2nd-dma-enforcement-workshop-alphabet-update-on-first-year-of-dma-compliance-2025-07-01) DMA compliance workshops in Brussels. More detailed articles on the questions and answers, technical and legal analysis etc will be published over at the OWA blog, where we've just done the [first write-up on the Google part](https://open-web-advocacy.org/blog/googles-hotseat-hypocrisy/) (Edit: the [Apple browser engine one](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/) is now live as well). Here though I'd like to focus more on my own experience and personal opinions, and how I feel about some of the gatekeepers' approach to the law...
 
-<p class="caption"><img src="chauffeur-hepcat-piano-man.jpg" style="aspect-ratio:1600/1200">
+<p class="caption"><img src="chauffeur-hepcat-piano-man.jpg">
 Representing OWA from left to right: <a href='https://webventures.rejh.nl/about/'>Roderick Gadellaa</a>, <a href='https://johnozbay.com/bio'>John Ozbay</a> and me, outside the EC building on the morning of the Apple workshop. Alternatively, "The Chauffeur, The Piano Man, and The Hepcat."
 </p>
 

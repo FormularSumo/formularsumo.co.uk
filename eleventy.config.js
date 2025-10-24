@@ -3,6 +3,7 @@ import { DateTime } from "luxon";
 import tocPlugin from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+import htmlTransform from './transforms/htmlTransform.js';
 
 const mdOptions = {
 	html: true,
@@ -134,6 +135,11 @@ export default function (eleventyConfig) {
 		"opus",
 		// "png"
 	]);
+
+	// Transforms
+	eleventyConfig.addTransform('html', htmlTransform({
+		anchors: { setTitle: false },
+	}));
 
 	eleventyConfig.setLibrary(
 		'md',

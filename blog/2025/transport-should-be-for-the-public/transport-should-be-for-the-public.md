@@ -28,7 +28,7 @@ According to the [latest government statistics](https://www.gov.uk/government/st
 
 <p class="caption">
 <a href="https://www.gov.uk/government/statistics/transport-statistics-great-britain-2024/transport-statistics-great-britain-2023-domestic-travel#:~:text=rail%20and%20air.-,Chart%202,-%3A%20Passenger%20transport%20by">
-<img src="transport-trend.svg" alt="Between 1952 and 1990, the category of distance travelled by cars, vans and taxis per year rises significantly while other declines. Afterwards, cars vans and taxis levels off while other starts to increase slowly." style="aspect-ratio: 750/376;"></a>
+<img src="transport-trend.svg" alt="Between 1952 and 1990, the category of distance travelled by cars, vans and taxis per year rises significantly while other declines. Afterwards, cars vans and taxis levels off while other starts to increase slowly."></a>
 Passenger transport by cars, vans and taxis compared to other modes, measured in billion passenger kilometres per year. Great Britain, 1952 to 2023</p>
 
 %contents%

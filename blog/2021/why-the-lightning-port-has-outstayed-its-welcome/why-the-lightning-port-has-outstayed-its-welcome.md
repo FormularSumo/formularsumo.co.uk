@@ -36,7 +36,7 @@ Point blog</a><em>, and has since been lightly edited before publishing here
 (13/6/2025).</em>
 </p>
 
-<img src="ports.avif" style="max-width:369px; aspect-ratio:738/529">
+<img src="ports.avif" style="max-width:369px;">
 
 <p class='caption'>Left to right: USB-C, microUSB, Lightning</p>
 
