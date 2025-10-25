@@ -1,3 +1,5 @@
+/* Thanks to Roderick Gadellaa for letting me use his implementation of this https://github.com/OpenWebAdvocacy/website/pull/247 */
+
 import { readFileSync } from 'node:fs';
 
 import { imageSize } from 'image-size'
