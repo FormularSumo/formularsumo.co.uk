@@ -119,11 +119,6 @@ function translateURL(URL, lang) {
 };
 
 export default function (eleventyConfig) {
-	// Transforms
-	eleventyConfig.addTransform('html', htmlTransform({
-		anchors: { setTitle: false },
-	}));
-
 	eleventyConfig.addPassthroughCopy("stylesheets/");
 	eleventyConfig.addPassthroughCopy("_redirects");
 	eleventyConfig.addPassthroughCopy("favicon.ico");
@@ -140,6 +135,11 @@ export default function (eleventyConfig) {
 		"opus",
 		// "png"
 	]);
+
+	// Transforms
+	eleventyConfig.addTransform('html', htmlTransform({
+		anchors: { setTitle: false },
+	}));
 
 	eleventyConfig.setLibrary(
 		'md',
