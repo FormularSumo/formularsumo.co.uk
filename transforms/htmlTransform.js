@@ -5,8 +5,6 @@ import { JSDOM, VirtualConsole } from 'jsdom';
 
 import { assign, forEach } from 'rgjs7/obj';
 
-const REGEX_IS_SVG = /\.svg$/;
-
 const JSDOM_ERRORS_IGNORES = [
   'css parsing',
 ];
@@ -54,10 +52,6 @@ function htmlTransform( _options={} ) {
     images.forEach( element => {
 
       let src = element.getAttribute('src');
-
-      // Don't add width and height for SVG images, these should always be manually set
-      if (REGEX_IS_SVG.test( src )) 
-        return content;
       
       // Assume that if an image doesn't start with a "/" then it's using a relative path from the current directory
       if (!src.startsWith("/")) {
