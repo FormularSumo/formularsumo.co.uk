@@ -3,22 +3,22 @@
 import { readFileSync } from 'node:fs';
 
 import { imageSize } from 'image-size'
-import { JSDOM, VirtualConsole } from 'jsdom';
+// import { JSDOM, VirtualConsole } from 'jsdom';
 
 import { assign, forEach } from 'rgjs7/obj';
 
-const JSDOM_ERRORS_IGNORES = [
-  'css parsing',
-];
+// const JSDOM_ERRORS_IGNORES = [
+//   'css parsing',
+// ];
 
 const cache = new Map();
 
-const virtualConsole = new VirtualConsole();
-virtualConsole.sendTo( console, { omitJSDOMErrors: true } );
-virtualConsole.on( 'jsdomError', error => {
-  if ( JSDOM_ERRORS_IGNORES.includes( error.type ) ) return false;
-  console.error( error );
-});
+// const virtualConsole = new VirtualConsole();
+// virtualConsole.sendTo( console, { omitJSDOMErrors: true } );
+// virtualConsole.on( 'jsdomError', error => {
+//   if ( JSDOM_ERRORS_IGNORES.includes( error.type ) ) return false;
+//   console.error( error );
+// });
 
 /**
  *
@@ -42,12 +42,12 @@ function htmlTransform( _options={} ) {
       return content;
 
     // Debug
-    options.debug && console.log(`HTML Transform: ${ outputPath }`);
+    // options.debug && console.log(`HTML Transform: ${ outputPath }`);
 
     // Prep DOM
-    const jsdom = new JSDOM( content, { virtualConsole } );
-    const document = jsdom.window.document;
-    const docElem = document.documentElement;
+    // const jsdom = new JSDOM( content, { virtualConsole } );
+    // const document = jsdom.window.document;
+    // const docElem = document.documentElement;
     
     // Images
     const images = [ ...docElem.querySelectorAll('img') ];
@@ -72,7 +72,7 @@ function htmlTransform( _options={} ) {
         try {
           const buffer = _readFile( path );
           const { width, height } = imageSize( buffer );
-          options.debug && console.log(` -> Image - Set width/height: ${ src}, ${ width } x ${ height }`);
+          // options.debug && console.log(` -> Image - Set width/height: ${ src}, ${ width } x ${ height }`);
           _setAttrs( element, { width, height } );
         }
         catch ( error ) {
