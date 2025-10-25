@@ -7,18 +7,15 @@ import { JSDOM, VirtualConsole } from 'jsdom';
 
 import { assign, forEach } from 'rgjs7/obj';
 
-const JSDOM_ERRORS_IGNORES = [
-  'css parsing',
-];
+/* Ideally I'd just say which errors I want to ignore (CSS errors), but that doesn't seem to work in JSDom 27 */
+const JSDOM_ERRORS = [
+  "unhandled-exception", "resource-loading", "not-implemented"
+]
 
 const cache = new Map();
 
 const virtualConsole = new VirtualConsole();
-virtualConsole.sendTo( console, { omitJSDOMErrors: true } );
-virtualConsole.on( 'jsdomError', error => {
-  if ( JSDOM_ERRORS_IGNORES.includes( error.type ) ) return false;
-  console.error( error );
-});
+virtualConsole.forwardTo( console, { jsdomErrors: JSDOM_ERRORS } );
 
 /**
  *
