@@ -57,9 +57,9 @@
                     <h2>Madre</h2>
                     <nav class="rama">
                         {% if madre == "lengua-de-europa" %}
-                            <a style="line-height: 120px;"href="/es/living-pages/lenguas-de-europa/">Inicio</a>
+                            <a style="line-height: 120px;"href="/es/paginas-vivas/lenguas-de-europa/">Inicio</a>
                         {% else %}
-                            <a style="line-height: 120px;" href="/es/living-pages/lenguas-de-europa/{{madre}}/">{{madre}}</a>
+                            <a style="line-height: 120px;" href="/es/paginas-vivas/lenguas-de-europa/{{madre}}/">{{madre}}</a>
                         {% endif %}
                     </nav>
                 {% endif %}
@@ -68,7 +68,7 @@
                     <h2>Ramas</h2>
                     <nav class="rama">
                         {% for rama in ramas %}
-                            <a href="/es/living-pages/lenguas-de-europa/{{rama}}/">{{rama}}</a>
+                            <a href="/es/paginas-vivas/lenguas-de-europa/{{rama}}/">{{rama}}</a>
                         {% endfor %}
                     </nav>
                 {% endif %}
@@ -81,7 +81,7 @@
 
                 {% if foto %}
                     <h2>Distribución Geográfica</h2>
-                    <img src=/es/living-pages/lenguas-de-europa/{{foto}}>
+                    <img src=/es/paginas-vivas/lenguas-de-europa/{{foto}}>
                     {% if foto-texto %}
                         <p>{{foto-texto}}</p>
                     {% endif %}
@@ -89,7 +89,7 @@
 
                 {% if title == "Árbol interactivo de las familias de lenguas habladas Europa" %}
                     <h2>Alfabetos</h2>
-                    <img src=/es/living-pages/lenguas-de-europa/alfabetos.webp>
+                    <img src=/es/paginas-vivas/lenguas-de-europa/alfabetos.webp>
                     <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, azul = armenio, verde = georgiano</p>
                 {% endif %}
             </article>    
