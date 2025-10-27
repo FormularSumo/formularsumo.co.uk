@@ -1,10 +1,12 @@
+# Feed links
 /feed/ /feed/feed.xml
 /es/feed/ /es/feed/feed.xml
 
-/articles/* /blog/:splat
-/es/articulos/* /es/blog/:splat
-
-/es/living-pages/* /es/paginas-vivas/:splat
-
+# Individual articles which have changed name
 /articles/2024/encryption/ /blog/2025/encryption/
 /articles/2025/reading-list/ /blog/2025/reading-list-2024/
+
+# Whole sections which have changed name
+/articles/* /blog/:splat
+/es/articulos/* /es/blog/:splat
+/es/living-pages/* /es/paginas-vivas/:splat
