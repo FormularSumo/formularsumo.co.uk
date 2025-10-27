@@ -3,7 +3,7 @@ title: Baltoeslavo
 madre: Indoeuropeo
 hablantes: 280 millones
 foto: baltoeslavo.jpg
-foto-texto: Verde-azul = Familias eslavas, amarillo = Báltico
+foto-texto: Verde-azul = familias eslavas, amarillo = familia báltica.
 ramas: [
     "Eslavo",
     "Báltico",

@@ -10,4 +10,4 @@ ramas: [
 ]
 ---
 
-Las lenguas turcas se localizan en Turquía y las partes centrales de Asia. Hay lingüísticos que dicen que pertenecen a la rama altaica, tanto como las lenguas mongólicas y tunguses, pero generalmente esta agrupación no está muy aceptada. La mayoría de las lenguas turcas, y todas las habladas en Europa, pertenece a la sub-rama de lenguas túrquicas comunes, un grupo de idiomas muy emparentados. De las comunes, el Oghuz y el Kipchak representan los grupos occidentales, hablados en Europa. Aunque las lenguas túrquicas no son indoeuropeas, han tenido mucha influencia en varios de los idiomas que son, y recibido influencia también.
+La rama ugrofinés pertenece propiamente a la rama urálica (por su nacimiento en las montañas Urales), que incluye algunos idiomas que se hablan en el norte de Rusia, como el nenet o el nganasán. Sin embargo, casi todos los idiomas urálicos que se hablan en Europa pertenecen al grupo ugrofinés, y por eso tratamos de esta rama. En Europa, los países principales en que se hablan los idiomas ugrofineses hoy en día son Hungría, y Finlandia & Estonia, que forman las dos ramas principales.
