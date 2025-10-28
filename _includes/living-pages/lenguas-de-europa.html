@@ -81,7 +81,11 @@
 
                 {% if foto %}
                     <h2>Distribución Geográfica</h2>
-                    <img src=/es/paginas-vivas/lenguas-de-europa/{{foto}}>
+                    <img src=/es/paginas-vivas/lenguas-de-europa/{{foto}}
+                    {% if foto-alt -%}
+                        alt="{{foto-alt}}"
+                    {% endif -%}
+                    >
                     {% if foto-texto %}
                         <p>{{foto-texto}}</p>
                     {% endif %}

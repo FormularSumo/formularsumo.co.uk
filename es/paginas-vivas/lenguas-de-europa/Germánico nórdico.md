@@ -3,7 +3,8 @@ title: Germánico nórdico (septentrional, escandinava)
 madre: Germánico
 hablantes: 20 millones
 foto: germánico-nórdico.webp
-foto-texto: Azul-oscuro = el sueco, púrpura = el danés, azul = el noruego, verde = el islandés, negro = el feroés.
+foto-texto: "Azul-oscuro = el sueco, púrpura = el danés, azul = el noruego, verde = el islandés, verde-claro = el feroés. El negro es el Norn, un idioma muerto desde el siglo XVIII."
+foto-alt: Distribución de los idiomas germánicos nórdicos. El sueco se habla en Suecia y unas partes oestes y sureñas de Finlandia. El noruego en Noruega, que incluye el archipiélago Svalbard entre otras islas. El islandés en Islandia, y el feroés en las islas Feroe. Y el danés en Dinamarca.
 ---
 
 Los idiomas germánicos nórdicos están compuestos de:

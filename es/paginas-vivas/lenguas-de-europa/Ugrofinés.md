@@ -2,6 +2,7 @@
 title: Ugrofinés (Urálico)
 hablantes: 23 millones
 foto: ugrofinés.webp
+foto-alt: "Distribución de los idiomas ugrofineses. Se concentra en tres zonas geográficas: el norte de Europa, centrado en Finlandia y Estonia, en el centro de Europa sobre Hungría, y en el centro-oeste de Rusia. "
 madre: lengua-de-europa
 ramas: [
     "Ugrio",

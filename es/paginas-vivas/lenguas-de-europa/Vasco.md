@@ -3,6 +3,7 @@ title: Vasco
 hablantes: 0,75 millones
 foto: vasco.webp
 foto-texto: "Ubicación: norte de España, sur de Francia. Azul-oscuro significa más de 50% de la población lo habla, azul-claro significa más de 20%."
+foto-alt: Distribución del Vasco. Se habla principalmente en el norte de España en el país vasco, sobre todo en Guipúzcoa y el este de Vizcaya. También se habla en el norte de Navarra y, siguiendo esta línea horizontal, un poco en el sur de Francia.
 madre: lengua-de-europa
 ---
 

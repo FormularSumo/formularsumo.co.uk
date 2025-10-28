@@ -3,6 +3,7 @@ title: Indoeuropeo
 hablantes: 697 millones
 foto: indoeuropeo.webp
 foto-texto: Verde = el baltoeslavo, marrón = el romance, rojo = el germánico, amarillo/celeste/purpura = el paleobalcánico, naranja = el céltico, azul = el indoiranio.
+foto-alt: "Distribución de idiomas indoeuropeos. Desde occidental a oriental: la familia germánica se habla en el noroeste de Europa. El romance en el sur-oeste, y Rumania/Moldavia. El baltoeslavo por el centro-este, y el mucho del sur. El paleobalcánico en el sur y también en Armenia. Y el indoiranio desde el este de Turquía hacia el norte de India y Bangladesh."
 madre: lengua-de-europa
 ramas: [
     "Baltoeslavo",
