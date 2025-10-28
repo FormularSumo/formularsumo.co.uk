@@ -81,11 +81,17 @@
 
                 {% if foto %}
                     <h2>Distribución Geográfica</h2>
+                    {% if foto-enlace -%}
+                    <a href="{{foto-enlace}}" target="_blank">
+                    {% endif -%}
                     <img src=/es/paginas-vivas/lenguas-de-europa/{{foto}}
                     {% if foto-alt -%}
                         alt="{{foto-alt}}"
                     {% endif -%}
                     >
+                    {% if foto-enlace -%}
+                    </a>
+                    {% endif -%}
                     {% if foto-texto %}
                         <p>{{foto-texto}}</p>
                     {% endif %}

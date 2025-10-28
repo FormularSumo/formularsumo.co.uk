@@ -4,6 +4,7 @@ hablantes: 114,2 millones
 foto: oghuz.webp
 foto-texto: Rojo = el turco, verde = el azerí (azerbaiyano), purpura = el gagaúzo.
 foto-alt: Distribución de idiomas Oghuz. El turco común se habla en Turquía y pequeñas partes de sus vecinos occidentales y sureños (incluye el norte Chipre). El azerí se habla en Azerbaiyán, el norte de Irán y una franja sureña de Georgia. El gagaúzo se habla en partes de Moldavia y Ucrania.
+foto-enlace: https://es.wikipedia.org/wiki/Lenguas_t%C3%BArquicas_suroccidentales#/media/Archivo:Oghuzlanguages6.png
 madre: Túrquico
 ---
 

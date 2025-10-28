@@ -4,6 +4,7 @@ hablantes: 1,4 millones
 foto: kipchak.webp
 foto-texto: Verde = el kipchak-cumano, naranja = las lenguas kipchak-nogayo, rojo = el kipchak-bulgárico.
 foto-alt: El kipchak-cumano se habla en la parte más al sur de Rusia, y en Crimea y otras partes de Ucrania. El kipchak-nogayo se habla en mucho de Kazajistán y en algunos de sus vecinos como Uzbekistán, en adición de unos pequeños sitios en Europa como Turquía, Rumanía y Rusia. El kipchak-bulgárico se habla mayormente en partes centrales de Rusia.
+foto-enlace: https://es.wikipedia.org/wiki/Lenguas_t%C3%BArquicas_noroccidentales#/media/Archivo:Map-Kypchak_Language_World.png
 madre: Túrquico
 ---
 

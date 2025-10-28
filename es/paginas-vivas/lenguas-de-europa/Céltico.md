@@ -2,9 +2,10 @@
 title: Céltico
 madre: Indoeuropeo
 hablantes: ~1 million
-foto: céltico.webp
+foto: céltico.svg
 foto-texto: Verde = el irlandés, amarillo = el galés, púrpura = el bretón, azul = el gaelico escocés, rojo = el manés, y naranja = el córnico.
 foto-alt: Mapa de la distribución de los idiomas célticos. El irlandés en Irlanda, el galés en Galés, el bretón en Bretaña, el gaelico escocés en Escocia, el córnico en Cornualles, y el manés en la Isla de Man.
+foto-enlace: https://es.wikipedia.org/wiki/Archivo:Map_of_Celtic_Nations.svg
 ---
 
 La rama céltica consistía en dos familias, el céltico insular, hablado en Gran Bretaña, Irlanda, y Bretaña, y el céltico continental, un grupo muerto. El céltico tuvo su máxima expansión en el siglo III de nuestra época, cuando era hablado en gran parte de la Europa central y occidental. Sin embargo, hoy en día solo se conserva en algunas partes de las islas británicas y Bretaña. De este grupo (insular), se puede dividir más en dos subgrupos:

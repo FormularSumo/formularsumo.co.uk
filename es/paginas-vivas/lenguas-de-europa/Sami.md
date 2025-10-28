@@ -3,6 +3,7 @@ title: Sami
 hablantes: 30 miles
 foto: sami.webp
 foto-alt: Distribución de idiomas sami. El sami meridional se habla en el centro de Noruega y Suecia, el sami occidental en el norte de los dos, y un poco en Finlandia, y el sami oriente en el extremo norte-este de Finlandia al este en Rusia.
+foto-enlace: https://es.wikipedia.org/wiki/Archivo:Lenguas_sami.png
 madre: Ugrofinés
 ---
 

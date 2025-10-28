@@ -2,9 +2,10 @@
 title: Eslavo
 madre: Baltoeslavo
 hablantes: 275 millones
-foto: eslavo.webp
+foto: eslavo.svg
 foto-texto: Verde = el eslavo oriental, verde-claro = el eslavo occidental, verde-oscuro = el eslavo meridional.
 foto-alt: Un mapa de la distribución de idiomas eslavos. El eslavo oriental se habla en Rusia, Bielorusia, y Ucrania. El eslavo occidental en Polonia, Chequia y Eslovaquia. El eslavo meridional en Eslovenia, Croacia, Serbia, Kosovo, Montenegro, Bulgaria, Macedonia del Norte, y Bosnia y Herzegovina.
+foto-enlace: https://commons.wikimedia.org/wiki/File:Slavic_europe_(Kosovo_unshaded).svg
 ramas: [
     "Eslavo oriental",
     "Eslavo occidental",

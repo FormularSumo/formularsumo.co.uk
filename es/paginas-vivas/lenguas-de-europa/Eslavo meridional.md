@@ -2,8 +2,9 @@
 title: Eslavo meridional
 madre: Eslavo
 hablantes: 29,5 millones
-foto: eslavo-meridional.webp
+foto: eslavo-meridional.svg
 foto-alt: Distribución de los idiomas eslavos meridionales. El búlgaro es púrpura, el macedonio en rosa. Entre Croacia y Bosnia & Herzegovina es mayormente naranja-amarillo. El esloveno es azul, aunque hay una parte verde en la parte de Croacia más cerca a Eslovenia.
+foto-enlace: https://en.wikipedia.org/wiki/South_Slavs#/media/File:South_Slavic_dialect_continuum.svg
 ---
 
 El eslavo meridional se refiere a los idiomas eslavos del sur de Europa. Se divide en los grupos occidentales y orientales.

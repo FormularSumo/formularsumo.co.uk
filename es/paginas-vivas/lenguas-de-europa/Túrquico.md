@@ -3,6 +3,7 @@ title: Túrquico
 hablantes: 115,6 millones
 foto: túrquico.webp
 foto-alt: Distribución de idiomas túrquicos. Se hablan los idiomas túrquicos desde Turquía (y algunos de sus vecinos occidentales) hacia los países centro asiáticos, y también hasta el norte-este de Rusia y el sur de Iran.
+foto-enlace: https://en.wikipedia.org/wiki/Languages_of_Europe#/media/File:Turkic_Languages_distribution_map.png
 madre: lengua-de-europa
 ramas: [
     "Oghuz",
