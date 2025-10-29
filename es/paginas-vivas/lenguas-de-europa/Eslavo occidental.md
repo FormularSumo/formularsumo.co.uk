@@ -10,4 +10,4 @@ foto-enlace: https://en.wikipedia.org/wiki/West_Slavs#/media/File:Lenguas_eslava
 
 El eslavo occidental consiste en los idiomas lequíticos (polacos), checoslovacos, y sorabos. El **polaco** en sí mismo tiene 40 millones de hablantes nativos, y está muy relacionado con el **silesio** (1,25m), hablado en el sur de Polonia / norte de la República Checa, y el **casubio** (0,11m), encontrado en el norte de Polonia.
 
-Las lenguas checoslovacas forman el otro punto en este grupo, y consiste del **checo** (12m), el **esloveno** (5,2), y el **moravo** (0,11m), a menudo considerado una variación del Checo. Entre el lequítico y el checoslovaco hay también las lenguas sorabas (0,06m), habladas en la Alemania oriental, cerca de la frontera con Polonia.
+Las lenguas checoslovacas forman el otro punto en este grupo, y consiste en el **checo** (12m), el **esloveno** (5,2), y el **moravo** (0,11m), a menudo considerado una variación del Checo. Entre el lequítico y el checoslovaco también están las lenguas sorabas (0,06m), habladas en la Alemania oriental, cerca de la frontera con Polonia.

@@ -13,4 +13,4 @@ ramas: [
 ]
 ---
 
-Los idiomas eslavos son los idiomas más hablados en Europa, y que ocupan el más espacio geográficamente. Se dividen en tres grandes grupos: los orientales, los occidentales, y los meridionales, y casi todos estos idiomas usan el alfabeto cirilico, inventado en Bulgaria.
+Los idiomas eslavos son los idiomas más hablados en Europa, y que ocupan el mayor espacio geográficamente. Se dividen en tres grupos: los orientales, los occidentales, y los meridionales, y casi todos estos idiomas usan el alfabeto cirilico, inventado en Bulgaria.
