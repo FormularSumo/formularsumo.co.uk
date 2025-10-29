@@ -2,8 +2,7 @@
 title: Germánico
 madre: Indoeuropeo
 hablantes: 180 millones
-foto: germánico.jpg
-foto-alt: Distribución de los idiomas germánicos. El alemán se habla en Alemania, la mayoría de Suiza y Austria. El neerlandés en los países bajos y parte de Bélgica. El frisón en la región de Frisia de los países bajos. El inglés en las islas británicas (entre otros idiomas). El danés en Dinamarca, el noruego en Noruega, el sueco en Suecia y unas partes de Finlandia. El islandés en Islandia y el feroés en las Islas Feroe.
+foto: germánico.webp
 ramas: [
     "Germánico occidental",
     "Germánico nórdico"
