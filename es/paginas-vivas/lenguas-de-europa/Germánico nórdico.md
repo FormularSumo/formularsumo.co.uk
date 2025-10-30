@@ -9,6 +9,6 @@ foto-alt: Distribución de los idiomas germánicos nórdicos. El sueco se habla 
 
 Los idiomas germánicos nórdicos están compuestos de:
 
-Los nórdicos orientales: el **sueco** (10m) y el **danés** (5m), que tiene la pronunciación más diferente y cambiada del antiguo escandinavo que los otros idiomas nórdicos.
+Los nórdicos orientales: el **sueco** (10m), y el **danés** (5m) - que tiene la pronunciación más diferente y cambiada del antiguo escandinavo de los idiomas nórdicos.
 
-Los nórdicos occidentales: el **noruego** (5m), el **islandés** (0,32m) - el idioma nóridco más conservador que es muy parecido al nórdico antiguo de hace 800 años, y el **feroés** (0,07m), de las islas Feroe, parte de Dinamarca y emparentado con el islandés. Por sus pequeñas cantidades de hablantes, hay muy poca variación dialectal en el islandés y el feroés.
+Los nórdicos occidentales: el **noruego** (5m), el **islandés** (0,32m) - el idioma nórdico más conservador que es muy parecido al nórdico antiguo de hace 800 años, y el **feroés** (0,07m), hablado en las islas Feroe y emparentado con el islandés. Por sus pequeñas cantidades de hablantes, hay muy poca variación dialectal en el islandés y el feroés.

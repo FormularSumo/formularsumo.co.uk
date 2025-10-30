@@ -4,9 +4,9 @@ madre: Germánico
 hablantes: 160 millones
 ---
 
-Los idiomas germánicos occidentales se forman por los siguientes grupos:
+Los idiomas germánicos occidentales se forman mediante los siguientes grupos:
 
-* El altogermánico, que incluye las variedades del **alto alemán** hablado en el sur de Alemania, Austria y Suiza, y que es el base del **alemán estándar** (97m), llamado el *hochdeutsche*.
+* El altogermánico, que incluye las variedades del **alto alemán** hablado en el sur de Alemania, Austria y Suiza, y que es la base del **alemán estándar** (97m), llamado el *hochdeutsche*.
 
 * El bajogermánico, que incluye el **neerlandés** (del que viene el dialecto flamenco; 25m) y el afrikaans (Sudáfrica), y las variedades del **bajo alemán**.
 
