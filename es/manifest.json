@@ -1,11 +1,11 @@
 {
+    "version": "1.2",
     "id": "/formularsumo.co.uk/es/",
     "start_url": "/es/blog/",
     "scope": "/",
     "name": "FormularSumo",
     "description": "La web personal y el blog de James Heppell",
-    "display": "standalone",
-    "display_override": ["minimal-ui"],
+    "display": "minimal-ui",
     "background_color" : "black",
     "icons": [
         {
