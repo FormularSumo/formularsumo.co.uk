@@ -18,6 +18,6 @@ ramas: [
 "tags": ["living-page", "es"]
 ---
 
-Todas las lenguas habladas actualmente en Europa vienen de cuatro grandes familias, con la excepción del vasco, que es una lengua aislada. Europa es el continente menos idiomas vivos, frente a los 6000-7000 en todo el mundo, el continente solo goza de unos 300. Dentro de estos idiomas, hay 3-5 familias de alfabetos en uso: el latín, el ciricilo, el griego, y en la frontera con Asia, el armenio, y el georgiano.
+Todas las lenguas habladas actualmente en Europa vienen de cuatro grandes familias, con la excepción del vasco, que es una lengua aislada. Europa es el continente menos idiomas vivos, frente a los 6.000-7.000 en todo el mundo, el continente solo goza de unos 300. Dentro de estos idiomas, hay 3-5 familias de alfabetos en uso: el latín, el ciricilo, el griego, y en la frontera con Asia, el armenio, y el georgiano.
 
 Este sitio web solo trata de los idiomas vivos, y por eso las agrupaciones a veces se simplifican para facilitar esto. Las ramas siempre van en orden del número de hablantes nativos en Europa, de izquierda a derecho, o arriba abajo si estás viendo esto en una pantalla estrecha.
