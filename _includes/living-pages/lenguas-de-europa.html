@@ -115,7 +115,13 @@
                     <img src=/es/paginas-vivas/lenguas-de-europa/alfabetos.webp>
                     <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, azul = armenio, verde = georgiano</p>
                 {% endif %}
-            </article>    
+            </article>
+
+            <script>
+                if (!navigator.share) {
+                    document.getElementById("share-button").remove();
+                }
+            </script>
         </main>
     </body>
 </html>
