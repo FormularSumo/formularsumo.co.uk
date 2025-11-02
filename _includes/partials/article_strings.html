@@ -1,0 +1,9 @@
+{% if page.lang == "en" -%}
+    {% assign first_published = "First Published" -%}
+    {% assign link_button_text = "Copy the link to the current page -%}
+    {% assign share_button_text = "Share the current page" -%}
+{% elsif page.lang == "es" -%}
+    {% assign first_published = "Publicado por Primera Vez" -%}
+    {% assign link_button_text = "Copiar el enlace de la página actual" -%}
+    {% assign share_button_text = "Compartir la página actual" -%}
+{% endif -%}

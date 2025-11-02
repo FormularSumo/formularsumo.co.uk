@@ -47,8 +47,7 @@ function translateURL(URL, lang) {
 			}
 
 		} else if (URL.includes("/living-pages/")) {
-			//Disabled until published, probably wants translating
-			// newURL += "living-pages/";
+			newURL += "paginas-vivas/";
 
 			if (URL.split('/').slice(-2,-1) != "living-pages") {
 
@@ -60,7 +59,7 @@ function translateURL(URL, lang) {
 				if (translatedPage) {
 					newURL += translatedPage;
 				}
-				//If a living-page is not translated, goes to homepage (change to living-pages when published).
+				//If a living-page is not translated, goes to living pages page.
 			}
 
 		} else if (URL.includes("/about-this-site/")) {
@@ -94,10 +93,11 @@ function translateURL(URL, lang) {
 				}
 			}
 
-		} else if (URL.includes("/living-pages/")) {
+		} else if (URL.includes("/paginas-vivas/")) {
+			// Disabled as there are currently no EN living pages
 			// newURL += "living-pages/";
 
-			if (URL.split('/').slice(-2,-1) != "living-pages") {
+			if (URL.split('/').slice(-2,-1) != "paginas-vivas") {
 
 				let page = URL.split('/').slice(-2,-1);
 
@@ -111,7 +111,7 @@ function translateURL(URL, lang) {
 			newURL += "about-this-site/";
 
 		} else {
-			newURL += URL.split('/').slice(2,-1);
+			newURL += URL.split('/').slice(2,3);
 		}
 	}
 

@@ -68,6 +68,16 @@ main {
         }
     }
 
+    button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        height: 38px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
     .contents_title {
         font-size: 22px;
         margin-top: 35px;

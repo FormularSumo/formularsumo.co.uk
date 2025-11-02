@@ -1,3 +1,4 @@
 {
-    "layout": "living-pages/lenguas-de-europa.html"
+    "layout": "living-pages/lenguas-de-europa.html",
+    "override:tags": []
 }

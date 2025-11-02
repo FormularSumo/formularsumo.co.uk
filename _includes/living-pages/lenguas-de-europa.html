@@ -44,13 +44,26 @@
             }
         </style>
     </head>
-    <body class="blog">
+    <body class="margin">
         {% include "partials/navbar.html" %}
 
         <main>
             <article>
                 <header>
-                    <h1>{{title}}</h1>
+                    <h1>{{title}}
+                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
+                            <svg>
+                                <title>{{link_button_text}}</title>
+                                <use xlink:href="/assets/link.svg#Link"></use>
+                            </svg>
+                        </button>
+                        <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
+                            <svg>
+                                <title>{{share_button_text}}</title>
+                                <use xlink:href="/assets/share.svg#Share"></use>
+                            </svg>
+                        </button>
+                    </h1>
                 </header>
 
                 {% if madre %}
@@ -97,7 +110,7 @@
                     {% endif %}
                 {% endif %}
 
-                {% if title == "Árbol interactivo de las familias de lenguas habladas Europa" %}
+                {% if title == "Árbol interactivo de las familias de lenguas habladas en Europa" %}
                     <h2>Alfabetos</h2>
                     <img src=/es/paginas-vivas/lenguas-de-europa/alfabetos.webp>
                     <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, azul = armenio, verde = georgiano</p>

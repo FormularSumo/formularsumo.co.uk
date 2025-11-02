@@ -1,48 +1,14 @@
-{% include "partials/article_date_string.html" -%}
+{% include "partials/article_strings.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
         {% include "partials/head.html" %}
 
-        <style>
-            a {
-                color: var(--text_color);
-            }
-
-            a:link {
-                text-decoration: none;
-            }
-
-            a:hover h1, a:active h1, a:focus-within h1 {
-                text-decoration: underline;
-            }
-
-            main {
-                margin-block: 35px;
-            }
-
-            h1 {
-                font-size: 36px;
-                margin-bottom: 1px;
-                margin-top: 14px;
-            }
-
-            .date {
-                margin-bottom: 5px;
-                font-size: 14px;
-            }
-
-            p {
-                font-size: 16px;
-                margin-bottom: 18px;
-            }
-        </style>
-
         <link rel="me" href="https://social.vivaldi.net/@FormularSumo">
     </head>
 
-    <body class="blog">
+    <body class="margin blog">
         {% include "partials/navbar.html" %}
 
         <main>

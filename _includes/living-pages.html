@@ -1,0 +1,30 @@
+{% include "partials/article_strings.html" -%}
+
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+    <head>
+        {% include "partials/head.html" %}
+
+        <style>
+            h1 {
+                margin-bottom: 6px !important;
+            }
+        </style>
+    </head>
+
+    <body class="margin blog">
+        {% include "partials/navbar.html" %}
+
+        <main>
+            {% for post in collections.living-page reversed -%}
+                {% if post.data.tags contains page.lang -%}
+                    <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
+                        <!-- <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p> -->
+                        <p>{{post.data.description}}</p>
+                    </a>
+                {% endif -%}
+            {% endfor -%}
+        </main>
+        
+    </body>
+</html>
