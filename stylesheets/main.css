@@ -1,71 +1,77 @@
 /*SITE-WIDE STYLING*/
-:root {
-    color-scheme: light dark;
-    --text_color: light-dark(black, white);
-    --heading_font: Georgia, serif;
-    --text_font: "DejaVu Sans", sans-serif;
-}
-@view-transition {
-    navigation: auto;
-}
-::view-transition-group(root) {
-    animation-duration: 0.3s;
-}
+/*Using a cascade layer ensures that this styling how a lower priority than non-layered styling (used on specific layouts/pages)*/
+@layer defaults {
+    :root {
+        color-scheme: light dark;
+        --text_color: light-dark(black, white);
+        --heading_font: Georgia, serif;
+        --text_font: "DejaVu Sans", sans-serif;
+    }
+    @view-transition {
+        navigation: auto;
+    }
+    ::view-transition-group(root) {
+        animation-duration: 0.3s;
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-html {
-    scroll-behavior: smooth;
-    padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
-    background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
-    font-family: var(--text_font);
-    text-underline-offset: 10%;
-}
-main {
-    padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
-    padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
-    :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
-        a, button {
-            color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
-        }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html {
+        scroll-behavior: smooth;
+        padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
+        background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
+        font-family: var(--text_font);
+        text-underline-offset: 10%;
+    }
 
-        a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
-            color: light-dark(black, white);
+    main {
+        padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
+        padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
+        :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
+            a, button {
+                color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
+            }
+
+            a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
+                color: light-dark(black, white);
+            }
+        }
+        a {
+            -webkit-tap-highlight-color: transparent;
+        }
+        p, li {
+            line-height: 1.5;
+            font-size: 17px;
+        }
+        p, ul, ol {
+            margin-bottom: 1.1em;
+        }
+        li {
+            margin-bottom: 0.3em;
+            margin-left: 15px;
+        }
+        .date {
+            margin-top: 0px;
+            font-style: italic;
+            font-family: var(--heading_font);
         }
     }
-    a {
-        -webkit-tap-highlight-color: transparent;
-    }
-    p, li {
-        line-height: 1.5;
-        font-size: 17px;
-    }
-    p, ul, ol {
-        margin-bottom: 1.1em;
-    }
-    li {
-        margin-bottom: 0.3em;
-        margin-left: 15px;
-    }
-    .date {
-        margin-top: 0px;
-        font-style: italic;
+
+
+    h1, h2, h3, h4, h5, h6 {
         font-family: var(--heading_font);
     }
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading_font);
-}
 
-img { /* This is needed because each image has its width and height added as a HTML property to avoid layout shift, which means the default value is not auto. */
-    width: auto;
-    height: auto;
-}
-svg {
-    aspect-ratio: 1;
-    fill: currentColor /*inherited, eg from <a> or <button>*/
+    img { /* This is needed because each image has its width and height added as a HTML property to avoid layout shift, which means the default value is not auto. */
+        width: auto;
+        height: auto;
+    }
+    svg {
+        aspect-ratio: 1;
+        fill: currentColor /*inherited, eg from <a> or <button>*/
+    }
 }
 
 /*MARGIN STYLING*/
@@ -78,36 +84,47 @@ svg {
 }
 /*BLOG-LIKE STYLING*/
 .blog {
-    a {
-        color: var(--text_color);
-    }
-
-    a:link {
-        text-decoration: none;
-    }
-
-    a:hover h1, a:active h1, a:focus-within h1 {
-        text-decoration: underline;
-    }
-
     main {
-        margin-block: 35px;
+        margin-top: 24px;
+        margin-bottom: 26px;
     }
-
-    h1 {
-        font-size: 36px;
-        margin-bottom: 1px;
-        margin-top: 14px;
+    .title {
+        font-size:40px;
+        text-decoration: underline;
+        /*Somehow Safari does not support setting style in text-decoration*/
+        text-decoration-style: dashed;
+        text-underline-offset: 20px;
+        margin-bottom: 32px;
     }
+    .entries {
+        a {
+            color: var(--text_color);
+        }
 
-    .date {
-        margin-bottom: 5px;
-        font-size: 14px;
-    }
+        a:link {
+            text-decoration: none;
+        }
 
-    p {
-        font-size: 16px;
-        margin-bottom: 18px;
+        a:hover h1, a:active h1, a:focus-within h1 {
+            text-decoration: underline;
+        }
+
+
+        h1 {
+            font-size: 34 px;
+            margin-bottom: 1px;
+            margin-top: 14px;
+        }
+
+        .date {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
     }
 }
 

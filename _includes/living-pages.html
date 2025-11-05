@@ -1,13 +1,21 @@
 {% include "partials/article_strings.html" -%}
+{% if page.lang == "en" -%}
+    {% assign Title = "Living pages" -%}
+{% else -%}
+    {% assign Title = "Páginas vivas" -%}
+{% endif -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
         {% include "partials/head.html" %}
-
         <style>
-            h1 {
-                margin-bottom: 6px !important;
+            .description {
+                margin-top: 12px;
+                margin-bottom: 28px;
+                p {
+                    font-size: 16px;
+                }
             }
         </style>
     </head>
@@ -16,15 +24,25 @@
         {% include "partials/navbar.html" %}
 
         <main>
-            {% for post in collections.living-page reversed -%}
-                {% if post.data.tags contains page.lang -%}
-                    <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
-                        <!-- <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p> -->
-                        <p>{{post.data.description}}</p>
-                    </a>
-                {% endif -%}
-            {% endfor -%}
+            <h1 class="title">{{Title}}</h1>
+            <details style="margin-bottom: 20px;">
+                <summary style="font-size: 16px;">¿Qué es una página viva?</summary>
+                <section class="description">
+                    <em>
+                        {{content}}
+                    </em>
+                </section>
+            </details>
+
+            <section class="entries">
+                {% for post in collections.living-page reversed -%}
+                    {% if post.data.tags contains page.lang -%}
+                        <a href="{{post.url}}"><h1 style="margin-bottom: 6px">{{post.data.title}}</h1>
+                            <p>{{post.data.description}}</p>
+                        </a>
+                    {% endif -%}
+                {% endfor -%}
+            </section>
         </main>
-        
     </body>
 </html>
