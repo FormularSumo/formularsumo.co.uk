@@ -38,30 +38,18 @@
                     margin-bottom: 2.5px;
                 }
             }
-            .flex_container {
-                display: flex;
-                width: 100%;
-            }
-            .links {
-                padding-top: 80px;
-                padding-left: 60px;
-                width: 50px;
-            }
+
+            /*EXTERNAL LINKS ASIDE STYLING*/
             .link_a {
                 display:inline-block;
-                width: 50px;
             }
-            .link {
-                padding-block: 7.5px;
-            }
+
             @media screen and (width <= 920px) {
                 .flex_container {
                     flex-direction: column;
                 }
                 .links {
                     text-align: center;
-                    width: auto;
-                    padding: 0;
                 }
                 .link_a {
                     width: 60px;
@@ -69,8 +57,21 @@
                     margin-top: 10px;
                     margin-bottom: 10px;
                 }
+            }
+            @media screen and (width > 920px) {
+                .flex_container {
+                    display: flex;
+                }
+                .links {
+                    padding-top: 80px;
+                    padding-left: 60px;
+                    width: 50px;
+                }
+                .link_a {
+                    width: 50px;
+                }
                 .link {
-                    padding-block: 0px;
+                    padding-block: 7.5px;
                 }
             }
         </style>
