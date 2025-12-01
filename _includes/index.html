@@ -1,9 +1,11 @@
 {% if page.lang == "en" -%}
-    {% assign Mastodon = "Mastodon/Fediverse" -%}
+    {% assign Mastodon = "Mastodon (Fediverse)" -%}
+    {% assign Pixelfed = "Pixelfed (Fediverse)" -%}
     {% assign Email = "Email" -%}
     {% assign Feed = "Web feed" -%}
 {% else -%}
-    {% assign Mastodon = "Mastodon/Fediverso" -%}
+    {% assign Mastodon = "Mastodon (Fediverso)" -%}
+    {% assign Pixelfed = "Pixelfed (Fediverso)" -%}
     {% assign Email = "Correo electrónico" -%}
     {% assign Feed = "Fuente web" -%}
 {% endif -%}
@@ -60,7 +62,7 @@
                     display: flex;
                 }
                 .links {
-                    padding-top: 80px;
+                    padding-top: 50px;
                     padding-left: 60px;
                     width: 50px;
                 }
@@ -100,16 +102,16 @@
                             <use xlink:href="/assets/email.svg#Email"></use>
                         </svg>
                     </a>
-                    <a class="link_a" href="https://matrix.to/#/@formularsumo:mozilla.org">
-                        <svg class="link">
-                            <title>Matrix</title>
-                            <use xlink:href="/assets/matrix.svg#Matrix"></use>
-                        </svg>
-                    </a>
                     <a class="link_a" href="https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R" target="_blank">
                         <svg class="link">
                             <title>Signal</title>
                             <use xlink:href="/assets/signal.svg#Signal"></use>
+                        </svg>
+                    </a>
+                    <a class="link_a" href="https://matrix.to/#/@formularsumo:mozilla.org">
+                        <svg class="link">
+                            <title>Matrix</title>
+                            <use xlink:href="/assets/matrix.svg#Matrix"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="https://github.com/FormularSumo" target="_blank">
@@ -122,6 +124,12 @@
                         <svg class="link">
                             <title>Codeberg</title>
                             <use xlink:href="/assets/codeberg.svg#Codeberg"></use>
+                        </svg>
+                    </a>
+                    <a class="link_a" href="https://pixel.tchncs.de/formularsumo" target="_blank">
+                        <svg class="link">
+                            <title>{{Pixelfed}}</title>
+                            <use xlink:href="/assets/pixelfed.svg#Pixelfed"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="https://en.wikipedia.org/wiki/User:FormularSumo" target="_blank">
