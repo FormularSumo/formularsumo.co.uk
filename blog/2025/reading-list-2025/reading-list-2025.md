@@ -24,11 +24,16 @@ Sophocles is one of the most celebrated of the Ancient Greek tragedians, alongsi
 
 <section>
 
-## Autocracy Inc -
+## Autocracy, Inc. - Anne Applebaum
 
 <p class="highly_recommended"></p>
 
-<!-- <img class="right" alt=" book cover" src=".jpg"/> -->
+<img class="right" alt=" book cover" src="autocracy inc.jpg"/>
+
+This was, without a doubt, the best book I read this year. As often happens, I found myself browsing the shelves (and tables, in this case) at Waterstones, and came across this intriguing title. After a good half an hour or so or reading in the shop, I bought it, and read it over the course of a few days - the first book I read after coming back to the UK and Exeter. The book is an extended version of recent pieces by Applebaum, and both the depth and breadth of her reporting is excellent. It ties together the key parts of modern autocracies - including money and co-operation, information and social media, and their global, transnational effects, into one accessible, factual, and compelling book which I can recommend to everyone.
+
+I found it so useful that I re-read it shortly after to [make notes](https://docs.google.com/document/d/1B1GY_iqLGkn68hw-A_xCCMzfNM952JmoesOehuFk5ZQ/edit?usp=sharing), and it's inspired projects and [investigation](https://docs.google.com/spreadsheets/d/1DmMoxKW1YjrbhlKqiiFIscKbBvLL5X0Ff3y70EzyvPc/edit?usp=sharing) since then. Perhaps most importantly, it comes with a wide variety of ideas for protecting the free world and for reversing the current autocratic trends. So if you're stuck wondering why the world is how it is at the moment, and how we can go about trying to improve it, then there's a good chance that this is the book for you.
+
 </section>
 
 <section>
