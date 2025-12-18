@@ -28,7 +28,7 @@ Sophocles is one of the most celebrated of the Ancient Greek tragedians, alongsi
 
 <p class="highly_recommended"></p>
 
-<img class="right" alt=" book cover" src="autocracy inc.jpg"/>
+<img class="right" alt="Autocracy, Inc. book cover" src="autocracy inc.jpg"/>
 
 This was, without a doubt, the best book I read this year. As often happens, I found myself browsing the shelves (and tables, in this case) at Waterstones, and came across this intriguing title. After a good half an hour or so or reading in the shop, I bought it, and read it over the course of a few days - the first book I read after coming back to the UK and Exeter. The book is an extended version of recent pieces by Applebaum, and both the depth and breadth of her reporting is excellent. It ties together the key parts of modern autocracies - including money and co-operation, information and social media, and their global, transnational effects, into one accessible, factual, and compelling book which I can recommend to everyone.
 
@@ -38,11 +38,16 @@ I found it so useful that I re-read it shortly after to [make notes](https://doc
 
 <section>
 
-## Nero -
+## Nero - Conn Iggulden
 
 <p class="highly_recommended"></p>
 
-<!-- <img class="left" alt=" book cover" src=".jpg"/> -->
+<img class="left" alt="Nero book cover" src="nero.jpg"/>
+
+11 June 2016 is when I took out my first Conn Iggulden book from the library: *Lords of the bow*, the second of his Genghis Khan (and descendents) series. Shortly after coming home with it, my mum had a look through and decided it was not appropriate for me, then an 11 year old, and off it went back to the library. So, on my next trip to the library with my dad, 11 year old me took out the first book in this series - *Wolf of the plains*, this time making sure to hide it at the bottom of a large pile of books I took out alongside it, and later under my bed. And so began my introduction to the world of historical fiction.
+
+Since then I've loved Iggulden's books, having read most of them (the fictional ones too), and I think it'd be fair to say that historical fiction is my favourite genre - combining historical events and settings with amazing storytelling and prose is simply an incredible combination. This - the opener of the Emperor Nero triology - was the first I'd read in over 2 years, and it was almost adictive coming back to it - I finished this book in the space of a few days while on holiday. I'd say it was also one of the best I've read, I think the story felt more unique and the characters/relationships had more complexity than previous ones, although that may just be because my memory of them has faded with time. Regardless, it was the book I enjoyed most this year, and is a great way to get into the genre; if you don't mind the oddities and at times uncomfortableness of the Roman elite...
+
 </section>
 
 <section>
