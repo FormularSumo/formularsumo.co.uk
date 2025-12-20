@@ -33,7 +33,6 @@ Sophocles is one of the most celebrated of the Ancient Greek tragedians, alongsi
 This was, without a doubt, the best book I read this year. As often happens, I found myself browsing the shelves (and tables, in this case) at Waterstones, and came across this intriguing title. After a good half an hour or so or reading in the shop, I bought it, and read it over the course of a few days - the first book I read after coming back to the UK, and Exeter. The book is an extended version of recent pieces by Applebaum, and both the depth and breadth of her reporting is excellent. It ties together the key parts of modern autocracies - including money and co-operation, information narratives and social media, and their global, transnational effects, into one accessible, factual, and compelling book which I can recommend to everyone.
 
 I found it so useful that I re-read it shortly after to [make notes](https://docs.google.com/document/d/1B1GY_iqLGkn68hw-A_xCCMzfNM952JmoesOehuFk5ZQ/edit?usp=sharing), and it's inspired various projects and [investigation](https://docs.google.com/spreadsheets/d/1DmMoxKW1YjrbhlKqiiFIscKbBvLL5X0Ff3y70EzyvPc/edit?usp=sharing) since then. Perhaps most importantly, it comes with a wide variety of ideas for protecting the free world and for reversing the current trends of autocratization. So if you're stuck wondering why the world is how it is at the moment, and how we can go about trying to improve it, then there's a good chance that this is the book for you.
-
 </section>
 
 <section>
@@ -44,26 +43,27 @@ I found it so useful that I re-read it shortly after to [make notes](https://doc
 
 <img class="left" alt="Nero book cover" src="original-images/nero.jpg"/>
 
-11 June 2016 is when I took out my first Conn Iggulden book from the library: *Lords of the bow*, the second of his Genghis Khan and descendents series. Shortly after coming home with it, my mum had a look through and decided it was not appropriate for me - then an 11 year old, and off it went back to the library. So, on my next trip to the library with my dad, 11 year old me tried again - this time with the first book in this series, *Wolf of the plains*, making sure to hide it at the bottom of a large pile of books I took out alongside it, and later under my bed. And so began my introduction to the world of historical fiction.
+11 June 2016 is when I took out my first Conn Iggulden book from the library: *Lords of the bow*, the second of his Genghis Khan and descendents series. Shortly after coming home with it, my mum had a look through and decided it was not appropriate for me, then an 11 year old, and off it went back to the library. So, on my next trip to the library with my dad, 11 year old me tried again - this time with the first book in this series, *Wolf of the plains*, making sure to hide it at the bottom of a large pile of books I took out alongside it, and later under my bed. And so began my introduction to the world of historical fiction.
 
-Since then I've loved Iggulden's books, having read most of them (the fictional ones too), and I think it'd be fair to say that historical fiction is my favourite genre - combining historical events and settings with amazing storytelling and prose is simply an incredible combination. This - the opener of the Emperor Nero triology - was the first one I'd read in over 2 years, and it was almost addictive coming back to it; I finished this book in the space of a few days while on holiday. I'd say it was also one of the best I've read, I think the story felt more unique and the characters/relationships had more complexity than previous ones, although that may just be because my memory of them has faded with time. Regardless, it was the book I enjoyed most this year, and is a great way to get into the genre... if you don't mind the oddities and at times uncomfortableness of the Roman elite...
-
+Since then I've loved Iggulden's books, having read most of them (the fiction ones too), and I think it'd be fair to say that historical fiction is my favourite genre - combining historical events and settings with amazing storytelling and prose is simply an incredible combination. This - the opener of the Emperor Nero triology (although Agripinna is really the protagonist of this book) - was the first one I'd read in over 2 years, and it was almost addictive coming back to it; I finished this book in the space of a few days while on holiday. I'd say it was also one of the best I've read, I think the story felt more unique and the characters/relationships had more complexity than previous ones, although that may just be because my memory of them has faded with time. Regardless, it was the book I enjoyed most this year, and is a great way to get into the genre - as long you don't mind the oddities and at times uncomfortableness of the Roman elite...
 </section>
 
-<section>
+<section> 
 
 ## Tyrant - Conn Iggulden
 
-
-
 <img class="right" alt="Tyrant book cover" src="original-images/tyrant.jpg"/>
+
+Following on, Tyrant is the next in the series after Nero. There's not loads to say here: it's also fantastic, and the only reason it's not "highly recommended" is that I think it's a given if you're reading the first. This book develops the character of Nero a lot more, and shows his odd relationship with his mother, Agrippina, and the other people who play a large part in both lives (e.g. Burrus). I think Agripinna is still the most fascinating character here though, the ability she has to manipulate and control people around her, and to play Roman politics so successfully, is astounding.
+
+I also particularly liked that Iggulden added footnotes and a historical accuracy part at the end, explaining many of his decisions over what version or interpretation of an event he used to create his story. I don't remember him doing that in previous books, so it was a very welcome addition. It was fun to see some mentions of Roman Britain as well, here and at the end of the first book, and the description of Nero's [*Naumachia* (Roman mock sea battle)](https://en.wikipedia.org/wiki/Naumachia) was excellent. The only critism I can raise is that I have to wait until May for the final instalament of the trilogy :(
 </section>
 
 <section>
 
 ## A Clockwork Orange - Anthony Burgess
 
-
-
 <img class="left" alt="A Clockwork Orange book cover" src="original-images/a clockwork orange.webp"/>
+
+
 </section>
