@@ -1,14 +1,14 @@
 ---
 title: Reading List 2025
 date: 2025-12-25
-description: Commentaries, backgrounds and recommendations on the books I read throughout 2025.
+description: "The English part of the my 2025 reading list: books I read this year, and what I thought about them"
 tags: ["reading-list"]
 stylesheet: list
 ---
 
 <section>
 
-It's approaching the end of the year, and that means it's time for my annual reading list. I'm happy to report that this year - especially in the first half, I've read a lot more than in the previous one. While great news, it does mean that there's much more to write about, so this time I'm going to split the list into an English and a (considerably longer) Spanish part, which you'll be able to change between using the language switcher in the top right, once it's published. As before, I'm planning to go chronologically, writing a short background on each book, and giving out some "highly recommended" awards.
+It's approaching the end of the year, and that means it's time for my annual reading list. I'm happy to report that this year, especially in the first half, I've read a lot more than in the previous one. While great news, it does mean that there's much more to write about, so this time I'm going to split the list into an English part, and a (considerably longer) Spanish part, which you'll be able to change between using the language switcher in the top right, once it's published. As before, I'm planning to go chronologically, writing a short background on each book, and giving out some "highly recommended" awards.
 </section>
 
 <section>
@@ -69,4 +69,10 @@ A Clockwork Orange is a book that I'd been meaning to read for a long time. I'm 
 
 The dystopian world of rampant youth violence and the ineffectiveness of the state at preventing it is a depressing one, although fitting with the pessimism of the 60s around this topic, some which still lingers today I find. And the descriptions of this are very... colourful. The story almost feels a bit like a tragedy in parts, with the previous events and people coming back in highly unlikely and strange ways. The central theme of free will vs violence and the state is an important one, and that alongside the extreme violence is probably what pushed it into the public eye, and spurred the creation of many film/stage adaptations since. I found I didn't agree with some of the undercurrents - religion, inevitability, I don't think those are the best ways to approach the problem, but nonetheless, reading it was still a useful thought exercise, and I do think that free will and thinking are important things to protect, especially in a world where those kinds of rights are currently in recession.
 
+</section>
+
+<section>
+<h2>Closing thoughts</h2>
+
+That's it for this year, I hope you found something useful or interesting in here, and as always, please do [get in touch](https://formularsumo.co.uk/#contact-me) if you have any feedback!
 </section>
