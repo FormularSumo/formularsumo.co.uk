@@ -5,6 +5,14 @@
     <head>
         {% include "partials/head.html" %}
 
+        <style>
+            .feed {
+                height: 1.1em;
+                position: relative;
+                top: 0.15em;
+            }
+        </style>
+
         <link rel="me" href="https://social.vivaldi.net/@FormularSumo">
     </head>
 
@@ -12,7 +20,14 @@
         {% include "partials/navbar.html" %}
 
         <main>
-            <h1 class="title">Blog</h1>
+            <h1 class="title">Blog
+                <a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+                    <svg class="feed">
+                        <title>{{Feed}}</title>
+                        <use xlink:href="/assets/feed.svg#Feed"></use>
+                    </svg>
+                </a>
+            </h1>
             <section class="entries">
                 {% for post in collections.post reversed -%}
                     {% if post.data.tags contains page.lang -%}
