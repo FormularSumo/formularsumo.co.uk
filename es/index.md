@@ -3,7 +3,6 @@ layout: index.html
 title: Inicio
 description: "La web personal y el blog de James Heppell"
 about_me: Sobre mí
-external_links: "Enlaces Externos"
 ---
 Hola, soy James Heppell, estudiante de informática del Reino Unido que vive actualmente en Exeter, anteriormente en la Comunidad de Madrid y Portsmouth. Me interesan muchos campos de la tecnología, tanto de software como de hardware, pero especialmente la intersección de nuestras vidas digitales y físicas. Soy un gran aficionado de los ecosistemas abiertos como la Web, y ayudo a [Open Web Advocacy](https://open-web-advocacy.org).
 

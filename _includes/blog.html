@@ -1,4 +1,4 @@
-{% include "partials/article_strings.html" -%}
+{% include "partials/strings.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -6,7 +6,7 @@
         {% include "partials/head.html" %}
 
         <style>
-            .feed {
+            .feed_link {
                 height: 1.1em;
                 position: relative;
                 top: 0.15em;
@@ -22,8 +22,8 @@
         <main>
             <h1 class="title">Blog
                 <a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
-                    <svg class="feed">
-                        <title>{{Feed}}</title>
+                    <svg class="feed_link">
+                        <title>{{feed}}</title>
                         <use xlink:href="/assets/feed.svg#Feed"></use>
                     </svg>
                 </a>

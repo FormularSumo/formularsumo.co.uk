@@ -3,7 +3,6 @@ layout: index.html
 title: Home
 description: "James Heppell's personal site and blog"
 about_me: About me
-external_links: "External Links"
 ---
 Hi, I'm James Heppell, a computer science student from the UK current living in Exeter, previously in the Community of Madrid and Portsmouth. I'm interested in a lot of areas of tech, both software and hardware, but especially in the intersection of our digital and physical lives. I'm a big fan of open ecosystems such as the Web, and help out with [Open Web Advocacy](https://open-web-advocacy.org).
 
