@@ -8,7 +8,7 @@ stylesheet: list
 
 <section>
 
-It's approaching the end of the year, and that means it's time for my annual reading list. I'm happy to report that this year, especially in the first half, I've read a lot more than in the previous one. While great news, it does mean that there's much more to write about, so this time I'm going to split the list into an English part, and a (considerably longer) Spanish part, which you'll be able to change between using the language switcher in the top right, once it's published. As before, I'm planning to go chronologically, writing a short background on each book, and giving out some "highly recommended" awards.
+It's approaching the end of the year, and that means it's time for my annual reading list. I'm happy to report that this year, especially in the first half, I've read a lot more than in the previous one. While great news, it does mean that there's much more to write about, so this time I'm going to split the list into an English part, and a (considerably longer) Spanish part, which you'll be able to change between using the language switcher in the top right, once it's also published. As before, I'm planning to go chronologically, writing a short background on each book, and giving out some "highly recommended" awards.
 </section>
 
 <section>
