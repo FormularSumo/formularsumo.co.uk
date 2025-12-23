@@ -1,6 +1,6 @@
 ---
 title: Reading List 2025
-date: 2025-12-25
+date: 2025-12-23
 description: "The English part of the my 2025 reading list: books I read this year, and what I thought about them"
 tags: ["reading-list"]
 stylesheet: list
