@@ -1,4 +1,11 @@
 {% include "partials/strings.html" -%}
+{% if page.lang == "en" -%}
+    {% assign heading_aria = "Blog title and Web Feed" -%}
+    {% assign list_aria = "List of English articles" -%}
+{% elsif page.lang == "es" -%}
+    {% assign heading_aria = "Título blog y su Fuente Web" -%}
+    {% assign list_aria = "Lista de artíuclos en español" -%}
+{% endif -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -19,16 +26,16 @@
     <body class="margin blog">
         {% include "partials/navbar.html" %}
 
-        <main>
-            <h1 class="title">Blog
-                <a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+        <main aria-label="Blog">
+            <h1 class="title" aria-label="{{heading_aria}}">
+                Blog<a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
                     <svg class="feed_link">
                         <title>{{feed}}</title>
                         <use xlink:href="/assets/feed.svg#Feed"></use>
                     </svg>
                 </a>
             </h1>
-            <section class="entries">
+            <section class="entries" aria-label="{{list_aria}}">
                 {% for post in collections.post reversed -%}
                     {% if post.data.tags contains page.lang -%}
                         <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
