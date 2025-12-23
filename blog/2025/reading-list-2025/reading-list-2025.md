@@ -15,7 +15,7 @@ It's approaching the end of the year, and that means it's time for my annual rea
 
 ## Oedipus Rex - Sophocles, Johnson (2005) translation
 
-<img class="left" alt="Oedipus Rex book cover" src="original-images/oedipus rex.jpg"/>
+<img class="left" alt="Oedipus Rex book cover" src="oedipus rex.avif"/>
 
 While I was on my year abroad studying in Spain, I restricted myself to only reading books in Spanish (hence why the English part of this list is relatively short), with the exception of *Oedipus Rex*. I read this as part of a course I was taking, [*Cultura Clásica*](https://www.uah.es/es/estudios/estudios-oficiales/grados/asignatura/Cultura-Clasica-252012/) (Classical Cultures), for both the coursework and the exam. Being the first Ancient Greek/Roman literature I looked at, I read it in English to better (and quicker) understand it. [The translation I used](http://johnstoniatexts.x10host.com/sophocles/oedipusthekinghtml.html) is a modern text, which made it much easier to parse and more enjoyable, and also came with very helpful footnotes explaining context, characters, meanings, and more.
 
@@ -28,7 +28,7 @@ Sophocles is one of the most celebrated of the Ancient Greek tragedians, alongsi
 
 <p class="highly_recommended"></p>
 
-<img class="right" alt="Autocracy, Inc. book cover" src="original-images/autocracy inc.jpg"/>
+<img class="right" alt="Autocracy, Inc. book cover" src="autocracy inc.avif" loading="lazy"/>
 
 This was, without a doubt, the best book I read this year. As often happens, I found myself browsing the shelves (and tables, in this case) at Waterstones, and came across this intriguing title. After a good half an hour or so or reading in the shop, I bought it, and read it over the course of a few days - the first book I read after coming back to the UK and Exeter. The book is an extended version of recent essays by Applebaum, and both the depth and breadth of her reporting is excellent. It ties together the key parts of modern autocracies - including money and co-operation, information narratives and social media, and their global, transnational effects, into one accessible, factual, and compelling book which I can recommend to everyone.
 
@@ -41,7 +41,7 @@ I found it so useful that I re-read it shortly after to [make notes](https://doc
 
 <p class="highly_recommended"></p>
 
-<img class="left" alt="Nero book cover" src="original-images/nero.jpg"/>
+<img class="left" alt="Nero book cover" src="nero.avif" loading="lazy"/>
 
 11 June 2016 is when I took out my first Conn Iggulden book from the library: *Lords of the bow*, the second of his Genghis Khan and descendents series. Shortly after coming home with it, my mum had a look through and decided it was not appropriate for me, then an 11 year old, and off it went back to the library. So, on my next trip to the library with my dad, 11 year old me tried again - this time with the first book in the series, *Wolf of the plains*, making sure to hide it at the bottom of a large pile of books I took out alongside it, and later under my bed. And so began my introduction to the world of historical fiction.
 
@@ -52,7 +52,7 @@ Since then I've loved Iggulden's books, having read most of them (the fiction on
 
 ## Tyrant - Conn Iggulden
 
-<img class="right" alt="Tyrant book cover" src="original-images/tyrant.jpg"/>
+<img class="right" alt="Tyrant book cover" src="tyrant.avif" loading="lazy"/>
 
 Following on, Tyrant is the next in the series after Nero. There's not loads to say here: it's also fantastic, and the only reason it's not "highly recommended" is that it's pretty much a given if you're reading the first. This book develops the character of Nero a lot more, and shows his odd relationship with his mother, Agrippina, and the other people who play a large part in both lives (e.g. Burrus, the head of the Paretorians). I think Agrippina is still the most fascinating character here though, the ability she has to manipulate and control people around her, and to play Roman politics so successfully, is astounding.
 
@@ -63,7 +63,7 @@ I also particularly liked that Iggulden added footnotes and a historical accurac
 
 ## A Clockwork Orange - Anthony Burgess
 
-<img class="left" alt="A Clockwork Orange book cover" src="original-images/a clockwork orange.webp"/>
+<img class="left" alt="A Clockwork Orange book cover" src="a clockwork orange.avif" loading="lazy"/>
 
 A Clockwork Orange is a book that I'd been meaning to read for a long time. I'm not quite sure where I first heard about it, but I think it was part of some particular grouping of "modern classics" (alongside things like *1984*) which were talked about in English classes, or perhaps by my parents. It's certainly a unique book. This particular version is from the 2007 Independent's *Banned Books* series, which came with a very helpful foreword. Especially interesting is that Burgess claims to have always wanted the last chapter - which flips the ending on its head, to be published in the US, whereas others say that he was happy for it not to be. The slang that Burgess created for the book also added a lot (apparently done to ensure it wouldn't go out of date), and while it made it harder to read at first (lots of flicking back and forth to the glossary), it didn't take too long to get the hang of it.
 
