@@ -1,4 +1,4 @@
-{% include "partials/article_strings.html" -%}
+{% include "partials/strings.html" -%}
 
 {% if page.lang == "en" -%}
     {% assign footnotes_text = "Footnotes" -%}
@@ -26,6 +26,19 @@
         {% if style %}
             {{style}}
         {% endif %}
+
+        <style>
+            .links {
+                    text-align: center;
+                }
+            .link_a {
+                display:inline-block;
+                width: 60px;
+                margin-inline: 20px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
 
     <body class="margin">
@@ -83,6 +96,21 @@
                     </section>
                 {% endif %}
             </article>
+
+            <aside class="links" title="{{external_links}}">
+                <a class="link_a" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
+                    <svg class="link">
+                        <title>{{mastodon}}</title>
+                        <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
+                    </svg>
+                    <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+                        <svg class="link">
+                            <title>{{feed}}</title>
+                            <use xlink:href="/assets/feed.svg#Feed"></use>
+                        </svg>
+                    </a>
+                </a>
+            </aside>
 
             <script>
                 if (!navigator.share) {
