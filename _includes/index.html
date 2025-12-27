@@ -1,14 +1,4 @@
-{% if page.lang == "en" -%}
-    {% assign Mastodon = "Mastodon (Fediverse)" -%}
-    {% assign Pixelfed = "Pixelfed (Fediverse)" -%}
-    {% assign Email = "Email" -%}
-    {% assign Feed = "Web feed" -%}
-{% else -%}
-    {% assign Mastodon = "Mastodon (Fediverso)" -%}
-    {% assign Pixelfed = "Pixelfed (Fediverso)" -%}
-    {% assign Email = "Correo electrónico" -%}
-    {% assign Feed = "Fuente web" -%}
-{% endif -%}
+{% include "partials/strings.html" -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -26,7 +16,7 @@
             }
             .content_image {
                 max-width: 100%;
-                outline: solid 2.5px;
+                outline: solid 2px;
                 @media (width <= 375px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
                     display: block;
                     margin-inline: auto;
@@ -53,7 +43,7 @@
                 .link_a {
                     width: 60px;
                     margin-inline: 10px;
-                    margin-top: 10px;
+                    margin-top: 15px;
                     margin-bottom: 10px;
                 }
             }
@@ -62,7 +52,7 @@
                     display: flex;
                 }
                 .links {
-                    padding-top: 50px;
+                    padding-top: 80px;
                     padding-left: 60px;
                     width: 50px;
                 }
@@ -70,7 +60,7 @@
                     width: 50px;
                 }
                 .link {
-                    padding-block: 7.5px;
+                    padding-block: 10px;
                 }
             }
         </style>
@@ -92,26 +82,8 @@
                 <aside class="links" title="{{external_links}}">
                     <a class="link_a" rel="me" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
                         <svg class="link">
-                            <title>{{Mastodon}}</title>
+                            <title>{{mastodon}}</title>
                             <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
-                        </svg>
-                    </a>
-                    <a class="link_a" href="mailto:formularsumo@outlook.com">
-                        <svg class="link">
-                            <title>{{Email}}</title>
-                            <use xlink:href="/assets/email.svg#Email"></use>
-                        </svg>
-                    </a>
-                    <a class="link_a" href="https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R" target="_blank">
-                        <svg class="link">
-                            <title>Signal</title>
-                            <use xlink:href="/assets/signal.svg#Signal"></use>
-                        </svg>
-                    </a>
-                    <a class="link_a" href="https://matrix.to/#/@formularsumo:mozilla.org">
-                        <svg class="link">
-                            <title>Matrix</title>
-                            <use xlink:href="/assets/matrix.svg#Matrix"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="https://github.com/FormularSumo" target="_blank">
@@ -126,21 +98,9 @@
                             <use xlink:href="/assets/codeberg.svg#Codeberg"></use>
                         </svg>
                     </a>
-                    <a class="link_a" href="https://pixel.tchncs.de/formularsumo" target="_blank">
-                        <svg class="link">
-                            <title>{{Pixelfed}}</title>
-                            <use xlink:href="/assets/pixelfed.svg#Pixelfed"></use>
-                        </svg>
-                    </a>
-                    <a class="link_a" href="https://en.wikipedia.org/wiki/User:FormularSumo" target="_blank">
-                        <svg class="link">
-                            <title>Wikipedia</title>
-                            <use xlink:href="/assets/wikipedia.svg#Wikipedia"></use>
-                        </svg>
-                    </a>
                     <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
                         <svg class="link">
-                            <title>{{Feed}}</title>
+                            <title>{{feed}}</title>
                             <use xlink:href="/assets/feed.svg#Feed"></use>
                         </svg>
                     </a>
