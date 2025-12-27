@@ -39,6 +39,9 @@ function translateURL(URL, lang) {
 				else if (post == "microsoft-office-is-still-bad" ) {
 					translatedPost = "microsoft-office-sigue-siendo-malo";
 				}
+				else if (post == "the-different-ways-of-reading" ) {
+					translatedPost = "las-distintas-formas-de-leer";
+				}
 
 				if (translatedPost) {
 					newURL += year + "/" + translatedPost + "/";
@@ -86,6 +89,9 @@ function translateURL(URL, lang) {
 				}
 				else if (post == "microsoft-office-sigue-siendo-malo" ) {
 					translatedPost = "microsoft-office-is-still-bad";
+				}
+				else if (post == "las-distintas-formas-de-leer" ) {
+					translatedPost = "the-different-ways-of-reading";
 				}
 
 				if (translatedPost) {
