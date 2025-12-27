@@ -1,9 +1,9 @@
 ---
 title: The Different Ways of Reading
 date: 2025-05-01
-description: 
+description: A comparison between reading on paper, digitally, or as an audiobook, and ideas for the future.
 embedImage: "/es/blog/2025/las-distintas-formas-de-leer/formas-de-leer.avif"
-embedAlt: ""
+embedAlt: An arial view of a book, a laptop-tablet, and a phone with earbuds on top of a table. The phyiscal book, Historia del Ferrocarril de España, is a hardback with ilustrations of various 19th century trains and maps with related text boxes, and it has a bookmark in it. The laptop is folded over like a tablet and displaying Oedipus At Colonus, in Firefox's reader view, with options to change the text and the page design, and to use a screen reader. The phone has the Walkable City audiobook open, with some earbuds and their case placed on top of the phone.
 ---
 
 <!-- *Una versión reducida de este artículo se publicó también en el [blog AEDO](https://aedo.blogia.com/2025/062301-las-distintas-formas-de-leer.php).* -->

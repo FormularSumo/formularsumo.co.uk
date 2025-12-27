@@ -3,7 +3,7 @@ title: Las Distintas Formas de Leer
 date: 2025-05-01
 description: Una comparación entre la lectura física, digital, y el audiolibro, y ideas para un futuro.
 embedImage: "/es/blog/2025/las-distintas-formas-de-leer/formas-de-leer.avif"
-embedAlt: "Una vista áerea de un libro, un portátil-tableta, y un móvil con auriculares sobre una mesa. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil."
+embedAlt: Una vista áerea de un libro, un portátil-tableta, y un móvil con auriculares sobre una mesa. El libro físico, Historia del Ferrocarril de España, es de tapa dura con ilustraciones de varios trenes del siglo 19 y mapas relacionados con cajas de texto, y tiene un marcador de libros. El portátil está plegado como una tableta y muestra Oedipus At Colonus, en el modo lector de Firefox, con opciones para cambiar el texto y el diseño de la página, y usar la lectora de voz. El móvil tiene abierto el audiolibro Walkable City, con auriculares y su estuche puesto sobre el móvil.
 ---
 
 *Una versión reducida de este artículo se publicó también en el [blog AEDO](https://aedo.blogia.com/2025/062301-las-distintas-formas-de-leer.php).*
