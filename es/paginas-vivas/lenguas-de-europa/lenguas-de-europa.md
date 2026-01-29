@@ -7,7 +7,7 @@ hablantes: 742 millones (población de Europa)
 foto: familias.webp
 foto-texto: Verde-claro = indoeuropeo, verde-marrón = túrquico, verde-oscuro = ugrofinés, gris = vasco, amarillo = afroasiático
 foto-alt: Distribución de las familias de idiomas habladas en Europa. El indoeuropeo se habla en la mayoría de Europa. El Túrquico se habla en Turquía y unos lugares en sus vecinos. El ugrofinés se habla en el norte de Europa centrado en Finlandia y Estonia, en Hungría, y partes centrales de Rusia. El vasco se habla en el noreste de España y un poquísimo de Francia. El afroasiático se habla en Malta, el norte de África y en el Oriente Medio.
-foto-enlace: es.wikipedia.org/wiki/Archivo:Familles_de_langues_du_monde.png
+foto-enlace: https://es.wikipedia.org/wiki/Archivo:Familles_de_langues_du_monde.png
 ramas: [
     "Indoeuropeo",
     "Túrquico",
