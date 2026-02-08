@@ -1,5 +1,4 @@
 import { EleventyI18nPlugin } from "@11ty/eleventy";
-import { DateTime } from "luxon";
 import tocPlugin from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -161,7 +160,7 @@ export default function (eleventyConfig) {
 		}
 
 		const dateObj = new Date(date)
-		return dateObj.toLocaleString(lang, DateTime.DATE_FULL);
+		return dateObj.toLocaleString(lang, {dateStyle: "long"});
 	});
 
 	eleventyConfig.addFilter("feedTime", (dateObj) => {
