@@ -155,11 +155,13 @@ export default function (eleventyConfig) {
 		ul: true,
 	});
 
-	eleventyConfig.addFilter("postDate", (dateObj, lang) => {
+	eleventyConfig.addFilter("postDate", (date, lang) => {
 		if (lang == "en") {
-			lang = "en-gb";
+			lang = "en-GB";
 		}
-		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL, {locale: lang});
+
+		const dateObj = new Date(date)
+		return dateObj.toLocaleString(lang, DateTime.DATE_FULL);
 	});
 
 	eleventyConfig.addFilter("feedTime", (dateObj) => {
