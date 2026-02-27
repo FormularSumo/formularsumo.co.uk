@@ -49,18 +49,19 @@ function translateURL(URL, lang) {
 		} else if (URL.includes("/living-pages/")) {
 			newURL += "paginas-vivas/";
 
-			if (URL.split('/').slice(-2,-1) != "living-pages") {
+			// Disabled as there's currently no translated living pages
+			// if (URL.split('/').slice(-2,-1) != "living-pages") {
 
-				let page = URL.split('/').slice(-2,-1);
+			// 	let page = URL.split('/').slice(-2,-1);
 
-				var translatedPage;
-				// Work out translated page names here
+			// 	var translatedPage;
+			// 	// Work out translated page names here
 
-				if (translatedPage) {
-					newURL += translatedPage;
-				}
-				//If a living-page is not translated, goes to living pages page.
-			}
+			// 	if (translatedPage) {
+			// 		newURL += translatedPage;
+			// 	}
+			// 	//If a living-page is not translated, goes to living pages page.
+			// }
 
 		} else if (URL.includes("/about-this-site/")) {
 			newURL += "sobre-esta-web/";
@@ -94,19 +95,19 @@ function translateURL(URL, lang) {
 			}
 
 		} else if (URL.includes("/paginas-vivas/")) {
-			// Disabled as there are currently no EN living pages
-			// newURL += "living-pages/";
+			newURL += "living-pages/";
 
-			if (URL.split('/').slice(-2,-1) != "paginas-vivas") {
+			// Disabled as there's currently no translated living pages
+			// if (URL.split('/').slice(-2,-1) != "paginas-vivas") {
 
-				let page = URL.split('/').slice(-2,-1);
+			// 	let page = URL.split('/').slice(-2,-1);
 
-				var translatedPage;
+			// 	var translatedPage;
 
-				if (translatedPage) {
-					newURL += "living-pages/" + "/" + translatedPage;
-				}
-			}
+			// 	if (translatedPage) {
+			// 		newURL += translatedPage;
+			// 	}
+			// }
 		} else if (URL.includes("/sobre-esta-web/")) {
 			newURL += "about-this-site/";
 

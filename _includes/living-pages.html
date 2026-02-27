@@ -1,8 +1,10 @@
 {% include "partials/strings.html" -%}
 {% if page.lang == "en" -%}
     {% assign Title = "Living pages" -%}
+    {% assign Description = "What is a living page?" -%}
 {% else -%}
     {% assign Title = "Páginas vivas" -%}
+    {% assign Description = "¿Qué es una página viva?" -%}
 {% endif -%}
 
 <!DOCTYPE html>
@@ -26,7 +28,7 @@
         <main>
             <h1 class="title">{{Title}}</h1>
             <details style="margin-bottom: 20px;">
-                <summary style="font-size: 16px;">¿Qué es una página viva?</summary>
+                <summary style="font-size: 16px;">{{Description}}</summary>
                 <section class="description">
                     <em>
                         {{content}}
