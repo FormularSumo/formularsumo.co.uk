@@ -13,13 +13,33 @@ details {
         margin-bottom: 5px;
     }
 }
+.intro_note {
+    li {
+        font-size: 15px;
+        /* font-style: italic */
+    }    
+}
 </style>
 
 A list of the software I use and why. Generally the higher up something is in a category, the more I use it. I've also tried to list the supported platforms - I prefer software which is crossplatform.
 
-*Note: If something says "Google Android", this means it's only (officially) available on Android devices with Google Play Services installed.*
+<details class="intro_note">
+<summary style="font-weight: initial">Note on supported platforms</summary>
+<li>"Google Android" means that something is only (officially) available on Android devices with Google Play Services installed.</li>
+<!-- <li>"All" means that something is available on at least Android, iOS, Windows, macOS and Linux desktop.</li> -->
+</details>
 
 %contents%
+
+## Browser
+
+{% details "Firefox" %}
+
+{% enddetails %}
+
+{% details "Vivaldi" %}
+
+{% enddetails %}
 
 
 ## Maps
