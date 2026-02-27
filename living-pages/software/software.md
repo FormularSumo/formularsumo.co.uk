@@ -31,6 +31,38 @@ A list of the software I use and why. Generally the higher up something is in a 
 
 %contents%
 
+## Operating system
+
+{% details "Linux" %}
+
+I use Linux on my laptop and desktop. Currently this is KDE Neon (Ubuntu LTS-based), but I'm planning to move to a more stable distro (probably Fedora KDE edition) when I have time.
+
+{% enddetails %}
+
+{% details "Android" %}
+
+I use Android on my main phone. Currently this is the default Google Pixel ROM, although I'm interested in trying degoogled Android at some point (I have been considering a Fairphone with /e/OS as my next phone), and I would like to find out more about (desktop) Linux-based phones.
+
+{% enddetails %}
+
+{% details "iOS" %}
+
+I use an iPhone as a second phone. This is partially for development and testing purposes, such as websites I'm working on, or for the volunteering I do at Open Web Advocacy, and partially out of interest, as I like to be familiar with both ends of the mobile OS  duopoly.
+
+{% enddetails %}
+
+{% details "Other" %}
+
+I dual boot Windows on both my laptop and desktop. As with iOS, this is mainly for development, testing and familiarity, although occasionally I need to use something which is only available on Windows (or macOS). 
+
+I also have an old Chromebook I sometimes use for testing (mostly because it's *very* slow), or if I need a second laptop for some reason (such as calling somebody into a meeting).
+
+I've only briefly used macOS on family/friend's devices, and didn't like it.
+
+I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
+
+{% enddetails %}
+
 ## Browser
 
 {% details "Firefox" %}
@@ -38,6 +70,8 @@ A list of the software I use and why. Generally the higher up something is in a 
 {% enddetails %}
 
 {% details "Vivaldi" %}
+
+I use Vivaldi for PWAs due to Firefox's poor support for them, I wrote more about this here:
 
 {% enddetails %}
 
