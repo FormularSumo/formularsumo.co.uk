@@ -3,6 +3,7 @@ layout: living-pages/browsers.html
 title: Browser tier list
 description: "My thoughts on current browsers: which I recommend and use, and which I don't."
 embedImage: /living-pages/browser-tier-list/browser-tier-list.webp
+eleventyExcludeFromCollections: true
 tier_list_generator: https://tiermaker.com/create/web-browser--16086681
 browsers:
     A:
