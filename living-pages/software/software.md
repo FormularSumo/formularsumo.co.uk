@@ -46,18 +46,22 @@ A list of the software I use and why. Generally the higher up something is in a 
 
 {% details "CoMaps", "Android, iOS, Linux" %}
 
-I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on OpenStreetMaps data and transparently run by a non-profit. It's incredibly lightweight, fast, and battery-efficient, and has really good for walking and biking directions. It's also got great he map design, they're very aesthetically pleasing, while also being super detailed, including things like benches, bins, toilets, and metro entrances/paths.
+Nowadays, I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on and contributing back to OpenStreetMaps (OSM) data, and is run by a transparent non-profit and a lovely community. It's incredibly lightweight, fast, and battery-efficient, and has really good walking and biking directions. It's also got a great map design - very aesthetically pleasing, while being super detailed, with things like benches, bins, toilets, bike storage, and metro entrances/paths.
 
-The biggest drawback for me is the lack of public transport. CoMaps only works with metro systems at the moment - there's no support for buses or heavy rail. Another big issue the lack of live data. While offline-first is generally a good thing, it would be useful to be able to see eg live transport timetables, traffic, and temporary road closures.
+The biggest drawback for me is the public transport. CoMaps only works with metro systems at the moment - there's no support for buses or heavy rail. Another important issue the lack of live data. While offline-first is generally a good thing, it would be useful to be able to see eg live transport timetables, traffic, and temporary road closures. Along the same lines, I'd love an option to show photos and reviews from third-party sources, as this would be helpful when trying to decide *where* to go. It'd also be helpful to be able to sync saved locations between devices.
 
 {% enddetails %}
 
-{% details "Google Maps", "Google Android, iOS, semi-funcional Web App" %}
+{% details "Google Maps", "Google Android, iOS, semi-funcional website" %}
+
+Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMaps or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more depedent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
+
+Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particulary important one for me though is active transport. It's no secret that Google Maps is designed for (Northamerican) drivers. When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
 
 {% enddetails %}
 
 {% details "Other" %}
-OpenStreetMaps website, Apple Maps
+Google Earth, OpenStreetMaps website, Apple Maps
 {% enddetails %}
 
 ## Notes
