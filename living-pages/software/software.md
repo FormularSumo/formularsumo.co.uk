@@ -1,7 +1,7 @@
 ---
 layout: article.html
 title: Software
-description: An attempt to collate the software I use and why
+description: An attempt to collate the software I use and why.
 ---
 
 <style>
