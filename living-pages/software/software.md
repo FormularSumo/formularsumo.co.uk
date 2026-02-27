@@ -9,6 +9,7 @@ details {
     /* margin-top: -10px; */
     /* margin-bottom: 10px; */
     summary {
+        font-size: 18px;
         font-weight: bold;
         margin-bottom: 5px;
     }
