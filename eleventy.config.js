@@ -3,6 +3,7 @@ import tocPlugin from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import htmlTransform from './transforms/htmlTransform.js';
+import details from './shortcodes/details.js';
 
 const mdOptions = {
 	html: true,
@@ -145,6 +146,10 @@ export default function (eleventyConfig) {
 		markdownIt(mdOptions).use(markdownItAnchor)
 	  )
 
+	// Shortcodes
+	eleventyConfig.addPairedShortcode('details', details);
+
+	// Plugins
 	eleventyConfig.addPlugin(EleventyI18nPlugin,{
 		defaultLanguage: "en",
 	});
