@@ -26,6 +26,7 @@ A list of the software I use and why. Generally the higher up something is in a 
 <details class="intro_note">
 <summary style="font-weight: initial">Note on supported platforms</summary>
 <li>"Google Android" means that something is only (officially) available on Android devices with Google Play Services installed.</li>
+<li>"Web" means that something is available as a web app which works well on all modern browsers and all common form factors</li>
 <!-- <li>"All" means that something is available on at least Android, iOS, Windows, macOS and Linux desktop.</li> -->
 </details>
 
@@ -144,7 +145,7 @@ Google Earth, OpenStreetMaps website, Apple Maps
 
 ## Search Engine
 
-{% details "Ecosia", "All browsers" %}
+{% details "Ecosia" %}
 
 {% enddetails %}
 
