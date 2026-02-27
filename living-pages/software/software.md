@@ -118,7 +118,15 @@ Despite all of Google's data and resources, there are some serious problems with
 {% enddetails %}
 
 {% details "Other" %}
-Google Earth, OpenStreetMaps website, Apple Maps
+
+I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see want specific map view options, particularly the transport and cycling maps styles which are very good. And I use it for detailed OpenStreetMaps editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
+
+I use Google Earth sometimes for its satellite imagery, as it's considerably better than other options. It also has very good 3D object modelling which can be quite useful.
+
+I occasionally use Apple Maps for it's excellent public transport map view, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) or Google Maps. Otherwise I don't really use it unless I'm testing something out.
+
+I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, and charging for certain features is not up my street.
+
 {% enddetails %}
 
 ## Notes
