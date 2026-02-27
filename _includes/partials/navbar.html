@@ -31,9 +31,7 @@
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
             <li class="nav_element"><a href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
-            {% if page.lang == "es" -%}
             <li class="nav_element"><a href="{{'/living-pages/' | localiseURL: page.lang}}">{{livingPages}}</a></li>
-            {% endif -%}
             <li class="nav_element"><a href="{{'/about-this-site/' | localiseURL: page.lang}}">{{aboutThisSite}}</a></li>
         </ul>
     </nav>
