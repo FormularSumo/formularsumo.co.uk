@@ -1,6 +1,6 @@
 ---
 layout: living-pages.html
-title: Paginas-vivas
+title: Páginas vivas
 description: "Las paginas vivas de la web personal de James Heppell"
 ---
 
