@@ -73,7 +73,7 @@ I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
 {% details "Vivaldi" %}
 
-I use Vivaldi for PWAs due to Firefox's poor support for them, I wrote more about this here:
+I use Vivaldi for PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635)
 
 {% enddetails %}
 
@@ -114,7 +114,7 @@ The biggest drawback for me is the public transport. CoMaps only works with metr
 
 Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMaps or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more depedent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
 
-Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particulary important one for me though is active transport. It's no secret that Google Maps is designed for (Northamerican) drivers. When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
+Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particulary important one for me though is active transport. It's no secret that [Google Maps is designed for (Northamerican) drivers](https://social.vivaldi.net/@FormularSumo/116007219367832211). When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
 
 {% enddetails %}
 
