@@ -1,7 +1,7 @@
 ---
 title: Árbol interactivo de las familias de lenguas habladas en Europa
 description: Una colección de páginas que forman un árbol genealógico que muestra las familias de idiomas hablados en el continente de Europa. Incluye datos e información sobre estas ramas, así como mapas y cifras de hablantes.
-embedImage: /es/páginas-vivas/lenguas-de-europa/familias.webp
+embedImage: /es/paginas-vivas/lenguas-de-europa/familias.webp
 embedAlt: Un mapa que muestra la distribución de las familias de idiomas habladas en Europa.
 hablantes: 742 millones (población de Europa)
 foto: familias.webp
