@@ -16,7 +16,7 @@ You can install my website as a [PWA](https://developer.mozilla.org/en-US/docs/W
 
 All content on the website should be accessible in any modern browser, with or without JavaScript enabled. That being said, I do like to try out new web platform features once they're available, so it's possible some non-essential functionality won't work in all browsers yet. Examples that come to mind at the time of writing are [View Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_view_transitions) and [minimal-ui](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display#syntax:~:text=minimal%2Dui,-39).
 
-*No Gen AI was used in the making of this site.*
+*No Gen AI was used for the writing on this site.*
 
 # Inspirations
 
