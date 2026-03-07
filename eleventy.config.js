@@ -33,7 +33,7 @@ function translateURL(URL, lang) {
 				let year = splitURL.at(-3);
 				let post = splitURL.at(-2);
 
-				var translatedPost;
+				let translatedPost;
 
 				if (post == "pronouns" ) {
 					translatedPost = "pronombres";
@@ -56,7 +56,7 @@ function translateURL(URL, lang) {
 
 			// 	let page = splitURL.at(-2);
 
-			// 	var translatedPage;
+			// 	let translatedPage;
 			// 	// Work out translated page names here
 
 			// 	if (translatedPage) {
@@ -65,8 +65,8 @@ function translateURL(URL, lang) {
 			// 	//If a living-page is not translated, goes to living pages page.
 			// }
 
-		} else if (URL.includes("/about-this-site/")) {
-			newURL += "sobre-esta-web/";
+		// } else if (URL.includes("/about-this-site/")) {
+		// 	newURL += "sobre-esta-web/";
 
 		} else { //Assumes that other top-level pages have the same name (eg homepage)
 			newURL = "/es" + URL;
@@ -82,7 +82,7 @@ function translateURL(URL, lang) {
 				let year = splitURL.at(-3);
 				let post = splitURL.at(-2);
 
-				var translatedPost;
+				let translatedPost;
 
 				if (post == "pronombres" ) {
 					translatedPost = "pronouns";
@@ -104,7 +104,7 @@ function translateURL(URL, lang) {
 
 			// 	let page = splitURL.at(-2);
 
-			// 	var translatedPage;
+			// 	let translatedPage;
 
 			// 	if (translatedPage) {
 			// 		newURL += translatedPage;
@@ -115,6 +115,7 @@ function translateURL(URL, lang) {
 
 		} else {
 			newURL += splitURL.at(2);
+			console.log(newURL)
 		}
 	}
 
