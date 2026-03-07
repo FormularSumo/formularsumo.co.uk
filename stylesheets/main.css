@@ -29,7 +29,6 @@
     main {
         padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
         padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
-        :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
             a, button {
                 color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
             }
@@ -37,7 +36,7 @@
             a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
                 color: light-dark(black, white);
             }
-        }
+        /* } */
         a {
             -webkit-tap-highlight-color: transparent;
         }
