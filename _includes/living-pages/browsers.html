@@ -59,18 +59,18 @@
                         <p>Current marketshare: {{browser[1].marketshare}}%</p>
 
                         <p class="list-heading">Pros</p>
-                        {% for pro in browser[1].pros %}
                         <ul>
+                        {% for pro in browser[1].pros %}
                             <li>{{pro}}</li>
-                        </ul>
                         {% endfor %}
+                        </ul>
 
                         <p class="list-heading">Cons</p>
-                        {% for con in browser[1].cons %}
                         <ul>
+                        {% for con in browser[1].cons %}
                             <li>{{con}}</li>
-                        </ul>
                         {% endfor %}
+                        </ul>
                     {% endfor %}
                 {% endfor %}
             </article>    
