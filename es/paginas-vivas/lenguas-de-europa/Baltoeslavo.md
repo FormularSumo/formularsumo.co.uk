@@ -3,9 +3,9 @@ title: Baltoeslavo
 madre: Indoeuropeo
 hablantes: 280 millones
 foto: baltoeslavo.svg
-foto-texto: Verde-azul = familias eslavas, amarillo = familia báltica.
-foto-alt: Distribución de idiomas baltoeslavos. El eslavo oriental se habla en Rusia, Bielorusia, y Ucrania. El eslavo occidental en Polonia, Chequia y Eslovaquia. El eslavo meridional en Eslovenia, Croacia, Serbia, Kosovo, Montenegro, Bulgaria, Macedonia del Norte, y Bosnia y Herzegovina. Y el báltico se habla en Letonia y Lituania.
-foto-enlace: https://en.wikipedia.org/wiki/Balto-Slavic_languages#/media/File:Balto-Slavic.svg
+foto_texto: Verde-azul = familias eslavas, amarillo = familia báltica.
+foto_alt: Distribución de idiomas baltoeslavos. El eslavo oriental se habla en Rusia, Bielorusia, y Ucrania. El eslavo occidental en Polonia, Chequia y Eslovaquia. El eslavo meridional en Eslovenia, Croacia, Serbia, Kosovo, Montenegro, Bulgaria, Macedonia del Norte, y Bosnia y Herzegovina. Y el báltico se habla en Letonia y Lituania.
+foto_enlace: https://en.wikipedia.org/wiki/Balto-Slavic_languages#/media/File:Balto-Slavic.svg
 ramas: [
     "Eslavo",
     "Báltico",

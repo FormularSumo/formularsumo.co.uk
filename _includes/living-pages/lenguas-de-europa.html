@@ -99,19 +99,19 @@
 
                 {% if foto %}
                     <h2>Distribución Geográfica</h2>
-                    {% if foto-enlace -%}
-                    <a href="{{foto-enlace}}" target="_blank">
+                    {% if foto_enlace -%}
+                    <a href="{{foto_enlace}}" target="_blank">
                     {% endif -%}
                     <img src="/es/paginas-vivas/lenguas-de-europa/{{foto}}"
-                    {% if foto-alt -%}
-                        alt="{{foto-alt}}"
+                    {% if foto_alt -%}
+                        alt="{{foto_alt}}"
                     {% endif -%}
                     >
-                    {% if foto-enlace -%}
+                    {% if foto_enlace -%}
                     </a>
                     {% endif -%}
-                    {% if foto-texto %}
-                        <p>{{foto-texto}}</p>
+                    {% if foto_texto %}
+                        <p>{{foto_texto}}</p>
                     {% endif %}
                 {% endif %}
 
