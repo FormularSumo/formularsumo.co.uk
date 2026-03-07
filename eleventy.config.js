@@ -170,7 +170,7 @@ export default function (eleventyConfig) {
 		return dateObj.toLocaleString(lang, {dateStyle: "long"});
 	});
 
-	eleventyConfig.addFilter("feedTime", (dateObj) => {
+	eleventyConfig.addFilter("ISOTime", (dateObj) => {
 		return dateObj.toISOString();
 	});
 

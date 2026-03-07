@@ -21,9 +21,9 @@
         <meta name="fediverse:creator" content="@FormularSumo@vivaldi.net">
         <meta property="og:type" content="article">
         <meta property="article:author" content="James Heppell">
-        {% if date %}
-            <meta property="article:published_time" content="{{date | feedTime}}">
-        {% endif %}
+        {% if date -%}
+            <meta property="article:published_time" content="{{date | ISOTime}}">
+        {% endif -%}
 
         {% if style %}
             {{style}}
