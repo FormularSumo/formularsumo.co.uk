@@ -14,4 +14,4 @@ Para rematar esta breve introducción, me encantan los deportes, más o menos to
 
 ## Contáctame
 
-Te invito a ponerte en contacto conmigo a través de [Signal](https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R), [Mastodon](https://social.vivaldi.net/@FormularSumo), [Matrix](https://matrix.to/#/@formularsumo:mozilla.org) o [Correo eléctronico](mailto:formularsumo@outlook.com).
+Te invito a ponerte en contacto conmigo a través de [Signal](https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R), [Mastodon](https://social.vivaldi.net/@FormularSumo), [Matrix](https://matrix.to/#/@formularsumo:mozilla.org) o [Correo electrónico](mailto:formularsumo@outlook.com).
