@@ -2,7 +2,7 @@
 title: Reading List 2025
 date: 2025-12-23
 description: "The English part of my 2025 Reading List: books I read this year, and what I thought about them."
-embedImage: "/blog/2025/reading-list-2025/embed image.avif"
+embedImage: "/blog/2025/reading-list-2025/embed_image.avif"
 tags: ["reading-list"]
 stylesheet: list
 ---
