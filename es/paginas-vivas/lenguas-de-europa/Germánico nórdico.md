@@ -1,5 +1,5 @@
 ---
-title: Germánico nórdico (septentrional, escandinava)
+title: Germánico nórdico (septentrional, escandinavo)
 madre: Germánico
 hablantes: 20 millones
 foto: germánico-nórdico.webp
