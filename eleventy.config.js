@@ -10,10 +10,11 @@ const mdOptions = {
 	breaks: true,
   }
 const mdAnchorOpts = {
-	permalink: markdownItAnchor.permalink.linkInsideHeader({
-		symbol: '#',
-		class: 'anchor-link',
-	}),
+	// permalink: markdownItAnchor.permalink.linkAfterHeader({
+	// 	class: 'anchor-link',
+	// 	style: 'visually-hidden',
+	// 	symbol: '#',
+	// }),
 	level: [1, 2, 3, 4]
 }
 
@@ -144,7 +145,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.setLibrary(
 		'md',
-		markdownIt(mdOptions).use(markdownItAnchor)
+		markdownIt(mdOptions).use(markdownItAnchor, mdAnchorOpts)
 	  )
 
 	// Shortcodes
