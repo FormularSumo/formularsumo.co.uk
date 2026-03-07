@@ -40,7 +40,7 @@ Driving and owning a motor vehicle is a big responsibility. Learning to drive is
 
 <p class="caption">
 <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023#:~:text=Average%20weekly%20household%20expenditure%20in%20the%20UK%2C%20financial%20year%20ending%20%28FYE%29%202023">
-<img src="household-expenditure.avif" alt="2023 Average UK household weekly expenditure broken down by categories. Total expenditure was £567.70 per week, and the biggest categories were Housing, fuel and power (£105.70), Transport (£79.20), and Food and non-alcoholic drinks (£63.50)." loading="lazy">
+<img src="household-expenditure.avif" alt="2023 Average UK household weekly expenditure broken down by categories. Total expenditure was £567.70 per week, and the biggest categories were Housing, fuel and power (£105.70), Transport (£79.20), and Food and non-alcoholic drinks (£63.50)." loading="lazy"></a>
 <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2022tomarch2023">
 Average weekly household expenditure in the UK, financial year ending (FYE) 2023, Office for National Statistics</a></p>
 
