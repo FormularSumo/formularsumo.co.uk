@@ -6,7 +6,7 @@ description: Info on how this website is made, and inspirations for it
 
 # How this site is made
 
-This website is made using the [Eleventy](www.11ty.dev) static site generator. It uses progressively enhanced HTML and CSS, and [Liquid](https://shopify.github.io/liquid/) for server-side templating.
+This website is made using the [Eleventy](https://11ty.dev) static site generator. It uses progressively enhanced HTML and CSS, and [Liquid](https://shopify.github.io/liquid/) for server-side templating.
 
 The [source code](https://github.com/FormularSumo/formularsumo.co.uk) is hosted on GitHub, where commits are automatically built and deployed to [Cloudflare pages](https://pages.cloudflare.com/). The domain name is managed by [PorkBun](porkbun.com/).
 

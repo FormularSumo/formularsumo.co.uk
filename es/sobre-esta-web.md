@@ -6,7 +6,7 @@ description: Información acerca de cómo está construída esta web, y las insp
 
 # Cómo está construída esta web
 
-Este sitio se hizo usando el generador de sitios estáticos [Eleventy](www.11ty.dev). Usa HTML y CSS de tipo mejora progresiva, y Liquid para plantillas del lado servidor.
+Este sitio se hizo usando el generador de sitios estáticos [Eleventy](https://11ty.dev). Usa HTML y CSS de tipo mejora progresiva, y Liquid para plantillas del lado servidor.
 
 El [código fuente](https://github.com/FormularSumo/formularsumo.co.uk) se aloja en GitHub, donde los commits se construyen y se desplegan de una forma aútomatica a [Cloudflare pages](https://www.cloudflare.com/es-es/developer-platform/products/pages/). El dominio de internet se maneja por [PorkBun](porkbun.com/).
 
