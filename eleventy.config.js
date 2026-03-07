@@ -28,10 +28,10 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (splitURL.slice(-2,-1) != "blog") {
+			if (splitURL.at(-2) != "blog") {
 
-				let year = splitURL.slice(-3,-2);
-				let post = splitURL.slice(-2,-1);
+				let year = splitURL.at(-3);
+				let post = splitURL.at(-2);
 
 				var translatedPost;
 
@@ -52,9 +52,9 @@ function translateURL(URL, lang) {
 			newURL += "paginas-vivas/";
 
 			// Disabled as there's currently no translated living pages
-			// if (splitURL.slice(-2,-1) != "living-pages") {
+			// if (splitURL.at(-2) != "living-pages") {
 
-			// 	let page = splitURL.slice(-2,-1);
+			// 	let page = splitURL.at(-2);
 
 			// 	var translatedPage;
 			// 	// Work out translated page names here
@@ -77,10 +77,10 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (splitURL.slice(-2,-1) != "blog") {
+			if (splitURL.at(-2) != "blog") {
 
-				let year = splitURL.slice(-3,-2);
-				let post = splitURL.slice(-2,-1);
+				let year = splitURL.at(-3);
+				let post = splitURL.at(-2);
 
 				var translatedPost;
 
@@ -100,9 +100,9 @@ function translateURL(URL, lang) {
 			newURL += "living-pages/";
 
 			// Disabled as there's currently no translated living pages
-			// if (splitURL.slice(-2,-1) != "paginas-vivas") {
+			// if (splitURL.at(-2) != "paginas-vivas") {
 
-			// 	let page = splitURL.slice(-2,-1);
+			// 	let page = splitURL.at(-2);
 
 			// 	var translatedPage;
 
@@ -114,7 +114,7 @@ function translateURL(URL, lang) {
 			newURL += "about-this-site/";
 
 		} else {
-			newURL += splitURL.slice(2,3);
+			newURL += splitURL.at(2);
 		}
 	}
 
