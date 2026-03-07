@@ -20,6 +20,7 @@ const mdAnchorOpts = {
 
 function translateURL(URL, lang) {
 	let newURL = "/";
+	let splitURL = URL.split('/')
 
 	if (lang == "es") {
 		newURL += "es/";
@@ -27,10 +28,10 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (URL.split('/').slice(-2,-1) != "blog") {
+			if (splitURL.slice(-2,-1) != "blog") {
 
-				let year = URL.split('/').slice(-3,-2);
-				let post = URL.split('/').slice(-2,-1);
+				let year = splitURL.slice(-3,-2);
+				let post = splitURL.slice(-2,-1);
 
 				var translatedPost;
 
@@ -51,9 +52,9 @@ function translateURL(URL, lang) {
 			newURL += "paginas-vivas/";
 
 			// Disabled as there's currently no translated living pages
-			// if (URL.split('/').slice(-2,-1) != "living-pages") {
+			// if (splitURL.slice(-2,-1) != "living-pages") {
 
-			// 	let page = URL.split('/').slice(-2,-1);
+			// 	let page = splitURL.slice(-2,-1);
 
 			// 	var translatedPage;
 			// 	// Work out translated page names here
@@ -76,10 +77,10 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (URL.split('/').slice(-2,-1) != "blog") {
+			if (splitURL.slice(-2,-1) != "blog") {
 
-				let year = URL.split('/').slice(-3,-2);
-				let post = URL.split('/').slice(-2,-1);
+				let year = splitURL.slice(-3,-2);
+				let post = splitURL.slice(-2,-1);
 
 				var translatedPost;
 
@@ -99,9 +100,9 @@ function translateURL(URL, lang) {
 			newURL += "living-pages/";
 
 			// Disabled as there's currently no translated living pages
-			// if (URL.split('/').slice(-2,-1) != "paginas-vivas") {
+			// if (splitURL.slice(-2,-1) != "paginas-vivas") {
 
-			// 	let page = URL.split('/').slice(-2,-1);
+			// 	let page = splitURL.slice(-2,-1);
 
 			// 	var translatedPage;
 
@@ -113,7 +114,7 @@ function translateURL(URL, lang) {
 			newURL += "about-this-site/";
 
 		} else {
-			newURL += URL.split('/').slice(2,3);
+			newURL += splitURL.slice(2,3);
 		}
 	}
 
