@@ -28,13 +28,8 @@ footnotes: [
 ]
 ---
 
-<p>
 <em>This article was first published on the </em><a
-href="https://portsmouthpoint.blogspot.com/2021/10/why-lightning-iphone-port-has-outstayed.html
-">Portsmouth
-Point blog</a><em>, and has since been lightly edited before publishing here
-(13/6/2025).</em>
-</p>
+href="https://portsmouthpoint.blogspot.com/2021/10/why-lightning-iphone-port-has-outstayed.html ">Portsmouth Point blog</a><em>, and has since been lightly edited before publishing here (13/6/2025).</em>
 
 <img src="ports.avif" style="max-width:369px;">
 
