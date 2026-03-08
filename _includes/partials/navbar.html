@@ -7,6 +7,8 @@
     {% assign livingPages = "Living pages" -%}
     {% assign aboutThisSite = "About this site" -%}
     {% assign FS_alt = "logo" -%}
+    {% assign nav_menu_label = "Open navigation menu" -%}
+    {% assign language_switcher_label = "Open language switcher" -%}
 
     {% assign second_lang = "es" -%}
 {% else -%}
@@ -16,6 +18,8 @@
         {% assign livingPages = "Páginas vivas" -%}
         {% assign aboutThisSite = "Sobre esta web" -%}
         {% assign FS_alt = "logotipo" -%}
+        {% assign nav_menu_label = "Abrir el menu de navigación" -%}
+        {% assign language_switcher_label = "Cambiar el idioma" -%}
 
         {% assign second_lang = "en" -%}
     {% endif -%}
@@ -26,7 +30,7 @@
 
 <div class="navbar" title="navbar">
     <input type="checkbox" id="nav_menu_checkbox">
-    <label for="nav_menu_checkbox" style="padding-left: 20px; font-size: 38px;">≡</label>
+    <label for="nav_menu_checkbox" style="padding-left: 20px; font-size: 38px;" aria-label="{{nav_menu_label}}">≡</label>
     <nav class="nav_menu" style="flex-basis: 100%;">
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
@@ -37,7 +41,7 @@
     </nav>
 
     <input type="checkbox" id="language_switcher_checkbox">
-    <label for="language_switcher_checkbox"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
+    <label for="language_switcher_checkbox" aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
     <nav class="language_switcher">
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
