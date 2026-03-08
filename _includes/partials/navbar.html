@@ -12,17 +12,15 @@
 
     {% assign second_lang = "es" -%}
 {% else -%}
-    {% if page.lang == "es" -%}
-        {% assign home = "Inicio" -%}
-        {% assign blog = "Blog" -%}
-        {% assign livingPages = "Páginas vivas" -%}
-        {% assign aboutThisSite = "Sobre esta web" -%}
-        {% assign FS_alt = "logotipo" -%}
-        {% assign nav_menu_label = "Abrir el menu de navigación" -%}
-        {% assign language_switcher_label = "Cambiar el idioma" -%}
+    {% assign home = "Inicio" -%}
+    {% assign blog = "Blog" -%}
+    {% assign livingPages = "Páginas vivas" -%}
+    {% assign aboutThisSite = "Sobre esta web" -%}
+    {% assign FS_alt = "logotipo" -%}
+    {% assign nav_menu_label = "Abrir el menu de navigación" -%}
+    {% assign language_switcher_label = "Cambiar el idioma" -%}
 
-        {% assign second_lang = "en" -%}
-    {% endif -%}
+    {% assign second_lang = "en" -%}
 {% endif -%}
 
 {% assign current_lang_flag_alt = page.lang | append: "_alt_flag" -%}
