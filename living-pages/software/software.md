@@ -51,7 +51,7 @@ I use Android on my main phone. Currently this is the default Google Pixel ROM, 
 
 {% details "iOS" %}
 
-I use an iPhone as a second phone. This is partially for development and testing purposes, such as websites I'm working on, or for the volunteering I do at Open Web Advocacy, and partially out of interest, as I like to be familiar with both ends of the mobile OS  duopoly.
+I use an iPhone as a second phone. This is partially for development and testing purposes, such as websites I'm working on, or for the volunteering I do at Open Web Advocacy, and partially out of interest, as I like to be familiar with both ends of the mobile OS duopoly.
 
 {% enddetails %}
 
