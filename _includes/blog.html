@@ -38,7 +38,7 @@
             <section class="entries" aria-label="{{list_aria}}">
                 {% for post in collections.post reversed -%}
                     {% if post.data.tags contains page.lang -%}
-                        <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
+                        <a href="{{post.url}}"><h2>{{post.data.title}}</h2>
                             <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p>
                             <p>{{post.data.description}}</p>
                         </a>
