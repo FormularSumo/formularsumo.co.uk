@@ -3,7 +3,7 @@ title: Romance (Itálico)
 madre: Indoeuropeo
 hablantes: 200 millones
 foto: romance.webp
-foto_alt: "Distribución de idiomas romances. Se divide en 8 grupos, ordenado según su grado de inteligibilidad mútua,: Ibero-romance (Ibérica), Occitano-romance (sur de Francia y este de España), Galo-romance (norte-centro de Francia), Reto-romance (pequeñas partes del sur de Suiza/este de Italia), Galo-itálico (norte de Italia), Italo-dalmático (centro-sur de Italia, incluye Córsica), Balco-románico (principalmente Rumanía, Moldavia y algunos sitios en vecinos), y Sardo (Sardinia)"
+foto_alt: "Distribución de idiomas romances. Se divide en 8 grupos, ordenado según su grado de inteligibilidad mútua: ibero-romance (Ibérica), occitano-romance (sur de Francia y este de España), galo-romance (norte-centro de Francia), reto-romance (pequeñas partes del sur de Suiza/este de Italia), galo-itálico (norte de Italia), italo-dalmático (centro-sur de Italia, incluye Córsica), balco-románico (principalmente Rumanía, Moldavia y algunos sitios en vecinos), y sardo (Sardinia)"
 foto_enlace: https://es.wikipedia.org/wiki/Lenguas_romances#/media/Archivo:Romance_20c_es.png
 ramas: [
     "Romance occidental",
