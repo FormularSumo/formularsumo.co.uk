@@ -1,5 +1,5 @@
 ---
-title: Why the lightning (iPhone) port has outstayed its welcome
+title: Why the Lightning (iPhone) port has outstayed its welcome
 date: 2021-10-15
 description: The Lightning port was good for its era, but it's long-past time it be replaced with USB-C.
 footnotes: [
@@ -41,7 +41,7 @@ Despite its many downsides, everyone except Apple stuck with microUSB. Why? Beca
 
 Strangely enough Apple played an instrumental role in the development of USB-C, and led the adoption of it in the laptop space. Recently they’ve been using it on iPads as well. Why? Because it’s far more capable than Lightning (power, data, video, etc), and due to its openness has a bigger accessory market. So where does this leave iPhones and Airpods<sup><a id="n-1" href="#fn-1">1</a></sup>? Stuck in the past. Especially because while USB-C keeps getting better and better, Lightning has hardly changed since it was first unveiled. I'm sympathetic to Apple's position; by the time USB-C came to market there'd already been 3 generations of very successful Lightning-equipped iPhones, not to mention iPads, iPods and accessories built for them. On top of that consumers generally quite liked the port and they made a lot of licensing money from it. But considering they had the “courage” to remove the headphone jack<sup><a id="n-2" href="#fn-2">2</a></sup>, a port which has been in use far longer, they should have also had the courage to drop the Lightning one. In stubbornly sticking with it they've dug themselves a hole, one it seemed they would never get out of... until now.
 
-On 23 September the EU proposed legislation around charging ports which includes<sup><a id="n-3" href="#fn-3">3</a></sup> mandating USB-C charging<sup><a id="n-4" href="#fn-4">4</a></sup> on all phones, tablets, over-ear headphones, cameras & handheld consoles, as well as laptops over a longer timeframe. It’s likely to come into effect in 2024, and while we’re no longer part of the EU, this change would almost certainly affect us as tech products shipped to the EU are generally also shipped to the UK<sup><a id="n-5" href="#fn-5">5</a></sup>.
+On the 23 September this year, the EU proposed legislation around charging ports which includes<sup><a id="n-3" href="#fn-3">3</a></sup> mandating USB-C charging<sup><a id="n-4" href="#fn-4">4</a></sup> on all phones, tablets, over-ear headphones, cameras & handheld consoles, as well as laptops over a longer timeframe. It’s likely to come into effect in 2024, and while we’re no longer part of the EU, this change would almost certainly affect us as tech products shipped to the EU are generally also shipped to the UK<sup><a id="n-5" href="#fn-5">5</a></sup>.
 
 
 While I’ve outlined the technical reasons why I think USB-C should be used everywhere, the EU's reasons for the proposal are different, though related: convenience, and the environment. 

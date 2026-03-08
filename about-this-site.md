@@ -8,7 +8,7 @@ description: Info on how this website is made, and inspirations for it
 
 This website is made using the [Eleventy](https://11ty.dev) static site generator. It uses progressively enhanced HTML and CSS, and [Liquid](https://shopify.github.io/liquid/) for server-side templating.
 
-The [source code](https://github.com/FormularSumo/formularsumo.co.uk) is hosted on GitHub, where commits are automatically built and deployed to [Cloudflare pages](https://pages.cloudflare.com/). The domain name is managed by [PorkBun](https://porkbun.com/).
+The [source code](https://github.com/FormularSumo/formularsumo.co.uk) is hosted on GitHub, where commits are automatically built and deployed to [Cloudflare Pages](https://pages.cloudflare.com/). The domain name is managed by [Porkbun](https://porkbun.com/).
 
 I typically write new content directly in markdown into my code editor, where I can see it straight away in my browser. Sometimes, especially if I'm working on something collaboratively or if I'm adapting an older piece, I work in a word processor and then export to markdown or HTML afterwards.
 
