@@ -31,7 +31,7 @@ footnotes: [
 <em>This article was first published on the </em><a
 href="https://portsmouthpoint.blogspot.com/2021/10/why-lightning-iphone-port-has-outstayed.html ">Portsmouth Point blog</a><em>, and has since been lightly edited before publishing here (13/6/2025).</em>
 
-<img src="ports.avif" style="max-width:369px;">
+<img src="ports.avif" style="max-width:369px;" alt="A side-on image of three different ports at the end of identically designed cables.">
 
 <p class='caption'>Left to right: USB-C, microUSB, Lightning</p>
 
