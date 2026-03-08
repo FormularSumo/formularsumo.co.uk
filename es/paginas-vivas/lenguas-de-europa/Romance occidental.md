@@ -5,7 +5,7 @@ hablantes: 156.9 millones
 foto: 
 ---
 
-La rama de romance occidenal consiste principalmente en los idiomas galoibéricos, que se dividen en los siguientes grupos según el orden que mejor representa las similitudes entre ellos.
+La rama de romance occidental consiste principalmente en los idiomas galoibéricos, que se dividen en los siguientes grupos según el orden que mejor representa las similitudes entre ellos.
 
 * Iberromances: principalmente el **español**, (47m en Europa, 700m en el mundo), el **portugués** (10m en Europa, 236m en el mundo) y el **gallego** (3,2m), que son muy parecidos, el **astur-leonés** (0,7m), y el **aragonés** (0,025m) - a veces considerado occitanorromance, o un punto medio.
 

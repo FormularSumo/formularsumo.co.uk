@@ -2,7 +2,7 @@
 title: Fino-báltico
 hablantes: 7 millones
 foto: fino-báltico.webp
-foto_texto: El livonio es una lengua muerte desde 2013 cuando murió su última hablante.
+foto_texto: El livonio es una lengua muerta desde 2013 cuando murió su última hablante.
 foto_alt: Distribución de los idiomas fino-báltico. El Finlandés se habla en la mayoría de Finlandia, aunque menos en unas franjas oestes (donde se habla más el sueco) y en el norte extremo. Al este de Finlandia de habla se Carelio una zona geográfica bastante grande, y más al este y al sur se habla el Vepsio. En Estonia se habla el Estonio, y al este se habla el ingrio en una parte pequeña de Rusia.
 madre: Ugrofinés
 ---
