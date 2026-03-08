@@ -27,14 +27,16 @@
         {% include "partials/navbar.html" %}
 
         <main aria-label="Blog">
-            <h1 class="title" aria-label="{{heading_aria}}">
-                Blog<a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
-                    <svg class="feed_link">
-                        <title>{{feed}}</title>
-                        <use xlink:href="/assets/feed.svg#Feed"></use>
-                    </svg>
-                </a>
-            </h1>
+            <header>
+                <h1 class="title" aria-label="{{heading_aria}}">
+                    Blog<a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+                        <svg class="feed_link">
+                            <title>{{feed}}</title>
+                            <use xlink:href="/assets/feed.svg#Feed"></use>
+                        </svg>
+                    </a>
+                </h1>
+            </header>
             <section class="entries" aria-label="{{list_aria}}">
                 {% for post in collections.post reversed -%}
                     {% if post.data.tags contains page.lang -%}
