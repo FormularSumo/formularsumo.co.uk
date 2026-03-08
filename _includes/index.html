@@ -1,4 +1,9 @@
 {% include "partials/strings.html" -%}
+{% if page.lang == "en" -%}
+    {% assign james_alt = "Front-on photo of James Heppell" -%}
+{% elsif page.lang == "es" -%}
+    {% assign james_alt = "Foto en primer plano de James Heppell" -%}
+{% endif -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -74,7 +79,7 @@
                 <article style="flex-basis: 100%;">
                     <h1>{{about_me}}</h1>
 
-                    <img class="content_image" src="/assets/james.avif" alt="James" style="width: 184px;">  <!--also manual width here-->
+                    <img class="content_image" src="/assets/james.avif" alt="{{james_alt}}" style="width: 184px;">  <!--also manual width here-->
 
                     {{content}}
                 </article>
