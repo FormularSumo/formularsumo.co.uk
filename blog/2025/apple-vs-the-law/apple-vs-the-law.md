@@ -3,6 +3,7 @@ title: Apple Vs The Law
 date: 2025-07-07
 description: Apple & Google at the EU DMA compliance workshops, June 2025.
 embedImage: /blog/2025/apple-vs-the-law/chauffeur-hepcat-piano-man.jpg
+embedAlt: Roderick Gadellaa, John Ozbay and me, outside the EC building on the morning of the Apple workshop.
 footnotes: [
     "They managed to convince the courts that iPadOS is a separate operating system to iOS (it's not), which delayed iPadOS being designated as a gatekeeper for almost a year. They are currently challenging all of the rest: the iOS, Safari, and App Store designations, and successfully managed to avoid iMessage being designated at all. They have taken the DMA law to court for an apparently ambiguous comma in article 5(4) - the payment one, and for somehow infringing on human rights law in article 6(7) - the interoperability one.",
     "Apple and Google (Alphabet) have a revenue of $391b and $350b respectively, and 164k and 185k employees. In comparison, the entire EU has a budget of only €170.6b, while the EC has a total of 32k employees, of which only 40 are actively work on enforcing the DMA.",
@@ -14,7 +15,7 @@ footnotes: [
 
 A week ago today I had the pleasure of attending both the [Apple](https://webcast.ec.europa.eu/2nd-dma-enforcement-workshop-apple-update-on-first-year-of-dma-compliance-2025-06-30) and [Google](https://webcast.ec.europa.eu/2nd-dma-enforcement-workshop-alphabet-update-on-first-year-of-dma-compliance-2025-07-01) DMA compliance workshops in Brussels. More detailed articles on the questions and answers, technical and legal analysis etc will be published over at the OWA blog, where we've just done the [first write-up on the Google part](https://open-web-advocacy.org/blog/googles-hotseat-hypocrisy/) (Edit: the [Apple browser engine one](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/) is now live as well). Here though I'd like to focus more on my own experience and personal opinions, and how I feel about some of the gatekeepers' approach to the law...
 
-<p class="caption"><img src="chauffeur-hepcat-piano-man.jpg" alt="Representing OWA from left to right: Roderick Gadellaa, John Ozbay and me, outside the EC building on the morning of the Apple workshop. Alternatively, 'The Chauffeur, The Piano Man, and The Hepcat.'">
+<p class="caption"><img src="chauffeur-hepcat-piano-man.jpg" alt="{{embedAlt}}">
 Representing OWA from left to right: <a href='https://webventures.rejh.nl/about/'>Roderick Gadellaa</a>, <a href='https://johnozbay.com/bio'>John Ozbay</a> and me, outside the EC building on the morning of the Apple workshop. Alternatively, "The Chauffeur, The Piano Man, and The Hepcat."
 </p>
 
