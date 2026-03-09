@@ -41,7 +41,6 @@ browsers:
 
         
         # Tor [
-        #     tier: "A",
         #     marketshare: "Unknown",
         #     pros: [
                 
@@ -83,7 +82,6 @@ browsers:
 
     C:
         Opera:
-            tier: "C"
             marketshare: 1.5
             pros: [
             ]
