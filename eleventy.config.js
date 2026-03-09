@@ -115,7 +115,6 @@ function translateURL(URL, lang) {
 
 		} else {
 			newURL += splitURL.at(2);
-			console.log(newURL)
 		}
 	}
 
