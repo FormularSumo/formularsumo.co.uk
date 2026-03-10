@@ -4,7 +4,13 @@
     <subtitle>{{subtitle}}</subtitle>
     <link href="https://formularsumo.co.uk/{{lang}}feed/feed.xml" rel="self" type="application/rss+xml"/>
     <link href="https://formularsumo.co.uk/{{lang}}blog/"/>
-    <updated>2026-03-07T00:00:00Z</updated>
+    {%- for post in collections.post reversed -%}
+        {%- if post.data.tags contains page.lang -%}
+            {% assign latestPost = post -%}
+            {% break -%}
+        {%- endif -%}
+    {%- endfor %}
+    <updated>{{latestPost.data.date | ISOTime}}</updated>
     <id>https://formularsumo.co.uk/</id>
     <author>
         <name>James Heppell</name>
