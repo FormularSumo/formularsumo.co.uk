@@ -17,6 +17,11 @@ const mdAnchorOpts = {
 	// }),
 	level: [1, 2, 3, 4]
 }
+// Full locale codes are required in Open Graph locale tags
+const locales = {
+	"en": "en-GB",
+	"es": "es-ES",
+};
 
 function translateURL(URL, lang) {
 	let newURL = "/";
@@ -195,5 +200,8 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addFilter("get_content", (content) => {
 		return content.split('%contents%')[1]
+	});
+	eleventyConfig.addFilter("localeCode", (lang) => {
+		return locales[lang];
 	});
 };
