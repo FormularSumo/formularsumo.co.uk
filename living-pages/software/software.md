@@ -61,7 +61,7 @@ I dual boot Windows on both my laptop and desktop. As with iOS, this is mainly f
 
 I also have an old Chromebook I sometimes use for testing (mostly because it's *very* slow), or if I need a second laptop for some reason (such as calling somebody into a meeting).
 
-I've only briefly used macOS on family/friend's devices, and didn't like it.
+I've only briefly used macOS on family/friend's devices, but didn't like it.
 
 I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
@@ -71,11 +71,25 @@ I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
 {% details "Firefox" %}
 
+I started using Firefox in 2017, and there's a lot of things I really like about it. It's fully free/open-source, has long had a great community around it, and generally has a good, if not perfect, approach to privacy and ethics. Its marketshare is quite low now, but it remains the only browser engine in use other than Blink (Chromium) and WebKit, and I believe that maintaining that diversity is important.
+
+There's also some specific things I like about using it. It works very well on Linux/Wayland, quite a lot better than Chromium or WebKit-based browsers (especially with touchpad support). I'm a big fan of the highly customisable toolbar on desktop, which is also very lightweight, and the browser's start-up time is very quick.
+
+But there's also issues. Gecko's marketshare keeps falling, the engine gets further behind Blink, and website support for it worsens. I wish this weren't the case, and I hope that increasing anti-trust [regulation (such as DMA and similar laws) and enforcement](https://open-web-advocacy.org) changes this, but it's currently unclear if Firefox has a future or not.
+
+It also needs mentioning that not all of these problems are out of Mozilla's control. They could and should've made more noise about the anti-competitive practices of Apple, Microsoft and Google sooner, and the management are sometimes not great at prioritising things - PWAs and Android are noticeably underinvested in.
+
 {% enddetails %}
 
 {% details "Vivaldi" %}
 
-I use Vivaldi for PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635)
+*I use use Vivaldi for all PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635)*
+
+I've been using Vivaldi a lot more recently, and there's a lot of good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual for ~~tech~~ browsers at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
+
+Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide.
+
+The two main issues I have with Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my opinion. I also find it's a little slower and less reliable on desktop. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
 
 {% enddetails %}
 
