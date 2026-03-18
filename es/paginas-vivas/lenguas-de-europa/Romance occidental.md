@@ -1,7 +1,7 @@
 ---
 title: Romance occidental (galoibérico)
 madre: Romance
-hablantes: 156.9 millones
+hablantes: 157 millones
 foto: 
 ---
 
