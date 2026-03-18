@@ -97,9 +97,9 @@ The two main issues I have with Vivaldi are the UI and the lack of extensions on
 
 {% details "Web apps" %}
 
-My preferred method of app distribution is through a Progressive Web App. Most of the apps I use on desktop are web apps (although I usually prefer to use them in the browser there rather than in standalone windows), and many of those I use on mobile are.
+Generally my preferred method of app distribution is through a Progressive Web App. Most of the apps I use on desktop are web apps (although I usually prefer to use them in the browser there rather than in standalone windows), and many of those I use on mobile are.
 
-That being said, web apps will always lag slightly behind the bleeding edge of native apps functionality, and due to browsers' very strong sandboxing and interpreted environment, aren't appropriate for all types of apps (this is known as the 80/20 capabilities or Jobs To Be Done split).
+That being said, web apps will always lag slightly behind the bleeding edge of native apps functionality, and due to browsers' very strong sandboxing and interpreted environment, aren't appropriate for all types of apps (this is often known as the 80/20 capabilities or Jobs To Be Done split).
 
 {% enddetails %}
 
@@ -107,11 +107,11 @@ That being said, web apps will always lag slightly behind the bleeding edge of n
 
 For one-off needs I don't mind downloading native apps directly from someone's website, but for things I use regularly I prefer app stores/repositories as they make updates easier.
 
-I love Linux's model of separating the app store front from the distribution channels - known as repositories. It's a great way of being able to manage installs and updates from one place while avoiding centralising control through one giant corporation. On Linux I use Flatpaks a lot, and less frequently my OS's repositories and 3rd party ones that I add. I use the Synaptic package manager to help manage different repositories and find new ones I'm looking for.
+I love Linux's model of separating the app store front from the distribution channels - known as repositories. It's a great way of being able to manage installs and updates from one place while avoiding centralising control through one gatekeeper. On Linux I use Flatpaks a lot, and less frequently my OS's repositories and 3rd party ones that I add. I use the Synaptic package manager to help manage different repositories and find new ones I'm looking for.
 
-On Android I use F-Droid quite a lot, it follows a similar model to Linux's, but only contains FOSS software. I use the Droidify client as I prefer the design to the official F-Droid one, and helpfully it already includes a lot of 3rd party repositories which I sometimes use.
+On Android I use F-Droid quite a lot, it follows a similar model to Linux's, but only contains FOSS software. I use the Droidify client as I prefer the design to the official F-Droid one, and helpfully it already includes a lot of 3rd party repositories which I make use of.
 
-Aside from that, I use the Google Play Store and the Apple App Store when I need to, as many apps are only available from them on mobile. On iOS this is the only source of native apps I can use until my country's Competitions and Markets Authority (hopefully) gets round to forcing Apple to end some of its anti-competitive practices, like is currently happening in the EU and other jurisdictions.
+Aside from that, I use the Google Play Store and the Apple App Store when I need to, as many apps are only available from them on mobile. On iOS this is the only source of native apps I can use until my country's Competitions and Markets Authority (hopefully) gets round to forcing Apple to end some of its anti-competitive practices, as is currently happening in the EU and other jurisdictions.
 
 {% enddetails %}
 
