@@ -83,9 +83,9 @@ It also needs mentioning that not all of these problems are out of Mozilla's con
 
 {% details "Vivaldi" %}
 
-*I use use Vivaldi for all PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635)*
+*I use Vivaldi for all PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635).*
 
-I've been using Vivaldi a lot more recently, and there's a lot of good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual for ~~tech~~ browsers at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
+I've been using Vivaldi a lot recently, and there's many good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual for ~~tech~~ browsers at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
 
 Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide.
 
