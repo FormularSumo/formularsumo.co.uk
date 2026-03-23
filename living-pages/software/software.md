@@ -164,7 +164,7 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 
 ## Email
 
-{% details "Thunderbird" %}
+{% details "Thunderbird", "Android, iOS in testing, Windows, macOS, Linux" %}
 
 {% enddetails %}
 
@@ -183,5 +183,19 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 ## Podcasts
 
 {% details "Pocket Casts" %}
+
+{% enddetails %}
+
+## Image editor
+
+{% details "Photopea", "Web" %}
+
+{% enddetails %}
+
+## Image converter
+
+{% details "XL Converter", "Windows, macOS (experimental), Linux" %}
+
+I previously used XnConvert, but I prefer the UI of XL Converter, and it's also open-source.
 
 {% enddetails %}
