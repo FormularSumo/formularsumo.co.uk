@@ -140,7 +140,9 @@ I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows 
 
 I use Google Earth sometimes for its satellite imagery, as it's considerably better than other options. It also has very good 3D object modelling which can be quite useful.
 
-I occasionally use Apple Maps for its excellent public transport map view, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) or Google Maps. Otherwise I don't really use it unless I'm testing something out.
+I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
+
+*The Apple Maps website doesn't do have a public transport view, which is very sad.
 
 I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, and charging for certain features is not up my street.
 
