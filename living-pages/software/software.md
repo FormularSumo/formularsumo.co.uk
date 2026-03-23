@@ -178,7 +178,11 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 
 ## Video Conferencing
 
-{% details "Jitsi Meet" %}
+{% details "Jitsi Meet", "Web, optional Android and iOS"  %}
+
+I have one key requirement for video calls/conferencing: to be able to send a link which anyone can click on and join, from any device or modern browser, without having* to download an app. This is a suprisingly hard requirement to fill, and Jitsi meet is one of the few services which does it. It's also free, open-source, and works really well in all browsers in my experience.
+
+\*Technically you *can* request the desktop for website for a lot of services, like Google Meet or Teams, but most people don't know to do that, and it usually doesn't work very well (tiny UI for a phone screen). Jitsi meet has a pretty clear "download app or join in your browser" set of options, and the mobile browser UI is good.
 
 {% enddetails %}
 
