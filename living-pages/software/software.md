@@ -35,7 +35,9 @@ A list of the software I use and why. Generally the higher up something is in a 
 
 %contents%
 
-## Operating system
+## General
+
+### Operating system
 
 {% details "Linux" %}
 
@@ -67,7 +69,7 @@ I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
 {% enddetails %}
 
-## Browser
+### Browser
 
 {% details "Firefox" %}
 
@@ -93,7 +95,7 @@ The two main issues I have using Vivaldi are the UI and the lack of extensions o
 
 {% enddetails %}
 
-## App stores/distribution
+### App stores/distribution
 
 {% details "Web apps" %}
 
@@ -116,7 +118,7 @@ Aside from that, I use the Google Play Store and the Apple App Store when I need
 {% enddetails %}
 
 
-## Maps
+### Maps
 
 {% details "CoMaps", "Android, iOS, Linux" %}
 
@@ -148,7 +150,7 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 
 {% enddetails %}
 
-## Notes
+### Notes
 
 {% details "Cryptee", "Web" %}
 
@@ -158,25 +160,25 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 
 {% enddetails %}
 
-## Password Manager
+### Password Manager
 
 {% details "Bitwarden" %}
 
 {% enddetails %}
 
-## Email
+### Email
 
 {% details "Thunderbird", "Android, iOS in testing, Windows, macOS, Linux" %}
 
 {% enddetails %}
 
-## Search Engine
+### Search Engine
 
 {% details "Ecosia" %}
 
 {% enddetails %}
 
-## Video Conferencing
+### Video Conferencing
 
 {% details "Jitsi Meet", "Web, optional Android and iOS"  %}
 
@@ -186,13 +188,15 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 
 {% enddetails %}
 
-## Podcasts
+### Podcasts
 
 {% details "Pocket Casts" %}
 
 {% enddetails %}
 
-## Image editor
+## Creative tools
+
+### Image editor
 
 {% details "Photopea", "Web" %}
 
@@ -204,7 +208,7 @@ I used to use Paint.net (Windows) quite a lot, and I really liked it for raster 
 
 {% enddetails %}
 
-## Video editor
+### Video editor
 
 {% details "Shotcut", "Windows, macOS, Linux" %}
 
@@ -218,7 +222,7 @@ I use DaVinchi Resolve (Windows, macOS, Linux) occasionally if I need features w
 
 {% enddetails %}
 
-## Image converter
+### Image converter
 
 {% details "XL Converter", "Windows, macOS (experimental), Linux" %}
 
@@ -226,14 +230,28 @@ I previously used XnConvert, but I prefer the UI of XL Converter, and it's also 
 
 {% enddetails %}
 
-## Recording software
+### Recording software
 
 {% details "OBS Studio", "Windows, macOS, Linux" %}
 
 {% enddetails %}
 
-## Music notation
+### Music notation
 
 {% details "Musescore", "Windows, macOS, Linux" %}
+
+{% enddetails %}
+
+### Code editor
+
+{% details "VSCodium", "Windows, macOS, Linux" %}
+
+I've been using VSCode since 2017, and it works well for me. I switched to VSCodium in 2024, which is released under an open-source license, removes telemetary, and uses the Open VSX Marketplace instead of the Microsoft VSCode Marketplace.
+
+{% enddetails %}
+
+{% details "Other" %}
+
+I've only dabbled with other editors. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
 
 {% enddetails %}
