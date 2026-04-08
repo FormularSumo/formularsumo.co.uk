@@ -129,7 +129,7 @@ I started using Google Workspace (Drive, Docs, Sheets, Slides) in 2018 when my s
 
 {% details "LibreOffice", "Windows, macOS, Linux, Android viewer, ports such as [Collabora Office](https://social.vivaldi.net/@FormularSumo/115367640736336577)" %}
 
-Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a look at documents I've downloaded (I also use their Android viewer app for this), to quickly fill in a form to send off, or if I need better performance than Google Workspace for very large files. It works well, I definitely recommend as a drop-in Microsoft Office replacement. It's really fast, open-source, feature-rich, and has a lot of momentum building behind it. The UI is still isn't as polished as it could be, but it's been improving quickly. I wish more institutions in the UK like schools, unis and government bodies would take to using it and stop paying Microsoft's extortionate license fees, as has been happening recently in many other European countries.
+Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a look at documents I've downloaded (I also use their Android viewer app for this), to quickly fill in a form to send off, or if I need better performance than Google Workspace for very large files. It works well - it's really fast, open-source, feature-rich, and has a lot of momentum building behind it, and I definitely recommend as a drop-in Microsoft Office replacement. The UI isn't yet as polished as it could be, but it's been improving quickly. I wish more institutions in the UK like schools, unis and government bodies would take to using it and stop paying Microsoft's extortionate subscription fees, as has been happening recently in many other European countries.
 
 {% enddetails %}
 
