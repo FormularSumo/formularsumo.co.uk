@@ -117,6 +117,21 @@ Aside from that, I use the Google Play Store and the Apple App Store when I need
 
 {% enddetails %}
 
+### Office
+
+See also: [Microsoft Office is Still Bad](https://formularsumo.co.uk/blog/2025/microsoft-office-is-still-bad/)
+
+{% details "Google Workspace", "Desktop web, partially functional Google Android and iOS" %}
+
+I started using Google Workspace (Drive, Docs, Sheets, Slides) in 2018 when my school introduced it. For the most part it works pretty well. I don't find there's many missing features, it's reliable, and crossplatform. I don't like that Google try to keep you using their document formats the same way Microsoft (mostly) used to with Office, I don't like that the web app doesn't work on mobile and the native apps are missing features, I don't like the way it preferences and is preferenced by other Google services (Chrome especially), and I don't like Google when it comes to data and privacy. But despite that, it's still the best collaborative editing software I'm aware of.
+
+{% enddetails %}
+
+{% details "LibreOffice", "Windows, macOS, Linux, Android viewer, ports such as [Collabora Office](https://social.vivaldi.net/@FormularSumo/115367640736336577)" %}
+
+Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a look at documents I've downloaded (I also use their Android viewer app for this), to quickly fill in a form to send off, or if I need better performance than Google Workspace for very large files. It works well, I definitely recommend as a drop-in Microsoft Office replacement. It's really fast, open-source, feature-rich, and has a lot of momentum building behind it. The UI is still isn't as polished as it could be, but it's been improving quickly. I wish more institutions in the UK like schools, unis and government bodies would take to using it and stop paying Microsoft's extortionate license fees, as has been happening recently in many other European countries.
+
+{% enddetails %}
 
 ### Maps
 
