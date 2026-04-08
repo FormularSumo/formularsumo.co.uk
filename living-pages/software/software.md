@@ -198,6 +198,12 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 
 {% enddetails %}
 
+{% details "Others" %}
+
+I used to use Paint.net (Windows) quite a lot, and I really liked it for raster editing. I began using Photopea more as I needed to do vector editing, and since switching to Linux I've stopped using Paint.net as it's Windows only :(
+
+{% enddetails %}
+
 ## Video editor
 
 {% details "Shotcut", "Windows, macOS, Linux" %}
