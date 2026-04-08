@@ -205,3 +205,15 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 I previously used XnConvert, but I prefer the UI of XL Converter, and it's also open-source.
 
 {% enddetails %}
+
+## Recording software
+
+{% details "OBS Studio", "Windows, macOS, Linux" %}
+
+{% enddetails %}
+
+## Music notation
+
+{% details "Musescore", "Windows, macOS, Linux" %}
+
+{% enddetails %}
