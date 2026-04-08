@@ -41,13 +41,13 @@ A list of the software I use and why. Generally the higher up something is in a 
 
 {% details "Linux" %}
 
-I use Linux on my laptop and desktop. Currently this is KDE Neon (Ubuntu LTS-based), but I'm planning to move to a more stable distro (probably Fedora KDE edition) when I have time.
+I use Linux on my laptop and desktop. Currently this is KDE Neon (Ubuntu LTS-based), but I'm planning to move to a more stable distro (probably Fedora KDE edition) soon.
 
 {% enddetails %}
 
 {% details "Android" %}
 
-I use Android on my main phone. Currently this is the default Google Pixel ROM, although I'm interested in trying degoogled Android at some point (I have been considering a Fairphone with /e/OS as my next phone), and I would like to find out more about (desktop) Linux-based phones.
+I use Android on my main phone. Currently this is the default Google Pixel ROM, although I'm interested in trying degoogled Android at some point, and I would like to find out more about (desktop) Linux-based phones.
 
 {% enddetails %}
 
@@ -91,7 +91,7 @@ I've been using Vivaldi a lot recently, and there's many good things about it. T
 
 Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide. They also follow Chromium extended stable releases, moving to a new major release every 8 weeks instead of the usual 4 (soon to be 2), and Vivaldi itself is closed-sourced, as is its bug tracker.
 
-The two main issues I have using Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my opinion. I also find it's a little slower and less reliable on desktop. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
+The two main issues I have using Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my experience. I also find it's a little slower and less reliable on desktop. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
 
 {% enddetails %}
 
@@ -206,6 +206,16 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 ### Podcasts
 
 {% details "Pocket Casts" %}
+
+{% enddetails %}
+
+### OS/disk flasher
+
+{% details "balenaEthcer" %}
+
+{% enddetails %}
+
+{% details "Rufus" %}
 
 {% enddetails %}
 
