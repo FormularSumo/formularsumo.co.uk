@@ -252,7 +252,7 @@ I've been using VSCode since 2017, and it works well for me. I switched to VSCod
 
 {% details "Other" %}
 
-I've only dabbled with other editors. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
+I've only dabbled with other editors. I use Kate for previewing files as it's much faster than VSCodium. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
 
 {% enddetails %}
 
