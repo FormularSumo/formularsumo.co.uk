@@ -95,6 +95,12 @@ The two main issues I have using Vivaldi are the UI and the lack of extensions o
 
 {% enddetails %}
 
+{% details "Others" %}
+
+I use a variety of other browsers for testing, or otherwise being familiar with. [I'm forced to use Safari's WebKit on iOS](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/), so I get to experience that a fair bit more than I'd like to, and I test things I make on it often, being the other major browser engine. I use Gnome Web occasionally on Linux if I want a WebKit browser, but I wouldn't recommend it as it's quite slow (the GTK folk have to re-do a lot of stuff as Apple only supports Safari on their platforms, relying heavily on the OS for a lot of things), and the browser UI is pretty basic, aside from being a worse engine than Blink and Gecko. I test on Chrome and Edge, being the other large browsers, and I use Chrome Canary/Beta and Firefox Nightly/Beta to try out new web platform and browser features.
+
+{% enddetails %}
+
 ### App stores/distribution
 
 {% details "Web apps" %}
