@@ -265,7 +265,7 @@ I use DaVinchi Resolve (Windows, macOS, Linux) occasionally if I need features w
 
 {% details "XL Converter", "Windows, macOS (experimental), Linux" %}
 
-I previously used XnConvert, but I prefer the UI of XL Converter, and it's also open-source.
+I previously used XnConvert, but I prefer the UI of XL Converter, and it's also open-source. I also used Imagine (Plus) for a bit.
 
 {% enddetails %}
 
