@@ -255,3 +255,17 @@ I've been using VSCode since 2017, and it works well for me. I switched to VSCod
 I've only dabbled with other editors. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
 
 {% enddetails %}
+
+### Source control
+
+{% details "Gittyup", "Windows, macOS, Linux"  %}
+
+I currently use Gittyup as Git client, and it's okay, although not my favourite. I find it can be slow and unstable with large files, and the UI is confusing. I used to use GitHub desktop and preferred that, but it doesn't support Linux (ironic, for a company which is supposed to be about open source).
+
+{% enddetails %}
+
+{% details "Codeberg", "Web" %}
+
+I like Codeberg a like: the foundation behind it seem really great, it's open-source, and the UI is much faster and better than GitHub's is now. Most projects are still on GitHub unfortunately, but hopefully more will move to different places.
+
+{% enddetails %}
