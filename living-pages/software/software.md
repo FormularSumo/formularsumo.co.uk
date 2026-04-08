@@ -198,6 +198,20 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 
 {% enddetails %}
 
+## Video editor
+
+{% details "Shotcut", "Windows, macOS, Linux" %}
+
+I've been using Shotcut since 2022. It's very lightweight and fast, open-source, has a lot features, and supports all FFmpeg codecs. I find the UI to be a little dated, but it works well for what I use it for.
+
+{% enddetails %}
+
+{% details "Others" %}
+
+I use DaVinchi Resolve (Windows, macOS, Linux) occasionally if I need features which Shotcut doesn't have. I also used to use Hitfilm Express a lot, although that was discontinued in 2025. I'm interested in trying Kdenlive (Windows, macOS, Linux) as well at some point.
+
+{% enddetails %}
+
 ## Image converter
 
 {% details "XL Converter", "Windows, macOS (experimental), Linux" %}
