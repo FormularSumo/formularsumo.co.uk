@@ -41,7 +41,7 @@ A list of the software I use and why. Generally the higher up something is in a 
 
 {% details "Linux" %}
 
-I use Linux on my laptop and desktop. Currently this is KDE Neon (Ubuntu LTS-based), but I'm planning to move to a more stable distro (probably Fedora KDE edition) soon.
+I use Linux on my laptop and desktop. I'm currently using Fedora KDE Plasma Desktop, as I find it has a good balance between stability and up-to-date software. I've previously used KDE Neon, OpenSUSE Tumbleweed, and PopOS as well.
 
 {% enddetails %}
 
@@ -59,11 +59,11 @@ I use an iPhone as a second phone. This is partially for development and testing
 
 {% details "Other" %}
 
-I dual boot Windows on both my laptop and desktop. As with iOS, this is mainly for development, testing and familiarity, although occasionally I need to use something which is only available on Windows (or macOS). 
+I dual boot Windows on both my laptop and desktop. As with iOS, this is mainly for development, testing and familiarity, although occasionally I need to use something which isn't available on Linux.
 
-I also have an old Chromebook I sometimes use for testing (mostly because it's *very* slow), or if I need a second laptop for some reason (such as calling somebody into a meeting).
+I also have an old Chromebook I sometimes use for testing (mostly because it's *very* slow), or if I need a second laptop for some reason (such as calling somebody in while also taking notes in a meeting).
 
-I've only briefly used macOS on family/friend's devices, but didn't like it.
+I've only briefly used macOS on family/friend's devices, but don't like it much.
 
 I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
