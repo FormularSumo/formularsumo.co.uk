@@ -28,7 +28,7 @@ A list of the software I use and why. Generally the higher up something is in a 
 <summary style="font-weight: initial">Note on supported platforms</summary>
 <ul>
     <li>"Google Android" means that something is only (officially) available on Android devices with Google Play Services installed.</li>
-    <li>"Web" means that something is available as a web app which works well on all modern browsers and all common form factors</li>
+    <li>"Web" means that something is available as a web app which works well on all modern browsers and all common form factors.</li>
     <!-- <li>"All" means that something is available on at least Android, iOS, Windows, macOS and Linux desktop.</li> -->
 </ul>
 </details>
@@ -117,7 +117,7 @@ For one-off needs I don't mind downloading native apps directly from someone's w
 
 I love Linux's model of separating the app store front from the distribution channels - known as repositories. It's a great way of being able to manage installs and updates from one place while avoiding centralising control through one gatekeeper. On Linux I use Flatpaks a lot, and less frequently my OS's repositories and 3rd party ones that I add. I use the Synaptic package manager to help manage different repositories and find new ones I'm looking for.
 
-On Android I use F-Droid quite a lot, it follows a similar model to Linux's, but only contains FOSS software. I use the Droidify client as I prefer the design to the official F-Droid one, and helpfully it already includes a lot of 3rd party repositories which I make use of.
+On Android I use F-Droid quite a lot, it follows a similar model to Linux's, but only contains FOSS software. I use the Droidify client as I prefer the design to the official F-Droid one, and helpfully it already includes many 3rd party repositories which I make use of.
 
 Aside from that, I use the Google Play Store and the Apple App Store when I need to, as many apps are only available from them on mobile. On iOS this is the only source of native apps I can use until my country's Competitions and Markets Authority (hopefully) gets round to forcing Apple to end some of its anti-competitive practices, as is currently happening in the EU and other jurisdictions.
 
@@ -125,17 +125,17 @@ Aside from that, I use the Google Play Store and the Apple App Store when I need
 
 ### Office
 
-See also: [Microsoft Office is Still Bad](https://formularsumo.co.uk/blog/2025/microsoft-office-is-still-bad/)
-
 {% details "Google Workspace", "Desktop website, partially functional Google Android and iOS" %}
 
-I started using Google Workspace (Drive, Docs, Sheets, Slides) in 2018 when my school introduced it. For the most part it works pretty well. I don't find there's many missing features, it's reliable, and crossplatform. I don't like that Google try to keep you using their document formats the same way Microsoft (mostly) used to with Office, I don't like that the web app doesn't work on mobile and the native apps are missing features, I don't like the way it preferences and is preferenced by other Google services (Chrome especially), and I don't like Google when it comes to data and privacy. But despite that, it's still the best collaborative editing software I'm aware of.
+I started using Google Workspace (Drive, Docs, Sheets, Slides) in 2018 when my school introduced it. For the most part it works pretty well. I don't find there's many missing features, it's reliable, and largely crossplatform. I don't like that Google try to keep you using their document formats the same way Microsoft (mostly) used to with Office, I don't like that the web app doesn't work on mobile and that the mobile native apps are missing features, I don't like the way it preferences and is preferenced by other Google services (Chrome especially), and I don't like Google when it comes to data and privacy. But despite that, it's still the best collaborative editing software I'm aware of.
+
+See also: [Microsoft Office is Still Bad (For Collaboration)](https://formularsumo.co.uk/blog/2025/microsoft-office-is-still-bad/)
 
 {% enddetails %}
 
-{% details "LibreOffice", "Windows, macOS, Linux, Android viewer, ports such as [Collabora Office](https://social.vivaldi.net/@FormularSumo/115367640736336577)" %}
+{% details "LibreOffice", "Windows, macOS, Linux, Android viewer. Also ports such as [Collabora Office](https://social.vivaldi.net/@FormularSumo/115367640736336577)" %}
 
-Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a look at documents I've downloaded (I also use their Android viewer app for this), to quickly fill in a form to send off, or if I need better performance than Google Workspace for very large files. It works well - it's really fast, open-source, feature-rich, and has a lot of momentum building behind it, and I definitely recommend as a drop-in Microsoft Office replacement. The UI isn't yet as polished as it could be, but it's been improving quickly. I wish more institutions in the UK like schools, unis and government bodies would take to using it and stop paying Microsoft's extortionate subscription fees, as has been happening recently in many other European countries.
+Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a look at documents I've downloaded (I also use their Android viewer app for this), to quickly fill in a form to send off, or if I need better performance than Google Workspace for very large files. It works well - it's really fast, open-source, feature-rich, and has a lot of momentum building behind it, and I highly recommend as a drop-in Microsoft Office replacement. The UI isn't yet as polished as it could be, but it's been improving quickly. I wish more institutions in the UK like schools, universities and government bodies would take to using it and stop paying Microsoft's extortionate subscription fees, as has been happening recently in many other European countries.
 
 {% enddetails %}
 

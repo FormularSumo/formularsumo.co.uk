@@ -3,7 +3,7 @@ export default (content, summary, platforms) => {
         return `<details>
         <summary>${summary}</summary>
         ${content}
-        Platforms: ${platforms}
+        Platforms: ${platforms}.
         </details>`
     } else {
         return `<details>
