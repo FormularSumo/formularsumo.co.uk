@@ -75,11 +75,11 @@ I've never used any BSD-based OS, nor KaiOS, although I would like to try both.
 
 I started using Firefox in 2017, and there's a lot of things I really like about it. It's fully free/open-source, has long had a great community around it, and generally has a good, if not perfect, approach to privacy and ethics. Its marketshare is quite low now, but it remains the only browser engine in use other than Blink (Chromium) and WebKit, and I believe that maintaining that diversity is important.
 
-There's also some specific things I like about using it. It works very well on Linux/Wayland, quite a lot better than Chromium or WebKit-based browsers (especially with touchpad support). I'm a big fan of the highly customisable toolbar on desktop, which is also very lightweight, and the browser's start-up time is very quick.
+There's also some specific things I like about using it. The out of the box installation works very well on Linux/Wayland, quite a lot better than Chromium and WebKit-based browsers (especially with touchpad support). I'm a big fan of the highly customisable toolbar on desktop, which is also very lightweight, and the browser's start-up time is very quick.
 
 But there's also issues. Gecko's marketshare keeps falling, the engine gets further behind Blink, and website support for it worsens. I wish this weren't the case, and I hope that increasing anti-trust [regulation (such as DMA and similar laws) and enforcement](https://open-web-advocacy.org) changes this, but it's currently unclear if Firefox has a future or not.
 
-It also needs mentioning that not all of these problems are out of Mozilla's control. They could and should've made more noise about the anti-competitive practices of Apple, Microsoft and Google sooner, and the management are sometimes not great at prioritising things - PWAs and Android are noticeably underinvested in.
+It also needs mentioning that not all of these problems are out of Mozilla's control. They could and should've made more noise about the anti-competitive practices of Apple, Microsoft and Google sooner, and management are sometimes not great at prioritising things - mobile and PWAs have been noticeably underinvested in.
 
 {% enddetails %}
 
@@ -87,11 +87,11 @@ It also needs mentioning that not all of these problems are out of Mozilla's con
 
 *I use Vivaldi for all PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635).*
 
-I've been using Vivaldi a lot recently, and there's many good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual for ~~tech~~ browsers at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
+I've been using Vivaldi a lot recently, and there's many good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual in tech at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
 
 Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide. They also follow Chromium extended stable releases, moving to a new major release every 8 weeks instead of the usual 4 (soon to be 2), and Vivaldi itself is closed-sourced, as is its bug tracker.
 
-The two main issues I have using Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my experience. I also find it's a little slower and less reliable on desktop. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
+The two main issues I have using Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my experience - it's taken me awhile to adapt to it. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
 
 {% enddetails %}
 
@@ -143,13 +143,13 @@ Since 2024 or so I've been increasingly using LibreOffice. Mostly for taking a l
 
 {% details "Nextcloud Files", "Web, Windows, macOS, Linux, Android, iOS" %}
 
-I started using Nextcloud in 2025, and I've been slowly moving my files over to it. I use tab.digital as my provider, a Dutch company who provide 8 GB free storage. It's open source, lets you choose where your data is stored (including self-hosting), integrates with loads of other programs such as Collabora office, and has a good Linux client. The web UI can be confusing, but it is faster than Google Drive, and works well on mobile and in splitscreen.
+I started using Nextcloud in 2025, and I've been slowly moving my files over to it. I use tab.digital as my provider, a Dutch company who provide 8 GB free storage. It's open source, lets you choose where your data is stored (including self-hosting), integrates with loads of other programs such as Collabora office, and has a good Linux client. The web UI can be confusing, though is generally faster than Google Drive, and works much better on mobile and in splitscreen.
 
 {% enddetails %}
 
 {% details "Google Drive", "Desktop website, Windows, macOS, Android, iOS" %}
 
-I switched from OneDrive to Google Drive in 2018 as I found that pretty much everything was better about it, as well as have 15 GB of storage rather than 5. Although I've been moving to Nextcloud for my own files (see above), I still use Google Drive a lot as other people I know tend to store and share things from here, and because collaborative editing with Google Docs/Sheets/Slides is still better than anything else I've tried.
+I switched from OneDrive to Google Drive in 2018 as I found that pretty much everything was better about it, as well as having 15 GB of free storage rather than 5. Although I've been moving to Nextcloud for my own files (see above), I still use Google Drive a lot as other people I know tend to store and share things from here, and because collaborative editing with Google Docs/Sheets/Slides is still better than anything else I've tried.
 
 {% enddetails %}
 
@@ -167,19 +167,19 @@ The biggest drawback for me is the public transport. CoMaps only works with metr
 
 Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMaps or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more dependent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
 
-Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particularly important one for me though is active transport. It's no secret that [Google Maps is designed for (Northamerican) drivers](https://social.vivaldi.net/@FormularSumo/116007219367832211). When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
+Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particularly important one for me though is active transport. It's no secret that [Google Maps is primarily designed for (Northamerican) drivers](https://social.vivaldi.net/@FormularSumo/116007219367832211). When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
 
 {% enddetails %}
 
 {% details "Other" %}
 
-I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very good. And I use it for detailed OpenStreetMaps editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
+I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very useful. And I use it for detailed OpenStreetMaps editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
 
 I use Google Earth sometimes for its satellite imagery, as it's considerably better than other options. It also has very good 3D object modelling which can be quite useful.
 
 I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
 
-*The Apple Maps website doesn't do have a public transport view, which is very sad.
+*The Apple Maps website doesn't have a public transport view, which is very sad.
 
 I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, and charging for certain features is not up my street.
 
@@ -217,9 +217,9 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 
 {% details "Jitsi Meet", "Web, optional Android and iOS"  %}
 
-I have one key requirement for video calls/conferencing: to be able to send a link which anyone can click on and join, from any device or modern browser, without having* to download an app. This is a suprisingly hard requirement to fill, and Jitsi meet is one of the few services which does it. It's also free, open-source, and works really well in all browsers in my experience.
+I have one key requirement for video calls/conferencing: to be able to send a link which anyone can click on and join, from any device with any modern browser, without having* to download an app. This is a suprisingly hard requirement to fill, and Jitsi meet is one of the few services which does it. It's also free, open-source, and really reliable.
 
-\*Technically you *can* request the desktop for website for a lot of services, like Google Meet or Teams, but most people don't know to do that, and it usually doesn't work very well (tiny UI for a phone screen). Jitsi meet has a pretty clear "download app or join in your browser" set of options, and the mobile browser UI is good.
+\*Technically you *can* request the desktop for website for a lot of services, like Google Meet or Teams, but most people don't know to do that, and it usually doesn't work very well (tiny UI for a phone screen). Jitsi meet has pretty clear "download app or join in your browser" options, and the mobile browser UI is good.
 
 {% enddetails %}
 
@@ -231,7 +231,7 @@ I have one key requirement for video calls/conferencing: to be able to send a li
 
 ### OS/disk flasher
 
-{% details "balenaEthcer" %}
+{% details "balenaEtcher" %}
 
 {% enddetails %}
 
@@ -291,13 +291,13 @@ I previously used XnConvert, but I prefer the UI of XL Converter, and it's also 
 
 {% details "VSCodium", "Windows, macOS, Linux" %}
 
-I've been using VSCode since 2017, and it works well for me. I switched to VSCodium in 2024, which is released under an open-source license, removes telemetary, and uses the Open VSX Marketplace instead of the Microsoft VSCode Marketplace.
+I've been using VSCode since 2017, and it works well for me. I switched to VSCodium in 2024, which is released under an open-source license, removes telemetry, and uses the Open VSX Marketplace instead of the Microsoft VSCode Marketplace.
 
 {% enddetails %}
 
 {% details "Other" %}
 
-I've only dabbled with other editors. I use Kate for previewing files as it's much faster than VSCodium. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
+I've only dabbled with other editors. I use Kate for previewing files as it's faster than VSCodium. I used to use Android Studio for compiling Android apps, which was not fun. I used Python's IDLE editor for a bit, and have used Notepad++ a little as well.
 
 {% enddetails %}
 
