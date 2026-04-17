@@ -167,6 +167,7 @@ export default function (eleventyConfig) {
 		ul: true,
 	});
 
+	// Filters
 	eleventyConfig.addFilter("postDate", (date, lang) => {
 		if (lang == "en") {
 			lang = "en-GB";
