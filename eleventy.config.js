@@ -145,9 +145,7 @@ export default function (eleventyConfig) {
 	]);
 
 	// Transforms
-	eleventyConfig.addTransform('html', htmlTransform({
-		anchors: { setTitle: false },
-	}));
+	eleventyConfig.addTransform('html', htmlTransform());
 
 	eleventyConfig.setLibrary(
 		'md',
