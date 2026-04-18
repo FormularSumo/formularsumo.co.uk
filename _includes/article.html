@@ -71,18 +71,18 @@
 
                 {% if content | get_content %}
 
-                    {{content | get_introduction-}}
+                    {{ content | get_introduction -}}
 
                     <p class="contents_title">{{contents_text}}</p>
 
                     <div class="contents">
-                        {{content | get_content | toc-}}
+                        {{ content | get_content | toc -}}
                     </div>
 
-                    {{content | get_content-}}
+                    {{ content | get_content -}}
 
                 {% else %}
-                    {{content-}}
+                    {{ content -}}
                 {% endif %}
 
 
