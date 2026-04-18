@@ -172,7 +172,7 @@ export default function (eleventyConfig) {
 		}
 
 		const dateObj = new Date(date)
-		return dateObj.toLocaleString(lang, {dateStyle: "long"});
+		return dateObj.toLocaleString(lang, {dateStyle: "long", timeZone: "Europe/London"});
 	});
 
 	eleventyConfig.addFilter("ISOTime", (dateObj) => {
