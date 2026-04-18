@@ -55,7 +55,7 @@ function htmlTransform( _options={} ) {
       // Assume that if an image doesn't start with a "/" then it's using a relative path from the current directory
       if (!src.startsWith("/")) {
         const pathArray = outputPath.split('/');
-        var newSrc = '/';
+        let newSrc = '/';
         for (let i=2; i<pathArray.length-1; i++) {
             newSrc += pathArray[i] + '/'
         }
