@@ -53,13 +53,13 @@
                         <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
                             <svg>
                                 <title>{{link_button_text}}</title>
-                                <use xlink:href="/assets/link.svg#Link"></use>
+                                <use href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
                         <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
                             <svg>
                                 <title>{{share_button_text}}</title>
-                                <use xlink:href="/assets/share.svg#Share"></use>
+                                <use href="/assets/share.svg#Share"></use>
                             </svg>
                         </button>
                     </h1>
@@ -107,13 +107,13 @@
                 <a class="link_a" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
                     <svg class="link">
                         <title>{{mastodon}}</title>
-                        <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
+                        <use href="/assets/mastodon.svg#Mastodon"></use>
                     </svg>
                 </a>
                 <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
                     <svg class="link">
                         <title>{{feed}}</title>
-                        <use xlink:href="/assets/feed.svg#Feed"></use>
+                        <use href="/assets/feed.svg#Feed"></use>
                     </svg>
                 </a>
             </aside>
