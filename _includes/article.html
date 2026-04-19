@@ -50,7 +50,7 @@
             <article>
                 <header>
                     <h1>{{title}}
-                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
+                        <button id="copy-button" onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
                             <svg>
                                 <title>{{link_button_text}}</title>
                                 <use href="/assets/link.svg#Link"></use>
@@ -121,6 +121,9 @@
             <script>
                 if (!navigator.share) {
                     document.getElementById("share-button").remove();
+                }
+                if (!navigator.clipboard) {
+                    document.getElementById("copy-button").remove();
                 }
             </script>
         </main>
