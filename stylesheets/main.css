@@ -68,7 +68,7 @@
     }
     svg {
         aspect-ratio: 1;
-        fill: currentColor /*inherited, eg from <a> or <button>*/
+        fill: currentColor /*inherited, e.g. from <a> or <button>*/
     }
 }
 
