@@ -4,7 +4,7 @@
   "main": "eleventy.config.js",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "clean": "rm -rf ./_site/*",
+    "clean": "npx rimraf ./_site",
     "updates": "npx npm-check-updates -i --format group"
   },
   "repository": {
