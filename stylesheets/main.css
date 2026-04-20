@@ -7,11 +7,19 @@
         --heading_font: Georgia, serif;
         --text_font: "DejaVu Sans", sans-serif;
     }
-    @view-transition {
-        navigation: auto;
+    @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+        }
     }
-    ::view-transition-group(root) {
-        animation-duration: 0.3s;
+    @media (prefers-reduced-motion: no-preference) {
+        @view-transition {
+            navigation: auto;
+        }
+        ::view-transition-group(root) {
+            animation-duration: 0.3s;
+        }
     }
 
     * {
@@ -19,7 +27,9 @@
         padding: 0;
     }
     html {
-        scroll-behavior: smooth;
+        @media (prefers-reduced-motion: no-preference) {
+            scroll-behavior: smooth;
+        }
         padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
         background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
         font-family: var(--text_font);
