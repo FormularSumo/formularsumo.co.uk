@@ -26,7 +26,7 @@
 {% assign current_lang_flag_alt = page.lang | append: "_alt_flag" -%}
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
 
-<div class="navbar" title="navbar">
+<header class="navbar" title="navbar">
     <input type="checkbox" id="nav_menu_checkbox">
     <label for="nav_menu_checkbox" style="padding-left: 20px; font-size: 38px;" aria-label="{{nav_menu_label}}">≡</label>
     <nav class="nav_menu" style="flex-basis: 100%;">
@@ -50,4 +50,4 @@
         <source srcset="/assets/logo-120.jxl" type="image/jxl">
         <img src="/assets/logo-120.webp" alt="FormularSumo {{FS_alt}}" style="margin-left: 20px">
     </picture>
-</div>
+</header>
