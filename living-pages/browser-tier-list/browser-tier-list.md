@@ -63,7 +63,7 @@ browsers:
             cons: [
                 "Used to push a lot of other Google properties",
                 "Poor privacy record and practices - business model is collecting and selling user data. See backtracking on phasing out 3p cookies recently.",
-                "Moderate anti-competitive behaviour, such as use self-preferencing from Google's websites (e.g. pre-installed Meet/Drive extensions), not providing WebAPKs for other Android browsers, forced/default-use in some Google native mobile apps",
+                "Moderate anti-competitive behaviour, such as use self-preferencing from Google's websites (eg pre-installed Meet/Drive extensions), not providing WebAPKs for other Android browsers, forced/default-use in some Google native mobile apps",
                 "Unlike most major browsers, does not support extensions on Android (presumably due to ad-blockers)",
                 "Effective monopoly on ChromeOS at the moment",
                 "UI is less customisable than most others"
@@ -103,7 +103,7 @@ browsers:
                 "<a href='https://infrequently.org/2021/04/progress-delayed/'>Very late</a> (<a href='https://wpt.fyi/results/'>or yet to</a>) support many things",
                 "Apple platforms only - there’s an alright <a href='https://webkitgtk.org/'>community-maintained Linux port</a> but effectively nothing for Windows and Android",
                 "Tied to system updates, so if you don’t update your system or your device is no longer supported, Safari stops getting updated as well",
-                "Apple is probably the most anti-web company there is, doing everything they can to hold it back (e.g. suppressing iOS PWAs, notifications) and force people into their walled garden. A total ban on all other browser engines on iOS and their repeated malicious compliance with laws and court rulings does little to help this image"
+                "Apple is probably the most anti-web company there is, doing everything they can to hold it back (eg suppressing iOS PWAs, notifications) and force people into their walled garden. A total ban on all other browser engines on iOS and their repeated malicious compliance with laws and court rulings does little to help this image"
             ]
             thoughts: ""
 

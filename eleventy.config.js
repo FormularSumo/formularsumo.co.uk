@@ -73,7 +73,7 @@ function translateURL(URL, lang) {
 		} else if (URL.includes("/about-this-site/")) {
 			newURL += "sobre-esta-web/";
 
-		} else { //Assumes that other top-level pages have the same name (e.g. homepage)
+		} else { //Assumes that other top-level pages have the same name (eg homepage)
 			newURL = "/es" + URL;
 		}
 

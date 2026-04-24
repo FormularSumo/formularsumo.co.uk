@@ -13,7 +13,7 @@ footnotes: [
 
 Recently I changed my Instagram bio. I did something that’s becoming increasingly common: I added my pronouns. Shortly after though my (observant) friend asked me, “why did you put ‘he/they’, most people put their preferred one ... do you prefer they?” “Well” I said, “it’s a bit complicated…”
 
-Everyone uses they as a singular pronoun sometimes. It’s usually used to refer to someone of unknown gender, especially when talking about a generic type of person or job. E.g. 'I heard we have a supply teacher next lesson, I hope they're nice.' So part of me saying '/they' is just acknowledging that people probably refer to me like that often, and that’s perfectly fine. But of course that’s only one use of singular they. The newer and increasingly common use is as a gender-neutral pronoun for people of a known sex.
+Everyone uses they as a singular pronoun sometimes. It’s usually used to refer to someone of unknown gender, especially when talking about a generic type of person or job. Eg 'I heard we have a supply teacher next lesson, I hope they're nice.' So part of me saying '/they' is just acknowledging that people probably refer to me like that often, and that’s perfectly fine. But of course that’s only one use of singular they. The newer and increasingly common use is as a gender-neutral pronoun for people of a known sex.
 
 Here, I’m going to make the distinction between ‘sex‘ and ‘gender’. When I think about this topic, I use sex to refer to your biological sex - your body - which can be male, female, or (very rarely) intersex<sup><a id="n-1" href="#fn-1">1</a></sup>, and gender to refer to how you think of yourself, and by extension what pronouns you use.
 
