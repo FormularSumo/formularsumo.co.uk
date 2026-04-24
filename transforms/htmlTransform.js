@@ -82,7 +82,7 @@ function _setWidthHeight( element, rawSrc, outputPath, debug=false ) {
   if ( !src.startsWith('/') ) {
     const pathArray = outputPath.split('/');
     let newSrc = '/';
-    for (let i=2; i<pathArray.length-1; i++) {
+    for (let i=2; i<pathArray.length-1; i++) { // Skip first two indexes: '.' and '_site_'
       newSrc += pathArray[i] + '/';
     }
     src = newSrc + src;
