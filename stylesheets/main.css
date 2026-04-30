@@ -208,8 +208,16 @@
         border-top: 1px solid #4f4f66;
         height: var(--navbar_height);
     }
+    .language a {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
     #language_switcher_checkbox:checked ~ .language_switcher_nav {
         transform: scaleY(1)
+    }
+    .navbar_logo {
+        margin-left: 20px;
     }
 
     @media screen and (width <= 600px) {

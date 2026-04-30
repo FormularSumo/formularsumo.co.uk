@@ -42,12 +42,12 @@
     <label for="language_switcher_checkbox" aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
     <nav class="language_switcher_nav">
         <ul>
-            <li class="language"><a href="{{page.url | translateURL: second_lang}}" style="display: inline-block; height: 100%; width: 100%"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
+            <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
         </ul>
     </nav>
 
     <picture>
         <source srcset="/assets/logo-120.jxl" type="image/jxl">
-        <img src="/assets/logo-120.webp" alt="FormularSumo {{FS_alt}}" style="margin-left: 20px">
+        <img src="/assets/logo-120.webp" alt="FormularSumo {{FS_alt}}" class=navbar_logo>
     </picture>
 </header>
