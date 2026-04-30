@@ -166,7 +166,6 @@
         cursor: pointer;
         text-align: left;
         color: white;
-        font-size: 36px;
         padding-inline: 10px;
         line-height: var(--navbar_height);
         font-family: monospace;
