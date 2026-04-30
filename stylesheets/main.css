@@ -196,7 +196,7 @@
     }
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
-    .language_switcher {
+    .language_switcher_nav {
         flex-basis: 0px;
         position: absolute;
         top: var(--navbar_height);
@@ -209,7 +209,7 @@
         border-top: 1px solid #4f4f66;
         height: var(--navbar_height);
     }
-    #language_switcher_checkbox:checked ~ .language_switcher {
+    #language_switcher_checkbox:checked ~ .language_switcher_nav {
         transform: scaleY(1)
     }
 
@@ -246,7 +246,7 @@
         .nav_element a {
             padding-inline: 20px;
         }
-        .language_switcher {
+        .language_switcher_nav {
             right: 90.5px;
         }
     }
