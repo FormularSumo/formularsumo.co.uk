@@ -146,6 +146,16 @@
     width: 100%;
     display: flex;
 
+    label {
+        user-select: none; /*Prevent menu button text from being selected*/
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-align: left;
+        color: white;
+        padding-inline: 10px;
+        line-height: var(--navbar_height);
+        font-family: monospace;
+    }
     nav {
         transform-origin: top;
         transition-duration: 0.25s;
@@ -160,16 +170,6 @@
     li:hover, li:focus-within {
         background-color: #55b8ff;
     }
-    label {
-        user-select: none; /*Prevent menu button text from being selected*/
-        -webkit-user-select: none;
-        cursor: pointer;
-        text-align: left;
-        color: white;
-        padding-inline: 10px;
-        line-height: var(--navbar_height);
-        font-family: monospace;
-    }
     input {
         display: none;
     }
@@ -182,7 +182,10 @@
     #nav_menu_checkbox + label {
         display: none;
     }
-
+    #nav_menu_checkbox_label {
+        padding-left: 20px;
+        font-size: 38px;
+    }
     .nav_element {
         float: left;
         border-right: 1px solid #ffffff;
