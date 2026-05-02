@@ -202,7 +202,6 @@
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
     .language_switcher_nav {
-        flex-basis: 0px;
         position: absolute;
         top: var(--navbar_height);
         right: 85.5px;
