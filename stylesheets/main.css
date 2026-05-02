@@ -186,6 +186,9 @@
         padding-left: 20px;
         font-size: 38px;
     }
+    .nav_menu {
+        flex-basis: 100%;
+    }
     .nav_element {
         float: left;
         border-right: 1px solid #ffffff;
