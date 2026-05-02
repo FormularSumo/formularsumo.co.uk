@@ -20,15 +20,17 @@
                 font-size: 40px;
             }
             .content_image {
-                max-width: 100%;
                 outline: solid 2px;
-                @media (width <= 375px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
+                @media (width <= 480px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
                     display: block;
+                    max-width: 80%;
                     margin-inline: auto;
                     margin-bottom: 25px;
+                    margin-top: 15px;
                 }
-                @media (width > 375px) {
+                @media (width > 480px) {
                     float: left;
+                    width: 230px;
                     margin-right: 25px;
                     margin-top: 2.5px;
                     margin-left: 2.5px;
@@ -79,7 +81,7 @@
                 <article style="flex-basis: 100%;">
                     <h1>{{about_me}}</h1>
 
-                    <img class="content_image" src="/assets/james.avif" alt="{{james_alt}}" style="width: 184px;">  <!--also manual width here-->
+                    <img class="content_image" src="/assets/james.avif" alt="{{james_alt}}">
 
                     {{content}}
                 </article>
