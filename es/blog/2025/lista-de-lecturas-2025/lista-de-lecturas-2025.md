@@ -84,3 +84,12 @@ stylesheet: list
 
 
 </section>
+
+<section>
+
+## El Antiguo Egipto (Descubrir La Historia #1)
+
+<img class="left" alt="El forro de El Antiguo Egipto" src="original-images/el-antiguo-egipto.jpg"/>
+
+
+</section>
