@@ -111,3 +111,12 @@ stylesheet: list
 
 
 </section>
+
+<section>
+
+## El nacimiento de Roma (Descubrir la Historia #3)
+
+<img class="right" alt="El forro de El nacimiento de Roma" src="original-images/el-nacimiento-de-roma.webp"/>
+
+
+</section>
