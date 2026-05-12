@@ -55,11 +55,23 @@ stylesheet: list
 <img class="left" alt="El forro de El Siglo de Atenas" src="original-images/el-siglo-de-atenas.webp"/>
 
 
+
 </section>
+
+<section>
 
 ## Alejandro Magno (Descubrir La Historia #5)
 
 <img class="right" alt="El forro de Alejandro Magno" src="original-images/alejandro-magno.webp"/>
+
+
+</section>
+
+<section>
+
+## El hombre que confudió a su mujer con un sombrero
+
+<img class="left" alt="El forro de El hombre que confudió a su mujer con un sombrero" src="original-images/el-hombre-que-confundio-a-su-mujer-con-un-sombrero.jpg"/>
 
 
 </section>
