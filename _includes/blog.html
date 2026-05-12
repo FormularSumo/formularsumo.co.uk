@@ -4,7 +4,7 @@
     {% assign list_aria = "List of English articles" -%}
 {% elsif page.lang == "es" -%}
     {% assign heading_aria = "Título blog y su Fuente Web" -%}
-    {% assign list_aria = "Lista de artíuclos en español" -%}
+    {% assign list_aria = "Lista de artículos en español" -%}
 {% endif -%}
 
 <!DOCTYPE html>
@@ -27,18 +27,20 @@
         {% include "partials/navbar.html" %}
 
         <main aria-label="Blog">
-            <h1 class="title" aria-label="{{heading_aria}}">
-                Blog<a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
-                    <svg class="feed_link">
-                        <title>{{feed}}</title>
-                        <use xlink:href="/assets/feed.svg#Feed"></use>
-                    </svg>
-                </a>
-            </h1>
+            <header>
+                <h1 class="title" aria-label="{{heading_aria}}">
+                    Blog<a href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+                        <svg class="feed_link">
+                            <title>{{feed}}</title>
+                            <use href="/assets/feed.svg#Feed"></use>
+                        </svg>
+                    </a>
+                </h1>
+            </header>
             <section class="entries" aria-label="{{list_aria}}">
                 {% for post in collections.post reversed -%}
                     {% if post.data.tags contains page.lang -%}
-                        <a href="{{post.url}}"><h1>{{post.data.title}}</h1>
+                        <a href="{{post.url}}"><h2>{{post.data.title}}</h2>
                             <p class="date">{{first_published}}: {{ post.date | postDate: page.lang}}</p>
                             <p>{{post.data.description}}</p>
                         </a>
@@ -46,19 +48,19 @@
                 {% endfor -%}
             </section>
         </main>
-        
-    </body>
 
-    <a href="/oh-dear/">
+    <a href="/oh-dear/" aria-label="Wallace and Gromit Easter Egg page with sound">
         <picture>
-            <source scrset="/assets/gromit.jxl" type="image/jxl">
+            <source srcset="/assets/gromit.jxl" type="image/jxl">
             {% if page.lang == "en" -%}
             <img src="/assets/gromit.webp" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; float: right;">
             {% else -%}
-            <img src="/assets/gromit.webp" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; position: fixed; right: 0px; bottom: 0px;">
+            <img src="/assets/gromit.webp" alt="Gromit de Wallace & Gromit, parece ser confundido" loading="lazy" style="width:35px; position: fixed; right: 0px; bottom: 0px;">
             {% endif -%}
         </picture>
     </a>
 
     <link rel="prefetch" href="/stylesheets/article.css" as="style">
+
+    </body>
 </html>

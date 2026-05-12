@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <link rel="stylesheet" href="/stylesheets/main.css">
 <title>{{title}} - FormularSumo</title>
 
@@ -8,26 +9,28 @@
 <meta property="og:description" content="{{description}}">
 {% if embedImage -%}
     {% capture embedImage %}https://formularsumo.co.uk{{embedImage}}{% endcapture %}
-    {% assign embedAlt = embedAlt %}
 {% else %}
     {% assign embedImage = "https://formularsumo.co.uk/assets/logo-embed.webp" %}
     {% assign embedAlt = "FormularSumo logo" %}
 {% endif -%}
 <meta property="og:image" content="{{embedImage}}">
 <meta name="twitter:image" content="{{embedImage}}"/>
+{% if embedAlt -%}
 <meta property="og:image:alt" content="{{embedAlt}}">
 <meta name="twitter:image:alt" content="{{embedAlt}}">
-<meta property="og:locale" content="{{page.lang}}">
-{% if page.lang == "en" -%}
-    <meta property="og:locale:alternative" content="es">
-{%- else %}
-    <meta property="og:locale:alternative" content="en">
 {% endif %}
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:locale" content="{{ page.lang | localeCode }}">
+{%- if page.lang == "en" %}
+<meta property="og:locale:alternative" content="es-ES">
+{%- else %}
+<meta property="og:locale:alternative" content="en-GB">
+{%- endif %}
 <meta name="author" content="James Heppell">
 <meta property="og:url" content="https://formularsumo.co.uk{{page.url}}">
 <meta name="generator" content="{{eleventy.generator}}">
 
-<link rel="canonical" content="https://formularsumo.co.uk{{page.url}}">
+<link rel="canonical" href="https://formularsumo.co.uk{{page.url}}">
 {% if page.lang == "en" -%}
     <link rel="manifest" href="/manifest.json">
     <link rel="alternate" type="application/atom+xml"

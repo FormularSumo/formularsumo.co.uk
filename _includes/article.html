@@ -21,7 +21,9 @@
         <meta name="fediverse:creator" content="@FormularSumo@vivaldi.net">
         <meta property="og:type" content="article">
         <meta property="article:author" content="James Heppell">
-        <meta property="article:published_time" content="{{date}}">
+        {% if date -%}
+            <meta property="article:published_time" content="{{date | ISOTime}}">
+        {% endif -%}
 
         {% if style %}
             {{style}}
@@ -48,37 +50,39 @@
             <article>
                 <header>
                     <h1>{{title}}
-                        <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
+                        <button id="copy-button" onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
                             <svg>
                                 <title>{{link_button_text}}</title>
-                                <use xlink:href="/assets/link.svg#Link"></use>
+                                <use href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
                         <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
                             <svg>
                                 <title>{{share_button_text}}</title>
-                                <use xlink:href="/assets/share.svg#Share"></use>
+                                <use href="/assets/share.svg#Share"></use>
                             </svg>
                         </button>
                     </h1>
-                    <p class="date">{{first_published}}: {{ date | postDate: page.lang }}</p>
+                    {% if date %}
+                        <p class="date">{{first_published}}: {{ date | postDate: page.lang }}</p>
+                    {% endif %}
                 </header>
 
 
                 {% if content | get_content %}
 
-                {{content | get_introduction-}}
+                    {{ content | get_introduction -}}
 
-                <p class="contents_title">{{contents_text}}</p>
+                    <p class="contents_title">{{contents_text}}</p>
 
-                <div class="contents">
-                    {{content | get_content | toc-}}
-                </div>
+                    <div class="contents">
+                        {{ content | get_content | toc -}}
+                    </div>
 
-                {{content | get_content-}}
+                    {{ content | get_content -}}
 
                 {% else %}
-                    {{content-}}
+                    {{ content -}}
                 {% endif %}
 
 
@@ -88,9 +92,11 @@
     
                         {% assign fn_num = 1 %}
                         {% for footnote in footnotes %}
-                            <p id="fn-{{fn_num}}">
-                                <a href="#n-{{fn_num}}">{{fn_num}}</a> {{footnote}}
-                            </p>
+                            <div id="fn-{{fn_num}}">
+                                <p>
+                                    <a href="#n-{{fn_num}}">{{fn_num}}</a> {{footnote}}
+                                </p>
+                            </div>
                             {% assign fn_num = fn_num | plus: 1 %}
                         {% endfor %}
                     </section>
@@ -101,20 +107,23 @@
                 <a class="link_a" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
                     <svg class="link">
                         <title>{{mastodon}}</title>
-                        <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
+                        <use href="/assets/mastodon.svg#Mastodon"></use>
                     </svg>
-                    <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
-                        <svg class="link">
-                            <title>{{feed}}</title>
-                            <use xlink:href="/assets/feed.svg#Feed"></use>
-                        </svg>
-                    </a>
+                </a>
+                <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
+                    <svg class="link">
+                        <title>{{feed}}</title>
+                        <use href="/assets/feed.svg#Feed"></use>
+                    </svg>
                 </a>
             </aside>
 
             <script>
                 if (!navigator.share) {
                     document.getElementById("share-button").remove();
+                }
+                if (!navigator.clipboard) {
+                    document.getElementById("copy-button").remove();
                 }
             </script>
         </main>

@@ -2,7 +2,6 @@
 title: Paleobalcánico
 madre: Indoeuropeo
 hablantes: 24,2 millones
-foto:
 ---
 
 El paleobalcánico es un grupo controversial, ya que no hay mucha concordancia entre qué idiomas son parte del grupo, si es que en verdad son un grupo. Sin embargo, si existe, probablemente consiste de tres familias:

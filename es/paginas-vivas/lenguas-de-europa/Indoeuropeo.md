@@ -2,9 +2,9 @@
 title: Indoeuropeo
 hablantes: 697 millones
 foto: indoeuropeo.svg
-foto-texto: Verde = el baltoeslavo, marrón = el romance, rojo = el germánico, amarillo/celeste/purpura = el paleobalcánico, naranja = el céltico, azul = el indoiranio.
-foto-alt: "Distribución de idiomas indoeuropeos. Desde occidental a oriental: la familia germánica se habla en el noroeste de Europa. El romance en el sur-oeste, y Rumania/Moldavia. El baltoeslavo por el centro-este, y el mucho del sur. El paleobalcánico en el sur y también en Armenia. Y el indoiranio desde el este de Turquía hacia el norte de India y Bangladesh."
-foto-enlace: https://es.wikipedia.org/wiki/Lenguas_indoeuropeas#/media/Archivo:Indo-European_branches_map.svg
+foto_texto: Verde = el baltoeslavo, marrón = el romance, rojo = el germánico, amarillo/celeste/purpura = el paleobalcánico, naranja = el céltico, azul = el indoiranio.
+foto_alt: "Distribución de idiomas indoeuropeos. Desde occidental a oriental: la familia germánica se habla en el noroeste de Europa. El romance en el sur-oeste, y Rumania/Moldavia. El baltoeslavo por el centro-este, y el mucho del sur. El paleobalcánico en el sur y también en Armenia. Y el indoiranio desde el este de Turquía hacia el norte de India y Bangladesh."
+foto_enlace: https://es.wikipedia.org/wiki/Lenguas_indoeuropeas#/media/Archivo:Indo-European_branches_map.svg
 madre: lengua-de-europa
 ramas: [
     "Baltoeslavo",
@@ -15,6 +15,6 @@ ramas: [
 ]
 ---
 
-La gran mayoría de los idiomas hablados en Europa vienen del tronco común del Indoeuropeo. En adición a Europa, se habla hasta la India, por eso tiene el nombre Indoeuropeo. Se piensa que los idiomas indoeuropeos actuales empezaron a divergir entre 3000 y 4500 años antes de nuestra época. No sabemos con certeza dónde nació, pero la teoría más popular es que viene de las estepas de Rusia.
+La gran mayoría de los idiomas hablados en Europa vienen del tronco común del Indoeuropeo. En adición a Europa, se habla hasta la India, por eso tiene el nombre Indoeuropeo. Se piensa que los idiomas indoeuropeos actuales empezaron a divergir entre 3.000 y 4.500 años antes de nuestra época. No sabemos con certeza dónde nació, pero la teoría más popular es que viene de las estepas de Rusia.
 
-Este sitio se enfoque en los idiomas hablados dentro de Europa, y por eso no voy a hablar en detalle de los grupos hablados solo en otros continentes, como el Indoiranio, pero destaca que hoy día, por razones de colonización, se habla los idiomas indoeuropeos en todos los continentes: casi todo de América, partes de África, la mayoría de Oceanía y unos lugares de Asia. En total, se piensa que 45% de la población del mundo habla un idioma indoeuropeo, hasta 3,2 billones de personas.
+Esta página se enfoca en los idiomas hablados dentro de Europa, y por eso no voy a hablar en detalle de los grupos hablados solo en otros continentes, como el Indoiranio, pero destaca que hoy día, principalmente por razones de colonización, se habla los idiomas indoeuropeos en todos los continentes: casi todo de América, partes de África, la mayoría de Oceanía y unos lugares de Asia. En total, se piensa que 45% de la población del mundo habla un idioma indoeuropeo, hasta 3.200 millones de personas.

@@ -4,7 +4,13 @@
     <subtitle>{{subtitle}}</subtitle>
     <link href="https://formularsumo.co.uk/{{lang}}feed/feed.xml" rel="self" type="application/rss+xml"/>
     <link href="https://formularsumo.co.uk/{{lang}}blog/"/>
-    <updated>2025-09-22T00:00:00Z</updated>
+    {%- for post in collections.post reversed -%}
+        {%- if post.data.tags contains page.lang -%}
+            {% assign latestPost = post -%}
+            {% break -%}
+        {%- endif -%}
+    {%- endfor %}
+    <updated>{{latestPost.data.date | ISOTime}}</updated>
     <id>https://formularsumo.co.uk/</id>
     <author>
         <name>James Heppell</name>
@@ -16,8 +22,8 @@
     <entry>
         <title>{{post.data.title}}</title>
         <link href="https://formularsumo.co.uk{{post.url}}"></link>
-        <id>https://formularsumo.co.uk/{{post.url}}</id>
-        <published>{{post.date | feedTime}}</published>
+        <id>https://formularsumo.co.uk{{post.url}}</id>
+        <updated>{{post.date | ISOTime}}</updated>
         <summary><![CDATA[{{post.data.description}}]]></summary>
         <content type="html"><![CDATA[{{post.content}}]]></content>
     </entry>

@@ -1,3 +1,5 @@
+{% include "partials/strings.html" -%}
+
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
@@ -41,14 +43,14 @@
                     <h1>{{title}}
                         <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")' style="border: none; background: none; cursor: pointer;">
                             <svg style="height: 35px;">
-                                <title>"{{link_button_text}}"</title>
-                                <use xlink:href="/assets/link.svg#Link"></use>
+                                <title>{{link_button_text}}</title>
+                                <use href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
                     </h1>
                 </header>
                 <img src="/living-pages/browser-tier-list/browser-tier-list.webp" style="margin-bottom: 6px; aspect-ratio: 2094/846;">
-                <a href="Marketshare statistics: https://radar.cloudflare.com/reports/browser-market-share-2025-q1#id-5-global-market-share">Markshare statistics</a>
+                <a href="https://radar.cloudflare.com/reports/browser-market-share-2025-q1#id-5-global-market-share">Marketshare statistics</a>
                 {% for tier in browsers %}
                     <h2>{{tier[0]}}-tier</h2>
                     {% for browser in tier[1] %}
@@ -57,18 +59,18 @@
                         <p>Current marketshare: {{browser[1].marketshare}}%</p>
 
                         <p class="list-heading">Pros</p>
-                        {% for pro in browser[1].pros %}
                         <ul>
+                        {% for pro in browser[1].pros %}
                             <li>{{pro}}</li>
-                        </ul>
                         {% endfor %}
+                        </ul>
 
                         <p class="list-heading">Cons</p>
-                        {% for con in browser[1].cons %}
                         <ul>
+                        {% for con in browser[1].cons %}
                             <li>{{con}}</li>
-                        </ul>
                         {% endfor %}
+                        </ul>
                     {% endfor %}
                 {% endfor %}
             </article>    

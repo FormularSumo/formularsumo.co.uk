@@ -1,8 +1,9 @@
+{% include "partials/strings.html" -%}
+
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
     <head>
         {% include "partials/head.html" %}
-        <link rel="stylesheet" href="/stylesheets/main.css">
         <link rel="stylesheet" href="/stylesheets/article.css">
         <style>
             .rama {
@@ -54,13 +55,13 @@
                         <button onclick='navigator.clipboard.writeText("https://formularsumo.co.uk{{page.url}}")'>
                             <svg>
                                 <title>{{link_button_text}}</title>
-                                <use xlink:href="/assets/link.svg#Link"></use>
+                                <use href="/assets/link.svg#Link"></use>
                             </svg>
                         </button>
                         <button id="share-button" onclick='navigator.share({url: "https://formularsumo.co.uk{{page.url}}", title: "{{title}}", text: "{{description}}"})'>
                             <svg>
                                 <title>{{share_button_text}}</title>
-                                <use xlink:href="/assets/share.svg#Share"></use>
+                                <use href="/assets/share.svg#Share"></use>
                             </svg>
                         </button>
                     </h1>
@@ -74,9 +75,9 @@
                     <h2>Madre</h2>
                     <nav class="rama">
                         {% if madre == "lengua-de-europa" %}
-                            <a style="line-height: 120px;"href="/es/paginas-vivas/lenguas-de-europa/">Inicio</a>
+                            <a style="line-height: 120px; "href="/es/paginas-vivas/lenguas-de-europa/">Inicio</a>
                         {% else %}
-                            <a style="line-height: 120px;" href="/es/paginas-vivas/lenguas-de-europa/{{madre}}/">{{madre}}</a>
+                            <a style="line-height: 120px; "href="/es/paginas-vivas/lenguas-de-europa/{{madre}}/">{{madre}}</a>
                         {% endif %}
                     </nav>
                 {% endif %}
@@ -98,26 +99,26 @@
 
                 {% if foto %}
                     <h2>Distribución Geográfica</h2>
-                    {% if foto-enlace -%}
-                    <a href="{{foto-enlace}}" target="_blank">
+                    {% if foto_enlace -%}
+                    <a href="{{foto_enlace}}" target="_blank">
                     {% endif -%}
-                    <img src=/es/paginas-vivas/lenguas-de-europa/{{foto}}
-                    {% if foto-alt -%}
-                        alt="{{foto-alt}}"
+                    <img src="/es/paginas-vivas/lenguas-de-europa/{{foto}}"
+                    {% if foto_alt -%}
+                        alt="{{foto_alt}}"
                     {% endif -%}
                     >
-                    {% if foto-enlace -%}
+                    {% if foto_enlace -%}
                     </a>
                     {% endif -%}
-                    {% if foto-texto %}
-                        <p>{{foto-texto}}</p>
+                    {% if foto_texto %}
+                        <p>{{foto_texto}}</p>
                     {% endif %}
                 {% endif %}
 
                 {% if title == "Árbol interactivo de las familias de lenguas habladas en Europa" %}
                     <h2>Alfabetos</h2>
-                    <img src=/es/paginas-vivas/lenguas-de-europa/alfabetos.webp>
-                    <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, azul = armenio, verde = georgiano</p>
+                    <img src="/es/paginas-vivas/lenguas-de-europa/alfabetos.webp" alt="Distribución de los alfabetos usados en Europa. En general, se usa el alfabeto latino en toda Europa occidental y central, mientras que en Europa oriental se usa el alfabeto cirílico, aunque en algunos países de los balcanes se usan los dos. El griego se usa en Grecia, el armenio en Armenia, y el georgiano en Georgia.">
+                    <p>Azul-oscuro = Alfabeto latino, marrón = latino y cirílico, rojo = cirílico, naranja = griego, verde = armenio, azul = georgiano</p>
                 {% endif %}
             </article>
 

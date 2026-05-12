@@ -46,46 +46,63 @@ function htmlTransform( _options={} ) {
     const document = jsdom.window.document;
     const docElem = document.documentElement;
     
-    // Images
-    const images = [ ...docElem.querySelectorAll('img') ];
-    images.forEach( element => {
+    // Images and sources
+    if ( options.images?.setWidthHeight ) {
+      const images  = [ ...docElem.querySelectorAll('img') ];
+      const sources = [ ...docElem.querySelectorAll('picture source') ];
 
-      let src = element.getAttribute('src');
-      
-      // Assume that if an image doesn't start with a "/" then it's using a relative path from the current directory
-      if (!src.startsWith("/")) {
-        const pathArray = outputPath.split('/');
-        var newSrc = '/';
-        for (let i=2; i<pathArray.length-1; i++) {
-            newSrc += pathArray[i] + '/'
-        }
-        src = newSrc + src
-      }
-      const path = '.' + src;
+      images.forEach( element => {
+        const rawSrc = element.getAttribute('src');
+        _setWidthHeight( element, rawSrc, outputPath, options.debug );
+      });
 
-      // Set width / height attrs
-      if ( options.images?.setWidthHeight && path) {
-
-        try {
-          const buffer = _readFile( path );
-          const { width, height } = imageSize( buffer );
-          options.debug && console.log(` -> Image - Set width/height: ${ src}, ${ width } x ${ height }`);
-          _setAttrs( element, { width, height } );
-        }
-        catch ( error ) {
-          console.warn(` -> WARN: Image - Could not set width/height`)
-          console.warn(` -> File: ${ outputPath }`);
-          console.warn(` -> Image: ${ path }`);
-          throw error;
-        }
-
-      }
-
-    });
+      sources.forEach( element => {
+        // srcset may contain multiple candidates ("img.avif 760w, img2.avif 1200w");
+        // use the first URL only, as all candidates in a srcset share the same intrinsic dimensions
+        const rawSrc = element.getAttribute('srcset')?.split(',')[0].trim().split(/\s+/)[0];
+        if ( !rawSrc ) return;
+        _setWidthHeight( element, rawSrc, outputPath, options.debug );
+      });
+    }
 
     return jsdom.serialize();
 
   };
+}
+
+/**
+ * Resolves an image src to a filesystem path, reads its dimensions, and stamps
+ * width/height attributes onto the element. Works for both <img> and <source>.
+ * @private
+ */
+function _setWidthHeight( element, rawSrc, outputPath, debug=false ) {
+
+  // Assume that if an image doesn't start with a "/" then it's using a relative path from the current directory
+  let src = rawSrc;
+  if ( !src.startsWith('/') ) {
+    const pathArray = outputPath.split('/');
+    let newSrc = '/';
+    for (let i=2; i<pathArray.length-1; i++) { // Skip first two indexes: '.' and '_site_'
+      newSrc += pathArray[i] + '/';
+    }
+    src = newSrc + src;
+  }
+  const path = '.' + src;
+
+  // Set width / height attrs
+  try {
+    const buffer = _readFile( path );
+    const { width, height } = imageSize( buffer );
+    debug && console.log(` -> ${ element.tagName } - Set width/height: ${ src }, ${ width } x ${ height }`);
+    _setAttrs( element, { width, height } );
+  }
+  catch ( error ) {
+    console.warn(` -> WARN: ${ element.tagName } - Could not set width/height`);
+    console.warn(` -> File: ${ outputPath }`);
+    console.warn(` -> Image: ${ path }`);
+    throw error;
+  }
+
 }
 
 /**

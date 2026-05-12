@@ -1,24 +1,31 @@
 import { EleventyI18nPlugin } from "@11ty/eleventy";
-import { DateTime } from "luxon";
 import tocPlugin from "eleventy-plugin-toc";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import htmlTransform from './transforms/htmlTransform.js';
+import details from './shortcodes/details.js';
 
 const mdOptions = {
 	html: true,
 	breaks: true,
   }
 const mdAnchorOpts = {
-	permalink: markdownItAnchor.permalink.linkInsideHeader({
-		symbol: '#',
-		class: 'anchor-link',
-	}),
+	// permalink: markdownItAnchor.permalink.linkAfterHeader({
+	// 	class: 'anchor-link',
+	// 	style: 'visually-hidden',
+	// 	symbol: '#',
+	// }),
 	level: [1, 2, 3, 4]
 }
+// Full locale codes are required in Open Graph locale tags
+const locales = {
+	"en": "en-GB",
+	"es": "es-ES",
+};
 
 function translateURL(URL, lang) {
 	let newURL = "/";
+	let splitURL = URL.split('/')
 
 	if (lang == "es") {
 		newURL += "es/";
@@ -26,12 +33,12 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (URL.split('/').slice(-2,-1) != "blog") {
+			if (splitURL.at(-2) != "blog") {
 
-				let year = URL.split('/').slice(-3,-2);
-				let post = URL.split('/').slice(-2,-1);
+				let year = splitURL.at(-3);
+				let post = splitURL.at(-2);
 
-				var translatedPost;
+				let translatedPost;
 
 				if (post == "pronouns" ) {
 					translatedPost = "pronombres";
@@ -49,18 +56,19 @@ function translateURL(URL, lang) {
 		} else if (URL.includes("/living-pages/")) {
 			newURL += "paginas-vivas/";
 
-			if (URL.split('/').slice(-2,-1) != "living-pages") {
+			// Disabled as there's currently no translated living pages
+			// if (splitURL.at(-2) != "living-pages") {
 
-				let page = URL.split('/').slice(-2,-1);
+			// 	let page = splitURL.at(-2);
 
-				var translatedPage;
-				// Work out translated page names here
+			// 	let translatedPage;
+			// 	// Work out translated page names here
 
-				if (translatedPage) {
-					newURL += translatedPage;
-				}
-				//If a living-page is not translated, goes to living pages page.
-			}
+			// 	if (translatedPage) {
+			// 		newURL += translatedPage;
+			// 	}
+			// 	//If a living-page is not translated, goes to living pages page.
+			// }
 
 		} else if (URL.includes("/about-this-site/")) {
 			newURL += "sobre-esta-web/";
@@ -74,12 +82,12 @@ function translateURL(URL, lang) {
 		if (URL.includes("/blog/")) {
 			newURL += "blog/";
 
-			if (URL.split('/').slice(-2,-1) != "blog") {
+			if (splitURL.at(-2) != "blog") {
 
-				let year = URL.split('/').slice(-3,-2);
-				let post = URL.split('/').slice(-2,-1);
+				let year = splitURL.at(-3);
+				let post = splitURL.at(-2);
 
-				var translatedPost;
+				let translatedPost;
 
 				if (post == "pronombres" ) {
 					translatedPost = "pronouns";
@@ -94,24 +102,24 @@ function translateURL(URL, lang) {
 			}
 
 		} else if (URL.includes("/paginas-vivas/")) {
-			// Disabled as there are currently no EN living pages
-			// newURL += "living-pages/";
+			newURL += "living-pages/";
 
-			if (URL.split('/').slice(-2,-1) != "paginas-vivas") {
+			// Disabled as there's currently no translated living pages
+			// if (splitURL.at(-2) != "paginas-vivas") {
 
-				let page = URL.split('/').slice(-2,-1);
+			// 	let page = splitURL.at(-2);
 
-				var translatedPage;
+			// 	let translatedPage;
 
-				if (translatedPage) {
-					newURL += "living-pages/" + "/" + translatedPage;
-				}
-			}
+			// 	if (translatedPage) {
+			// 		newURL += translatedPage;
+			// 	}
+			// }
 		} else if (URL.includes("/sobre-esta-web/")) {
 			newURL += "about-this-site/";
 
 		} else {
-			newURL += URL.split('/').slice(2,3);
+			newURL += splitURL.at(2);
 		}
 	}
 
@@ -137,15 +145,17 @@ export default function (eleventyConfig) {
 	]);
 
 	// Transforms
-	eleventyConfig.addTransform('html', htmlTransform({
-		anchors: { setTitle: false },
-	}));
+	eleventyConfig.addTransform('html', htmlTransform());
 
 	eleventyConfig.setLibrary(
 		'md',
-		markdownIt(mdOptions).use(markdownItAnchor)
+		markdownIt(mdOptions).use(markdownItAnchor, mdAnchorOpts)
 	  )
 
+	// Shortcodes
+	eleventyConfig.addPairedShortcode('details', details);
+
+	// Plugins
 	eleventyConfig.addPlugin(EleventyI18nPlugin,{
 		defaultLanguage: "en",
 	});
@@ -155,14 +165,17 @@ export default function (eleventyConfig) {
 		ul: true,
 	});
 
-	eleventyConfig.addFilter("postDate", (dateObj, lang) => {
+	// Filters
+	eleventyConfig.addFilter("postDate", (date, lang) => {
 		if (lang == "en") {
-			lang = "en-gb";
+			lang = "en-GB";
 		}
-		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_FULL, {locale: lang});
+
+		const dateObj = new Date(date)
+		return dateObj.toLocaleString(lang, {dateStyle: "long", timeZone: "Europe/London"});
 	});
 
-	eleventyConfig.addFilter("feedTime", (dateObj) => {
+	eleventyConfig.addFilter("ISOTime", (dateObj) => {
 		return dateObj.toISOString();
 	});
 
@@ -186,5 +199,8 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addFilter("get_content", (content) => {
 		return content.split('%contents%')[1]
+	});
+	eleventyConfig.addFilter("localeCode", (lang) => {
+		return locales[lang];
 	});
 };

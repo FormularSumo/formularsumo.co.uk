@@ -7,11 +7,19 @@
         --heading_font: Georgia, serif;
         --text_font: "DejaVu Sans", sans-serif;
     }
-    @view-transition {
-        navigation: auto;
+    @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+        }
     }
-    ::view-transition-group(root) {
-        animation-duration: 0.3s;
+    @media (prefers-reduced-motion: no-preference) {
+        @view-transition {
+            navigation: auto;
+        }
+        ::view-transition-group(root) {
+            animation-duration: 0.3s;
+        }
     }
 
     * {
@@ -19,7 +27,9 @@
         padding: 0;
     }
     html {
-        scroll-behavior: smooth;
+        @media (prefers-reduced-motion: no-preference) {
+            scroll-behavior: smooth;
+        }
         padding-bottom: env(safe-area-max-inset-bottom, env(safe-area-inset-bottom, 0)); /*Chromium-based browsers support max, as in some circumstances they recalculate safe-area-inset-*. Safari and Firefox do not. */
         background-color: light-dark(#f7fafb,rgb(39, 42, 45)); /*Interestingly placing this in body causes dark reader (extension, dynamic mode) to not fully invert the page colors, so placing it here seems to be more full-proof*/
         font-family: var(--text_font);
@@ -29,14 +39,12 @@
     main {
         padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0)); /*Used by Safari which will otherwise draw everything behind the notch */
         padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
-        :not(h) { /*I'm not actually sure why this works, as I don't think h can be used like this, but nontheless it does */
-            a, button {
-                color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
-            }
 
-            a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
-                color: light-dark(black, white);
-            }
+        a, button {
+            color: light-dark(rgb(55, 55, 55), rgb(225, 225, 225));
+        }
+        a:hover, a:focus-within, button:hover { /*focus-within is not used for buttons as this causes them to remain highlighted after being clicked. It shouldn't really affect screen reader usage as the button is outlined clearly by the browser*/
+            color: var(--text_color);
         }
         a {
             -webkit-tap-highlight-color: transparent;
@@ -105,12 +113,11 @@
             text-decoration: none;
         }
 
-        a:hover h1, a:active h1, a:focus-within h1 {
+        a:hover h2, a:active h2, a:focus-within h2 {
             text-decoration: underline;
         }
 
-
-        h1 {
+        h2 {
             font-size: 34px;
             margin-bottom: 1px;
             margin-top: 14px;
@@ -139,6 +146,16 @@
     width: 100%;
     display: flex;
 
+    label {
+        user-select: none; /*Prevent menu button text from being selected*/
+        -webkit-user-select: none;
+        cursor: pointer;
+        text-align: left;
+        color: white;
+        padding-inline: 10px;
+        line-height: var(--navbar_height);
+        font-family: monospace;
+    }
     nav {
         transform-origin: top;
         transition-duration: 0.25s;
@@ -153,17 +170,6 @@
     li:hover, li:focus-within {
         background-color: #55b8ff;
     }
-    label {
-        user-select: none; /*Prevent menu button text from being selected*/
-        -webkit-user-select: none;
-        cursor: pointer;
-        text-align: left;
-        color: white;
-        font-size: 36px;
-        padding-inline: 10px;
-        line-height: var(--navbar_height);
-        font-family: monospace;
-    }
     input {
         display: none;
     }
@@ -176,7 +182,13 @@
     #nav_menu_checkbox + label {
         display: none;
     }
-
+    #nav_menu_checkbox_label {
+        padding-left: 20px;
+        font-size: 38px;
+    }
+    .nav_menu {
+        flex-basis: 100%;
+    }
     .nav_element {
         float: left;
         border-right: 1px solid #ffffff;
@@ -189,8 +201,7 @@
     }
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
-    .language_switcher {
-        flex-basis: 0px;
+    .language_switcher_nav {
         position: absolute;
         top: var(--navbar_height);
         right: 85.5px;
@@ -202,8 +213,16 @@
         border-top: 1px solid #4f4f66;
         height: var(--navbar_height);
     }
-    #language_switcher_checkbox:checked ~ .language_switcher {
+    .language a {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+    #language_switcher_checkbox:checked ~ .language_switcher_nav {
         transform: scaleY(1)
+    }
+    .navbar_logo {
+        margin-left: 20px;
     }
 
     @media screen and (width <= 600px) {
@@ -239,8 +258,8 @@
         .nav_element a {
             padding-inline: 20px;
         }
-        .language_switcher {
-            right: 90.5px;
+        .language_switcher_nav {
+            right: 90px;
         }
     }
 }

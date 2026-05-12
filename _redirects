@@ -3,10 +3,10 @@
 /es/feed/ /es/feed/feed.xml
 
 # Individual articles which have changed name
-/articles/2024/encryption/ /blog/2025/encryption/
-/articles/2025/reading-list/ /blog/2025/reading-list-2024/
+/articles/2024/encryption/ /blog/2025/encryption/ 301
+/articles/2025/reading-list/ /blog/2025/reading-list-2024/ 301
 
 # Whole sections which have changed name
-/articles/* /blog/:splat
-/es/articulos/* /es/blog/:splat
-/es/living-pages/* /es/paginas-vivas/:splat
+/articles/* /blog/:splat 301
+/es/articulos/* /es/blog/:splat 301
+/es/living-pages/* /es/paginas-vivas/:splat 301

@@ -1,4 +1,9 @@
 {% include "partials/strings.html" -%}
+{% if page.lang == "en" -%}
+    {% assign james_alt = "Front-on photo of James Heppell" -%}
+{% elsif page.lang == "es" -%}
+    {% assign james_alt = "Foto en primer plano de James Heppell" -%}
+{% endif -%}
 
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -15,15 +20,17 @@
                 font-size: 40px;
             }
             .content_image {
-                max-width: 100%;
                 outline: solid 2px;
-                @media (width <= 375px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
+                @media (width <= 480px) { /*ideally it'd be good to directly get the image size in 11ty here instead of manually adding it */
                     display: block;
+                    max-width: 80%;
                     margin-inline: auto;
                     margin-bottom: 25px;
+                    margin-top: 15px;
                 }
-                @media (width > 375px) {
+                @media (width > 480px) {
                     float: left;
+                    width: 230px;
                     margin-right: 25px;
                     margin-top: 2.5px;
                     margin-left: 2.5px;
@@ -74,7 +81,7 @@
                 <article style="flex-basis: 100%;">
                     <h1>{{about_me}}</h1>
 
-                    <img class="content_image" src="/assets/james.avif" alt="James" style="width: 184px;">  <!--also manual width here-->
+                    <img class="content_image" src="/assets/james2.avif" alt="{{james_alt}}">
 
                     {{content}}
                 </article>
@@ -83,25 +90,25 @@
                     <a class="link_a" rel="me" href="https://social.vivaldi.net/@FormularSumo" target="_blank">
                         <svg class="link">
                             <title>{{mastodon}}</title>
-                            <use xlink:href="/assets/mastodon.svg#Mastodon"></use>
+                            <use href="/assets/mastodon.svg#Mastodon"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="https://github.com/FormularSumo" target="_blank">
                         <svg class="link">
                             <title>GitHub</title>
-                            <use xlink:href="/assets/github.svg#GitHub"></use>
+                            <use href="/assets/github.svg#GitHub"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="https://codeberg.org/FormularSumo" target="_blank">
                         <svg class="link">
                             <title>Codeberg</title>
-                            <use xlink:href="/assets/codeberg.svg#Codeberg"></use>
+                            <use href="/assets/codeberg.svg#Codeberg"></use>
                         </svg>
                     </a>
                     <a class="link_a" href="{{'/feed/' | localiseURL: page.lang}}" target="_blank">
                         <svg class="link">
                             <title>{{feed}}</title>
-                            <use xlink:href="/assets/feed.svg#Feed"></use>
+                            <use href="/assets/feed.svg#Feed"></use>
                         </svg>
                     </a>
                 </aside>
