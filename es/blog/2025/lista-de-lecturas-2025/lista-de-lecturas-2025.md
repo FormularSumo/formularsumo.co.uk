@@ -75,3 +75,12 @@ stylesheet: list
 
 
 </section>
+
+<section>
+
+## El chico y el perro
+
+<img class="right" alt="El forro de El chico y el perro" src="original-images/el-chico-y-el-perro.jpg"/>
+
+
+</section>
