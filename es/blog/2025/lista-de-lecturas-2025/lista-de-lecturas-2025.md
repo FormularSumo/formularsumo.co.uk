@@ -52,7 +52,14 @@ stylesheet: list
 
 ## El Siglo de Atenas (Descubrir La Historia #4)
 
-<img class="left" alt="El forro de Los Orígenes de Grecia" src="original-images/el-siglo-de-atenas.webp"/>
+<img class="left" alt="El forro de El Siglo de Atenas" src="original-images/el-siglo-de-atenas.webp"/>
+
+
+</section>
+
+## Alejandro Magno (Descubrir La Historia #5)
+
+<img class="right" alt="El forro de Alejandro Magno" src="original-images/alejandro-magno.webp"/>
 
 
 </section>
