@@ -41,26 +41,26 @@ stylesheet: list
 
 <section>
 
-## Los Orígenes de Grecia (Descubrir La Historia #2)
+## Los orígenes de Grecia (Descubrir la Historia #2)
 
-<img class="right" alt="El forro de Los Orígenes de Grecia" src="original-images/los-origenes-de-grecia.jpg"/>
-
-
-</section>
-
-<section>
-
-## El Siglo de Atenas (Descubrir La Historia #4)
-
-<img class="left" alt="El forro de El Siglo de Atenas" src="original-images/el-siglo-de-atenas.webp"/>
-
+<img class="right" alt="El forro de Los orígenes de Grecia" src="original-images/los-origenes-de-grecia.jpg"/>
 
 
 </section>
 
 <section>
 
-## Alejandro Magno (Descubrir La Historia #5)
+## El siglo de Atenas (Descubrir la Historia #4)
+
+<img class="left" alt="El forro de El siglo de Atenas" src="original-images/el-siglo-de-atenas.webp"/>
+
+
+
+</section>
+
+<section>
+
+## Alejandro Magno (Descubrir la Historia #5)
 
 <img class="right" alt="El forro de Alejandro Magno" src="original-images/alejandro-magno.webp"/>
 
