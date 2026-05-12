@@ -87,9 +87,18 @@ stylesheet: list
 
 <section>
 
-## El Antiguo Egipto (Descubrir La Historia #1)
+## El Antiguo Egipto (Descubrir la Historia #1)
 
 <img class="left" alt="El forro de El Antiguo Egipto" src="original-images/el-antiguo-egipto.jpg"/>
+
+
+</section>
+
+<section>
+
+## Historia del cambio climático
+
+<img class="right" alt="El forro de Historia del cmabio climático" src="original-images/historia-del-cambio-climatico.jpg"/>
 
 
 </section>
