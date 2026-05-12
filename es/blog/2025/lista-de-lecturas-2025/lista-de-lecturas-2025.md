@@ -41,7 +41,7 @@ stylesheet: list
 
 <section>
 
-## Los Orígenes de Grecia (Descubrir La Historia #1)
+## Los Orígenes de Grecia (Descubrir La Historia #2)
 
 <img class="right" alt="El forro de Los Orígenes de Grecia" src="original-images/los-origenes-de-grecia.jpg"/>
 
