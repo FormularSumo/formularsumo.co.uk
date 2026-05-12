@@ -69,7 +69,7 @@ stylesheet: list
 
 <section>
 
-## El hombre que confudió a su mujer con un sombrero
+## El hombre que confudió a su mujer con un sombrero - Oliver Sacks
 
 <img class="left" alt="El forro de El hombre que confudió a su mujer con un sombrero" src="original-images/el-hombre-que-confundio-a-su-mujer-con-un-sombrero.jpg"/>
 
@@ -78,7 +78,7 @@ stylesheet: list
 
 <section>
 
-## El chico y el perro
+## El chico y el perro - Seishu Hase y Takashi Murakami
 
 <img class="right" alt="El forro de El chico y el perro" src="original-images/el-chico-y-el-perro.jpg"/>
 
@@ -96,7 +96,7 @@ stylesheet: list
 
 <section>
 
-## Historia del cambio climático
+## Historia del cambio climático - Ángel León Panal
 
 <img class="right" alt="El forro de Historia del cmabio climático" src="original-images/historia-del-cambio-climatico.jpg"/>
 
