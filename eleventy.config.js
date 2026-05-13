@@ -46,6 +46,9 @@ function translateURL(URL, lang) {
 				else if (post == "microsoft-office-is-still-bad" ) {
 					translatedPost = "microsoft-office-sigue-siendo-malo";
 				}
+				else if (post == "reading-list-2025" ) {
+					translatedPost = "lista-de-lecturas-2025";
+				}
 
 				if (translatedPost) {
 					newURL += year + "/" + translatedPost + "/";
@@ -94,6 +97,9 @@ function translateURL(URL, lang) {
 				}
 				else if (post == "microsoft-office-sigue-siendo-malo" ) {
 					translatedPost = "microsoft-office-is-still-bad";
+				}
+				else if (post == "lista-de-lecturas-2025" ) {
+					translatedPost = "reading-list-2025";
 				}
 
 				if (translatedPost) {
