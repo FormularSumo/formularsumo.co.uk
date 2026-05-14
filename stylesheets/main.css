@@ -172,17 +172,8 @@
     }
 
     /*NAVIGATION MENU (PAGE LINKS) STYLING*/
-    #nav_menu_checkbox + label {
-        display: none;
-    }
     #nav_menu_checkbox_label {
-        padding-left: 20px;
-        padding-right: 10px;
-        line-height: var(--navbar_height);
-        color: white;
-        font-size: 38px;
-        font-family: monospace;
-
+        display: none;
     }
     .nav_menu {
         flex-basis: 100%;
@@ -234,9 +225,15 @@
         ul {
             line-height: var(--navmenu_height);
         }
-        #nav_menu_checkbox + label {
+        #nav_menu_checkbox_label {
             display: inline;
             flex-basis: 100%;
+            padding-left: 20px;
+            padding-right: 10px;
+            line-height: var(--navbar_height);
+            color: white;
+            font-size: 38px;
+            font-family: monospace;
         }
         #nav_menu_checkbox:checked ~ .nav_menu {
             transform: scaleY(1);
