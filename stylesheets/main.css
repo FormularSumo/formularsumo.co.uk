@@ -159,11 +159,9 @@
     nav {
         transform-origin: top;
         transition-duration: 0.25s;
-        overflow: hidden; /*Don't allow to spill outside box*/
     }
     ul {
         list-style-type: none; /*remove bullet points*/
-        overflow: hidden;
         font-size: 19px;
         line-height: var(--navbar_height);
     }
@@ -188,9 +186,11 @@
     }
     .nav_menu {
         flex-basis: 100%;
+        ul {
+            display: flex
+        }
     }
     .nav_element {
-        float: left;
         border-right: 1px solid #ffffff;
     }
     .nav_element a {
@@ -245,12 +245,14 @@
             width: 100%;
             background-color: var(--navbar_color);
             z-index: 1;
+            ul {
+                flex-direction: column;
+            }
         }
         .nav_element:first-child {
             border-top: 1px solid #4f4f66;
         }
         .nav_element {
-            float: none;
             text-align: left;
             border-right: 0px;
             border-bottom: 1px solid #4f4f66;
