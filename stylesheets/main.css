@@ -187,7 +187,7 @@
     .nav_menu {
         flex-basis: 100%;
         ul {
-            display: flex
+            display: flex;
         }
     }
     .nav_element {
@@ -219,7 +219,7 @@
         width: 100%;
     }
     #language_switcher_checkbox:checked ~ .language_switcher_nav {
-        transform: scaleY(1)
+        transform: scaleY(1);
     }
     .navbar_logo {
         margin-left: 20px;
@@ -236,7 +236,7 @@
             flex-basis: 100%;
         }
         #nav_menu_checkbox:checked ~ .nav_menu {
-            transform: scaleY(1)
+            transform: scaleY(1);
         }
         .nav_menu {
             position: absolute;
