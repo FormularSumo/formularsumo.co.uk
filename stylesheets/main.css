@@ -150,11 +150,6 @@
         user-select: none; /*Prevent menu button text from being selected*/
         -webkit-user-select: none;
         cursor: pointer;
-        text-align: left;
-        color: white;
-        padding-inline: 10px;
-        line-height: var(--navbar_height);
-        font-family: monospace;
     }
     nav {
         transform-origin: top;
@@ -182,7 +177,12 @@
     }
     #nav_menu_checkbox_label {
         padding-left: 20px;
+        padding-right: 10px;
+        line-height: var(--navbar_height);
+        color: white;
         font-size: 38px;
+        font-family: monospace;
+
     }
     .nav_menu {
         flex-basis: 100%;
@@ -208,6 +208,9 @@
         transform: scaleY(0.0002); /*Firefox bug with drawing behind other elements when scaling from 0*/
         z-index: 2;
         background-color: var(--navbar_color);
+    }
+    #language_switcher_checkbox_label {
+        padding-inline: 10px;
     }
     .language {
         border-top: 1px solid #4f4f66;

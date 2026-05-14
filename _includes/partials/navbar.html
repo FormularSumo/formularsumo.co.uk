@@ -39,7 +39,7 @@
     </nav>
 
     <input type="checkbox" id="language_switcher_checkbox">
-    <label for="language_switcher_checkbox" aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
+    <label for="language_switcher_checkbox" id="language_switcher_checkbox_label"  aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
     <nav class="language_switcher_nav">
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
