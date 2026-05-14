@@ -147,7 +147,7 @@
     display: flex;
 
     label {
-        user-select: none; /*Prevent menu button text from being selected*/
+        user-select: none;
         -webkit-user-select: none;
         cursor: pointer;
     }
