@@ -146,6 +146,10 @@
     width: 100%;
     display: flex;
 
+
+    input {
+        display: none;
+    }
     label {
         user-select: none;
         -webkit-user-select: none;
@@ -162,9 +166,6 @@
     }
     li:hover, li:focus-within {
         background-color: #55b8ff;
-    }
-    input {
-        display: none;
     }
     img {
         height: var(--navbar_height);
@@ -223,9 +224,12 @@
     @media screen and (width <= 600px) {
         --navbar_height: 60px;
         --navmenu_height: 65px;
+
         ul {
             line-height: var(--navmenu_height);
         }
+
+        /*NAVIGATION MENU (PAGE LINKS) STYLING*/
         #nav_menu_checkbox_label {
             display: inline;
             flex-basis: 100%;
@@ -261,6 +265,8 @@
         .nav_element a {
             padding-inline: 20px;
         }
+
+        /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
         .language_switcher_nav {
             right: 90px;
         }
