@@ -204,6 +204,9 @@
         z-index: 2;
         background-color: var(--navbar_color);
     }
+    #language_switcher_checkbox:checked ~ #language_switcher {
+        transform: scaleY(1);
+    }
     .language {
         border-top: 1px solid #4f4f66;
         height: var(--navbar_height);
@@ -212,9 +215,6 @@
         display: inline-block;
         height: 100%;
         width: 100%;
-    }
-    #language_switcher_checkbox:checked ~ #language_switcher {
-        transform: scaleY(1);
     }
 
     .navbar_logo {
@@ -240,9 +240,6 @@
             font-size: 38px;
             font-family: monospace;
         }
-        #nav_menu_checkbox:checked ~ #nav_menu {
-            transform: scaleY(1);
-        }
         #nav_menu {
             position: absolute;
             top: var(--navbar_height);
@@ -254,13 +251,16 @@
                 flex-direction: column;
             }
         }
-        .nav_element:first-child {
-            border-top: 1px solid #4f4f66;
+        #nav_menu_checkbox:checked ~ #nav_menu {
+            transform: scaleY(1);
         }
         .nav_element {
             text-align: left;
             border-right: 0px;
             border-bottom: 1px solid #4f4f66;
+        }
+        .nav_element:first-child {
+            border-top: 1px solid #4f4f66;
         }
         .nav_element a {
             padding-inline: 20px;
