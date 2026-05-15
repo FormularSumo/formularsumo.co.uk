@@ -29,7 +29,7 @@
 <header class="navbar" title="navbar">
     <input type="checkbox" id="nav_menu_checkbox">
     <label for="nav_menu_checkbox" id="nav_menu_checkbox_label" aria-label="{{nav_menu_label}}">≡</label>
-    <nav class="nav_menu">
+    <nav id="nav_menu">
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
             <li class="nav_element"><a href="{{'/blog/' | localiseURL: page.lang}}">{{blog}}</a></li>
@@ -40,7 +40,7 @@
 
     <input type="checkbox" id="language_switcher_checkbox">
     <label for="language_switcher_checkbox" id="language_switcher_checkbox_label"  aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
-    <nav class="language_switcher">
+    <nav id="language_switcher">
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
         </ul>
