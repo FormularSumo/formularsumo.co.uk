@@ -7,8 +7,8 @@
     {% assign livingPages = "Living pages" -%}
     {% assign aboutThisSite = "About this site" -%}
     {% assign FS_alt = "logo" -%}
-    {% assign nav_menu_label = "Open/close navigation menu" -%}
-    {% assign language_switcher_label = "Change language" -%}
+    {% assign nav_menu_button = "Open/close navigation menu" -%}
+    {% assign language_switcher_button = "Change language" -%}
 
     {% assign second_lang = "es" -%}
 {% else -%}
@@ -17,8 +17,8 @@
     {% assign livingPages = "Páginas vivas" -%}
     {% assign aboutThisSite = "Sobre esta web" -%}
     {% assign FS_alt = "logotipo" -%}
-    {% assign nav_menu_label = "Abrir/cerrar el menú de navegación" -%}
-    {% assign language_switcher_label = "Cambiar el idioma" -%}
+    {% assign nav_menu_button = "Abrir/cerrar el menú de navegación" -%}
+    {% assign language_switcher_button = "Cambiar el idioma" -%}
 
     {% assign second_lang = "en" -%}
 {% endif -%}
@@ -27,8 +27,7 @@
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
 
 <header class="navbar" title="navbar">
-    <input type="checkbox" id="nav_menu_checkbox">
-    <label for="nav_menu_checkbox" id="nav_menu_checkbox_label" aria-label="{{nav_menu_label}}">≡</label>
+    <button id="nav_menu_button" type="button" aria-label="{{nav_menu_button}}" aria-expanded="false" aria-controls="nav_menu">≡</button>
     <nav id="nav_menu">
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
@@ -38,8 +37,7 @@
         </ul>
     </nav>
 
-    <input type="checkbox" id="language_switcher_checkbox">
-    <label for="language_switcher_checkbox" id="language_switcher_checkbox_label"  aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
+    <button id="language_switcher_button" type="button" aria-label="{{language_switcher_button}}" aria-expanded="false" aria-controls="language_switcher"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></button>
     <nav id="language_switcher">
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
@@ -51,3 +49,16 @@
         <img src="/assets/logo-120.webp" alt="FormularSumo {{FS_alt}}" class="navbar_logo">
     </picture>
 </header>
+
+<script>
+    const buttons = ['nav_menu_button', 'language_switcher_button'];
+
+    for (const btnId of buttons) {
+        const btn = document.getElementById(btnId);
+
+        btn.addEventListener('click', function () {
+            const btnState = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', String(!btnState));
+        });
+    }
+</script>
