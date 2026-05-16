@@ -56,7 +56,7 @@
     function closeMenu(btn) {
         const menu = document.getElementById(btn.getAttribute('aria-controls'));
 
-        menu.setAttribute('inert', ''); /*Unlike visibility, makes menu items uninteractive during close animation*/
+        menu.setAttribute('inert', ''); /*Unlike visibility, immediately makes menu items uninteractive during close animation*/
         btn.setAttribute('aria-expanded', 'false');
     }
 
