@@ -101,15 +101,21 @@
                 openMenu(btn);
             }
         });
-
-        /*Escape key closes menu*/
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
-                closeMenu(btn);
-                btn.focus(); /*Move focus back to button*/
-            }
-        });
     }
+
+    /*Escape key closes menu*/
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            for (const btnId of buttons) {
+                const btn = document.getElementById(btnId);
+
+                if (btn.getAttribute('aria-expanded') === 'true') {
+                    closeMenu(btn);
+                    btn.focus(); /*Move focus back to button*/
+                }
+            }
+        }
+    });
 
     /*Clicking outside of a menu closes it*/
     document.addEventListener('click', function (e) {
