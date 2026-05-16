@@ -120,10 +120,7 @@
     /*Clicking outside of a menu closes it*/
     document.addEventListener('click', function (e) {
         for (const {btn, menu} of controls) {
-            const clickInsideButton = btn.contains(e.target);
-            const clickInsideMenu = menu.contains(e.target);
-
-            if (!clickInsideButton && !clickInsideMenu) {
+            if (!btn.contains(e.target) && !menu.contains(e.target)) {
                 closeMenu(btn, menu);
             }
         }
