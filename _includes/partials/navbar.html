@@ -53,18 +53,36 @@
 <script>
     const buttons = ['nav_menu_button', 'language_switcher_button'];
 
+    function closeMenu(btn) {
+        btn.setAttribute('aria-expanded', 'false');
+    }
+
+    function openMenu(btn) {
+        /*Close any other open menu first*/
+        for (const btnId of buttons) {
+            if (btnId !== btn.id) {
+                closeMenu(document.getElementById(btnId));
+            }
+        };
+
+        btn.setAttribute('aria-expanded', 'true');
+    }
+
     for (const btnId of buttons) {
         const btn = document.getElementById(btnId);
 
         btn.addEventListener('click', function () {
-            const btnState = btn.getAttribute('aria-expanded') === 'true';
-            btn.setAttribute('aria-expanded', String(!btnState));
+            if (btn.getAttribute('aria-expanded') === 'true') {
+                closeMenu(btn);
+            } else {
+                openMenu(btn);
+            }
         });
 
         /*Escape key closes menu*/
         document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
-                btn.setAttribute('aria-expanded', 'false');
+                closeMenu(btn);
                 btn.focus(); /*Move focus back to button*/
             }
         });
