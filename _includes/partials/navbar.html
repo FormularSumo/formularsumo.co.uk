@@ -87,4 +87,19 @@
             }
         });
     }
+
+    /*Clicking outside of a menu closes it*/
+    document.addEventListener('click', function (e) {
+        for (const btnId of buttons) {
+            const btn = document.getElementById(btnId);
+            const menu = document.getElementById(btn.getAttribute('aria-controls'));
+
+            const clickInsideButton = btn.contains(e.target);
+            const clickInsideMenu = menu.contains(e.target);
+
+            if (!clickInsideButton && !clickInsideMenu) {
+                closeMenu(btn);
+            }
+        }
+    });
 </script>
