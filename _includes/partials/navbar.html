@@ -59,7 +59,7 @@
     function closeMenu(btn) {
         const menu = document.getElementById(btn.getAttribute('aria-controls'));
 
-        menu.setAttribute('inert', ''); /*Unlike visibility, immediately makes menu items uninteractive during close animation*/
+        menu.setAttribute('inert', ''); /*Unlike visibility, immediately disable menu interaction during close animation*/
         btn.setAttribute('aria-expanded', 'false');
     }
 
@@ -85,7 +85,7 @@
                 navMenu.setAttribute('inert', '');
             }
         } else {
-            /*Desktop: nav always interactive*/
+            /*Desktop: nav menu always interactive*/
             navMenu.removeAttribute('inert');
             navButton.setAttribute('aria-expanded', 'false');
         }
