@@ -120,7 +120,7 @@
     /*Clicking outside of a menu closes it*/
     document.addEventListener('click', function (e) {
         for (const {btn, menu} of controls) {
-            if (!btn.contains(e.target) && !menu.contains(e.target)) {
+            if (btn.getAttribute('aria-expanded') === 'true' && !btn.contains(e.target) && !menu.contains(e.target)) {
                 closeMenu(btn, menu);
             }
         }
