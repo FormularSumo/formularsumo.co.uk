@@ -38,7 +38,7 @@
     </nav>
 
     <button id="language_switcher_button" type="button" aria-label="{{language_switcher_button}}" aria-expanded="false" aria-controls="language_switcher"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></button>
-    <nav id="language_switcher">
+    <nav id="language_switcher" inert>
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
         </ul>
@@ -52,6 +52,9 @@
 
 <script type="module">
     const buttons = ['nav_menu_button', 'language_switcher_button'];
+    const navMenu = document.getElementById('nav_menu');
+    const navButton = document.getElementById('nav_menu_button');
+    const mobileMediaQuery = window.matchMedia('(width <= 600px)');
 
     function closeMenu(btn) {
         const menu = document.getElementById(btn.getAttribute('aria-controls'));
@@ -72,6 +75,20 @@
 
         btn.setAttribute('aria-expanded', 'true');
         menu.removeAttribute('inert');
+    }
+
+    /*Sync nav_menu inert with desktop/mobile layout*/
+    function syncInertState() {
+        if (mobileMediaQuery.matches) {
+            /*Mobile: closed nav menu uninteractable*/
+            if (navButton.getAttribute('aria-expanded') !== 'true') {
+                navMenu.setAttribute('inert', '');
+            }
+        } else {
+            /*Desktop: nav always interactive*/
+            navMenu.removeAttribute('inert');
+            navButton.setAttribute('aria-expanded', 'false');
+        }
     }
 
     for (const btnId of buttons) {
@@ -108,4 +125,9 @@
             }
         }
     });
+
+    /*Sync nav_menu inert when desktop/mobile layout switched*/
+    mobileMediaQuery.addEventListener('change', syncInertState);
+
+    syncInertState();
 </script>
