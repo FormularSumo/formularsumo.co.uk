@@ -7,8 +7,8 @@
     {% assign livingPages = "Living pages" -%}
     {% assign aboutThisSite = "About this site" -%}
     {% assign FS_alt = "logo" -%}
-    {% assign nav_menu_label = "Open/close navigation menu" -%}
-    {% assign language_switcher_label = "Change language" -%}
+    {% assign nav_menu_button = "Open/close navigation menu" -%}
+    {% assign language_switcher_button = "Change language" -%}
 
     {% assign second_lang = "es" -%}
 {% else -%}
@@ -17,8 +17,8 @@
     {% assign livingPages = "Páginas vivas" -%}
     {% assign aboutThisSite = "Sobre esta web" -%}
     {% assign FS_alt = "logotipo" -%}
-    {% assign nav_menu_label = "Abrir/cerrar el menú de navegación" -%}
-    {% assign language_switcher_label = "Cambiar el idioma" -%}
+    {% assign nav_menu_button = "Abrir/cerrar el menú de navegación" -%}
+    {% assign language_switcher_button = "Cambiar el idioma" -%}
 
     {% assign second_lang = "en" -%}
 {% endif -%}
@@ -27,8 +27,7 @@
 {% assign second_lang_flag_alt = second_lang | append: "_alt_flag" %}
 
 <header class="navbar" title="navbar">
-    <input type="checkbox" id="nav_menu_checkbox">
-    <label for="nav_menu_checkbox" id="nav_menu_checkbox_label" aria-label="{{nav_menu_label}}">≡</label>
+    <button id="nav_menu_button" type="button" aria-label="{{nav_menu_button}}" aria-expanded="false" aria-controls="nav_menu">≡</button>
     <nav id="nav_menu">
         <ul>
             <li class="nav_element"><a href="{{'/' | localiseURL: page.lang}}">{{home}}</a></li>
@@ -38,9 +37,8 @@
         </ul>
     </nav>
 
-    <input type="checkbox" id="language_switcher_checkbox">
-    <label for="language_switcher_checkbox" id="language_switcher_checkbox_label"  aria-label="{{language_switcher_label}}"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></label>
-    <nav id="language_switcher">
+    <button id="language_switcher_button" type="button" aria-label="{{language_switcher_button}}" aria-expanded="false" aria-controls="language_switcher"><img src="/assets/{{page.lang}}.svg" alt="{{[current_lang_flag_alt]}}"></button>
+    <nav id="language_switcher" inert>
         <ul>
             <li class="language"><a href="{{page.url | translateURL: second_lang}}"><img src="/assets/{{second_lang}}.svg" alt="{{[second_lang_flag_alt]}}" loading="lazy"></a></li>
         </ul>
@@ -51,3 +49,85 @@
         <img src="/assets/logo-120.webp" alt="FormularSumo {{FS_alt}}" class="navbar_logo">
     </picture>
 </header>
+
+<script type="module">
+    const buttons = ['nav_menu_button', 'language_switcher_button'];
+    const controls = buttons.map(btnId => {
+        const btn = document.getElementById(btnId);
+
+        return {
+            btn,
+            menu: document.getElementById(btn.getAttribute('aria-controls'))
+        };
+    });
+    const mobileMediaQuery = window.matchMedia('(width <= 600px)');
+
+    function closeMenu(btn, menu) {
+        menu.setAttribute('inert', ''); /*Unlike visibility, immediately disable menu interaction during close animation*/
+        btn.setAttribute('aria-expanded', 'false');
+    }
+
+    function openMenu(btn, menu) {
+        /*Close any other open menu first*/
+        for (const control of controls) {
+            if (control.btn !== btn) {
+                closeMenu(control.btn, control.menu);
+            }
+        }
+
+        btn.setAttribute('aria-expanded', 'true');
+        menu.removeAttribute('inert');
+    }
+
+    /*Sync nav_menu inert with desktop/mobile layout*/
+    function syncInertState() {
+        const navControl = controls.find(control => control.btn.id === 'nav_menu_button');
+
+        if (mobileMediaQuery.matches) {
+            /*Mobile: closed nav menu uninteractable*/
+            if (navControl.btn.getAttribute('aria-expanded') !== 'true') {
+                navControl.menu.setAttribute('inert', '');
+            }
+        } else {
+            /*Desktop: nav menu always interactive*/
+            navControl.menu.removeAttribute('inert');
+            navControl.btn.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    for (const {btn, menu} of controls) {
+        btn.addEventListener('click', function () {
+            if (btn.getAttribute('aria-expanded') === 'true') {
+                closeMenu(btn, menu);
+            } else {
+                openMenu(btn, menu);
+            }
+        });
+    }
+
+    /*Escape key closes menu*/
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            for (const {btn, menu} of controls) {
+                if (btn.getAttribute('aria-expanded') === 'true') {
+                    closeMenu(btn, menu);
+                    btn.focus(); /*Move focus back to button*/
+                }
+            }
+        }
+    });
+
+    /*Clicking outside of a menu closes it*/
+    document.addEventListener('click', function (e) {
+        for (const {btn, menu} of controls) {
+            if (btn.getAttribute('aria-expanded') === 'true' && !btn.contains(e.target) && !menu.contains(e.target)) {
+                closeMenu(btn, menu);
+            }
+        }
+    });
+
+    /*Sync nav_menu inert when desktop/mobile layout switched*/
+    mobileMediaQuery.addEventListener('change', syncInertState);
+
+    syncInertState();
+</script>

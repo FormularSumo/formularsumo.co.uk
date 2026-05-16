@@ -147,17 +147,15 @@
     display: flex;
 
 
-    input {
-        display: none;
-    }
-    label {
+    button {
         user-select: none;
         -webkit-user-select: none;
         cursor: pointer;
+        background: none;
+        border: none;
     }
     nav {
         transform-origin: top;
-        transition-duration: 0.25s;
     }
     ul {
         list-style-type: none; /*remove bullet points*/
@@ -173,7 +171,7 @@
     }
 
     /*NAVIGATION MENU (PAGE LINKS) STYLING*/
-    #nav_menu_checkbox_label {
+    #nav_menu_button {
         display: none;
     }
     #nav_menu {
@@ -193,7 +191,7 @@
     }
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
-    #language_switcher_checkbox_label {
+    #language_switcher_button {
         padding-inline: 10px;
     }
     #language_switcher {
@@ -203,9 +201,13 @@
         transform: scaleY(0.0002); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.002 is min value to prevent drawing behind other elements.*/
         z-index: 2;
         background-color: var(--navbar_color);
+        visibility: hidden; /*Completely hide*/
+        transition: transform 0.25s, visibility 0s 0.25s;
     }
-    #language_switcher_checkbox:checked ~ #language_switcher {
+    #language_switcher_button[aria-expanded="true"] ~ #language_switcher {
         transform: scaleY(1);
+        visibility: visible;
+        transition: transform 0.25s, visibility 0s;
     }
     .language {
         border-top: 1px solid #4f4f66;
@@ -230,12 +232,13 @@
         }
 
         /*NAVIGATION MENU (PAGE LINKS) STYLING*/
-        #nav_menu_checkbox_label {
+        #nav_menu_button {
             display: inline;
             flex-basis: 100%;
             padding-left: 20px;
             padding-right: 10px;
             line-height: var(--navbar_height);
+            text-align: left;
             color: white;
             font-size: 38px;
             font-family: monospace;
@@ -250,9 +253,13 @@
             ul {
                 flex-direction: column;
             }
+            visibility: hidden; /*Completely hide*/
+            transition: transform 0.25s, visibility 0s 0.25s;
         }
-        #nav_menu_checkbox:checked ~ #nav_menu {
+        #nav_menu_button[aria-expanded="true"] ~ #nav_menu {
             transform: scaleY(1);
+            visibility: visible;
+            transition: transform 0.25s, visibility 0s;
         }
         .nav_element {
             text-align: left;
