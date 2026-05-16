@@ -54,10 +54,15 @@
     const buttons = ['nav_menu_button', 'language_switcher_button'];
 
     function closeMenu(btn) {
+        const menu = document.getElementById(btn.getAttribute('aria-controls'));
+
+        menu.setAttribute('inert', ''); /*Unlike visibility, makes menu items uninteractive during close animation*/
         btn.setAttribute('aria-expanded', 'false');
     }
 
     function openMenu(btn) {
+        const menu = document.getElementById(btn.getAttribute('aria-controls'));
+
         /*Close any other open menu first*/
         for (const btnId of buttons) {
             if (btnId !== btn.id) {
@@ -66,6 +71,7 @@
         };
 
         btn.setAttribute('aria-expanded', 'true');
+        menu.removeAttribute('inert');
     }
 
     for (const btnId of buttons) {

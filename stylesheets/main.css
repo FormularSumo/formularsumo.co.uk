@@ -201,7 +201,7 @@
         transform: scaleY(0.0002); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.002 is min value to prevent drawing behind other elements.*/
         z-index: 2;
         background-color: var(--navbar_color);
-        visibility: hidden; /*Completely hide and remove from accessibility tree*/
+        visibility: hidden; /*Completely hide*/
         transition: transform 0.25s, visibility 0s 0.25s;
     }
     #language_switcher_button[aria-expanded="true"] ~ #language_switcher {
@@ -253,7 +253,7 @@
             ul {
                 flex-direction: column;
             }
-            visibility: hidden; /*Completely hide and remove from accessibility tree*/
+            visibility: hidden; /*Completely hide*/
             transition: transform 0.25s, visibility 0s 0.25s;
         }
         #nav_menu_button[aria-expanded="true"] ~ #nav_menu {
