@@ -138,8 +138,9 @@
 /*NAVBAR STYLING*/
 .navbar {
     --navbar_height: 55px;
-    --navbar_color: #3f95ff;
-    background-color: var(--navbar_color);
+    --navbar_background_color: #3f95ff;
+    --navbar_border_color: #4f4f66;
+    background-color: var(--navbar_background_color);
     padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0));
     padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     height: var(--navbar_height);
@@ -200,7 +201,7 @@
         right: 85.5px;
         transform: scaleY(0.0002); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.002 is min value to prevent drawing behind other elements.*/
         z-index: 2;
-        background-color: var(--navbar_color);
+        background-color: var(--navbar_background_color);
         visibility: hidden; /*Completely hide*/
         transition: transform 0.25s, visibility 0s 0.25s;
     }
@@ -210,7 +211,7 @@
         transition: transform 0.25s, visibility 0s;
     }
     .language {
-        border-top: 1px solid #4f4f66;
+        border-top: 1px solid var(--navbar_border_color);
         height: var(--navbar_height);
     }
     .language a {
@@ -248,7 +249,7 @@
             top: var(--navbar_height);
             transform: scaleY(0.0001); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.0001 is min value here*/
             width: 100%;
-            background-color: var(--navbar_color);
+            background-color: var(--navbar_background_color);
             z-index: 1;
             ul {
                 flex-direction: column;
@@ -264,10 +265,10 @@
         .nav_element {
             text-align: left;
             border-right: 0px;
-            border-bottom: 1px solid #4f4f66;
+            border-bottom: 1px solid var(--navbar_border_color);
         }
         .nav_element:first-child {
-            border-top: 1px solid #4f4f66;
+            border-top: 1px solid var(--navbar_border_color);
         }
         .nav_element a {
             padding-inline: 20px;
