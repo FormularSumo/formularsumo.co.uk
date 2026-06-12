@@ -311,6 +311,6 @@ I currently use Gittyup as Git client, and it's okay, although not my favourite.
 
 {% details "Codeberg", "Web" %}
 
-I like Codeberg a like: the foundation behind it seem really great, it's open-source, and the UI is much faster and better than GitHub's is now. Most projects are still on GitHub unfortunately, but hopefully more will move to different places.
+I like Codeberg a lot: the foundation behind it seem really great, it's open-source, and the UI is much faster and better than GitHub's is now. Most projects are still on GitHub unfortunately, but hopefully more will move to different homes.
 
 {% enddetails %}
