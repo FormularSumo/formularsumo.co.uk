@@ -157,7 +157,7 @@ I switched from OneDrive to Google Drive in 2018 as I found that pretty much eve
 
 {% details "CoMaps", "Android, iOS, Linux" %}
 
-Nowadays, I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on and contributing back to OpenStreetMaps (OSM) data, and is run by a transparent non-profit and a lovely community. It's incredibly lightweight, fast, and battery-efficient, and has really good walking and biking directions. It's also got a great map design - very aesthetically pleasing, while being super detailed, with things like benches, bins, toilets, bike storage, and metro entrances/paths.
+Nowadays, I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on and contributing back to OpenStreetMap (OSM) data, and is run by a transparent non-profit and a lovely community. It's incredibly lightweight, fast, and battery-efficient, and has really good walking and biking directions. It's also got a great map design - very aesthetically pleasing, while being super detailed, with things like benches, bins, toilets, bike storage, and metro entrances/paths.
 
 The biggest drawback for me is the public transport. CoMaps only works with metro systems at the moment - there's no support for buses or heavy rail. Another important issue is the lack of live data. While offline-first is generally a good thing, it would be useful to be able to see eg live transport timetables, traffic, and temporary road closures. Along the same lines, I'd love an option to show photos and reviews from third-party sources, as this would be helpful when trying to decide *where* to go. It'd also be useful to be able to sync saved locations between devices.
 
@@ -165,7 +165,7 @@ The biggest drawback for me is the public transport. CoMaps only works with metr
 
 {% details "Google Maps", "Google Android, iOS, semi-functional website" %}
 
-Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMaps or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more dependent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
+Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMap or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more dependent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
 
 Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particularly important one for me though is active transport. It's no secret that [Google Maps is primarily designed for (Northamerican) drivers](https://social.vivaldi.net/@FormularSumo/116007219367832211). When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
 
@@ -173,11 +173,11 @@ Despite all of Google's data and resources, there are some serious problems with
 
 {% details "Other" %}
 
-I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very useful. And I use it for detailed OpenStreetMaps editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
+I use the OpenStreetMap (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very useful. And I use it for detailed OpenStreetMap editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
 
 I use Google Earth sometimes for its satellite imagery, as it's considerably better than other options. It also has very good 3D object modelling which can be quite useful.
 
-I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
+I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMap, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
 
 *The Apple Maps website doesn't have a public transport view, which is very sad.
 
