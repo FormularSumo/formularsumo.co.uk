@@ -87,7 +87,7 @@ It also needs mentioning that not all of these problems are out of Mozilla's con
 
 *I use Vivaldi for all PWAs due to Firefox's poor support for them, I wrote more about this [here](https://social.vivaldi.net/@FormularSumo/116137409500501635).*
 
-I've been using Vivaldi a lot recently, and there's many good things about it. The team behind it are great, they really care about the web in general and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual in tech at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
+I've been using Vivaldi a lot recently, and there's many good things about it. The team behind it are great, they really care about the web as a whole and about their users. The browser is super customisable and has loads of features. The business model seems to be sustainable and relatively enshittification-proof, which is unusual in tech at the moment. They do a lot of great regulatory work around [browser and web app competition](https://vivaldi.com/blog/browser-choice-alliance-launch/), and they're also based in Europe which is fairly unique and good in our current global environment.
 
 Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide. They also follow Chromium extended stable releases, moving to a new major release every 8 weeks instead of the usual 4 (soon to be 2), and Vivaldi itself is closed-sourced, as is its bug tracker.
 
@@ -97,7 +97,7 @@ The two main issues I have using Vivaldi are the UI and the lack of extensions o
 
 {% details "Others" %}
 
-I use a variety of other browsers for testing, or otherwise being familiar with. [I'm forced to use Safari's WebKit on iOS](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/), so I get to experience that a fair bit more than I'd like to, and I test things I make on it often, being the other major browser engine. I use Gnome Web occasionally on Linux if I want a WebKit browser, but I wouldn't recommend it as it's quite slow (the GTK folk have to re-do a lot of stuff as Apple only supports Safari on their platforms, relying heavily on the OS for a lot of things), and the browser UI is pretty basic, aside from being a worse engine than Blink and Gecko. I test on Chrome and Edge, being the other large browsers, and I use Chrome Canary/Beta and Firefox Nightly/Beta to try out new web platform and browser features.
+I use a variety of other browsers for testing, or otherwise being familiar with. [I'm forced to use Safari's WebKit on iOS](https://open-web-advocacy.org/blog/apples-browser-engine-ban-persists-even-under-the-dma/), so I get to experience that a fair bit more than I'd like to, and I test things I make on it often, being the other major browser engine. I use Gnome Web occasionally on Linux if I want a WebKit browser, but I wouldn't recommend it as it's quite slow (the GTK folk have to re-do a lot of stuff as Apple only supports Safari on their platforms, leaning heavily on the OS for many things), and the browser UI is pretty basic, aside from being a worse engine than Blink and Gecko. I test on Chrome and Edge, being the other major browsers, and I use Chrome Canary/Beta and Firefox Nightly/Beta to try out new web platform and browser features.
 
 {% enddetails %}
 
@@ -157,7 +157,7 @@ I switched from OneDrive to Google Drive in 2018 as I found that pretty much eve
 
 {% details "CoMaps", "Android, iOS, Linux" %}
 
-Nowadays, I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on and contributing back to OpenStreetMaps (OSM) data, and is run by a transparent non-profit and a lovely community. It's incredibly lightweight, fast, and battery-efficient, and has really good walking and biking directions. It's also got a great map design - very aesthetically pleasing, while being super detailed, with things like benches, bins, toilets, bike storage, and metro entrances/paths.
+Nowadays, I use CoMaps for most of my mapping needs. It's an offline-first, private, free and open-source (FOSS) app based on and contributing back to OpenStreetMap (OSM) data, and is run by a transparent non-profit and a lovely community. It's incredibly lightweight, fast, and battery-efficient, and has really good walking and biking directions. It's also got a great map design - very aesthetically pleasing, while being super detailed, with things like benches, bins, toilets, bike storage, and metro entrances/paths.
 
 The biggest drawback for me is the public transport. CoMaps only works with metro systems at the moment - there's no support for buses or heavy rail. Another important issue is the lack of live data. While offline-first is generally a good thing, it would be useful to be able to see eg live transport timetables, traffic, and temporary road closures. Along the same lines, I'd love an option to show photos and reviews from third-party sources, as this would be helpful when trying to decide *where* to go. It'd also be useful to be able to sync saved locations between devices.
 
@@ -165,7 +165,7 @@ The biggest drawback for me is the public transport. CoMaps only works with metr
 
 {% details "Google Maps", "Google Android, iOS, semi-functional website" %}
 
-Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMaps or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more dependent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
+Due to Google's massive size and monopolistic practices, Google Maps has the largest userbase and subsequently the most data of any mapping service. Especially in less busy areas, Google Maps often has points of interest which don't exist on OpenStreetMap or other services, or has more data about them, such as opening hours or contact details. Google's all-encompasing data collection also means that it tends to have the best driving data - as driving is much more dependent on unpredictable live conditions such as traffic, accidents and road closures than other forms of transport. It does do some aspects of public transport well: fairly reliable live timetables, and occasionally showing realtime bus locations along with how busy they are.
 
 Despite all of Google's data and resources, there are some serious problems with Google Maps. Privacy is of course a big one, as are the limited platforms it supports. A particularly important one for me though is active transport. It's no secret that [Google Maps is primarily designed for (Northamerican) drivers](https://social.vivaldi.net/@FormularSumo/116007219367832211). When walking or cycling, it frequently tries to send you down busy car routes, and the map design prioritises showing roads over all sorts of other information about a place. Offline maps only contain driving directions, and there's very limited info for points of interest when you don't have connection. The app is also very heavy to run, which is really noticeable on low-end devices. And I'm not a fan of Google's proprietary map database - I think maps should be open, public resources, and when I did used to contribute to Google Maps, many of my suggestions got rejected because the reviewers weren't able to "verify" them.
 
@@ -173,11 +173,11 @@ Despite all of Google's data and resources, there are some serious problems with
 
 {% details "Other" %}
 
-I use the OpenStreetMaps (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very useful. And I use it for detailed OpenStreetMaps editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
+I use the OpenStreetMap (OSM) web app for a few purposes. As CoMaps only shows detailed information for areas which you have downloaded, I use OSM if I want to see that for different areas that I want to explore. It's useful if I want to see specific map view options, particularly the transport and cycling maps styles which are very useful. And I use it for detailed OpenStreetMap editing. It doesn't do navigation, it's just a simple map, but it's good at being that.
 
 I use Google Earth sometimes for its satellite imagery, as it's considerably better than other options. It also has very good 3D object modelling which can be quite useful.
 
-I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMaps, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
+I occasionally use the Apple Maps iOS app for its excellent public transport map view*, it's better than OpenStreetMap, and far ahead of CoMaps (for the time being) and Google Maps. Otherwise I don't really use it unless I'm testing something out.
 
 *The Apple Maps website doesn't have a public transport view, which is very sad.
 
@@ -210,6 +210,12 @@ I have briefly tried OSMAnd, but it's ridiculously slow, especially on Android, 
 ### Search Engine
 
 {% details "Ecosia" %}
+
+For a long time, I thought Ecosia was too good to be true. But in 2024 I had a look into what they do and it's genuinely great stuff. Their finances are [all public](https://blog.ecosia.org/ecosia-financial-reports-tree-planting-receipts/), and it's easy to track their tree planting and other climate projects. Unlike many tree growing schemes, Ecosia does so responsibly - planting diverse native species with the support and integration of local communities, and looking after them until they're fully grown. They also spend some money on other climate projects such as renewable energy and sustainable agriculture. It seems like they try to do everything as ethically as they can, and they're also keen on promoting democracy and civic society. There's tracking or unnecessary data collection and privacy is great. The European Search Index created with Quant is a very exciting development, and transparency in paying publishers is good to see.
+
+Searches can be a little slow vs Google (in part due to Google self-preferencing with pre-connecting I believe), especially on Firefox. very well. Occasionally search results seem a little more limited, though on the whole they're pretty good. I have found Ecosia to be somewhat heavy-handed with AI integration recently, but they've since added an option to disable it entirely which is helpful.
+
+Ecosia have also been great at listening to feedback. They added set-up instructions for [Firefox Android](https://support.ecosia.org/article/653-installing-ecosia-on-your-mobile-device#Set-Ecosia-as-your-default-search-engine-on-Firefox-Android-JKq6N) and cleared up the mobile guide, and added Mastodon links to all of their subdomain footers after I got in touch with them :)
 
 {% enddetails %}
 
@@ -311,6 +317,18 @@ I currently use Gittyup as Git client, and it's okay, although not my favourite.
 
 {% details "Codeberg", "Web" %}
 
-I like Codeberg a like: the foundation behind it seem really great, it's open-source, and the UI is much faster and better than GitHub's is now. Most projects are still on GitHub unfortunately, but hopefully more will move to different places.
+I like Codeberg a lot: the foundation behind it seem really great, it's open-source, and the UI is much faster and better than GitHub's is now. Most projects are still on GitHub unfortunately, but hopefully more will move to different homes.
+
+{% enddetails %}
+
+## Social
+
+### Messaging
+
+{% details "Signal", "Android, iOS, Windows, macOS, Linux" %}
+
+Signal is the gold standard for privacy and security. It's transparently run by a non-profit, and entirely open source. On top of that, it's really easy to use, and does more or less everything you'd expect from a messaging app. It's a perfect drop-in replacement for less private, less user-respecting services like WhatsApp and Telegram.
+
+Unfortunately, like most messaging, it is entirely centralised. Everything goes through the Signal Foundation's network, which runs on AWS. It also requires a phone number which isn't great, though having usernames as well makes this less of an issue.
 
 {% enddetails %}

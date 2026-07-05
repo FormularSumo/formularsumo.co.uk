@@ -138,40 +138,33 @@
 /*NAVBAR STYLING*/
 .navbar {
     --navbar_height: 55px;
-    --navbar_color: #3f95ff;
-    background-color: var(--navbar_color);
+    --navbar_background_color: #3f95ff;
+    --navbar_border_color: #4f4f66;
+    background-color: var(--navbar_background_color);
     padding-left: env(safe-area-max-inset-left, env(safe-area-inset-left, 0));
     padding-right: env(safe-area-max-inset-right, env(safe-area-inset-right, 0));
     height: var(--navbar_height);
     width: 100%;
     display: flex;
 
-    label {
-        user-select: none; /*Prevent menu button text from being selected*/
+
+    button {
+        user-select: none;
         -webkit-user-select: none;
         cursor: pointer;
-        text-align: left;
-        color: white;
-        padding-inline: 10px;
-        line-height: var(--navbar_height);
-        font-family: monospace;
+        background: none;
+        border: none;
     }
     nav {
         transform-origin: top;
-        transition-duration: 0.25s;
-        overflow: hidden; /*Don't allow to spill outside box*/
     }
     ul {
         list-style-type: none; /*remove bullet points*/
-        overflow: hidden;
         font-size: 19px;
         line-height: var(--navbar_height);
     }
     li:hover, li:focus-within {
         background-color: #55b8ff;
-    }
-    input {
-        display: none;
     }
     img {
         height: var(--navbar_height);
@@ -179,18 +172,16 @@
     }
 
     /*NAVIGATION MENU (PAGE LINKS) STYLING*/
-    #nav_menu_checkbox + label {
+    #nav_menu_button {
         display: none;
     }
-    #nav_menu_checkbox_label {
-        padding-left: 20px;
-        font-size: 38px;
-    }
-    .nav_menu {
+    #nav_menu {
         flex-basis: 100%;
+        ul {
+            display: flex;
+        }
     }
     .nav_element {
-        float: left;
         border-right: 1px solid #ffffff;
     }
     .nav_element a {
@@ -201,16 +192,26 @@
     }
 
     /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
-    .language_switcher_nav {
+    #language_switcher_button {
+        padding-inline: 10px;
+    }
+    #language_switcher {
         position: absolute;
         top: var(--navbar_height);
         right: 85.5px;
-        transform: scaleY(0.0002); /*Firefox bug with drawing behind other elements when scaling from 0*/
+        transform: scaleY(0.0002); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.002 is min value to prevent drawing behind other elements.*/
         z-index: 2;
-        background-color: var(--navbar_color);
+        background-color: var(--navbar_background_color);
+        visibility: hidden; /*Completely hide*/
+        transition: transform 0.25s, visibility 0s 0.25s;
+    }
+    #language_switcher_button[aria-expanded="true"] ~ #language_switcher {
+        transform: scaleY(1);
+        visibility: visible;
+        transition: transform 0.25s, visibility 0s;
     }
     .language {
-        border-top: 1px solid #4f4f66;
+        border-top: 1px solid var(--navbar_border_color);
         height: var(--navbar_height);
     }
     .language a {
@@ -218,9 +219,7 @@
         height: 100%;
         width: 100%;
     }
-    #language_switcher_checkbox:checked ~ .language_switcher_nav {
-        transform: scaleY(1)
-    }
+
     .navbar_logo {
         margin-left: 20px;
     }
@@ -228,37 +227,55 @@
     @media screen and (width <= 600px) {
         --navbar_height: 60px;
         --navmenu_height: 65px;
+
         ul {
             line-height: var(--navmenu_height);
         }
-        #nav_menu_checkbox + label {
+
+        /*NAVIGATION MENU (PAGE LINKS) STYLING*/
+        #nav_menu_button {
             display: inline;
             flex-basis: 100%;
+            padding-left: 20px;
+            padding-right: 10px;
+            line-height: var(--navbar_height);
+            text-align: left;
+            color: white;
+            font-size: 38px;
+            font-family: monospace;
         }
-        #nav_menu_checkbox:checked ~ .nav_menu {
-            transform: scaleY(1)
-        }
-        .nav_menu {
+        #nav_menu {
             position: absolute;
             top: var(--navbar_height);
-            transform: scaleY(0.0001); /*Firefox bug with drawing behind other elements when scaling from 0*/
+            transform: scaleY(0.0001); /*FF bug https://bugzilla.mozilla.org/show_bug.cgi?id=1964076. 0.0001 is min value here*/
             width: 100%;
-            background-color: var(--navbar_color);
+            background-color: var(--navbar_background_color);
             z-index: 1;
+            ul {
+                flex-direction: column;
+            }
+            visibility: hidden; /*Completely hide*/
+            transition: transform 0.25s, visibility 0s 0.25s;
         }
-        .nav_element:first-child {
-            border-top: 1px solid #4f4f66;
+        #nav_menu_button[aria-expanded="true"] ~ #nav_menu {
+            transform: scaleY(1);
+            visibility: visible;
+            transition: transform 0.25s, visibility 0s;
         }
         .nav_element {
-            float: none;
             text-align: left;
             border-right: 0px;
-            border-bottom: 1px solid #4f4f66;
+            border-bottom: 1px solid var(--navbar_border_color);
+        }
+        .nav_element:first-child {
+            border-top: 1px solid var(--navbar_border_color);
         }
         .nav_element a {
             padding-inline: 20px;
         }
-        .language_switcher_nav {
+
+        /*LANGUAGE SWITCHER MENU (FLAGS) STYLING*/
+        #language_switcher {
             right: 90px;
         }
     }
