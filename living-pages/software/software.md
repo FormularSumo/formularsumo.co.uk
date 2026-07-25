@@ -327,8 +327,8 @@ I like Codeberg a lot: the foundation behind it seem really great, it's open-sou
 
 {% details "Signal", "Android, iOS, Windows, macOS, Linux" %}
 
-Signal is the gold standard for privacy and security. It's transparently run by a non-profit, and entirely open source. On top of that, it's really easy to use, and does more or less everything you'd expect from a messaging app. It's a perfect drop-in replacement for less private, less user-respecting services like WhatsApp and Telegram.
+Signal is the gold standard for privacy and security. It's transparently run by a non-profit, and entirely open source. As well as that, it's really easy to use, and does more or less everything you'd expect from a messaging app. It's a perfect drop-in replacement for less private, less user-respecting services like WhatsApp and Telegram.
 
-Unfortunately, like most messaging, it is entirely centralised. Everything goes through the Signal Foundation's network, which runs on AWS. It also requires a phone number which isn't great, though having usernames as well makes this less of an issue.
+Unfortunately, like most messaging, it is entirely centralised. Everything goes through the Signal Foundation's network, which runs on AWS. It also requires a phone number which isn't great, though having usernames partially mitigates this.
 
 {% enddetails %}
