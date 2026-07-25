@@ -332,3 +332,15 @@ Signal is the gold standard for privacy and security. It's transparently run by 
 Unfortunately, like most messaging, it is entirely centralised. Everything goes through the Signal Foundation's network, which runs on AWS. It also requires a phone number which isn't great, though having usernames partially mitigates this.
 
 {% enddetails %}
+
+### Social Media
+
+{% details "Mastodon", "Web, Android, iOS, Windows, macOS, Linux" %}
+
+Mastodon is the poster child of the Fediverse - a collection of decrentralised apps and networks based on the ActivityPub protocol. It's stewarded by the non-profit Mastodon Foundation, but there's thousands of indepedent servers, many client apps, and even other compatible software (eg GoToSocial and PixelFed).
+
+Using Mastodon is a wonderfully human and pleasant experience compared to most social media. The absence of algorithms, adverts and data harvesting makes for a space where people can genuinely connect and aren't pushed into extremist points of view and reactions, nor addiction and unhealthy usage. And nobody gets treated like a second ([or third](https://social.vivaldi.net/@FormularSumo/116942560591857656)) class citizen - all the official apps (Web, Android, iOS) support everything that Mastodon can do and perform great, and so do the myriad of third party ones. There's [many different ways to use it](https://joinmastodon.org/apps#:~:text=Browse%20third%2Dparty%20apps), and accessiblity is a priority rather than an afterthought.
+
+Mastodon is always improving, and never enshittifying. It's still missing a few features, and some of the federated quircks [aren't](https://github.com/mastodon/mastodon/issues/34) [100%](https://github.com/mastodon/mastodon/issues/19880) [intuative](https://github.com/mastodon/mastodon/issues/1399), but it's a great and stable experience - one that's already outlasted much larger networks like Google Plus. My biggest gripe is that while you can easily move accounts between servers, there's still [no way to transfer posts](https://github.com/mastodon/mastodon/issues/12423) (something that PixelFed has got figured out), while the official mobile apps strongly nudge people towards signing-up on the oversized mastodon.social server, although changes to this are being tested. Otherwise there's very little I can critise Mastodon for, other than simply lacking the resources to do everything they'd like. But development and organisational health have been rapidly improving over the past few years, so I'm very excited to see where things go.
+
+{% enddetails %}
