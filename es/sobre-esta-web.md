@@ -12,11 +12,11 @@ El [código fuente](https://github.com/FormularSumo/formularsumo.co.uk) se aloja
 
 Suelo escribir el contenido nuevo directamente en markdown en mi editor de código, donde puedo verlo inmediatamente en mi navegador. A veces, sobre todo si voy a trabajar en algo en colaboración o si adapto una publicación antigua, utilizo un procesador de texto y después lo exporto a markdown/HTML.
 
-Puedes instalar mi web como una [PWA](https://developer.mozilla.org/es/docs/Web/Progressive_web_apps), y puedes encontrar también la fuente Atom en la página de inicio si quieres añadir mi blog a tu lector de fuentes web.
+Puedes instalar mi web como una [PWA](https://developer.mozilla.org/es/docs/Web/Progressive_web_apps), y puedes encontrar también la fuente Atom en la página de inicio y el blog si quieres añadir mis publicaciones a tu lector de fuentes web.
 
 Todo el contenido en el sitio debería ser accesible en cualquier navegador moderno, con o sin JavaScript activado. Dicho eso, me gusta probar nuevas funcionalidades de la plataforma web cuando están disponibles, entonces es posible que alguna funcionalidad no esencial aún no funcione en todos los navegadores. Ejemplos que destacan a la hora de escribir son [View Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_view_transitions) y [minimal-ui](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/display#syntax:~:text=minimal%2Dui,-39).
 
-*No se usó la IA Generativa en la creación de la escritura de este sitio.*
+*Escribo todo el contendio de esta web, sin el uso de LLMs.*
 
 # Inspiraciones
 
