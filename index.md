@@ -14,4 +14,4 @@ To round off this brief introduction, I love sports, more or less all of them I'
 
 ## Contact Me
 
-You're welcome to get in touch with me via [Signal](https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R), [Mastodon DMs](https://social.vivaldi.net/@FormularSumo), [Matrix](https://matrix.to/#/@formularsumo:mozilla.org) or [Email](mailto:formularsumo@outlook.com).
+You're welcome to get in touch with me via [Signal](https://signal.me/#eu/0Rpp19Gk4Fv4o0t6Aid-hf_X1ihVS9PkqjmGE2RvcZS6edFh0oVCu7fbogM6pe2R), [Matrix](https://matrix.to/#/@formularsumo:mozilla.org) or [Email](mailto:formularsumo@outlook.com).
