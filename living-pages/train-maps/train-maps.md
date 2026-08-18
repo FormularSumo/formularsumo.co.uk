@@ -8,11 +8,6 @@ description:
 
 ## Informational
 
-Disused, freight-only?
-
-Collage of all maps at top of category
-
-
 [**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro/light rail and bus routes when you zoom in more. It's got coverage for more or less the whole world, and can be used directly from their website. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and freight-only lines aren't cleared separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming was more granular. There's a great community of people creating and using OpenStreetMap projects though (more on this later), and you can easily go and fix/update something yourself.
 
 **Apple Maps** has a *really* good transport view, much to my annoyance. It shows main lines even when zoomed out to have the whole world in view, and shows branch lines and metro systems you zoom in futher. Color coding is great, clearly distinguishing heritage and disused lines from national rail, and even showing who operates each line and station with decent accuracy. Being *Apple* Maps, it's only designed for wealther westerners. Coverage is awful outside of Europe and North America, and the transport view is only available on iOS. I'm hopefuly that the website adds this at some point, but until then, it's severely limited in who it can be useful for.
