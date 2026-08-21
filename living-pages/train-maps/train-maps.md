@@ -26,9 +26,9 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 [**Back on Track**](https://back-on-track.eu/night-train-map/) is a non-profit promoting sleeper trains (aka night trains) in Europe, who offer a very useful map for seeing all current routes and finding out when and where they run. Sleeper trains can be a great way of travelling longer distances without flying, and I'd love to try more of them in the future. The map is a bit slow, but very comprehensive, and it's great to incresingly see how many routes there are.
 
-## Live
+## Real-time
 
-[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passsenger trains on the <abbr title="Great Britan (includes England, Scotland and Wales, but not Northern Ireland)" tabindex="0">GB</abbr> network in real time. Trains are colour coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr> data.
+[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passsenger trains on the <abbr title="Great Britan" tabindex="0">GB</abbr> network moving in real time. Trains are colour coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr> data.
 
 **Renfe Tiempo Real** is very similar, but for the Spanish rail network. Interestingly it's split up into [long-distance](https://tiempo-real.largorecorrido.renfe.com) and [short-distance](https://tiempo-real.renfe.com) versions, and colour coding is additionally used to denoate train and track types. The map is generally a lot more detailed, but not as visually appealing - you can't see all trains when zoomed out which is no fun!
 
@@ -42,7 +42,7 @@ The [**New Adlestrop Railway Atlas**](https://www.systemed.net/atlas/) is an exc
 
 [**OpenHistoricalMap**](https://www.openhistoricalmap.org/) is OpenStreetMap with a time dimension. You can go from 1826 to present day and watch the railways expand and contract. The map isn't complete, and this varies a lot between countries, but nontheless is a useful tool. I especially like being able to set a speed and play a timeline. Aside from trains, it can also be used to see changes in countries and cities.
 
-The **National Library of Scotland's historical maps** page is extensive, and of particular interest is the side by side viewer, which lets you compare any supported layer. For example, [OS GB Railways from 1946 vs OpenStreetMap](https://maps.nls.uk/geo/explore/side-by-side/#layers=10rail&right=osm). The historical maps are scans of old physical maps which is fun, and there's loads to choose from, though sadly just the one for railways.
+The **National Library of Scotland's historical maps** page is extensive, and of particular interest is the side by side viewer, which lets you compare any supported layer. For example, [OS Railways from 1946 vs OpenStreetMap](https://maps.nls.uk/geo/explore/side-by-side/#layers=10rail&right=osm). The historical maps are scans of old physical maps which is fun, and there's loads to choose from, though sadly just the one for railways.
 
 ## Miscellaneous
 
@@ -52,6 +52,6 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 
 **[HS2](https://en.wikipedia.org/wiki/High_Speed_2#/media/File:High_Speed_2_phases_map_2023.png)**, a handy map showing what was promised in 2012, and each subsequent reduction in scope. It's a depressing map, but one that's useful to have as a reference. I'm a semi-frequent user Spain's high-speed rail network, which, despite covering a massive area of 3973 km, has so far reportedly [cost less](https://www.theguardian.com/commentisfree/2023/oct/11/spains-high-speed-trains-arent-just-efficient-they-have-transformed-peoples-lives#:~:text=The%20country%20has%20spent%20around%20%E2%82%AC57.2bn%20in%20building%20its%20network) than just the [reduced HS2 route](https://en.wikipedia.org/wiki/High_Speed_2#:~:text=HS2%20is%20expected%20to%20cost%20between) is expected to. Granted there's a lot of factors to this, and many costs are necessarily higher here - but the [>10x difference](https://mediarail.wordpress.com/how-spain-reaps-the-benefits-of-the-high-speed-railway-liberalisation/#:~:text=the%20average%20construction%20cost%20for%20high%2Dspeed%20railway%20lines%20in%20Spain) is stark.
 
-Network Rail's [**Frieght corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main GB freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, often around ports.
+Network Rail's [**Frieght corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britan" tabindex="0">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, often around ports.
 
 ## Games
