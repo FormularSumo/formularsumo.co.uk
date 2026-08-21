@@ -36,6 +36,10 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ## Historical
 
+[**RailMapOnline**](https://www.railmaponline.com/UKIEMap.php) is a super useful resource showing all former UK & Ireland railways. It's eye-opening comparing this to a modern map and seeing all that no longer exists, but would often be very useful... It shows the old rail companies that run each route, with nice distinct colours. It's interesting also seeing *which* areas have suffered more - the Isle of Wight for example lost all but one not particularly useful line, and most of North Cornwall/West Devon has been cut-off from the network. There's [a few other maps](https://www.railmaponline.com/index.html) as well, including Trolleybus & Tramways and Western US.
+
+[**OpenHistoricalMap**](https://www.openhistoricalmap.org/)
+
 ## Miscellaneous
 
 ## Games
