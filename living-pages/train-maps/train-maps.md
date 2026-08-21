@@ -20,11 +20,11 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ## Routes
 
-[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the bits of information for each route, especially being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very suprisingly well made and pleasant to ues. I could easily spends hours looking through this and learning lots as I go.
+[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very suprisingly well made and pleasant to use. I could easily spends hours looking through this and learning lots as I go.
 
 [**Chronotrains**](https://www.chronotrains.com/en/explore/2643743-London) is a very fun website for visualising how far you can get across Europe by train in a certain amount of time. You can choose any station or city and watch the area of the map increase as time goes up. Great for seeing how many different places you can go to and getting ideas for ones to visit. There's also the [route planner](https://www.chronotrains.com/en/station/2643743-London?maxTime=8) which shows an 8 hour heatmap and major destinations alongside the fastest route to get to them.
 
-[**Back on Track**](https://back-on-track.eu/night-train-map/) is a non-profit promoting sleeper trains (or night trains) in Europe, who offer a very useful map for seeing all current routes and finding out when and where they run. Sleeper trains can be a great way of travelling longer distances without flying, and I'd love to try more of them in the future. The map is a little slow, but very comprehensive, and it's great to incresingly see how many routes there are.
+[**Back on Track**](https://back-on-track.eu/night-train-map/) is a non-profit promoting sleeper trains (aka night trains) in Europe, who offer a very useful map for seeing all current routes and finding out when and where they run. Sleeper trains can be a great way of travelling longer distances without flying, and I'd love to try more of them in the future. The map is a bit slow, but very comprehensive, and it's great to incresingly see how many routes there are.
 
 ## Live
 
