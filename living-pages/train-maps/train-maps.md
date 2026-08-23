@@ -4,19 +4,47 @@ title: Train Maps
 description: 
 ---
 
+<style>
+
+img {
+    max-width: 570px;
+}
+
+.vertical {
+    @media (width >= 300px) {
+        max-width: 49%;
+    }
+    @media (width >= 600px) {
+        max-width: 250px
+    }
+}
+
+</style>
+
 *Note: Northern Ireland's rail network is operated separately from the rest of the United Kingdom. Because of this, some the maps on this list are for Great Britain (England, Wales and Scotland) only.*
 
 %contents%
 
 ## Informational
 
+<img src="original-images/Informational/OpenStreetMap.png">
+
 [**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) (OSM) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro systems and bus routes when you zoom in further. It's got coverage for more or less the whole world, and can be used straight from their website, or from a 3rd party app. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and disused or freight-only lines aren't cleared separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming was more granular. There's a great community of people creating and using OpenStreetMap projects though (as you'll see throughout this list!), and you can easily go and fix/update something yourself.
+
+<img class="vertical" src="original-images/Informational/Apple Maps 1.png">
+<img class="vertical" src="original-images/Informational/Apple Maps 2.png">
 
 **Apple Maps** has a *really* good railway view - the best design I've come across, much to my annoyance. It's focused on passenger routes, shows main lines even when zoomed out to have the whole world in view, and shows branch lines and metros as you zoom in. Colour coding is great, clearly distinguishing heritage lines from national rail, and even showing who operates each line and station with decent accuracy. Non-passenger lines are not shown, some heritage ones are missing, and buses aren't supported at all. Being *Apple* Maps, it's only designed for wealthy westerners. There's practically zero coverage outside of Western Europe and the US/Canada, and transport view is only available on iOS/macOS. I'm hopeful that the [website](https://maps.apple.com) adds this at some point, but until then, it's severely limited in who it can be useful for.
 
+<img src="original-images/Informational/OpenRailwayMap.png">
+
 [**OpenRailwayMap**](https://www.openrailwaymap.org/?style=maxspeed) is a fantastic map showing max speeds, electrification, signalling, and more. The map style is easy to read, but super detailed, and I use this a lot for finding out information about different lines. It's based on <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>, and if it were a little faster, I would probably use it for everything train-related instead, but unfortunately it is a little slow and zooming and can be quirky, so it's best used when on a stable connection and not on the move. The level of detail varies from country to country, but is constantly improving, and anyone is able to add to it.
 
+<img src="original-images/Informational/Electrification Map.png">
+
 Speaking of electrification, [**ElectrificationMap**](https://railmap.azurewebsites.net/Public/ElectrificationMap) is an interactive map showing the current state of <abbr title="Great Britain" tabindex="0">GB</abbr> electrification, and the planned 2050 network. Predictably, it's also <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based, but provides info about ongoing and recent projects on the network. I don't use this a lot, but it's interesting to see what's going and what's planned.
+
+<img src="original-images/Informational/National Rail Station and Accessibility Info.png">
 
 The [**National Rail Station and Accessibility Info**](https://railmap.nationalrail.co.uk/#/accessibility) is, aside taking a surprising amount of time to load, a great resource for finding out about <abbr title="Great Britain" tabindex="0">GB</abbr> station accessibility and other info. It shows colour-coded step-free categories on a map and specific details for each station, including facilities and opening hours, staff and passenger assistance, transport links, etc. There's also the [**National Rail Interactive Route Map**](https://railmap.nationalrail.co.uk/#/), which seems to be identical but is missing the colour-coding and defaults to showing information about departures rather than station facilities.
 
