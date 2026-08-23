@@ -2,6 +2,8 @@
 layout: article.html
 title: Train Maps
 description: 
+embedImage: "/living-pages/train-maps/embed-image.jpg"
+embedAlt: "Collage of 20 different railway maps. Some show a country such as the UK, while others show larger aras of the world or smaller regions."
 ---
 
 <style>
