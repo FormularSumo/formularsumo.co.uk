@@ -100,6 +100,8 @@ The **National Library of Scotland's [historical maps](https://maps.nls.uk)** pa
 
 The [**Network Railcard Area**](https://www.network-railcard.co.uk/download/clientfiles/files/LSE%20July%202024.pdf) PDF map shows where a Network Railcard is valid. This has been frequently described as a two-tier system for London and the South vs the rest of the country. Much like a 16-25 or Senior Railcard, a Network Railcard will give you a third off most journeys. But only in this area - which is to say, one of the wealthiest parts of the UK. It's from the Network SouthEast era (1982-1994), when they used to operate there. Nowadays though it feels a bit forgotten about by National Rail. Why not cover the whole country, or have other regional equivalents? If it were up to me, I'd replace it with an "Adult Railcard" which works everywhere, but at a lower 20% discount.
 
+<img src="original-images/miscellaneous/eurostar-routemap.svg">
+
 The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap) is useful for seeing where you can go internationally both direct or with one change. Hopefully the list of destinations will continue to grow, especially if Virgin Trains start operating through the tunnel in 2030 as promised, hopefully with some lower prices...
 
 <img src="original-images/miscellaneous/hs2-phases.png">
