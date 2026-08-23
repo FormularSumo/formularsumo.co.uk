@@ -114,9 +114,9 @@ Network Rail's [**Freight corridors and commodities**](https://www.networkrail.c
 
 ## Games
 
-This category is about little daily games (like Wordle) which either directly involve railway maps, or can be used alongside one.
+This category is about daily games (like Wordle) which either directly involve railway maps, or can be used alongside one.
 
-[**Loconundrum**](https://loconundrum.aaronc.cc) is by far my most played here. You guess National Rail stations and get told the quickest route, via public transport and walking. It's great fun, excellent for learning about the rail network and <abbr title="Great Britain" tabindex="0">GB</abbr> geography, and it's recommended to be played alongside a map if you're not as confident or have got stuck.
+[**Loconundrum**](https://loconundrum.aaronc.cc) is by far my most played. You guess National Rail stations and get told the quickest route, via public transport and walking. It's great fun, excellent for learning about the rail network and <abbr title="Great Britain" tabindex="0">GB</abbr> geography, and it's recommended to be played alongside a map if you're not as confident or have got stuck.
 
 [**Metrodle**](https://metrodle.com) is for the London Underground. There's a Tube map showing the immediate area around the station you're trying to guess, which only colours in the Underground lines once you've guessed stations on them. As you go you get told how many stops away you are from the target station, as well if you've got any of the right lines. I find this harder than Loconundrum, but still quite fun.
 
