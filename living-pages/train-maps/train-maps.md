@@ -57,3 +57,17 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain" tabindex="0">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
 
 ## Games
+
+This category is about little daily games (like Wordle) which either directly involve railway maps, or can be used alongside one.
+
+[**Loconundrum**](https://loconundrum.aaronc.cc) is by far my most played here. You guess National Rail stations and get told the quickest route, via public transport and walking. It's great fun, excellent for learning about the rail network and <abbr title="Great Britain" tabindex="0">GB</abbr> geography, and it's recommended to be played alongside a map if you're not as confident or have got stuck.
+
+[**Metrodle**](https://metrodle.com) is for the London Underground. There's a Tube map showing the immediate area around the station you're trying to guess, which only colours in the Underground lines once you've guessed stations on them. As you go you get told how many stops away you are from the target station, as well if you've got any of the right lines. I find this harder than Loconundrum, but still quite fun.
+
+[**DailyMetro**](https://dailymetro.live/) is an incredibly comprehensive game, containing 7 cities' metros with 14 more planned. There's 3 ways to play: classic, where you get information about the station (lines, direction you need to go in, zone, etc); map, where you can see the route to the target station from your guesses; and photo, where you get an image of the front of the station. I find it's harder to get started than Metrodle as you can't search for a line and see all the stations on it, but it is fun having the variety of places and ways to play.
+
+[**Tubedoku**](https://tubedoku.com) is quite a difficult game where you have to fill in a Sudoku grid with 9 London train stations (tube or others) that fit certain characteristics, such as being on a specific line, a zone, or having certain letters. There's also versions for the New York Subway and the Chicago L.
+
+[**Metro Memory**](https://metro-memory.com/madrid) is not a daily game, but more like a quiz where you guess the stations on the Madrid Metro. It's a fun way of doing it, with a nice map and animations, and a scoring system which tracks how well you're doing on each line.
+
+[**Tubele**](https://tubele.app) is another, more recent game for guessing London stations. It's quite similar to the DailyMetro, but gives you clues as you have more guesses. The design is pretty, but I don't think I enjoy playing it as much as DailyMetro or Metrodle.
