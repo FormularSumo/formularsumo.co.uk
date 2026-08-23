@@ -4,6 +4,8 @@ title: Train Maps
 description: 
 ---
 
+*Note: Northern Ireland's rail network is operated separately from the rest of the United Kingdom. Because of this, some the maps on this list are for Great Britain (England, Wales and Scotland) only.*
+
 %contents%
 
 ## Informational
