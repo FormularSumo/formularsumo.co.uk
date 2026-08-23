@@ -1,7 +1,7 @@
 ---
 layout: article.html
 title: Railway Maps
-description: 
+description: A list of online railway maps I find useful, ranging from current routes to historical and live maps, and including daily train games which make use of maps.
 embedImage: "/living-pages/railway-maps/embed-image.jpg"
 embedAlt: "Collage of 20 different railway maps. Some show a country such as the UK, while others show larger aras of the world or smaller regions."
 ---
