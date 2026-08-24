@@ -30,7 +30,7 @@ Over time I've come across more and more railway maps, and thought it'd be usefu
 
 <img src="informational/openstreetmap.avif">
 
-[**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) (OSM) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro systems and bus routes when you zoom in further. It's got coverage for more or less the whole world, and can be used straight from their website, or from a 3rd party app. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and disused or freight-only lines aren't cleared separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming was more granular. There's a great community of people creating and using OpenStreetMap projects though (as you'll see throughout this list!), and you can easily go and fix/update something yourself.
+[**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) (OSM) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro systems and bus routes when you zoom in further. It's got coverage for more or less the whole world, and can be used straight from their website, or from a 3rd party app. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and disused or freight-only lines aren't clearly separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming was more granular. There's a great community of people creating and using OpenStreetMap projects though (as you'll see throughout this list!), and you can easily go and fix/update something yourself.
 
 <img class="vertical" src="informational/apple-maps-1.avif" loading="lazy">
 <img class="vertical" src="informational/apple-maps-2.avif" loading="lazy">
@@ -39,25 +39,25 @@ Over time I've come across more and more railway maps, and thought it'd be usefu
 
 <img src="informational/openrailwaymap.avif" loading="lazy">
 
-[**OpenRailwayMap**](https://www.openrailwaymap.org/?style=maxspeed) is a fantastic map showing max speeds, electrification, signalling, and more. The map style is easy to read, but super detailed, and I use this a lot for finding out information about different lines. It's based on <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>, and if it were a little faster, I would probably use it for everything train-related instead, but unfortunately it is a little slow and zooming and can be quirky, so it's best used when on a stable connection and not on the move. The level of detail varies from country to country, but is constantly improving, and anyone is able to add to it.
+[**OpenRailwayMap**](https://www.openrailwaymap.org/?style=maxspeed) is a fantastic map showing max speeds, electrification, signalling, and more. The map style is easy to read, but super detailed, and I use this a lot for finding out information about different lines. It's based on <abbr title="OpenStreetMap" tabindex="0">OSM</abbr>, and if it were a little faster, I would probably use it for everything train-related instead, but unfortunately it is a little slow and zooming and can be quirky, so it's best used when on a stable connection and not on the move. The level of detail varies from country to country, but is constantly improving, and anyone is able to add to it.
 
 <img src="informational/electrification-map.avif" loading="lazy">
 
-Speaking of electrification, [**ElectrificationMap**](https://railmap.azurewebsites.net/Public/ElectrificationMap) is an interactive map showing the current state of <abbr title="Great Britain" tabindex="0">GB</abbr> electrification, and the planned 2050 network. Predictably, it's also <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based, but provides info about ongoing and recent projects on the network. I don't use this a lot, but it's interesting to see what's going and what's planned.
+Speaking of electrification, [**ElectrificationMap**](https://railmap.azurewebsites.net/Public/ElectrificationMap) is an interactive map showing the current state of <abbr title="Great Britain" tabindex="0">GB</abbr> electrification, and the planned 2050 network. Predictably, it's also <abbr title="OpenStreetMap" tabindex="0">OSM</abbr>-based, but provides info about ongoing and recent projects on the network. I don't use this a lot, but it's interesting to see what's going and what's planned.
 
 <img src="informational/national-rail-station-and-accessibility-info.avif" loading="lazy">
 
-The [**National Rail Station and Accessibility Info**](https://railmap.nationalrail.co.uk/#/accessibility) is, aside taking a surprising amount of time to load, a great resource for finding out about <abbr title="Great Britain" tabindex="0">GB</abbr> station accessibility and other info. It shows colour-coded step-free categories on a map and specific details for each station, including facilities and opening hours, staff and passenger assistance, transport links, etc. There's also the [**National Rail Interactive Route Map**](https://railmap.nationalrail.co.uk/#/), which seems to be identical but is missing the colour-coding and defaults to showing information about departures rather than station facilities.
+The [**National Rail Station and Accessibility Info**](https://railmap.nationalrail.co.uk/#/accessibility) is, aside from taking a surprising amount of time to load, a great resource for finding out about <abbr title="Great Britain" tabindex="0">GB</abbr> station accessibility and other info. It shows colour-coded step-free categories on a map and specific details for each station, including facilities and opening hours, staff and passenger assistance, transport links, etc. There's also the [**National Rail Interactive Route Map**](https://railmap.nationalrail.co.uk/#/), which seems to be identical but is missing the colour-coding and defaults to showing information about departures rather than station facilities.
 
 ## Routes
 
 <img src="routes/world-train-map.avif" loading="lazy">
 
-[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very surprisingly well made and pleasant to use. I could spend many hours looking through this and learning lots as I go.
+[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMap" tabindex="0">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very surprisingly well made and pleasant to use. I could spend many hours looking through this and learning lots as I go.
 
 <img src="routes/chronotrains.avif" loading="lazy">
 
-[**Chronotrains**](https://www.chronotrains.com/en/explore/2643743-London) is a very fun <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>-based website for visualising how far you can get across Europe by train in a certain amount of time. You can choose any station or city and watch the area of the map increase as time goes up. Great for seeing how many different places you can go to and getting ideas for ones to visit. There's also the [route planner](https://www.chronotrains.com/en/station/2643743-London?maxTime=8), which shows an 8 hour heatmap and major destinations alongside the fastest route to get to them.
+[**Chronotrains**](https://www.chronotrains.com/en/explore/2643743-London) is a very fun <abbr title="OpenStreetMap" tabindex="0">OSM</abbr>-based website for visualising how far you can get across Europe by train in a certain amount of time. You can choose any station or city and watch the area of the map increase as time goes up. Great for seeing how many different places you can go to and getting ideas for ones to visit. There's also the [route planner](https://www.chronotrains.com/en/station/2643743-London?maxTime=8), which shows an 8 hour heatmap and major destinations alongside the fastest route to get to them.
 
 <img src="routes/back-on-track.avif" loading="lazy">
 
@@ -67,7 +67,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img src="live/signalbox.avif" loading="lazy">
 
-[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passenger trains on the <abbr title="Great Britain" tabindex="0">GB</abbr> network moving in real time. Trains are colour coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr> data.
+[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passenger trains on the <abbr title="Great Britain" tabindex="0">GB</abbr> network moving in real time. Trains are colour coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMap" tabindex="0">OSM</abbr> data.
 
 <img src="live/renfe-tiempo-real.avif" loading="lazy">
 
@@ -75,7 +75,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img src="live/zone-one.avif" loading="lazy">
 
-[**Zone One**](https://london.jamespotter.dev) is a really interesting map showing all transport in Central London: National Rail, Tube & DLR, buses, and even boats and planes. It makes use of <abbr title="OpenStreetMaps" tabindex="0">OSM</abbr>'s 3D buildings and renders both them and the different modes of transport in adorable and impressively accurate polygons. The movement animations can be a little wonky, but that kind of adds to the fun. It's an enchanting map, which is much faster than the other live ones.
+[**Zone One**](https://london.jamespotter.dev) is a really interesting map showing all transport in Central London: National Rail, Tube & DLR, buses, and even boats and planes. It makes use of <abbr title="OpenStreetMap" tabindex="0">OSM</abbr>'s 3D buildings and renders both them and the different modes of transport in adorable and impressively accurate polygons. The movement animations can be a little wonky, but that kind of adds to the fun. It's an enchanting map, which is much faster than the other live ones.
 
 <img src="live/one-day-on-rails.avif" loading="lazy">
 
@@ -89,7 +89,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img src="historical/new-adlestrop-railway-atlas.avif" loading="lazy">
 
-The [**New Adlestrop Railway Atlas**](https://www.systemed.net/atlas/) is an excellent PDF map clearly showing Great Britain's current, former, freight-only, and heritage lines, and claims to be 100% complete. Compared to RailMapOnline it's much easier to distinguish between these types, you can clearly see individual stations, and zooming is more granular. It's nice being able to download it as well, although the PDF can be slow to re-render the map when you zoom in/out, especially on older devices. Overall though they're both really good maps and compliment each other well.
+The [**New Adlestrop Railway Atlas**](https://www.systemed.net/atlas/) is an excellent PDF map clearly showing Great Britain's current, former, freight-only, and heritage lines, and claims to be 100% complete. Compared to RailMapOnline it's much easier to distinguish between these types, you can clearly see individual stations, and zooming is more granular. It's nice being able to download it as well, although the PDF can be slow to re-render the map when you zoom in/out, especially on older devices. Overall though they're both really good maps and complement each other well.
 
 <img src="historical/openhistoricalviewer.avif" loading="lazy">
 
