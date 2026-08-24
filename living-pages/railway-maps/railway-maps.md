@@ -1,17 +1,15 @@
 ---
 layout: article.html
 title: Railway Maps
-description: A list of online railway maps I find useful, ranging from current routes to historical and live maps, and including daily train games which make use of maps.
+description: "A list of online railway maps I find useful, ranging from current routes to historical and live maps, and including daily train games which make use of maps."
 embedImage: "/living-pages/railway-maps/embed-image.jpg"
 embedAlt: "Collage of 20 different railway maps. Some show a country such as the UK, while others show larger aras of the world or smaller regions."
 ---
 
 <style>
-
 img {
     max-width: 600px;
 }
-
 .vertical {
     @media (width >= 300px) {
         max-width: 49%;
@@ -20,8 +18,9 @@ img {
         max-width: 250px
     }
 }
-
 </style>
+
+Over time I'm come across more and more railway maps, and thought it'd be useful to list them here. I think this began when I started travelling by train more and I wanted to find out about the routes I was using, but it's really taken off since discovering [Loncondrum](https://loconundrum.aaronc.cc), and helping to found [Train Society](https://my.exeterguild.com/groups/8H8V6/train-society). Loads of maps and other information and tools get shared there, so it's been a great place to learn. Others come from friends, Mastodon, podcasts, and more places that I probably can't remember.
 
 *Note: Northern Ireland's rail network is operated separately from the rest of the United Kingdom. Because of this, some the maps on this list are for Great Britain (England, Wales and Scotland) only.*
 
@@ -36,7 +35,7 @@ img {
 <img class="vertical" src="informational/apple-maps-1.avif" loading="lazy">
 <img class="vertical" src="informational/apple-maps-2.avif" loading="lazy">
 
-**Apple Maps** has a *really* good railway view - the best design I've come across, much to my annoyance. It's focused on passenger routes, shows main lines even when zoomed out to have the whole world in view, and shows branch lines and metros as you zoom in. Colour coding is great, clearly distinguishing heritage lines from national rail, and even showing who operates each line and station with decent accuracy. Non-passenger lines are not shown, some heritage ones are missing, and buses aren't supported at all. Being *Apple* Maps, it's only designed for wealthy westerners. There's practically zero coverage outside of Western Europe and the US/Canada, and transport view is only available on iOS/macOS. I'm hopeful that the [website](https://maps.apple.com) adds this at some point, but until then, it's severely limited in who it can be useful for.
+**Apple Maps** has a *really* good railway view - the best design I've come across, much to my annoyance. It's focused on passenger routes, shows main lines even when zoomed out to have the whole world in view, and shows branch lines and metros as you zoom in. Colour coding is great, clearly distinguishing heritage lines from national rail, and even showing who operates each line and station with decent accuracy. Non-passenger lines are not shown, some heritage ones are missing, and bus routes aren't displayed at all. Being *Apple* Maps, it's only designed for wealthy westerners. There's practically zero coverage outside of Western Europe and the US/Canada, and transport view is only available on iOS/macOS. I'm hopeful that the [website](https://maps.apple.com) adds this at some point, but until then, it's severely limited in who it can be useful for.
 
 <img src="informational/openrailwaymap.avif" loading="lazy">
 
@@ -104,7 +103,7 @@ The **National Library of Scotland's [historical maps](https://maps.nls.uk)** pa
 
 <img src="miscellaneous/network-railcard-area.avif" loading="lazy">
 
-The [**Network Railcard Area**](https://www.network-railcard.co.uk/download/clientfiles/files/LSE%20July%202024.pdf) PDF map shows where a Network Railcard is valid. This has been frequently described as a two-tier system for London and the South vs the rest of the country. Much like a 16-25 or Senior Railcard, a Network Railcard will give you a third off most journeys. But only in this area - which is to say, one of the wealthiest parts of the UK. It's from the Network SouthEast era (1982-1994), when they used to operate there. Nowadays though it feels a bit forgotten about by National Rail. Why not cover the whole country, or have other regional equivalents? If it were up to me, I'd replace it with an "Adult Railcard" which works everywhere, but at a lower 20% discount.
+The [**Network Railcard Area**](https://www.network-railcard.co.uk/download/clientfiles/files/LSE%20July%202024.pdf) PDF map shows where a Network Railcard is valid. This has been frequently described as a two-tier system for London and the South vs the rest of the country. Much like a 16-25 or Senior Railcard, a Network Railcard will give you a third off most journeys. But only in this area - which is to say, one of the wealthiest parts of the UK. It's from the Network SouthEast era (1982-1994), when they used to operate there. Nowadays though it feels a bit forgotten about by National Rail. Why not cover the whole country, or have other regional equivalents? If it were up to me, I'd replace it with an "Adult Railcard" that works everywhere, but at a lower 20% discount.
 
 <img src="miscellaneous/eurostar-routemap.svg" loading="lazy">
 
