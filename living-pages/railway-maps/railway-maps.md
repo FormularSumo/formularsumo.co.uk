@@ -64,7 +64,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ### World Train Map
 
-<img alt="World Train Map showing Europe, West Asia and most of Africa. All 7 route types are shown in different colours: including high-speed, classic, night train, scenic, heritage, mountain, and luxury. There's also a button to filter by trip length, and to show OpenStreetMap railways which aren't covered by this map" src="routes/world-train-map.avif" loading="lazy">
+<img alt="World Train Map showing Europe, West Asia and most of Africa. All 7 route types are shown in different colours: high-speed, classic, night train, scenic, heritage, mountain, and luxury. There's also a button to filter by trip length, and to show OpenStreetMap railways which aren't covered by this map." src="routes/world-train-map.avif" loading="lazy">
 
 [**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMap">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very surprisingly well made and pleasant to use. I could spend many hours looking through this and learning lots as I go. Helpfully there's also a button to show <abbr title="OpenStreetMap">OSM</abbr> routes which aren't included in the map.
 
@@ -76,7 +76,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ### Back on Track
 
-<img alt="Back on Track sleeper train map of Europe. Routes are colour-coded by operator, dotted routes are seasonal. Most countries have at least some, though the highest concentration is found in Ukraine and central Europe." src="routes/back-on-track.avif" loading="lazy">
+<img alt="Back on Track sleeper train map of Europe. Routes are colour-coded by operator, dotted routes are seasonal. Most countries have at least some, though the highest concentration is found in Ukraine and Central Europe." src="routes/back-on-track.avif" loading="lazy">
 
 [**Back on Track**](https://back-on-track.eu/night-train-map/) is a non-profit promoting sleeper trains (aka night trains) in Europe, who offer a very useful map for seeing all current routes and finding out when and where they run. Sleeper trains can be a great way of travelling longer distances sustainably and comfortably, and I'd love to try more of them in the future. The map is a bit slow, but very comprehensive, and it's great to increasingly see how many routes there are.
 
@@ -84,7 +84,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ### Signalbox
 
-<img alt="Signalbox map of Great Britain, showing all live trains and routes. Trains are arrows in circles, either green, yellow or red depending on how on time they are. There's a particularly high concentration of trains around London, and Manchester-Liverpool-Leeds" src="live/signalbox.avif" loading="lazy">
+<img alt="Signalbox map of Great Britain, showing all live trains and routes. Trains are arrows in circles, either green, yellow or red depending on how on time they are. There's a particularly high concentration of trains around London, and Manchester-Liverpool-Leeds." src="live/signalbox.avif" loading="lazy">
 
 [**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passenger trains on the <abbr title="Great Britain">GB</abbr> network moving in real time. Trains are colour-coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMap">OSM</abbr> data.
 
@@ -154,7 +154,7 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 
 ### Freight corridors and commodities
 
-<img alt="Network Rail's Freight corridors and commodities map, showing most of the GB mainlines, as well as routes to ports such as Southampton, Folkestone, Felixstowe, Milford Haven. Each route lists the main freight which is carried on it, and the routes and regions of the country are colour-coded based on where they are." src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
+<img alt="Network Rail's Freight corridors and commodities map, showing most of the GB mainlines, as well as routes to ports such as Southampton, Folkestone, Felixstowe, and Milford Haven. Each route lists the main freight which is carried on it, and the routes and regions of the country are colour-coded based on where they are." src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
 
 Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
 
