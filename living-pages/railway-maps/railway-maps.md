@@ -82,6 +82,8 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 ## Live
 
+*Note: most live rail maps use estimates based on last known locations and average speed, so shouldn't be relied on when precise information is required.*
+
 ### Signalbox
 
 <img alt="Signalbox map of Great Britain, showing all live trains and routes. Trains are arrows in circles, either green, yellow or red depending on how on time they are. There's a particularly high concentration of trains around London, and Manchester-Liverpool-Leeds." src="live/signalbox.avif" loading="lazy">
@@ -118,7 +120,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img alt="The New Adlestrop Railway Atlas showing South Hampshire and the Isle of Wight. Former routes are shown in a faded grey, while modern ones are dark, heritage in a thinner lighter blue, and freight-only in red. Station names are clearly labelled with yellow dots. The Isle of Wight for example used to have 5 main routes, of which only one is now National Rail, with another being heritage for part of it." src="historical/new-adlestrop-railway-atlas.avif" loading="lazy">
 
-The [**New Adlestrop Railway Atlas**](https://www.systemed.net/atlas/) is an excellent PDF map clearly showing Great Britain's current, former, freight-only, and heritage lines, and claims to be 100% complete. Compared to RailMapOnline it's much easier to distinguish between these types, you can clearly see individual stations, and zooming is more granular. It's nice being able to download it as well, although the PDF can be slow to re-render the map when you zoom in/out, especially on older devices. Overall though they're both really good maps and complement each other well.
+The [**New Adlestrop Railway Atlas**](https://www.systemed.net/atlas/) is an excellent PDF map clearly showing Great Britain's current, former, freight-only, and heritage lines, and aims to cover [almost all passenger stations](https://www.systemed.net/atlas/#:~:text=The%20key%20is%3A-,Scope,-The%20map%20includes). Compared to RailMapOnline it's much easier to distinguish between these types, you can clearly see individual stations, and zooming is more granular. It's nice being able to download it as well, although the PDF can be slow to re-render the map when you zoom in/out, especially on older devices. Overall though they're both really good maps and complement each other well.
 
 ### OpenHistoricalMap
 
