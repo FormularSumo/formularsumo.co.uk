@@ -3,7 +3,7 @@ layout: article.html
 title: Railway Maps
 description: "A list of online railway maps I find useful, ranging from current routes to historical and live maps, and including daily train games which make use of maps."
 embedImage: "/living-pages/railway-maps/embed-image.jpg"
-embedAlt: "Collage of 20 different railway maps. Some show a country such as the UK, while others show larger aras of the world or smaller regions."
+embedAlt: "Collage of 21 different railway maps. Some show a country such as the UK, while others show larger areas of the world or smaller regions."
 ---
 
 <style>
@@ -15,14 +15,14 @@ img {
         max-width: 49%;
     }
     @media (width >= 600px) {
-        max-width: 250px
+        max-width: 250px;
     }
 }
 </style>
 
-Over time I'm come across more and more railway maps, and thought it'd be useful to list them here. I think this began when I started travelling by train more and I wanted to find out about the routes I was using, but it's really taken off since discovering [Loncondrum](https://loconundrum.aaronc.cc), and helping to found [Train Society](https://my.exeterguild.com/groups/8H8V6/train-society). Loads of maps and other information and tools get shared there, so it's been a great place to learn. Others come from friends, Mastodon, podcasts, and more places that I probably can't remember.
+Over time I've come across more and more railway maps, and thought it'd be useful to list them here. I think this began when I started travelling by train more and I wanted to find out about the routes I was using, but it's really taken off since discovering [Loncondrum](https://loconundrum.aaronc.cc), and helping to found Exeter Uni's [Train Society](https://my.exeterguild.com/groups/8H8V6/train-society). Loads of maps and other information and tools get shared there, so it's been a great place to learn. Others come from friends, Mastodon, podcasts, and more places that I probably can't remember.
 
-*Note: Northern Ireland's rail network is operated separately from the rest of the United Kingdom. Because of this, some the maps on this list are for Great Britain (England, Wales and Scotland) only.*
+*Note: Northern Ireland's rail network is operated separately from the rest of the United Kingdom. Because of this, some of the maps on this list are for Great Britain (England, Wales and Scotland) only.*
 
 %contents%
 
@@ -113,7 +113,7 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 
 **[HS2 phases](https://en.wikipedia.org/wiki/High_Speed_2#/media/File:High_Speed_2_phases_map_2023.png)**, a handy map showing what was promised in 2012, and each subsequent reduction in scope. It's a depressing map, but one that's useful to have as a reference. I'm a semi-frequent user of Spain's high-speed rail network, which, despite covering a massive area of 3973 km, has so far reportedly [cost less](https://www.theguardian.com/commentisfree/2023/oct/11/spains-high-speed-trains-arent-just-efficient-they-have-transformed-peoples-lives#:~:text=The%20country%20has%20spent%20around%20%E2%82%AC57.2bn%20in%20building%20its%20network) than just the [reduced HS2 route](https://en.wikipedia.org/wiki/High_Speed_2#:~:text=HS2%20is%20expected%20to%20cost%20between) is expected to. Granted there's a lot of factors to this, and many costs are necessarily higher here - but the [>10x difference](https://mediarail.wordpress.com/how-spain-reaps-the-benefits-of-the-high-speed-railway-liberalisation/#:~:text=the%20average%20construction%20cost%20for%20high%2Dspeed%20railway%20lines%20in%20Spain) is stark.
 
-<img src="miscellaneous/freight-corridores-and-commodities.avif" loading="lazy">
+<img src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
 
 Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain" tabindex="0">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
 
