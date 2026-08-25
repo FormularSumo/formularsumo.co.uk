@@ -46,19 +46,19 @@ Over time I've come across more and more railway maps, and thought it'd be usefu
 
 <img alt="Screenshot of OpenRailwayMap, showing the whole world with the Electrification layer. The Americas, Africa and Oceania are mostly black (unelectrified), while Europe is a mix of red, blue and green (25 kV AC, 3 kV DC and 15 kV DC), and China and India are almost all red." src="informational/openrailwaymap.avif" loading="lazy">
 
-[**OpenRailwayMap**](https://www.openrailwaymap.org/?style=maxspeed) is a fantastic map showing max speeds, electrification, signalling, and more. The map style is easy to read, but super detailed, and I use this a lot for finding out information about different lines. It's based on <abbr title="OpenStreetMap">OSM</abbr>, and if it were a little faster, I would probably use it for everything train-related instead, but unfortunately it is a little slow and zooming can be quirky, so it's best used when on a stable connection and not on the move. The level of detail varies from country to country, but is constantly improving, and anyone is able to add to it.
+[**OpenRailwayMap**](https://www.openrailwaymap.org/?style=maxspeed) is a fantastic map showing max speeds, electrification, signalling, and more. The map style is easy to read, but super detailed, and I use this a lot for finding out information about different lines. It's based on <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr>, and if it were a little faster, I would probably use it for everything train-related instead, but unfortunately it is a little slow and zooming can be quirky, so it's best used when on a stable connection and not on the move. The level of detail varies from country to country, but is constantly improving, and anyone is able to add to it.
 
 ### ElectrificationMap
 
 <img alt="Screenshot of ElectrificationMap showing the current GB network, which is mostly red (overhead AC), except for green (third rail DC) in the South East, and a few areas of orange (proposed overhead). There's blue markers to show ongoing and recent electrification projects." src="informational/electrification-map.avif" loading="lazy">
 
-Speaking of electrification, [**ElectrificationMap**](https://railmap.azurewebsites.net/Public/ElectrificationMap) is an interactive map showing the current state of <abbr title="Great Britain">GB</abbr> electrification, and the planned 2050 network. Predictably, it's also <abbr title="OpenStreetMap">OSM</abbr>-based, but provides info about ongoing and recent projects on the network. I don't use this a lot, but it's interesting to see what's going on and what's planned.
+Speaking of electrification, [**ElectrificationMap**](https://railmap.azurewebsites.net/Public/ElectrificationMap) is an interactive map showing the current state of <abbr title="Great Britain" tabindex="-1">GB</abbr> electrification, and the planned 2050 network. Predictably, it's also <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr>-based, but provides info about ongoing and recent projects on the network. I don't use this a lot, but it's interesting to see what's going on and what's planned.
 
 ### National Rail Station and Accessibility Info
 
 <img alt="Screenshot of the National Rail Station and Accessibility Info showing Devon. Stations with category A step-free access are in green, B in orange, and C in red. On the left is the station accessibility info panel, which includes more details about this." src="informational/national-rail-station-and-accessibility-info.avif" loading="lazy">
 
-The [**National Rail Station and Accessibility Info**](https://railmap.nationalrail.co.uk/#/accessibility) is, aside from taking a surprising amount of time to load, a great resource for finding out about <abbr title="Great Britain">GB</abbr> station accessibility and other info. It shows colour-coded step-free categories on a map and specific details for each station, including facilities and opening hours, staff and passenger assistance, transport links, etc. There's also the [National Rail Interactive Route Map](https://railmap.nationalrail.co.uk/#/), which seems to be identical but is missing the colour coding and defaults to showing information about departures rather than station facilities.
+The [**National Rail Station and Accessibility Info**](https://railmap.nationalrail.co.uk/#/accessibility) is, aside from taking a surprising amount of time to load, a great resource for finding out about <abbr title="Great Britain" tabindex="-1">GB</abbr> station accessibility and other info. It shows colour-coded step-free categories on a map and specific details for each station, including facilities and opening hours, staff and passenger assistance, transport links, etc. There's also the [National Rail Interactive Route Map](https://railmap.nationalrail.co.uk/#/), which seems to be identical but is missing the colour coding and defaults to showing information about departures rather than station facilities.
 
 ## Routes
 
@@ -66,13 +66,13 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img alt="World Train Map showing Europe, West Asia and most of Africa. All 7 route types are shown in different colours: high-speed, classic, night train, scenic, heritage, mountain, and luxury. There's also a button to filter by trip length, and to show OpenStreetMap railways which aren't covered by this map." src="routes/world-train-map.avif" loading="lazy">
 
-[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMap">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very surprisingly well made and pleasant to use. I could spend many hours looking through this and learning lots as I go. Helpfully there's also a button to show <abbr title="OpenStreetMap">OSM</abbr> routes which aren't included in the map.
+[**World Train Map**](https://worldtrainmap.com) is a lovely <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr>-based map showing a curated list of train journeys from around the world. The attention to detail is fantastic, I love the history and descriptions for each route, as well as being able to compare speed, passenger numbers and distance. The route map is beautiful and easy to understand, and the whole website is very surprisingly well made and pleasant to use. I could spend many hours looking through this and learning lots as I go. Helpfully there's also a button to show <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr> routes which aren't included in the map.
 
 ### Chronotrains
 
 <img alt="Chronotrains showing how far you can go from Paris in 12 hours. The green area goes from Scotland to Poland, Hungary and Spain, with expanding areas from the point showing where further individual stations are that you can reach." src="routes/chronotrains.avif" loading="lazy">
 
-[**Chronotrains**](https://www.chronotrains.com/en/explore/2643743-London) is a very fun <abbr title="OpenStreetMap">OSM</abbr>-based website for visualising how far you can get across Europe by train in a certain amount of time. You can choose any station or city and watch the area of the map increase as time goes up. Great for seeing how many different places you can go to and getting ideas for ones to visit. There's also the [route planner](https://www.chronotrains.com/en/station/2643743-London?maxTime=8), which shows an 8 hour heatmap and major destinations alongside the fastest route to get to them.
+[**Chronotrains**](https://www.chronotrains.com/en/explore/2643743-London) is a very fun <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr>-based website for visualising how far you can get across Europe by train in a certain amount of time. You can choose any station or city and watch the area of the map increase as time goes up. Great for seeing how many different places you can go to and getting ideas for ones to visit. There's also the [route planner](https://www.chronotrains.com/en/station/2643743-London?maxTime=8), which shows an 8 hour heatmap and major destinations alongside the fastest route to get to them.
 
 ### Back on Track
 
@@ -88,7 +88,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img alt="Signalbox map of Great Britain, showing all live trains and routes. Trains are arrows in circles, either green, yellow or red depending on how on time they are. There's a particularly high concentration of trains around London, and Manchester-Liverpool-Leeds." src="live/signalbox.avif" loading="lazy">
 
-[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passenger trains on the <abbr title="Great Britain">GB</abbr> network moving in real time. Trains are colour-coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMap">OSM</abbr> data.
+[**Signalbox**](https://www.map.signalbox.io) is a very cool map showing all passenger trains on the <abbr title="Great Britain" tabindex="-1">GB</abbr> network moving in real time. Trains are colour-coded by how on time they're running, and you can click on any to see their route and stops. It's fascinating to see how many trains there are in your local area and across the whole country, and it's really easy to visualise the hotspots and busy lines. Yet again, built with <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr> data.
 
 ### Renfe Tiempo Real
 
@@ -100,7 +100,7 @@ The [**National Rail Station and Accessibility Info**](https://railmap.nationalr
 
 <img alt="Zone One from Waterloo area looking North over a 3D view of Central London. Train lines are highlighted, alongside live trains with their line colour, red buses, and light blue boats." src="live/zone-one.avif" loading="lazy">
 
-[**Zone One**](https://london.jamespotter.dev) is a really interesting map showing all transport in Central London: National Rail, Tube & DLR, buses, and even boats and planes. It makes use of <abbr title="OpenStreetMap">OSM</abbr>'s 3D buildings and renders both them and the different modes of transport in adorable and impressively accurate polygons. The movement animations can be a little wonky, but that kind of adds to the fun. It's an enchanting map, which is much faster than the other live ones listed here.
+[**Zone One**](https://london.jamespotter.dev) is a really interesting map showing all transport in Central London: National Rail, Tube & DLR, buses, and even boats and planes. It makes use of <abbr title="OpenStreetMap" tabindex="-1">OSM</abbr>'s 3D buildings and renders both them and the different modes of transport in adorable and impressively accurate polygons. The movement animations can be a little wonky, but that kind of adds to the fun. It's an enchanting map, which is much faster than the other live ones listed here.
 
 ### One Day on Rails
 
@@ -158,13 +158,13 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 
 <img alt="Network Rail's Freight corridors and commodities map, showing most of the GB mainlines, as well as routes to ports such as Southampton, Folkestone, Felixstowe, and Milford Haven. Each route lists the main freight which is carried on it, and the routes and regions of the country are colour-coded based on where they are." src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
 
-Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
+Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain" tabindex="-1">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
 
 ## Games
 
 This category is about daily games (like Wordle) which either directly involve railway maps, or can be used alongside one.
 
-[**Loconundrum**](https://loconundrum.aaronc.cc) is by far my most played. You guess National Rail stations and get told the quickest route, via public transport and walking. It's great fun, excellent for learning about the rail network and <abbr title="Great Britain">GB</abbr> geography, and it's recommended to be played alongside a map if you're not as confident or have got stuck.
+[**Loconundrum**](https://loconundrum.aaronc.cc) is by far my most played. You guess National Rail stations and get told the quickest route, via public transport and walking. It's great fun, excellent for learning about the rail network and <abbr title="Great Britain" tabindex="-1">GB</abbr> geography, and it's recommended to be played alongside a map if you're not as confident or have got stuck.
 
 [**Metrodle**](https://metrodle.com) is for the London Underground. There's a Tube map showing the immediate area around the station you're trying to guess, which only colours in the Underground lines once you've guessed stations on them. As you go you get told how many stops away you are from the target station, as well as if you've got any of the right lines. I find this harder than Loconundrum, but still quite fun.
 
