@@ -76,7 +76,11 @@
                     <p class="contents_title">{{contents_text}}</p>
 
                     <div class="contents">
+                    {% if toc_tags %}
+                        {{ content | get_content | toc: toc_tags -}}
+                    {% else %}
                         {{ content | get_content | toc -}}
+                    {% endif %}
                     </div>
 
                     {{ content | get_content -}}
