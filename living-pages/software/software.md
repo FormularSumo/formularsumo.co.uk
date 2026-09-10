@@ -91,7 +91,7 @@ I've been using Vivaldi a lot recently, and there's many good things about it. T
 
 Vivaldi is Chromium-based (with a default Chrome user-agent), which is both a pro and a con. Great website performance, functionality and compatibility, but not good for engine diversity. The team at Vivaldi does not have the technical expertise nor the resources to [work on the browser engine](https://chrome-commit-tracker.arthursonzogni.com/organizations/commits?repositories=chromium&organizations=Brave,Vivaldi&grouping=yearly&colors=organizations&kind=author&metric=commit&chart=bar&dates=2000-01-01,2025-04-02), meaning they're mostly at the whim of what the Chromium project (owned and majority run/funded by Google) decide. They also follow Chromium extended stable releases, moving to a new major release every 8 weeks instead of the usual 4 (soon to be 2), and Vivaldi itself is closed-sourced, as is its bug tracker.
 
-The two main issues I have using Vivaldi are the UI and the lack of extensions on Android. The UI is very powerful, but quite different to other browsers, and not as intuitive in my experience - it's taken me awhile to adapt to it. The lack of extensions is common on Android Chromium browsers because Google have been refusing to implement this in Chrome for a long time (don't want people installing ad blockers and/or leaving the Google Play ecosystem!), so it's difficult for 3rd parties to get working, although a few have.
+I did have had some issue adapting to Vivaldi's UI at first. It's very powerful, but quite different to other browsers, and not as intuitive in my experience, though I've more or less got used to it now. The new "simple" layout on desktop helps by putting the downloads panel back where I'm used to it.
 
 {% enddetails %}
 
