@@ -50,14 +50,11 @@
         </main>
 
     <a href="/oh-dear/" aria-label="Wallace and Gromit Easter Egg page with sound">
-        <picture>
-            <source srcset="/assets/gromit.jxl" type="image/jxl">
-            {% if page.lang == "en" -%}
-            <img src="/assets/gromit.webp" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; float: right;">
-            {% else -%}
-            <img src="/assets/gromit.webp" alt="Gromit de Wallace & Gromit, parece ser confundido" loading="lazy" style="width:35px; position: fixed; right: 0px; bottom: 0px;">
-            {% endif -%}
-        </picture>
+        {% if page.lang == "en" -%}
+        <img src="/assets/gromit.avif" alt="Gromit from Wallace & Gromit, looking confused" loading="lazy" style="width:35px; float: right;">
+        {% else -%}
+        <img src="/assets/gromit.avif" alt="Gromit de Wallace & Gromit, parece ser confundido" loading="lazy" style="width:35px; position: fixed; right: 0px; bottom: 0px;">
+        {% endif -%}
     </a>
 
     <link rel="prefetch" href="/stylesheets/article.css" as="style">
