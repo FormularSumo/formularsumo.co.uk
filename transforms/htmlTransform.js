@@ -7,7 +7,7 @@ import { JSDOM, VirtualConsole } from 'jsdom';
 
 import { assign, forEach } from 'rgjs7/obj';
 
-/* Ideally I'd just say which errors I want to ignore (CSS errors), but that doesn't seem to work in JSDom 27 */
+/* I want to ignore "css-parsing" errors, but JSDom only lets you choose which errors to display, so this lists the other 3 types */
 const JSDOM_ERRORS = [
   "unhandled-exception", "resource-loading", "not-implemented"
 ]
