@@ -136,12 +136,12 @@ export default function (eleventyConfig) {
 	eleventyConfig.addTemplateFormats([ //Using glob passthroughs doesn't work. When building for the second time, it creates a _site folder under _site, which breaks file location references
 		"xml",
 		"svg",
-		"webp",
-		"jxl",
 		"avif",
+		"webp",
 		"jpg",
 		"opus",
 		// "png"
+		// "jxl",
 	]);
 
 	// Transforms
