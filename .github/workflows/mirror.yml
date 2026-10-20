@@ -1,0 +1,17 @@
+name: Mirror to Codeberg
+on:
+  push:
+  delete:
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push branches and tags to Codeberg
+        run: |
+          git clone --bare "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" repo
+          cd repo
+          git push --prune \
+            "https://${{ secrets.CODEBERG_USER }}:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/${{ secrets.CODEBERG_USER }}/formularsumo.uk.git" \
+            '+refs/heads/*:refs/heads/*' '+refs/tags/*:refs/tags/*'
