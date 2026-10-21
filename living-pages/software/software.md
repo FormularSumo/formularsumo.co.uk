@@ -295,7 +295,7 @@ I previously used XnConvert, but I prefer the UI of XL Converter, and it's also 
 
 {% details "VSCodium", "Windows, macOS, Linux" %}
 
-I've been using VSCode since 2017, and it works well for me. I switched to VSCodium in 2024, which is released under an open-source license, removes telemetry, and uses the Open VSX Marketplace instead of the Microsoft VSCode Marketplace.
+I've been using VSCode since 2017, and it works well for me. I switched to VSCodium in 2024, which is released under an open-source license, removes telemetry, and uses the Open VSX Marketplace instead of the Microsoft VSCode Marketplace. It works well, though updates are a little less frequent than upstream, which isn't ideal.
 
 {% enddetails %}
 
@@ -307,9 +307,9 @@ I've only dabbled with other editors. I use Kate for previewing files as it's fa
 
 ### Source control
 
-{% details "Gittyup", "Windows, macOS, Linux"  %}
+{% details "GitHub Desktop Plus", "Windows, macOS, Linux"  %}
 
-I currently use Gittyup as Git client, and it's okay, although not my favourite. I find it can be slow and unstable with large files, and the UI is confusing. I used to use GitHub desktop and preferred that, but it doesn't support Linux (ironic, for a company which is supposed to be about open source).
+GitHub Desktop Plus is an unofficial fork of the GitHub Desktop app with extra features. Most importantly for me, it has a native Linux client, and it has full integration with various Git providers, including Codeberg. Otherwise it works very similarly, and has a very good update cadence.
 
 {% enddetails %}
 
