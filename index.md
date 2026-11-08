@@ -10,7 +10,7 @@ I spend a lot of time playing music. Mainly sax, trombone, and piano, and I'll h
 
 I enjoy travelling and learning about people. Languages and cultures, history, geography, and the science behind why we think, act and are how we are; our evolutionary pasts. I like writing about and otherwise sharing what I learn with anyone who's interested.
 
-To round off this brief introduction, I love sports, more or less all of them I've tried. For the past few years calisthenics [street workout](https://en.wikipedia.org/wiki/Street_workout) has been my favourite, but other highlights include cycling, swimming, running, and table tennis.
+To round off this brief introduction, I love sports, more or less all of them I've tried. For the past few years calisthenics (also known as [street workout](https://en.wikipedia.org/wiki/Street_workout)) has been my favourite, but other highlights include cycling, swimming, running, and table tennis.
 
 ## Contact Me
 
