@@ -36,7 +36,7 @@ Over time I've come across more and more railway maps, and thought it'd be usefu
 
 <img alt="Screenshot of OpenStreetMap showing most of the UK on transport view. All existing rail lines are shown in black while roads are shown in a very light grey. Major cities are labelled with a black dot, and country and border names are purple." src="informational/openstreetmap.avif">
 
-[**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) (OSM) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro systems and bus routes when you zoom in further. It's got coverage for more or less the whole world, and can be used straight from their website, or from a 3rd party app. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and disused or freight-only lines aren't clearly separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming was more granular. There's a great community of people creating and using OpenStreetMap projects though (as you'll see throughout this list!), and you can easily go and fix/update something yourself.
+[**OpenStreetMap**](https://www.openstreetmap.org/#layers=T) (OSM) has a good transport view. It's very much focused on infrastructure, showing different types of rail lines and stations, as well as metro systems and bus routes when you zoom in further. It's got coverage for more or less the whole world, and can be used straight from their website, or from a 3rd party app. Unfortunately there's no colour coding of lines, so it's not as great for metro systems, and heritage and disused or freight-only lines aren't clearly separated from national rail ones. I wish the transport layer worked at higher zoom levels as well, and that zooming were more granular (also see [OsmAPP](https://osmapp.org/), which handles this better). There's a great community of people creating and using OpenStreetMap projects though (as you'll see throughout this list!), and you can easily go and fix/update something yourself.
 
 ### Apple Maps
 
@@ -145,6 +145,12 @@ The **National Library of Scotland's [historical maps](https://maps.nls.uk)** pa
 
 The [**Network Railcard Area**](https://www.network-railcard.co.uk/download/clientfiles/files/LSE%20July%202024.pdf) PDF map shows where a Network Railcard is valid. This has been frequently described as a two-tier system for London and the South vs the rest of the country. Much like a 16-25 or Senior Railcard, a Network Railcard will give you a third off most journeys. But only in this area - which is to say, one of the wealthiest parts of the UK. It's from the Network SouthEast era (1982-1994), when they used to operate there. Nowadays though it feels a bit forgotten about by National Rail. Why not cover the whole country, or have other regional equivalents? If it were up to me, I'd replace it with an "Adult Railcard" that works everywhere, but at a lower 20% discount.
 
+### Freight corridors and commodities
+
+<img alt="Network Rail's Freight corridors and commodities map, showing most of the GB mainlines, as well as routes to ports such as Southampton, Folkestone, Felixstowe, and Milford Haven. Each route lists the main freight which is carried on it, and the routes and regions of the country are colour-coded based on where they are." src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
+
+Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain" tabindex="-1">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
+
 ### Eurostar routemap
 
 <img alt="Eurostar Routemap from the UK. Direct trains to Amsterdam, Rotterdam, Brussels and Paris, with connecting Eurostar services to Antwerp and Dortmund via Cologne. Connecting high-speed connections are also shown, mostly going through France." src="miscellaneous/eurostar-routemap.svg" loading="lazy">
@@ -156,12 +162,6 @@ The [**Eurostar routemap**](https://www.eurostar.com/uk-en/destinations/routemap
 <img alt="HS2 phases map showing Great Britain and the original planned HS2 route between London and Manchester and Leeds via Birmingham. Each section that was cut between 2014 and 2023 is shown in a different colour, with only London-Birmingham remaining." src="miscellaneous/hs2-phases.avif" loading="lazy">
 
 **[HS2 phases](https://en.wikipedia.org/wiki/High_Speed_2#/media/File:High_Speed_2_phases_map_2023.png)**, a handy map showing what was promised in 2012, and each subsequent reduction in scope. It's a depressing map, but one that's useful to have as a reference. I'm a semi-frequent user of Spain's high-speed rail network, which, despite covering a massive area of 3973 km, has so far reportedly [cost less](https://www.theguardian.com/commentisfree/2023/oct/11/spains-high-speed-trains-arent-just-efficient-they-have-transformed-peoples-lives#:~:text=The%20country%20has%20spent%20around%20%E2%82%AC57.2bn%20in%20building%20its%20network) than just the [reduced HS2 route](https://en.wikipedia.org/wiki/High_Speed_2#:~:text=HS2%20is%20expected%20to%20cost%20between) is expected to. Granted there's a lot of factors to this, and many costs are necessarily higher here - but the [>10x difference](https://mediarail.wordpress.com/how-spain-reaps-the-benefits-of-the-high-speed-railway-liberalisation/#:~:text=the%20average%20construction%20cost%20for%20high%2Dspeed%20railway%20lines%20in%20Spain) is stark.
-
-### Freight corridors and commodities
-
-<img alt="Network Rail's Freight corridors and commodities map, showing most of the GB mainlines, as well as routes to ports such as Southampton, Folkestone, Felixstowe, and Milford Haven. Each route lists the main freight which is carried on it, and the routes and regions of the country are colour-coded based on where they are." src="miscellaneous/freight-corridors-and-commodities.avif" loading="lazy">
-
-Network Rail's [**Freight corridors and commodities**](https://www.networkrail.co.uk/wp-content/uploads/2023/04/Freight-map-Corridors-2023.pdf) map is an interesting PDF showing the main <abbr title="Great Britain" tabindex="-1">GB</abbr> freight lines and what's carried on them. There's a lot of overlap with the main passenger lines, but some differences, primarily around ports.
 
 ## Games
 
