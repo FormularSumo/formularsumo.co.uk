@@ -10,7 +10,7 @@ Paso mucho tiempo tocando música. Principalmente el saxo, el trombón, y el pia
 
 Disfruto viajando y aprendiendo sobre la gente. Los idiomas y las culturas, la historia, la geografía, y la ciencia sobre porque pensamos, nos comportamos y somos como somos; nuestro pasado evolutivo. Me gusta compartir y escribir sobre lo que aprendo con aquellos a los que les interesa.
 
-Para rematar esta breve introducción, me encantan los deportes, más o menos todos los que he probado. Durante los últimos años la calistenia (también conocida como [entrenamiento callejero](https://es.wikipedia.org/wiki/Entrenamiento_callejero)) ha sido mi favorito, pero también destacan el ciclismo, la natación, el jogging, y el tenis de mesa.
+Para rematar esta breve introducción, me encantan los deportes, más o menos todos los que he probado. Durante los últimos años la calistenia (también conocida como [entrenamiento callejero](https://es.wikipedia.org/wiki/Entrenamiento_callejero)) ha sido mi favorito, pero también destacan el ciclismo, la escalada, la natación y el jogging.
 
 
 ## Contáctame
